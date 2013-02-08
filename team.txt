@@ -1,6 +1,6 @@
 Team Members:
-  hoca	Caroline Ho		hoca@seas.upenn.edu
-
+  hoca	  Caroline Ho		hoca@seas.upenn.edu
+  jschaf  Joseph Schaffer   jschaf@seas.upenn.edu
 
 Known issues with your implementation:
 
