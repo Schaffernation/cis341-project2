@@ -1,5 +1,5 @@
 Team Members:
-  <pennkey>	<name>		<email>
+  hoca	Caroline Ho		hoca@seas.upenn.edu
 
 
 Known issues with your implementation:
