@@ -1,0 +1,196 @@
+"compiler.ml" 14 415 419 "compiler.ml" 14 415 424
+type(
+  string -> Lexing.lexbuf -> Ast.exp
+)
+ident(
+  def parse "compiler.ml" 29 899 899 --
+)
+"compiler.ml" 14 415 426 "compiler.ml" 14 415 434
+type(
+  string
+)
+ident(
+  def filename "compiler.ml" 14 415 445 "compiler.ml" 20 627 681
+)
+"compiler.ml" 14 415 446 "compiler.ml" 14 415 449
+type(
+  Lexing.lexbuf
+)
+ident(
+  def buf "compiler.ml" 14 415 467 "compiler.ml" 20 627 681
+)
+"compiler.ml" 16 481 485 "compiler.ml" 16 481 503
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexer.reset_lexbuf
+)
+"compiler.ml" 16 481 504 "compiler.ml" 16 481 512
+type(
+  string
+)
+ident(
+  int_ref filename "compiler.ml" 14 415 426 "compiler.ml" 14 415 434
+)
+"compiler.ml" 16 481 513 "compiler.ml" 16 481 516
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "compiler.ml" 14 415 446 "compiler.ml" 14 415 449
+)
+"compiler.ml" 16 481 485 "compiler.ml" 16 481 516
+type(
+  unit
+)
+"compiler.ml" 17 518 522 "compiler.ml" 17 518 537
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Ast.exp
+)
+ident(
+  ext_ref Parser.toplevel
+)
+"compiler.ml" 17 518 538 "compiler.ml" 17 518 549
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  ext_ref Lexer.token
+)
+"compiler.ml" 17 518 550 "compiler.ml" 17 518 553
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "compiler.ml" 14 415 446 "compiler.ml" 14 415 449
+)
+"compiler.ml" 17 518 522 "compiler.ml" 17 518 553
+type(
+  Ast.exp
+)
+"compiler.ml" 16 481 485 "compiler.ml" 17 518 553
+type(
+  Ast.exp
+)
+"compiler.ml" 18 554 561 "compiler.ml" 18 554 580
+type(
+  exn
+)
+"compiler.ml" 19 584 588 "compiler.ml" 19 584 596
+type(
+  string -> Ast.exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"compiler.ml" 19 584 598 "compiler.ml" 19 584 605
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"compiler.ml" 19 584 606 "compiler.ml" 19 584 626
+type(
+  (string -> string, unit, string) format
+)
+"compiler.ml" 20 627 636 "compiler.ml" 20 627 657
+type(
+  Range.t -> string
+)
+ident(
+  ext_ref Range.string_of_range
+)
+"compiler.ml" 20 627 659 "compiler.ml" 20 627 674
+type(
+  Lexing.lexbuf -> Range.t
+)
+ident(
+  ext_ref Lexer.lex_range
+)
+"compiler.ml" 20 627 675 "compiler.ml" 20 627 678
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "compiler.ml" 14 415 446 "compiler.ml" 14 415 449
+)
+"compiler.ml" 20 627 658 "compiler.ml" 20 627 679
+type(
+  Range.t
+)
+"compiler.ml" 20 627 635 "compiler.ml" 20 627 680
+type(
+  string
+)
+"compiler.ml" 19 584 597 "compiler.ml" 20 627 681
+type(
+  string
+)
+"compiler.ml" 19 584 588 "compiler.ml" 20 627 681
+type(
+  Ast.exp
+)
+"compiler.ml" 15 475 477 "compiler.ml" 20 627 681
+type(
+  Ast.exp
+)
+type(
+  Ast.exp
+)
+"compiler.ml" 29 899 903 "compiler.ml" 29 899 914
+type(
+  Ast.exp -> Cunit.cunit
+)
+ident(
+  def compile_exp "compiler.ml" 31 999 1023 --
+)
+"compiler.ml" 29 899 916 "compiler.ml" 29 899 919
+type(
+  Ast.exp
+)
+ident(
+  def ast "compiler.ml" 29 899 925 "compiler.ml" 31 999 1023
+)
+"compiler.ml" 30 941 947 "compiler.ml" 30 941 957
+type(
+  string
+)
+"compiler.ml" 30 941 961 "compiler.ml" 30 941 984
+type(
+  string -> string
+)
+ident(
+  ext_ref Platform.decorate_cdecl
+)
+"compiler.ml" 30 941 985 "compiler.ml" 30 941 994
+type(
+  string
+)
+"compiler.ml" 30 941 960 "compiler.ml" 30 941 995
+type(
+  string
+)
+"compiler.ml" 31 999 999 "compiler.ml" 31 999 1007
+type(
+  string -> Cunit.cunit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"compiler.ml" 31 999 1008 "compiler.ml" 31 999 1023
+type(
+  string
+)
+"compiler.ml" 31 999 999 "compiler.ml" 31 999 1023
+type(
+  Cunit.cunit
+)
+"compiler.ml" 30 941 943 "compiler.ml" 31 999 1023
+type(
+  Cunit.cunit
+)
+type(
+  Cunit.cunit
+)

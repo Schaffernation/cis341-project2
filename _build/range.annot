@@ -1,0 +1,763 @@
+"range.ml" 4 82 86 "range.ml" 4 82 97
+type(
+  'a * 'b -> 'a
+)
+ident(
+  def line_of_pos "range.ml" 5 108 108 --
+)
+"range.ml" 4 82 99 "range.ml" 4 82 100
+type(
+  'a
+)
+ident(
+  def l "range.ml" 4 82 106 "range.ml" 4 82 107
+)
+"range.ml" 4 82 101 "range.ml" 4 82 102
+type(
+  'b
+)
+"range.ml" 4 82 98 "range.ml" 4 82 103
+type(
+  'a * 'b
+)
+"range.ml" 4 82 106 "range.ml" 4 82 107
+type(
+  'a
+)
+ident(
+  int_ref l "range.ml" 4 82 99 "range.ml" 4 82 100
+)
+"range.ml" 5 108 112 "range.ml" 5 108 122
+type(
+  'a * 'b -> 'b
+)
+ident(
+  def col_of_pos "range.ml" 6 133 133 --
+)
+"range.ml" 5 108 124 "range.ml" 5 108 125
+type(
+  'a
+)
+"range.ml" 5 108 126 "range.ml" 5 108 127
+type(
+  'b
+)
+ident(
+  def c "range.ml" 5 108 131 "range.ml" 5 108 132
+)
+"range.ml" 5 108 123 "range.ml" 5 108 128
+type(
+  'a * 'b
+)
+"range.ml" 5 108 131 "range.ml" 5 108 132
+type(
+  'b
+)
+ident(
+  int_ref c "range.ml" 5 108 126 "range.ml" 5 108 127
+)
+"range.ml" 6 133 137 "range.ml" 6 133 143
+type(
+  'a -> 'b -> 'a * 'b
+)
+ident(
+  def mk_pos "range.ml" 8 168 168 --
+)
+"range.ml" 6 133 144 "range.ml" 6 133 148
+type(
+  'a
+)
+ident(
+  def line "range.ml" 6 133 149 "range.ml" 6 133 166
+)
+"range.ml" 6 133 149 "range.ml" 6 133 152
+type(
+  'b
+)
+ident(
+  def col "range.ml" 6 133 155 "range.ml" 6 133 166
+)
+"range.ml" 6 133 156 "range.ml" 6 133 160
+type(
+  'a
+)
+ident(
+  int_ref line "range.ml" 6 133 144 "range.ml" 6 133 148
+)
+"range.ml" 6 133 162 "range.ml" 6 133 165
+type(
+  'b
+)
+ident(
+  int_ref col "range.ml" 6 133 149 "range.ml" 6 133 152
+)
+"range.ml" 6 133 155 "range.ml" 6 133 166
+type(
+  'a * 'b
+)
+"range.ml" 8 168 172 "range.ml" 8 168 185
+type(
+  'a * 'b * 'c -> 'a
+)
+ident(
+  def file_of_range "range.ml" 9 198 198 --
+)
+"range.ml" 8 168 187 "range.ml" 8 168 188
+type(
+  'a
+)
+ident(
+  def f "range.ml" 8 168 196 "range.ml" 8 168 197
+)
+"range.ml" 8 168 189 "range.ml" 8 168 190
+type(
+  'b
+)
+"range.ml" 8 168 191 "range.ml" 8 168 192
+type(
+  'c
+)
+"range.ml" 8 168 186 "range.ml" 8 168 193
+type(
+  'a * 'b * 'c
+)
+"range.ml" 8 168 196 "range.ml" 8 168 197
+type(
+  'a
+)
+ident(
+  int_ref f "range.ml" 8 168 187 "range.ml" 8 168 188
+)
+"range.ml" 9 198 202 "range.ml" 9 198 216
+type(
+  'a * 'b * 'c -> 'b
+)
+ident(
+  def start_of_range "range.ml" 10 229 229 --
+)
+"range.ml" 9 198 218 "range.ml" 9 198 219
+type(
+  'a
+)
+"range.ml" 9 198 220 "range.ml" 9 198 221
+type(
+  'b
+)
+ident(
+  def s "range.ml" 9 198 227 "range.ml" 9 198 228
+)
+"range.ml" 9 198 222 "range.ml" 9 198 223
+type(
+  'c
+)
+"range.ml" 9 198 217 "range.ml" 9 198 224
+type(
+  'a * 'b * 'c
+)
+"range.ml" 9 198 227 "range.ml" 9 198 228
+type(
+  'b
+)
+ident(
+  int_ref s "range.ml" 9 198 220 "range.ml" 9 198 221
+)
+"range.ml" 10 229 233 "range.ml" 10 229 245
+type(
+  'a * 'b * 'c -> 'c
+)
+ident(
+  def end_of_range "range.ml" 11 258 258 --
+)
+"range.ml" 10 229 247 "range.ml" 10 229 248
+type(
+  'a
+)
+"range.ml" 10 229 249 "range.ml" 10 229 250
+type(
+  'b
+)
+"range.ml" 10 229 251 "range.ml" 10 229 252
+type(
+  'c
+)
+ident(
+  def e "range.ml" 10 229 256 "range.ml" 10 229 257
+)
+"range.ml" 10 229 246 "range.ml" 10 229 253
+type(
+  'a * 'b * 'c
+)
+"range.ml" 10 229 256 "range.ml" 10 229 257
+type(
+  'c
+)
+ident(
+  int_ref e "range.ml" 10 229 251 "range.ml" 10 229 252
+)
+"range.ml" 11 258 262 "range.ml" 11 258 270
+type(
+  'a -> 'b -> 'c -> 'a * 'b * 'c
+)
+ident(
+  def mk_range "range.ml" 12 287 287 --
+)
+"range.ml" 11 258 271 "range.ml" 11 258 272
+type(
+  'a
+)
+ident(
+  def f "range.ml" 11 258 273 "range.ml" 11 258 286
+)
+"range.ml" 11 258 273 "range.ml" 11 258 274
+type(
+  'b
+)
+ident(
+  def s "range.ml" 11 258 275 "range.ml" 11 258 286
+)
+"range.ml" 11 258 275 "range.ml" 11 258 276
+type(
+  'c
+)
+ident(
+  def e "range.ml" 11 258 279 "range.ml" 11 258 286
+)
+"range.ml" 11 258 280 "range.ml" 11 258 281
+type(
+  'a
+)
+ident(
+  int_ref f "range.ml" 11 258 271 "range.ml" 11 258 272
+)
+"range.ml" 11 258 282 "range.ml" 11 258 283
+type(
+  'b
+)
+ident(
+  int_ref s "range.ml" 11 258 273 "range.ml" 11 258 274
+)
+"range.ml" 11 258 284 "range.ml" 11 258 285
+type(
+  'c
+)
+ident(
+  int_ref e "range.ml" 11 258 275 "range.ml" 11 258 276
+)
+"range.ml" 11 258 279 "range.ml" 11 258 286
+type(
+  'a * 'b * 'c
+)
+"range.ml" 12 287 291 "range.ml" 12 287 300
+type(
+  int * int -> bool
+)
+ident(
+  def valid_pos "range.ml" 14 326 326 --
+)
+"range.ml" 12 287 302 "range.ml" 12 287 303
+type(
+  int
+)
+ident(
+  def l "range.ml" 12 287 309 "range.ml" 12 287 324
+)
+"range.ml" 12 287 304 "range.ml" 12 287 305
+type(
+  int
+)
+ident(
+  def c "range.ml" 12 287 309 "range.ml" 12 287 324
+)
+"range.ml" 12 287 301 "range.ml" 12 287 306
+type(
+  int * int
+)
+"range.ml" 12 287 309 "range.ml" 12 287 310
+type(
+  int
+)
+ident(
+  int_ref l "range.ml" 12 287 302 "range.ml" 12 287 303
+)
+"range.ml" 12 287 311 "range.ml" 12 287 313
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"range.ml" 12 287 314 "range.ml" 12 287 315
+type(
+  int
+)
+"range.ml" 12 287 309 "range.ml" 12 287 315
+type(
+  bool
+)
+"range.ml" 12 287 316 "range.ml" 12 287 318
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"range.ml" 12 287 319 "range.ml" 12 287 320
+type(
+  int
+)
+ident(
+  int_ref c "range.ml" 12 287 304 "range.ml" 12 287 305
+)
+"range.ml" 12 287 321 "range.ml" 12 287 323
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"range.ml" 12 287 323 "range.ml" 12 287 324
+type(
+  int
+)
+"range.ml" 12 287 319 "range.ml" 12 287 324
+type(
+  bool
+)
+"range.ml" 12 287 309 "range.ml" 12 287 324
+type(
+  bool
+)
+"range.ml" 14 326 330 "range.ml" 14 326 341
+type(
+  string * (int * int) * 'a ->
+  string * (int * int) * 'a -> string * (int * int) * 'a
+)
+ident(
+  def merge_range "range.ml" 22 611 611 --
+)
+"range.ml" 14 326 344 "range.ml" 14 326 345
+type(
+  string
+)
+ident(
+  def f "range.ml" 14 326 360 "range.ml" 20 573 609
+)
+"range.ml" 14 326 346 "range.ml" 14 326 348
+type(
+  int * int
+)
+ident(
+  def s1 "range.ml" 14 326 360 "range.ml" 20 573 609
+)
+"range.ml" 14 326 349 "range.ml" 14 326 351
+type(
+  'a
+)
+ident(
+  def e1 "range.ml" 14 326 360 "range.ml" 20 573 609
+)
+"range.ml" 14 326 343 "range.ml" 14 326 352
+type(
+  string * (int * int) * 'a
+)
+"range.ml" 14 326 342 "range.ml" 14 326 359
+type(
+  string * (int * int) * 'a
+)
+ident(
+  def r1 "range.ml" 14 326 360 "range.ml" 20 573 609
+)
+"range.ml" 14 326 362 "range.ml" 14 326 364
+type(
+  string
+)
+ident(
+  def f' "range.ml" 15 381 383 "range.ml" 20 573 609
+)
+"range.ml" 14 326 365 "range.ml" 14 326 367
+type(
+  int * int
+)
+ident(
+  def s2 "range.ml" 15 381 383 "range.ml" 20 573 609
+)
+"range.ml" 14 326 368 "range.ml" 14 326 370
+type(
+  'a
+)
+ident(
+  def e2 "range.ml" 15 381 383 "range.ml" 20 573 609
+)
+"range.ml" 14 326 361 "range.ml" 14 326 371
+type(
+  string * (int * int) * 'a
+)
+"range.ml" 14 326 360 "range.ml" 14 326 378
+type(
+  string * (int * int) * 'a
+)
+ident(
+  def r2 "range.ml" 15 381 383 "range.ml" 20 573 609
+)
+"range.ml" 15 381 386 "range.ml" 15 381 387
+type(
+  string
+)
+ident(
+  int_ref f "range.ml" 14 326 344 "range.ml" 14 326 345
+)
+"range.ml" 15 381 388 "range.ml" 15 381 390
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"range.ml" 15 381 391 "range.ml" 15 381 393
+type(
+  string
+)
+ident(
+  int_ref f' "range.ml" 14 326 362 "range.ml" 14 326 364
+)
+"range.ml" 15 381 386 "range.ml" 15 381 393
+type(
+  bool
+)
+"range.ml" 16 400 405 "range.ml" 16 400 413
+type(
+  string -> string * (int * int) * 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"range.ml" 16 400 415 "range.ml" 16 400 429
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"range.ml" 16 400 430 "range.ml" 16 400 480
+type(
+  (string -> string -> string, unit, string) format
+)
+"range.ml" 16 400 481 "range.ml" 16 400 482
+type(
+  string
+)
+ident(
+  int_ref f "range.ml" 14 326 344 "range.ml" 14 326 345
+)
+"range.ml" 16 400 483 "range.ml" 16 400 485
+type(
+  string
+)
+ident(
+  int_ref f' "range.ml" 14 326 362 "range.ml" 14 326 364
+)
+"range.ml" 16 400 414 "range.ml" 16 400 486
+type(
+  string
+)
+"range.ml" 16 400 404 "range.ml" 16 400 487
+type(
+  string * (int * int) * 'a
+)
+"range.ml" 18 495 501 "range.ml" 18 495 504
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"range.ml" 18 495 506 "range.ml" 18 495 515
+type(
+  int * int -> bool
+)
+ident(
+  int_ref valid_pos "range.ml" 12 287 291 "range.ml" 12 287 300
+)
+"range.ml" 18 495 516 "range.ml" 18 495 518
+type(
+  int * int
+)
+ident(
+  int_ref s1 "range.ml" 14 326 346 "range.ml" 14 326 348
+)
+"range.ml" 18 495 505 "range.ml" 18 495 519
+type(
+  bool
+)
+"range.ml" 18 495 500 "range.ml" 18 495 520
+type(
+  bool
+)
+"range.ml" 18 495 526 "range.ml" 18 495 528
+type(
+  string * (int * int) * 'a
+)
+ident(
+  int_ref r2 "range.ml" 14 326 360 "range.ml" 14 326 378
+)
+"range.ml" 19 534 540 "range.ml" 19 534 543
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"range.ml" 19 534 545 "range.ml" 19 534 554
+type(
+  int * int -> bool
+)
+ident(
+  int_ref valid_pos "range.ml" 12 287 291 "range.ml" 12 287 300
+)
+"range.ml" 19 534 555 "range.ml" 19 534 557
+type(
+  int * int
+)
+ident(
+  int_ref s2 "range.ml" 14 326 365 "range.ml" 14 326 367
+)
+"range.ml" 19 534 544 "range.ml" 19 534 558
+type(
+  bool
+)
+"range.ml" 19 534 539 "range.ml" 19 534 559
+type(
+  bool
+)
+"range.ml" 19 534 565 "range.ml" 19 534 567
+type(
+  string * (int * int) * 'a
+)
+ident(
+  int_ref r1 "range.ml" 14 326 342 "range.ml" 14 326 359
+)
+"range.ml" 20 573 575 "range.ml" 20 573 583
+type(
+  string -> int * int -> 'a -> string * (int * int) * 'a
+)
+ident(
+  int_ref mk_range "range.ml" 11 258 262 "range.ml" 11 258 270
+)
+"range.ml" 20 573 584 "range.ml" 20 573 585
+type(
+  string
+)
+ident(
+  int_ref f "range.ml" 14 326 344 "range.ml" 14 326 345
+)
+"range.ml" 20 573 587 "range.ml" 20 573 590
+type(
+  int * int -> int * int -> int * int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"range.ml" 20 573 591 "range.ml" 20 573 593
+type(
+  int * int
+)
+ident(
+  int_ref s1 "range.ml" 14 326 346 "range.ml" 14 326 348
+)
+"range.ml" 20 573 594 "range.ml" 20 573 596
+type(
+  int * int
+)
+ident(
+  int_ref s2 "range.ml" 14 326 365 "range.ml" 14 326 367
+)
+"range.ml" 20 573 586 "range.ml" 20 573 597
+type(
+  int * int
+)
+"range.ml" 20 573 599 "range.ml" 20 573 602
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  ext_ref Pervasives.max
+)
+"range.ml" 20 573 603 "range.ml" 20 573 605
+type(
+  'a
+)
+ident(
+  int_ref e1 "range.ml" 14 326 349 "range.ml" 14 326 351
+)
+"range.ml" 20 573 606 "range.ml" 20 573 608
+type(
+  'a
+)
+ident(
+  int_ref e2 "range.ml" 14 326 368 "range.ml" 14 326 370
+)
+"range.ml" 20 573 598 "range.ml" 20 573 609
+type(
+  'a
+)
+"range.ml" 20 573 575 "range.ml" 20 573 609
+type(
+  string * (int * int) * 'a
+)
+"range.ml" 19 534 536 "range.ml" 20 573 609
+type(
+  string * (int * int) * 'a
+)
+"range.ml" 18 495 497 "range.ml" 20 573 609
+type(
+  string * (int * int) * 'a
+)
+"range.ml" 15 381 383 "range.ml" 20 573 609
+type(
+  string * (int * int) * 'a
+)
+"range.ml" 22 611 615 "range.ml" 22 611 630
+type(
+  string * (int * int) * (int * int) -> string
+)
+ident(
+  def string_of_range "range.ml" 25 706 706 --
+)
+"range.ml" 22 611 633 "range.ml" 22 611 634
+type(
+  string
+)
+ident(
+  def f "range.ml" 23 655 657 "range.ml" 23 655 704
+)
+"range.ml" 22 611 636 "range.ml" 22 611 638
+type(
+  int
+)
+ident(
+  def sl "range.ml" 23 655 657 "range.ml" 23 655 704
+)
+"range.ml" 22 611 639 "range.ml" 22 611 641
+type(
+  int
+)
+ident(
+  def sc "range.ml" 23 655 657 "range.ml" 23 655 704
+)
+"range.ml" 22 611 635 "range.ml" 22 611 642
+type(
+  int * int
+)
+"range.ml" 22 611 644 "range.ml" 22 611 646
+type(
+  int
+)
+ident(
+  def el "range.ml" 23 655 657 "range.ml" 23 655 704
+)
+"range.ml" 22 611 647 "range.ml" 22 611 649
+type(
+  int
+)
+ident(
+  def ec "range.ml" 23 655 657 "range.ml" 23 655 704
+)
+"range.ml" 22 611 643 "range.ml" 22 611 650
+type(
+  int * int
+)
+"range.ml" 22 611 631 "range.ml" 22 611 652
+type(
+  string * (int * int) * (int * int)
+)
+"range.ml" 23 655 657 "range.ml" 23 655 671
+type(
+  (string -> int -> int -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"range.ml" 23 655 672 "range.ml" 23 655 690
+type(
+  (string -> int -> int -> int -> int -> string, unit, string) format
+)
+"range.ml" 23 655 691 "range.ml" 23 655 692
+type(
+  string
+)
+ident(
+  int_ref f "range.ml" 22 611 633 "range.ml" 22 611 634
+)
+"range.ml" 23 655 693 "range.ml" 23 655 695
+type(
+  int
+)
+ident(
+  int_ref sl "range.ml" 22 611 636 "range.ml" 22 611 638
+)
+"range.ml" 23 655 696 "range.ml" 23 655 698
+type(
+  int
+)
+ident(
+  int_ref sc "range.ml" 22 611 639 "range.ml" 22 611 641
+)
+"range.ml" 23 655 699 "range.ml" 23 655 701
+type(
+  int
+)
+ident(
+  int_ref el "range.ml" 22 611 644 "range.ml" 22 611 646
+)
+"range.ml" 23 655 702 "range.ml" 23 655 704
+type(
+  int
+)
+ident(
+  int_ref ec "range.ml" 22 611 647 "range.ml" 22 611 649
+)
+"range.ml" 23 655 657 "range.ml" 23 655 704
+type(
+  string
+)
+"range.ml" 25 706 710 "range.ml" 25 706 717
+type(
+  string * (int * int) * (int * int)
+)
+ident(
+  def norange "range.ml" 25 706 747 --
+)
+"range.ml" 25 706 721 "range.ml" 25 706 732
+type(
+  string
+)
+"range.ml" 25 706 735 "range.ml" 25 706 736
+type(
+  int
+)
+"range.ml" 25 706 737 "range.ml" 25 706 738
+type(
+  int
+)
+"range.ml" 25 706 734 "range.ml" 25 706 739
+type(
+  int * int
+)
+"range.ml" 25 706 742 "range.ml" 25 706 743
+type(
+  int
+)
+"range.ml" 25 706 744 "range.ml" 25 706 745
+type(
+  int
+)
+"range.ml" 25 706 741 "range.ml" 25 706 746
+type(
+  int * int
+)
+"range.ml" 25 706 720 "range.ml" 25 706 747
+type(
+  string * (int * int) * (int * int)
+)

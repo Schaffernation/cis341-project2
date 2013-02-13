@@ -1,0 +1,4319 @@
+"x86.ml" 10 102 106 "x86.ml" 10 102 113
+type(
+  int ref
+)
+ident(
+  def lbl_ctr "x86.ml" 13 189 189 --
+)
+"x86.ml" 10 102 116 "x86.ml" 10 102 119
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"x86.ml" 10 102 120 "x86.ml" 10 102 121
+type(
+  int
+)
+"x86.ml" 10 102 116 "x86.ml" 10 102 121
+type(
+  int ref
+)
+"x86.ml" 13 189 193 "x86.ml" 13 189 199
+type(
+  unit -> lbl
+)
+ident(
+  def mk_lbl "x86.ml" 20 359 359 --
+)
+"x86.ml" 13 189 200 "x86.ml" 13 189 202
+type(
+  unit
+)
+"x86.ml" 14 212 218 "x86.ml" 14 212 221
+type(
+  int
+)
+"x86.ml" 14 212 224 "x86.ml" 14 212 225
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"x86.ml" 14 212 225 "x86.ml" 14 212 232
+type(
+  int ref
+)
+ident(
+  int_ref lbl_ctr "x86.ml" 10 102 106 "x86.ml" 10 102 113
+)
+"x86.ml" 14 212 224 "x86.ml" 14 212 232
+type(
+  int
+)
+"x86.ml" 15 236 242 "x86.ml" 15 236 243
+type(
+  unit
+)
+"x86.ml" 15 236 246 "x86.ml" 15 236 253
+type(
+  int ref
+)
+ident(
+  int_ref lbl_ctr "x86.ml" 10 102 106 "x86.ml" 10 102 113
+)
+"x86.ml" 15 236 254 "x86.ml" 15 236 256
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"x86.ml" 15 236 257 "x86.ml" 15 236 260
+type(
+  int
+)
+ident(
+  int_ref ctr "x86.ml" 14 212 218 "x86.ml" 14 212 221
+)
+"x86.ml" 15 236 261 "x86.ml" 15 236 262
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"x86.ml" 15 236 263 "x86.ml" 15 236 264
+type(
+  int
+)
+"x86.ml" 15 236 257 "x86.ml" 15 236 264
+type(
+  int
+)
+"x86.ml" 15 236 246 "x86.ml" 15 236 264
+type(
+  unit
+)
+"x86.ml" 16 268 272 "x86.ml" 16 268 276
+type(
+  string
+)
+"x86.ml" 16 268 277 "x86.ml" 16 268 278
+type(
+  string -> string -> lbl
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 16 268 280 "x86.ml" 16 268 293
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"x86.ml" 16 268 294 "x86.ml" 16 268 297
+type(
+  int
+)
+ident(
+  int_ref ctr "x86.ml" 14 212 218 "x86.ml" 14 212 221
+)
+"x86.ml" 16 268 279 "x86.ml" 16 268 298
+type(
+  string
+)
+"x86.ml" 16 268 272 "x86.ml" 16 268 298
+type(
+  lbl
+)
+"x86.ml" 15 236 238 "x86.ml" 16 268 298
+type(
+  lbl
+)
+"x86.ml" 14 212 214 "x86.ml" 16 268 298
+type(
+  lbl
+)
+type(
+  lbl
+)
+"x86.ml" 20 359 363 "x86.ml" 20 359 374
+type(
+  string -> lbl
+)
+ident(
+  def mk_lbl_hint "x86.ml" 26 569 569 --
+)
+"x86.ml" 20 359 376 "x86.ml" 20 359 377
+type(
+  string
+)
+ident(
+  def s "x86.ml" 20 359 386 "x86.ml" 23 450 484
+)
+"x86.ml" 21 394 400 "x86.ml" 21 394 403
+type(
+  int
+)
+"x86.ml" 21 394 406 "x86.ml" 21 394 407
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"x86.ml" 21 394 407 "x86.ml" 21 394 414
+type(
+  int ref
+)
+ident(
+  int_ref lbl_ctr "x86.ml" 10 102 106 "x86.ml" 10 102 113
+)
+"x86.ml" 21 394 406 "x86.ml" 21 394 414
+type(
+  int
+)
+"x86.ml" 22 418 424 "x86.ml" 22 418 425
+type(
+  unit
+)
+"x86.ml" 22 418 428 "x86.ml" 22 418 435
+type(
+  int ref
+)
+ident(
+  int_ref lbl_ctr "x86.ml" 10 102 106 "x86.ml" 10 102 113
+)
+"x86.ml" 22 418 436 "x86.ml" 22 418 438
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"x86.ml" 22 418 439 "x86.ml" 22 418 442
+type(
+  int
+)
+ident(
+  int_ref ctr "x86.ml" 21 394 400 "x86.ml" 21 394 403
+)
+"x86.ml" 22 418 443 "x86.ml" 22 418 444
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"x86.ml" 22 418 445 "x86.ml" 22 418 446
+type(
+  int
+)
+"x86.ml" 22 418 439 "x86.ml" 22 418 446
+type(
+  int
+)
+"x86.ml" 22 418 428 "x86.ml" 22 418 446
+type(
+  unit
+)
+"x86.ml" 23 450 454 "x86.ml" 23 450 458
+type(
+  string
+)
+"x86.ml" 23 450 459 "x86.ml" 23 450 460
+type(
+  string -> string -> lbl
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 23 450 461 "x86.ml" 23 450 462
+type(
+  string
+)
+ident(
+  int_ref s "x86.ml" 20 359 376 "x86.ml" 20 359 377
+)
+"x86.ml" 23 450 463 "x86.ml" 23 450 464
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 23 450 466 "x86.ml" 23 450 479
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"x86.ml" 23 450 480 "x86.ml" 23 450 483
+type(
+  int
+)
+ident(
+  int_ref ctr "x86.ml" 21 394 400 "x86.ml" 21 394 403
+)
+"x86.ml" 23 450 465 "x86.ml" 23 450 484
+type(
+  string
+)
+"x86.ml" 23 450 461 "x86.ml" 23 450 484
+type(
+  string
+)
+"x86.ml" 23 450 454 "x86.ml" 23 450 484
+type(
+  lbl
+)
+"x86.ml" 22 418 420 "x86.ml" 23 450 484
+type(
+  lbl
+)
+"x86.ml" 21 394 396 "x86.ml" 23 450 484
+type(
+  lbl
+)
+type(
+  lbl
+)
+"x86.ml" 26 569 573 "x86.ml" 26 569 585
+type(
+  lbl -> lbl
+)
+ident(
+  def mk_lbl_named "x86.ml" 29 609 609 --
+)
+"x86.ml" 26 569 587 "x86.ml" 26 569 588
+type(
+  lbl
+)
+ident(
+  def s "x86.ml" 26 569 597 "x86.ml" 26 569 606
+)
+"x86.ml" 26 569 605 "x86.ml" 26 569 606
+type(
+  lbl
+)
+type(
+  lbl
+)
+ident(
+  int_ref s "x86.ml" 26 569 587 "x86.ml" 26 569 588
+)
+"x86.ml" 29 609 613 "x86.ml" 29 609 626
+type(
+  lbl -> lbl
+)
+ident(
+  def string_of_lbl "x86.ml" 31 649 649 --
+)
+"x86.ml" 29 609 628 "x86.ml" 29 609 629
+type(
+  lbl
+)
+ident(
+  def l "x86.ml" 29 609 635 "x86.ml" 29 609 647
+)
+"x86.ml" 29 609 646 "x86.ml" 29 609 647
+type(
+  lbl
+)
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 29 609 628 "x86.ml" 29 609 629
+)
+"x86.ml" 41 1063 1067 "x86.ml" 41 1063 1080
+type(
+  reg -> string
+)
+ident(
+  def string_of_reg "x86.ml" 46 1265 1265 --
+)
+"x86.ml" 41 1063 1082 "x86.ml" 41 1063 1083
+type(
+  reg
+)
+ident(
+  def r "x86.ml" 41 1063 1089 "x86.ml" 44 1192 1263
+)
+"x86.ml" 42 1100 1102 "x86.ml" 42 1100 1105
+type(
+  string
+)
+"x86.ml" 42 1100 1106 "x86.ml" 42 1100 1107
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 42 1100 1115 "x86.ml" 42 1100 1116
+type(
+  reg
+)
+ident(
+  int_ref r "x86.ml" 41 1063 1082 "x86.ml" 41 1063 1083
+)
+"x86.ml" 43 1122 1135 "x86.ml" 43 1122 1138
+type(
+  reg
+)
+"x86.ml" 43 1122 1141 "x86.ml" 43 1122 1146
+type(
+  string
+)
+"x86.ml" 43 1122 1149 "x86.ml" 43 1122 1152
+type(
+  reg
+)
+"x86.ml" 43 1122 1156 "x86.ml" 43 1122 1161
+type(
+  string
+)
+"x86.ml" 43 1122 1164 "x86.ml" 43 1122 1167
+type(
+  reg
+)
+"x86.ml" 43 1122 1171 "x86.ml" 43 1122 1176
+type(
+  string
+)
+"x86.ml" 43 1122 1179 "x86.ml" 43 1122 1182
+type(
+  reg
+)
+"x86.ml" 43 1122 1186 "x86.ml" 43 1122 1191
+type(
+  string
+)
+"x86.ml" 44 1192 1205 "x86.ml" 44 1192 1208
+type(
+  reg
+)
+"x86.ml" 44 1192 1212 "x86.ml" 44 1192 1217
+type(
+  string
+)
+"x86.ml" 44 1192 1220 "x86.ml" 44 1192 1223
+type(
+  reg
+)
+"x86.ml" 44 1192 1227 "x86.ml" 44 1192 1232
+type(
+  string
+)
+"x86.ml" 44 1192 1235 "x86.ml" 44 1192 1238
+type(
+  reg
+)
+"x86.ml" 44 1192 1242 "x86.ml" 44 1192 1247
+type(
+  string
+)
+"x86.ml" 44 1192 1250 "x86.ml" 44 1192 1253
+type(
+  reg
+)
+"x86.ml" 44 1192 1257 "x86.ml" 44 1192 1262
+type(
+  string
+)
+"x86.ml" 42 1100 1108 "x86.ml" 44 1192 1263
+type(
+  string
+)
+"x86.ml" 42 1100 1102 "x86.ml" 44 1192 1263
+type(
+  string
+)
+type(
+  string
+)
+"x86.ml" 46 1265 1269 "x86.ml" 46 1265 1287
+type(
+  reg -> string
+)
+ident(
+  def byte_string_of_reg "x86.ml" 52 1471 1471 --
+)
+"x86.ml" 46 1265 1289 "x86.ml" 46 1265 1290
+type(
+  reg
+)
+ident(
+  def r "x86.ml" 46 1265 1296 "x86.ml" 49 1395 1468
+)
+"x86.ml" 47 1307 1309 "x86.ml" 47 1307 1312
+type(
+  string
+)
+"x86.ml" 47 1307 1313 "x86.ml" 47 1307 1314
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 47 1307 1322 "x86.ml" 47 1307 1323
+type(
+  reg
+)
+ident(
+  int_ref r "x86.ml" 46 1265 1289 "x86.ml" 46 1265 1290
+)
+"x86.ml" 48 1329 1342 "x86.ml" 48 1329 1345
+type(
+  reg
+)
+"x86.ml" 48 1329 1348 "x86.ml" 48 1329 1352
+type(
+  string
+)
+"x86.ml" 48 1329 1355 "x86.ml" 48 1329 1358
+type(
+  reg
+)
+"x86.ml" 48 1329 1362 "x86.ml" 48 1329 1366
+type(
+  string
+)
+"x86.ml" 48 1329 1369 "x86.ml" 48 1329 1372
+type(
+  reg
+)
+"x86.ml" 48 1329 1376 "x86.ml" 48 1329 1380
+type(
+  string
+)
+"x86.ml" 48 1329 1383 "x86.ml" 48 1329 1386
+type(
+  reg
+)
+"x86.ml" 48 1329 1390 "x86.ml" 48 1329 1394
+type(
+  string
+)
+"x86.ml" 49 1395 1408 "x86.ml" 49 1395 1409
+type(
+  reg
+)
+"x86.ml" 49 1395 1413 "x86.ml" 49 1395 1421
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"x86.ml" 49 1395 1422 "x86.ml" 49 1395 1467
+type(
+  string
+)
+"x86.ml" 49 1395 1413 "x86.ml" 49 1395 1467
+type(
+  string
+)
+"x86.ml" 47 1307 1315 "x86.ml" 49 1395 1468
+type(
+  string
+)
+"x86.ml" 47 1307 1309 "x86.ml" 49 1395 1468
+type(
+  string
+)
+type(
+  string
+)
+"x86.ml" 70 1953 1957 "x86.ml" 70 1953 1960
+type(
+  int32 -> opnd
+)
+ident(
+  def i32 "x86.ml" 73 2011 2011 --
+)
+"x86.ml" 70 1953 1962 "x86.ml" 70 1953 1963
+type(
+  int32
+)
+ident(
+  def x "x86.ml" 70 1953 1971 "x86.ml" 70 1953 1985
+)
+"x86.ml" 70 1953 1984 "x86.ml" 70 1953 1985
+type(
+  int32
+)
+ident(
+  int_ref x "x86.ml" 70 1953 1962 "x86.ml" 70 1953 1963
+)
+"x86.ml" 70 1953 1980 "x86.ml" 70 1953 1985
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 73 2011 2015 "x86.ml" 73 2011 2018
+type(
+  opnd
+)
+ident(
+  def eax "x86.ml" 74 2036 2036 --
+)
+"x86.ml" 73 2011 2032 "x86.ml" 73 2011 2035
+type(
+  reg
+)
+"x86.ml" 73 2011 2028 "x86.ml" 73 2011 2035
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 74 2036 2040 "x86.ml" 74 2036 2043
+type(
+  opnd
+)
+ident(
+  def ebx "x86.ml" 75 2061 2061 --
+)
+"x86.ml" 74 2036 2057 "x86.ml" 74 2036 2060
+type(
+  reg
+)
+"x86.ml" 74 2036 2053 "x86.ml" 74 2036 2060
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 75 2061 2065 "x86.ml" 75 2061 2068
+type(
+  opnd
+)
+ident(
+  def ecx "x86.ml" 76 2086 2086 --
+)
+"x86.ml" 75 2061 2082 "x86.ml" 75 2061 2085
+type(
+  reg
+)
+"x86.ml" 75 2061 2078 "x86.ml" 75 2061 2085
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 76 2086 2090 "x86.ml" 76 2086 2093
+type(
+  opnd
+)
+ident(
+  def edx "x86.ml" 77 2111 2111 --
+)
+"x86.ml" 76 2086 2107 "x86.ml" 76 2086 2110
+type(
+  reg
+)
+"x86.ml" 76 2086 2103 "x86.ml" 76 2086 2110
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 77 2111 2115 "x86.ml" 77 2111 2118
+type(
+  opnd
+)
+ident(
+  def esi "x86.ml" 78 2136 2136 --
+)
+"x86.ml" 77 2111 2132 "x86.ml" 77 2111 2135
+type(
+  reg
+)
+"x86.ml" 77 2111 2128 "x86.ml" 77 2111 2135
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 78 2136 2140 "x86.ml" 78 2136 2143
+type(
+  opnd
+)
+ident(
+  def edi "x86.ml" 79 2161 2161 --
+)
+"x86.ml" 78 2136 2157 "x86.ml" 78 2136 2160
+type(
+  reg
+)
+"x86.ml" 78 2136 2153 "x86.ml" 78 2136 2160
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 79 2161 2165 "x86.ml" 79 2161 2168
+type(
+  opnd
+)
+ident(
+  def ebp "x86.ml" 80 2186 2186 --
+)
+"x86.ml" 79 2161 2182 "x86.ml" 79 2161 2185
+type(
+  reg
+)
+"x86.ml" 79 2161 2178 "x86.ml" 79 2161 2185
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 80 2186 2190 "x86.ml" 80 2186 2193
+type(
+  opnd
+)
+ident(
+  def esp "x86.ml" 83 2242 2242 --
+)
+"x86.ml" 80 2186 2207 "x86.ml" 80 2186 2210
+type(
+  reg
+)
+"x86.ml" 80 2186 2203 "x86.ml" 80 2186 2210
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 83 2242 2246 "x86.ml" 83 2242 2258
+type(
+  int32 -> opnd
+)
+ident(
+  def stack_offset "x86.ml" 89 2396 2396 --
+)
+"x86.ml" 83 2242 2260 "x86.ml" 83 2242 2263
+type(
+  int32
+)
+ident(
+  def amt "x86.ml" 83 2242 2271 "x86.ml" 86 2326 2357
+)
+"x86.ml" 84 2280 2300 "x86.ml" 84 2280 2303
+type(
+  reg
+)
+"x86.ml" 84 2280 2295 "x86.ml" 84 2280 2303
+type(
+  reg option
+)
+"x86.ml" 85 2305 2320 "x86.ml" 85 2305 2324
+type(
+  (reg * int32) option
+)
+"x86.ml" 86 2326 2352 "x86.ml" 86 2326 2355
+type(
+  int32
+)
+ident(
+  int_ref amt "x86.ml" 83 2242 2260 "x86.ml" 83 2242 2263
+)
+"x86.ml" 86 2326 2346 "x86.ml" 86 2326 2356
+type(
+  disp
+)
+"x86.ml" 86 2326 2341 "x86.ml" 86 2326 2356
+type(
+  disp option
+)
+"x86.ml" 84 2280 2285 "x86.ml" 86 2326 2357
+type(
+  ind
+)
+"x86.ml" 84 2280 2282 "x86.ml" 86 2326 2357
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 89 2396 2400 "x86.ml" 89 2396 2409
+type(
+  lbl -> opnd
+)
+ident(
+  def deref_lbl "x86.ml" 94 2501 2501 --
+)
+"x86.ml" 89 2396 2411 "x86.ml" 89 2396 2412
+type(
+  lbl
+)
+ident(
+  def l "x86.ml" 89 2396 2418 "x86.ml" 92 2469 2498
+)
+"x86.ml" 90 2427 2442 "x86.ml" 90 2427 2446
+type(
+  reg option
+)
+"x86.ml" 91 2448 2463 "x86.ml" 91 2448 2467
+type(
+  (reg * int32) option
+)
+"x86.ml" 92 2469 2495 "x86.ml" 92 2469 2496
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 89 2396 2411 "x86.ml" 89 2396 2412
+)
+"x86.ml" 92 2469 2489 "x86.ml" 92 2469 2497
+type(
+  disp
+)
+"x86.ml" 92 2469 2484 "x86.ml" 92 2469 2497
+type(
+  disp option
+)
+"x86.ml" 90 2427 2432 "x86.ml" 92 2469 2498
+type(
+  ind
+)
+"x86.ml" 90 2427 2429 "x86.ml" 92 2469 2498
+type(
+  opnd
+)
+type(
+  opnd
+)
+"x86.ml" 94 2501 2505 "x86.ml" 94 2501 2518
+type(
+  ind -> string
+)
+ident(
+  def string_of_ind "x86.ml" 119 3109 3109 --
+)
+"x86.ml" 94 2501 2521 "x86.ml" 94 2501 2522
+type(
+  ind
+)
+ident(
+  def i "x86.ml" 94 2501 2528 "x86.ml" 116 3087 3094
+)
+"x86.ml" 95 2539 2545 "x86.ml" 95 2539 2561
+type(
+  bool
+)
+"x86.ml" 96 2565 2576 "x86.ml" 96 2565 2577
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 94 2501 2521 "x86.ml" 94 2501 2522
+)
+"x86.ml" 96 2565 2576 "x86.ml" 96 2565 2584
+type(
+  reg option
+)
+"x86.ml" 96 2565 2586 "x86.ml" 96 2565 2587
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 94 2501 2521 "x86.ml" 94 2501 2522
+)
+"x86.ml" 96 2565 2586 "x86.ml" 96 2565 2594
+type(
+  (reg * int32) option
+)
+"x86.ml" 96 2565 2575 "x86.ml" 96 2565 2595
+type(
+  reg option * (reg * int32) option
+)
+"x86.ml" 97 2601 2615 "x86.ml" 97 2601 2616
+type(
+  reg
+)
+"x86.ml" 97 2601 2610 "x86.ml" 97 2601 2616
+type(
+  reg option
+)
+"x86.ml" 97 2601 2618 "x86.ml" 97 2601 2619
+type(
+  (reg * int32) option
+)
+"x86.ml" 97 2601 2609 "x86.ml" 97 2601 2620
+type(
+  reg option * (reg * int32) option
+)
+"x86.ml" 97 2601 2624 "x86.ml" 97 2601 2628
+type(
+  bool
+)
+"x86.ml" 98 2629 2638 "x86.ml" 98 2629 2639
+type(
+  reg option
+)
+"x86.ml" 98 2629 2646 "x86.ml" 98 2629 2647
+type(
+  reg * int32
+)
+"x86.ml" 98 2629 2641 "x86.ml" 98 2629 2647
+type(
+  (reg * int32) option
+)
+"x86.ml" 98 2629 2637 "x86.ml" 98 2629 2648
+type(
+  reg option * (reg * int32) option
+)
+"x86.ml" 98 2629 2652 "x86.ml" 98 2629 2656
+type(
+  bool
+)
+"x86.ml" 99 2657 2665 "x86.ml" 99 2657 2666
+type(
+  reg option * (reg * int32) option
+)
+"x86.ml" 99 2657 2670 "x86.ml" 99 2657 2675
+type(
+  bool
+)
+"x86.ml" 96 2565 2569 "x86.ml" 99 2657 2675
+type(
+  bool
+)
+"x86.ml" 101 2682 2693 "x86.ml" 101 2682 2694
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 94 2501 2521 "x86.ml" 94 2501 2522
+)
+"x86.ml" 101 2682 2693 "x86.ml" 101 2682 2701
+type(
+  disp option
+)
+"x86.ml" 102 2707 2726 "x86.ml" 102 2707 2727
+type(
+  int32
+)
+ident(
+  def x "x86.ml" 102 2707 2732 "x86.ml" 102 2707 2749
+)
+"x86.ml" 102 2707 2720 "x86.ml" 102 2707 2728
+type(
+  disp
+)
+"x86.ml" 102 2707 2716 "x86.ml" 102 2707 2728
+type(
+  disp option
+)
+"x86.ml" 102 2707 2732 "x86.ml" 102 2707 2747
+type(
+  int32 -> lbl
+)
+ident(
+  ext_ref Int32.to_string
+)
+"x86.ml" 102 2707 2748 "x86.ml" 102 2707 2749
+type(
+  int32
+)
+ident(
+  int_ref x "x86.ml" 102 2707 2726 "x86.ml" 102 2707 2727
+)
+"x86.ml" 102 2707 2732 "x86.ml" 102 2707 2749
+type(
+  lbl
+)
+"x86.ml" 103 2750 2769 "x86.ml" 103 2750 2770
+type(
+  lbl
+)
+ident(
+  def l "x86.ml" 103 2750 2775 "x86.ml" 103 2750 2790
+)
+"x86.ml" 103 2750 2763 "x86.ml" 103 2750 2771
+type(
+  disp
+)
+"x86.ml" 103 2750 2759 "x86.ml" 103 2750 2771
+type(
+  disp option
+)
+"x86.ml" 103 2750 2775 "x86.ml" 103 2750 2788
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 103 2750 2789 "x86.ml" 103 2750 2790
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 103 2750 2769 "x86.ml" 103 2750 2770
+)
+"x86.ml" 103 2750 2775 "x86.ml" 103 2750 2790
+type(
+  lbl
+)
+"x86.ml" 104 2791 2800 "x86.ml" 104 2791 2804
+type(
+  disp option
+)
+"x86.ml" 104 2791 2808 "x86.ml" 104 2791 2810
+type(
+  lbl
+)
+"x86.ml" 101 2682 2686 "x86.ml" 104 2791 2811
+type(
+  lbl
+)
+"x86.ml" 105 2813 2817 "x86.ml" 105 2813 2818
+type(
+  lbl -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 105 2813 2823 "x86.ml" 105 2813 2826
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"x86.ml" 105 2813 2827 "x86.ml" 105 2813 2843
+type(
+  bool
+)
+ident(
+  int_ref has_iscl_or_base "x86.ml" 95 2539 2545 "x86.ml" 95 2539 2561
+)
+"x86.ml" 105 2813 2823 "x86.ml" 105 2813 2843
+type(
+  bool
+)
+"x86.ml" 105 2813 2849 "x86.ml" 105 2813 2851
+type(
+  string
+)
+"x86.ml" 106 2857 2859 "x86.ml" 106 2857 2862
+type(
+  string
+)
+"x86.ml" 106 2857 2863 "x86.ml" 106 2857 2864
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 107 2867 2877 "x86.ml" 107 2867 2878
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 94 2501 2521 "x86.ml" 94 2501 2522
+)
+"x86.ml" 107 2867 2877 "x86.ml" 107 2867 2885
+type(
+  reg option
+)
+"x86.ml" 108 2891 2899 "x86.ml" 108 2891 2903
+type(
+  reg option
+)
+"x86.ml" 108 2891 2907 "x86.ml" 108 2891 2909
+type(
+  string
+)
+"x86.ml" 109 2910 2923 "x86.ml" 109 2910 2924
+type(
+  reg
+)
+ident(
+  def r "x86.ml" 109 2910 2928 "x86.ml" 109 2910 2943
+)
+"x86.ml" 109 2910 2918 "x86.ml" 109 2910 2924
+type(
+  reg option
+)
+"x86.ml" 109 2910 2928 "x86.ml" 109 2910 2941
+type(
+  reg -> string
+)
+ident(
+  int_ref string_of_reg "x86.ml" 41 1063 1067 "x86.ml" 41 1063 1080
+)
+"x86.ml" 109 2910 2942 "x86.ml" 109 2910 2943
+type(
+  reg
+)
+ident(
+  int_ref r "x86.ml" 109 2910 2923 "x86.ml" 109 2910 2924
+)
+"x86.ml" 109 2910 2928 "x86.ml" 109 2910 2943
+type(
+  string
+)
+"x86.ml" 106 2857 2865 "x86.ml" 110 2944 2947
+type(
+  string
+)
+"x86.ml" 110 2944 2948 "x86.ml" 110 2944 2949
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 111 2952 2962 "x86.ml" 111 2952 2963
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 94 2501 2521 "x86.ml" 94 2501 2522
+)
+"x86.ml" 111 2952 2962 "x86.ml" 111 2952 2970
+type(
+  (reg * int32) option
+)
+"x86.ml" 112 2976 2990 "x86.ml" 112 2976 2991
+type(
+  reg
+)
+ident(
+  def r "x86.ml" 112 2976 3001 "x86.ml" 113 3033 3057
+)
+"x86.ml" 112 2976 2993 "x86.ml" 112 2976 2996
+type(
+  int32
+)
+ident(
+  def scl "x86.ml" 112 2976 3001 "x86.ml" 113 3033 3057
+)
+"x86.ml" 112 2976 2989 "x86.ml" 112 2976 2997
+type(
+  reg * int32
+)
+"x86.ml" 112 2976 2984 "x86.ml" 112 2976 2997
+type(
+  (reg * int32) option
+)
+"x86.ml" 112 2976 3001 "x86.ml" 112 2976 3004
+type(
+  string
+)
+"x86.ml" 112 2976 3005 "x86.ml" 112 2976 3006
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 112 2976 3008 "x86.ml" 112 2976 3021
+type(
+  reg -> string
+)
+ident(
+  int_ref string_of_reg "x86.ml" 41 1063 1067 "x86.ml" 41 1063 1080
+)
+"x86.ml" 112 2976 3022 "x86.ml" 112 2976 3023
+type(
+  reg
+)
+ident(
+  int_ref r "x86.ml" 112 2976 2990 "x86.ml" 112 2976 2991
+)
+"x86.ml" 112 2976 3007 "x86.ml" 112 2976 3024
+type(
+  string
+)
+"x86.ml" 112 2976 3025 "x86.ml" 112 2976 3026
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 112 2976 3027 "x86.ml" 112 2976 3030
+type(
+  string
+)
+"x86.ml" 112 2976 3031 "x86.ml" 112 2976 3032
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 113 3033 3037 "x86.ml" 113 3033 3052
+type(
+  int32 -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"x86.ml" 113 3033 3053 "x86.ml" 113 3033 3056
+type(
+  int32
+)
+ident(
+  int_ref scl "x86.ml" 112 2976 2993 "x86.ml" 112 2976 2996
+)
+"x86.ml" 113 3033 3036 "x86.ml" 113 3033 3057
+type(
+  string
+)
+"x86.ml" 112 2976 3027 "x86.ml" 113 3033 3057
+type(
+  string
+)
+"x86.ml" 112 2976 3007 "x86.ml" 113 3033 3057
+type(
+  string
+)
+"x86.ml" 112 2976 3001 "x86.ml" 113 3033 3057
+type(
+  string
+)
+"x86.ml" 114 3058 3066 "x86.ml" 114 3058 3070
+type(
+  (reg * int32) option
+)
+"x86.ml" 114 3058 3074 "x86.ml" 114 3058 3076
+type(
+  string
+)
+"x86.ml" 110 2944 2950 "x86.ml" 115 3077 3080
+type(
+  string
+)
+"x86.ml" 115 3077 3081 "x86.ml" 115 3077 3082
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 115 3077 3083 "x86.ml" 115 3077 3086
+type(
+  string
+)
+"x86.ml" 110 2944 2950 "x86.ml" 115 3077 3086
+type(
+  string
+)
+"x86.ml" 106 2857 2865 "x86.ml" 115 3077 3086
+type(
+  string
+)
+"x86.ml" 106 2857 2859 "x86.ml" 115 3077 3086
+type(
+  string
+)
+"x86.ml" 105 2813 2819 "x86.ml" 116 3087 3094
+type(
+  string
+)
+"x86.ml" 101 2682 2686 "x86.ml" 116 3087 3094
+type(
+  string
+)
+"x86.ml" 95 2539 2541 "x86.ml" 116 3087 3094
+type(
+  string
+)
+type(
+  string
+)
+"x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+type(
+  opnd -> string
+)
+ident(
+  def string_of_opnd "x86.ml" 126 3310 3310 --
+)
+"x86.ml" 119 3109 3129 "x86.ml" 119 3109 3131
+type(
+  opnd
+)
+ident(
+  def op "x86.ml" 119 3109 3138 "x86.ml" 124 3277 3308
+)
+"x86.ml" 120 3149 3157 "x86.ml" 120 3149 3159
+type(
+  opnd
+)
+ident(
+  int_ref op "x86.ml" 119 3109 3129 "x86.ml" 119 3109 3131
+)
+"x86.ml" 121 3165 3175 "x86.ml" 121 3165 3176
+type(
+  int32
+)
+ident(
+  def x "x86.ml" 121 3165 3180 "x86.ml" 121 3165 3205
+)
+"x86.ml" 121 3165 3171 "x86.ml" 121 3165 3176
+type(
+  opnd
+)
+"x86.ml" 121 3165 3180 "x86.ml" 121 3165 3183
+type(
+  string
+)
+"x86.ml" 121 3165 3184 "x86.ml" 121 3165 3185
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 121 3165 3187 "x86.ml" 121 3165 3202
+type(
+  int32 -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"x86.ml" 121 3165 3203 "x86.ml" 121 3165 3204
+type(
+  int32
+)
+ident(
+  int_ref x "x86.ml" 121 3165 3175 "x86.ml" 121 3165 3176
+)
+"x86.ml" 121 3165 3186 "x86.ml" 121 3165 3205
+type(
+  string
+)
+"x86.ml" 121 3165 3180 "x86.ml" 121 3165 3205
+type(
+  string
+)
+"x86.ml" 122 3206 3216 "x86.ml" 122 3206 3217
+type(
+  lbl
+)
+ident(
+  def l "x86.ml" 122 3206 3221 "x86.ml" 122 3206 3244
+)
+"x86.ml" 122 3206 3212 "x86.ml" 122 3206 3217
+type(
+  opnd
+)
+"x86.ml" 122 3206 3221 "x86.ml" 122 3206 3224
+type(
+  string
+)
+"x86.ml" 122 3206 3225 "x86.ml" 122 3206 3226
+type(
+  string -> lbl -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 122 3206 3228 "x86.ml" 122 3206 3241
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 122 3206 3242 "x86.ml" 122 3206 3243
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 122 3206 3216 "x86.ml" 122 3206 3217
+)
+"x86.ml" 122 3206 3227 "x86.ml" 122 3206 3244
+type(
+  lbl
+)
+"x86.ml" 122 3206 3221 "x86.ml" 122 3206 3244
+type(
+  string
+)
+"x86.ml" 123 3245 3255 "x86.ml" 123 3245 3256
+type(
+  reg
+)
+ident(
+  def r "x86.ml" 123 3245 3261 "x86.ml" 123 3245 3276
+)
+"x86.ml" 123 3245 3251 "x86.ml" 123 3245 3256
+type(
+  opnd
+)
+"x86.ml" 123 3245 3261 "x86.ml" 123 3245 3274
+type(
+  reg -> string
+)
+ident(
+  int_ref string_of_reg "x86.ml" 41 1063 1067 "x86.ml" 41 1063 1080
+)
+"x86.ml" 123 3245 3275 "x86.ml" 123 3245 3276
+type(
+  reg
+)
+ident(
+  int_ref r "x86.ml" 123 3245 3255 "x86.ml" 123 3245 3256
+)
+"x86.ml" 123 3245 3261 "x86.ml" 123 3245 3276
+type(
+  string
+)
+"x86.ml" 124 3277 3287 "x86.ml" 124 3277 3288
+type(
+  ind
+)
+ident(
+  def i "x86.ml" 124 3277 3293 "x86.ml" 124 3277 3308
+)
+"x86.ml" 124 3277 3283 "x86.ml" 124 3277 3288
+type(
+  opnd
+)
+"x86.ml" 124 3277 3293 "x86.ml" 124 3277 3306
+type(
+  ind -> string
+)
+ident(
+  int_ref string_of_ind "x86.ml" 94 2501 2505 "x86.ml" 94 2501 2518
+)
+"x86.ml" 124 3277 3307 "x86.ml" 124 3277 3308
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 124 3277 3287 "x86.ml" 124 3277 3288
+)
+"x86.ml" 124 3277 3293 "x86.ml" 124 3277 3308
+type(
+  string
+)
+"x86.ml" 120 3149 3151 "x86.ml" 124 3277 3308
+type(
+  string
+)
+type(
+  string
+)
+"x86.ml" 126 3310 3314 "x86.ml" 126 3310 3337
+type(
+  opnd -> string
+)
+ident(
+  def string_of_opnd_low_byte "x86.ml" 134 3568 3568 --
+)
+"x86.ml" 126 3310 3339 "x86.ml" 126 3310 3341
+type(
+  opnd
+)
+ident(
+  def op "x86.ml" 126 3310 3348 "x86.ml" 131 3534 3564
+)
+"x86.ml" 127 3358 3366 "x86.ml" 127 3358 3368
+type(
+  opnd
+)
+ident(
+  int_ref op "x86.ml" 126 3310 3339 "x86.ml" 126 3310 3341
+)
+"x86.ml" 128 3374 3384 "x86.ml" 128 3374 3385
+type(
+  int32
+)
+ident(
+  def x "x86.ml" 128 3374 3389 "x86.ml" 128 3374 3435
+)
+"x86.ml" 128 3374 3380 "x86.ml" 128 3374 3385
+type(
+  opnd
+)
+"x86.ml" 128 3374 3389 "x86.ml" 128 3374 3397
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"x86.ml" 128 3374 3398 "x86.ml" 128 3374 3435
+type(
+  string
+)
+"x86.ml" 128 3374 3389 "x86.ml" 128 3374 3435
+type(
+  string
+)
+"x86.ml" 129 3436 3446 "x86.ml" 129 3436 3447
+type(
+  lbl
+)
+ident(
+  def l "x86.ml" 129 3436 3451 "x86.ml" 129 3436 3497
+)
+"x86.ml" 129 3436 3442 "x86.ml" 129 3436 3447
+type(
+  opnd
+)
+"x86.ml" 129 3436 3451 "x86.ml" 129 3436 3459
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"x86.ml" 129 3436 3460 "x86.ml" 129 3436 3497
+type(
+  string
+)
+"x86.ml" 129 3436 3451 "x86.ml" 129 3436 3497
+type(
+  string
+)
+"x86.ml" 130 3498 3508 "x86.ml" 130 3498 3509
+type(
+  reg
+)
+ident(
+  def r "x86.ml" 130 3498 3513 "x86.ml" 130 3498 3533
+)
+"x86.ml" 130 3498 3504 "x86.ml" 130 3498 3509
+type(
+  opnd
+)
+"x86.ml" 130 3498 3513 "x86.ml" 130 3498 3531
+type(
+  reg -> string
+)
+ident(
+  int_ref byte_string_of_reg "x86.ml" 46 1265 1269 "x86.ml" 46 1265 1287
+)
+"x86.ml" 130 3498 3532 "x86.ml" 130 3498 3533
+type(
+  reg
+)
+ident(
+  int_ref r "x86.ml" 130 3498 3508 "x86.ml" 130 3498 3509
+)
+"x86.ml" 130 3498 3513 "x86.ml" 130 3498 3533
+type(
+  string
+)
+"x86.ml" 131 3534 3544 "x86.ml" 131 3534 3545
+type(
+  ind
+)
+ident(
+  def i "x86.ml" 131 3534 3549 "x86.ml" 131 3534 3564
+)
+"x86.ml" 131 3534 3540 "x86.ml" 131 3534 3545
+type(
+  opnd
+)
+"x86.ml" 131 3534 3549 "x86.ml" 131 3534 3562
+type(
+  ind -> string
+)
+ident(
+  int_ref string_of_ind "x86.ml" 94 2501 2505 "x86.ml" 94 2501 2518
+)
+"x86.ml" 131 3534 3563 "x86.ml" 131 3534 3564
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 131 3534 3544 "x86.ml" 131 3534 3545
+)
+"x86.ml" 131 3534 3549 "x86.ml" 131 3534 3564
+type(
+  string
+)
+"x86.ml" 127 3358 3360 "x86.ml" 131 3534 3564
+type(
+  string
+)
+type(
+  string
+)
+"x86.ml" 134 3568 3572 "x86.ml" 134 3568 3588
+type(
+  opnd -> lbl
+)
+ident(
+  def cfstring_of_opnd "x86.ml" 143 3838 3838 --
+)
+"x86.ml" 134 3568 3590 "x86.ml" 134 3568 3592
+type(
+  opnd
+)
+ident(
+  def op "x86.ml" 134 3568 3599 "x86.ml" 140 3775 3813
+)
+"x86.ml" 135 3611 3619 "x86.ml" 135 3611 3621
+type(
+  opnd
+)
+ident(
+  int_ref op "x86.ml" 134 3568 3590 "x86.ml" 134 3568 3592
+)
+"x86.ml" 136 3627 3637 "x86.ml" 136 3627 3638
+type(
+  int32
+)
+ident(
+  def i "x86.ml" 137 3642 3643 "x86.ml" 137 3642 3704
+)
+"x86.ml" 136 3627 3633 "x86.ml" 136 3627 3638
+type(
+  opnd
+)
+"x86.ml" 137 3642 3643 "x86.ml" 137 3642 3651
+type(
+  string -> lbl
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"x86.ml" 137 3642 3652 "x86.ml" 137 3642 3704
+type(
+  string
+)
+"x86.ml" 137 3642 3643 "x86.ml" 137 3642 3704
+type(
+  lbl
+)
+"x86.ml" 138 3705 3715 "x86.ml" 138 3705 3716
+type(
+  lbl
+)
+ident(
+  def l "x86.ml" 138 3705 3720 "x86.ml" 138 3705 3735
+)
+"x86.ml" 138 3705 3711 "x86.ml" 138 3705 3716
+type(
+  opnd
+)
+"x86.ml" 138 3705 3720 "x86.ml" 138 3705 3733
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 138 3705 3734 "x86.ml" 138 3705 3735
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 138 3705 3715 "x86.ml" 138 3705 3716
+)
+"x86.ml" 138 3705 3720 "x86.ml" 138 3705 3735
+type(
+  lbl
+)
+"x86.ml" 139 3736 3746 "x86.ml" 139 3736 3747
+type(
+  reg
+)
+ident(
+  def r "x86.ml" 139 3736 3751 "x86.ml" 139 3736 3774
+)
+"x86.ml" 139 3736 3742 "x86.ml" 139 3736 3747
+type(
+  opnd
+)
+"x86.ml" 139 3736 3751 "x86.ml" 139 3736 3754
+type(
+  string
+)
+"x86.ml" 139 3736 3755 "x86.ml" 139 3736 3756
+type(
+  string -> string -> lbl
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 139 3736 3758 "x86.ml" 139 3736 3771
+type(
+  reg -> string
+)
+ident(
+  int_ref string_of_reg "x86.ml" 41 1063 1067 "x86.ml" 41 1063 1080
+)
+"x86.ml" 139 3736 3772 "x86.ml" 139 3736 3773
+type(
+  reg
+)
+ident(
+  int_ref r "x86.ml" 139 3736 3746 "x86.ml" 139 3736 3747
+)
+"x86.ml" 139 3736 3757 "x86.ml" 139 3736 3774
+type(
+  string
+)
+"x86.ml" 139 3736 3751 "x86.ml" 139 3736 3774
+type(
+  lbl
+)
+"x86.ml" 140 3775 3785 "x86.ml" 140 3775 3786
+type(
+  ind
+)
+ident(
+  def i "x86.ml" 140 3775 3790 "x86.ml" 140 3775 3813
+)
+"x86.ml" 140 3775 3781 "x86.ml" 140 3775 3786
+type(
+  opnd
+)
+"x86.ml" 140 3775 3790 "x86.ml" 140 3775 3793
+type(
+  string
+)
+"x86.ml" 140 3775 3794 "x86.ml" 140 3775 3795
+type(
+  string -> string -> lbl
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 140 3775 3797 "x86.ml" 140 3775 3810
+type(
+  ind -> string
+)
+ident(
+  int_ref string_of_ind "x86.ml" 94 2501 2505 "x86.ml" 94 2501 2518
+)
+"x86.ml" 140 3775 3811 "x86.ml" 140 3775 3812
+type(
+  ind
+)
+ident(
+  int_ref i "x86.ml" 140 3775 3785 "x86.ml" 140 3775 3786
+)
+"x86.ml" 140 3775 3796 "x86.ml" 140 3775 3813
+type(
+  string
+)
+"x86.ml" 140 3775 3790 "x86.ml" 140 3775 3813
+type(
+  lbl
+)
+"x86.ml" 135 3611 3613 "x86.ml" 140 3775 3813
+type(
+  lbl
+)
+type(
+  lbl
+)
+"x86.ml" 153 3970 3974 "x86.ml" 153 3970 3987
+type(
+  cnd -> string
+)
+ident(
+  def string_of_cnd "x86.ml" 166 4212 4212 --
+)
+"x86.ml" 153 3970 3989 "x86.ml" 153 3970 3990
+type(
+  cnd
+)
+ident(
+  def c "x86.ml" 153 3970 3996 "x86.ml" 163 4182 4187
+)
+"x86.ml" 154 4007 4021 "x86.ml" 154 4007 4022
+type(
+  cnd
+)
+ident(
+  int_ref c "x86.ml" 153 3970 3989 "x86.ml" 153 3970 3990
+)
+"x86.ml" 155 4028 4034 "x86.ml" 155 4028 4037
+type(
+  cnd
+)
+"x86.ml" 155 4028 4041 "x86.ml" 155 4028 4044
+type(
+  string
+)
+"x86.ml" 156 4046 4052 "x86.ml" 156 4046 4055
+type(
+  cnd
+)
+"x86.ml" 156 4046 4059 "x86.ml" 156 4046 4063
+type(
+  string
+)
+"x86.ml" 157 4065 4071 "x86.ml" 157 4065 4074
+type(
+  cnd
+)
+"x86.ml" 157 4065 4078 "x86.ml" 157 4065 4081
+type(
+  string
+)
+"x86.ml" 158 4083 4089 "x86.ml" 158 4083 4092
+type(
+  cnd
+)
+"x86.ml" 158 4083 4096 "x86.ml" 158 4083 4100
+type(
+  string
+)
+"x86.ml" 159 4101 4107 "x86.ml" 159 4101 4109
+type(
+  cnd
+)
+"x86.ml" 159 4101 4114 "x86.ml" 159 4101 4117
+type(
+  string
+)
+"x86.ml" 160 4120 4126 "x86.ml" 160 4120 4131
+type(
+  cnd
+)
+"x86.ml" 160 4120 4135 "x86.ml" 160 4120 4139
+type(
+  string
+)
+"x86.ml" 161 4141 4147 "x86.ml" 161 4141 4151
+type(
+  cnd
+)
+"x86.ml" 161 4141 4155 "x86.ml" 161 4141 4158
+type(
+  string
+)
+"x86.ml" 162 4160 4166 "x86.ml" 162 4160 4173
+type(
+  cnd
+)
+"x86.ml" 162 4160 4177 "x86.ml" 162 4160 4181
+type(
+  string
+)
+"x86.ml" 154 4007 4009 "x86.ml" 163 4182 4187
+type(
+  string
+)
+type(
+  string
+)
+"x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  def generic_to_string "x86.ml" 192 4967 4967 --
+)
+"x86.ml" 189 4855 4877 "x86.ml" 189 4855 4881
+type(
+  string
+)
+ident(
+  def name "x86.ml" 189 4855 4882 "x86.ml" 190 4896 4965
+)
+"x86.ml" 189 4855 4883 "x86.ml" 189 4855 4887
+type(
+  opnd
+)
+ident(
+  def dest "x86.ml" 190 4896 4900 "x86.ml" 190 4896 4965
+)
+"x86.ml" 189 4855 4889 "x86.ml" 189 4855 4892
+type(
+  opnd
+)
+ident(
+  def src "x86.ml" 190 4896 4900 "x86.ml" 190 4896 4965
+)
+"x86.ml" 189 4855 4882 "x86.ml" 189 4855 4893
+type(
+  opnd * opnd
+)
+"x86.ml" 190 4896 4900 "x86.ml" 190 4896 4904
+type(
+  string
+)
+ident(
+  int_ref name "x86.ml" 189 4855 4877 "x86.ml" 189 4855 4881
+)
+"x86.ml" 190 4896 4905 "x86.ml" 190 4896 4906
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 190 4896 4907 "x86.ml" 190 4896 4911
+type(
+  string
+)
+"x86.ml" 190 4896 4912 "x86.ml" 190 4896 4913
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 190 4896 4915 "x86.ml" 190 4896 4929
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd "x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+)
+"x86.ml" 190 4896 4930 "x86.ml" 190 4896 4933
+type(
+  opnd
+)
+ident(
+  int_ref src "x86.ml" 189 4855 4889 "x86.ml" 189 4855 4892
+)
+"x86.ml" 190 4896 4914 "x86.ml" 190 4896 4934
+type(
+  string
+)
+"x86.ml" 190 4896 4935 "x86.ml" 190 4896 4936
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 190 4896 4937 "x86.ml" 190 4896 4941
+type(
+  string
+)
+"x86.ml" 190 4896 4942 "x86.ml" 190 4896 4943
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 190 4896 4945 "x86.ml" 190 4896 4959
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd "x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+)
+"x86.ml" 190 4896 4960 "x86.ml" 190 4896 4964
+type(
+  opnd
+)
+ident(
+  int_ref dest "x86.ml" 189 4855 4883 "x86.ml" 189 4855 4887
+)
+"x86.ml" 190 4896 4944 "x86.ml" 190 4896 4965
+type(
+  string
+)
+"x86.ml" 190 4896 4937 "x86.ml" 190 4896 4965
+type(
+  string
+)
+"x86.ml" 190 4896 4914 "x86.ml" 190 4896 4965
+type(
+  string
+)
+"x86.ml" 190 4896 4907 "x86.ml" 190 4896 4965
+type(
+  string
+)
+"x86.ml" 190 4896 4900 "x86.ml" 190 4896 4965
+type(
+  string
+)
+"x86.ml" 192 4967 4971 "x86.ml" 192 4967 4986
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  def shift_to_string "x86.ml" 198 5236 5236 --
+)
+"x86.ml" 192 4967 4987 "x86.ml" 192 4967 4991
+type(
+  string
+)
+ident(
+  def name "x86.ml" 192 4967 4992 "x86.ml" 196 5173 5228
+)
+"x86.ml" 192 4967 4993 "x86.ml" 192 4967 4997
+type(
+  opnd
+)
+ident(
+  def dest "x86.ml" 193 5006 5008 "x86.ml" 196 5173 5228
+)
+"x86.ml" 192 4967 4999 "x86.ml" 192 4967 5002
+type(
+  opnd
+)
+ident(
+  def src "x86.ml" 193 5006 5008 "x86.ml" 196 5173 5228
+)
+"x86.ml" 192 4967 4992 "x86.ml" 192 4967 5003
+type(
+  opnd * opnd
+)
+"x86.ml" 193 5006 5014 "x86.ml" 193 5006 5017
+type(
+  opnd
+)
+ident(
+  int_ref src "x86.ml" 192 4967 4999 "x86.ml" 192 4967 5002
+)
+"x86.ml" 194 5023 5033 "x86.ml" 194 5023 5034
+type(
+  int32
+)
+"x86.ml" 194 5023 5029 "x86.ml" 194 5023 5034
+type(
+  opnd
+)
+"x86.ml" 194 5023 5039 "x86.ml" 194 5023 5043
+type(
+  string
+)
+ident(
+  int_ref name "x86.ml" 192 4967 4987 "x86.ml" 192 4967 4991
+)
+"x86.ml" 194 5023 5044 "x86.ml" 194 5023 5045
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 194 5023 5046 "x86.ml" 194 5023 5050
+type(
+  string
+)
+"x86.ml" 194 5023 5051 "x86.ml" 194 5023 5052
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 194 5023 5054 "x86.ml" 194 5023 5068
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd "x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+)
+"x86.ml" 194 5023 5069 "x86.ml" 194 5023 5072
+type(
+  opnd
+)
+ident(
+  int_ref src "x86.ml" 192 4967 4999 "x86.ml" 192 4967 5002
+)
+"x86.ml" 194 5023 5053 "x86.ml" 194 5023 5073
+type(
+  string
+)
+"x86.ml" 194 5023 5074 "x86.ml" 194 5023 5075
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 194 5023 5076 "x86.ml" 194 5023 5080
+type(
+  string
+)
+"x86.ml" 194 5023 5081 "x86.ml" 194 5023 5082
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 194 5023 5084 "x86.ml" 194 5023 5098
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd "x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+)
+"x86.ml" 194 5023 5099 "x86.ml" 194 5023 5103
+type(
+  opnd
+)
+ident(
+  int_ref dest "x86.ml" 192 4967 4993 "x86.ml" 192 4967 4997
+)
+"x86.ml" 194 5023 5083 "x86.ml" 194 5023 5104
+type(
+  string
+)
+"x86.ml" 194 5023 5076 "x86.ml" 194 5023 5104
+type(
+  string
+)
+"x86.ml" 194 5023 5053 "x86.ml" 194 5023 5104
+type(
+  string
+)
+"x86.ml" 194 5023 5046 "x86.ml" 194 5023 5104
+type(
+  string
+)
+"x86.ml" 194 5023 5039 "x86.ml" 194 5023 5104
+type(
+  string
+)
+"x86.ml" 195 5105 5115 "x86.ml" 195 5105 5118
+type(
+  reg
+)
+"x86.ml" 195 5105 5111 "x86.ml" 195 5105 5118
+type(
+  opnd
+)
+"x86.ml" 195 5105 5122 "x86.ml" 195 5105 5126
+type(
+  string
+)
+ident(
+  int_ref name "x86.ml" 192 4967 4987 "x86.ml" 192 4967 4991
+)
+"x86.ml" 195 5105 5127 "x86.ml" 195 5105 5128
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 195 5105 5129 "x86.ml" 195 5105 5133
+type(
+  string
+)
+"x86.ml" 195 5105 5134 "x86.ml" 195 5105 5135
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 195 5105 5136 "x86.ml" 195 5105 5141
+type(
+  string
+)
+"x86.ml" 195 5105 5142 "x86.ml" 195 5105 5143
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 195 5105 5144 "x86.ml" 195 5105 5148
+type(
+  string
+)
+"x86.ml" 195 5105 5149 "x86.ml" 195 5105 5150
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 195 5105 5152 "x86.ml" 195 5105 5166
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd "x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+)
+"x86.ml" 195 5105 5167 "x86.ml" 195 5105 5171
+type(
+  opnd
+)
+ident(
+  int_ref dest "x86.ml" 192 4967 4993 "x86.ml" 192 4967 4997
+)
+"x86.ml" 195 5105 5151 "x86.ml" 195 5105 5172
+type(
+  string
+)
+"x86.ml" 195 5105 5144 "x86.ml" 195 5105 5172
+type(
+  string
+)
+"x86.ml" 195 5105 5136 "x86.ml" 195 5105 5172
+type(
+  string
+)
+"x86.ml" 195 5105 5129 "x86.ml" 195 5105 5172
+type(
+  string
+)
+"x86.ml" 195 5105 5122 "x86.ml" 195 5105 5172
+type(
+  string
+)
+"x86.ml" 196 5173 5179 "x86.ml" 196 5173 5180
+type(
+  opnd
+)
+"x86.ml" 196 5173 5184 "x86.ml" 196 5173 5192
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"x86.ml" 196 5173 5193 "x86.ml" 196 5173 5228
+type(
+  string
+)
+"x86.ml" 196 5173 5184 "x86.ml" 196 5173 5228
+type(
+  string
+)
+"x86.ml" 193 5006 5008 "x86.ml" 196 5173 5228
+type(
+  string
+)
+"x86.ml" 198 5236 5240 "x86.ml" 198 5236 5255
+type(
+  string -> opnd -> string
+)
+ident(
+  def oneop_to_string "x86.ml" 201 5307 5307 --
+)
+"x86.ml" 198 5236 5256 "x86.ml" 198 5236 5260
+type(
+  string
+)
+ident(
+  def name "x86.ml" 198 5236 5261 "x86.ml" 199 5266 5303
+)
+"x86.ml" 198 5236 5261 "x86.ml" 198 5236 5263
+type(
+  opnd
+)
+ident(
+  def op "x86.ml" 199 5266 5270 "x86.ml" 199 5266 5303
+)
+"x86.ml" 199 5266 5270 "x86.ml" 199 5266 5274
+type(
+  string
+)
+ident(
+  int_ref name "x86.ml" 198 5236 5256 "x86.ml" 198 5236 5260
+)
+"x86.ml" 199 5266 5275 "x86.ml" 199 5266 5276
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 199 5266 5277 "x86.ml" 199 5266 5281
+type(
+  string
+)
+"x86.ml" 199 5266 5282 "x86.ml" 199 5266 5283
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 199 5266 5285 "x86.ml" 199 5266 5299
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd "x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+)
+"x86.ml" 199 5266 5300 "x86.ml" 199 5266 5302
+type(
+  opnd
+)
+ident(
+  int_ref op "x86.ml" 198 5236 5261 "x86.ml" 198 5236 5263
+)
+"x86.ml" 199 5266 5284 "x86.ml" 199 5266 5303
+type(
+  string
+)
+"x86.ml" 199 5266 5277 "x86.ml" 199 5266 5303
+type(
+  string
+)
+"x86.ml" 199 5266 5270 "x86.ml" 199 5266 5303
+type(
+  string
+)
+"x86.ml" 201 5307 5311 "x86.ml" 201 5307 5324
+type(
+  reg * ind -> string
+)
+ident(
+  def lea_to_string "x86.ml" 205 5416 5416 --
+)
+"x86.ml" 201 5307 5326 "x86.ml" 201 5307 5330
+type(
+  reg
+)
+ident(
+  def dest "x86.ml" 202 5338 5342 "x86.ml" 203 5386 5414
+)
+"x86.ml" 201 5307 5331 "x86.ml" 201 5307 5334
+type(
+  ind
+)
+ident(
+  def src "x86.ml" 202 5338 5342 "x86.ml" 203 5386 5414
+)
+"x86.ml" 201 5307 5325 "x86.ml" 201 5307 5335
+type(
+  reg * ind
+)
+"x86.ml" 202 5338 5342 "x86.ml" 202 5338 5348
+type(
+  string
+)
+"x86.ml" 202 5338 5349 "x86.ml" 202 5338 5350
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 202 5338 5351 "x86.ml" 202 5338 5354
+type(
+  string
+)
+"x86.ml" 202 5338 5355 "x86.ml" 202 5338 5356
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 202 5338 5358 "x86.ml" 202 5338 5371
+type(
+  ind -> string
+)
+ident(
+  int_ref string_of_ind "x86.ml" 94 2501 2505 "x86.ml" 94 2501 2518
+)
+"x86.ml" 202 5338 5372 "x86.ml" 202 5338 5375
+type(
+  ind
+)
+ident(
+  int_ref src "x86.ml" 201 5307 5331 "x86.ml" 201 5307 5334
+)
+"x86.ml" 202 5338 5357 "x86.ml" 202 5338 5376
+type(
+  string
+)
+"x86.ml" 202 5338 5377 "x86.ml" 202 5338 5378
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 202 5338 5379 "x86.ml" 202 5338 5383
+type(
+  string
+)
+"x86.ml" 202 5338 5384 "x86.ml" 202 5338 5385
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 203 5386 5395 "x86.ml" 203 5386 5408
+type(
+  reg -> string
+)
+ident(
+  int_ref string_of_reg "x86.ml" 41 1063 1067 "x86.ml" 41 1063 1080
+)
+"x86.ml" 203 5386 5409 "x86.ml" 203 5386 5413
+type(
+  reg
+)
+ident(
+  int_ref dest "x86.ml" 201 5307 5326 "x86.ml" 201 5307 5330
+)
+"x86.ml" 203 5386 5394 "x86.ml" 203 5386 5414
+type(
+  string
+)
+"x86.ml" 202 5338 5379 "x86.ml" 203 5386 5414
+type(
+  string
+)
+"x86.ml" 202 5338 5357 "x86.ml" 203 5386 5414
+type(
+  string
+)
+"x86.ml" 202 5338 5351 "x86.ml" 203 5386 5414
+type(
+  string
+)
+"x86.ml" 202 5338 5342 "x86.ml" 203 5386 5414
+type(
+  string
+)
+"x86.ml" 205 5416 5420 "x86.ml" 205 5416 5434
+type(
+  string -> opnd -> string
+)
+ident(
+  def cfop_to_string "x86.ml" 208 5485 5485 --
+)
+"x86.ml" 205 5416 5435 "x86.ml" 205 5416 5439
+type(
+  string
+)
+ident(
+  def name "x86.ml" 205 5416 5440 "x86.ml" 206 5445 5483
+)
+"x86.ml" 205 5416 5440 "x86.ml" 205 5416 5442
+type(
+  opnd
+)
+ident(
+  def op "x86.ml" 206 5445 5449 "x86.ml" 206 5445 5483
+)
+"x86.ml" 206 5445 5449 "x86.ml" 206 5445 5453
+type(
+  string
+)
+ident(
+  int_ref name "x86.ml" 205 5416 5435 "x86.ml" 205 5416 5439
+)
+"x86.ml" 206 5445 5454 "x86.ml" 206 5445 5455
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 206 5445 5456 "x86.ml" 206 5445 5459
+type(
+  string
+)
+"x86.ml" 206 5445 5460 "x86.ml" 206 5445 5461
+type(
+  string -> lbl -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 206 5445 5463 "x86.ml" 206 5445 5479
+type(
+  opnd -> lbl
+)
+ident(
+  int_ref cfstring_of_opnd "x86.ml" 134 3568 3572 "x86.ml" 134 3568 3588
+)
+"x86.ml" 206 5445 5480 "x86.ml" 206 5445 5482
+type(
+  opnd
+)
+ident(
+  int_ref op "x86.ml" 205 5416 5440 "x86.ml" 205 5416 5442
+)
+"x86.ml" 206 5445 5462 "x86.ml" 206 5445 5483
+type(
+  lbl
+)
+"x86.ml" 206 5445 5456 "x86.ml" 206 5445 5483
+type(
+  string
+)
+"x86.ml" 206 5445 5449 "x86.ml" 206 5445 5483
+type(
+  string
+)
+"x86.ml" 208 5485 5489 "x86.ml" 208 5485 5500
+type(
+  cnd * lbl -> string
+)
+ident(
+  def j_to_string "x86.ml" 211 5570 5570 --
+)
+"x86.ml" 208 5485 5502 "x86.ml" 208 5485 5504
+type(
+  cnd
+)
+ident(
+  def cc "x86.ml" 209 5512 5516 "x86.ml" 209 5512 5568
+)
+"x86.ml" 208 5485 5505 "x86.ml" 208 5485 5508
+type(
+  lbl
+)
+ident(
+  def lbl "x86.ml" 209 5512 5516 "x86.ml" 209 5512 5568
+)
+"x86.ml" 208 5485 5501 "x86.ml" 208 5485 5509
+type(
+  cnd * lbl
+)
+"x86.ml" 209 5512 5516 "x86.ml" 209 5512 5519
+type(
+  string
+)
+"x86.ml" 209 5512 5520 "x86.ml" 209 5512 5521
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 209 5512 5523 "x86.ml" 209 5512 5536
+type(
+  cnd -> string
+)
+ident(
+  int_ref string_of_cnd "x86.ml" 153 3970 3974 "x86.ml" 153 3970 3987
+)
+"x86.ml" 209 5512 5537 "x86.ml" 209 5512 5539
+type(
+  cnd
+)
+ident(
+  int_ref cc "x86.ml" 208 5485 5502 "x86.ml" 208 5485 5504
+)
+"x86.ml" 209 5512 5522 "x86.ml" 209 5512 5540
+type(
+  string
+)
+"x86.ml" 209 5512 5541 "x86.ml" 209 5512 5542
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 209 5512 5543 "x86.ml" 209 5512 5546
+type(
+  string
+)
+"x86.ml" 209 5512 5547 "x86.ml" 209 5512 5548
+type(
+  string -> lbl -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 209 5512 5550 "x86.ml" 209 5512 5563
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 209 5512 5564 "x86.ml" 209 5512 5567
+type(
+  lbl
+)
+ident(
+  int_ref lbl "x86.ml" 208 5485 5505 "x86.ml" 208 5485 5508
+)
+"x86.ml" 209 5512 5549 "x86.ml" 209 5512 5568
+type(
+  lbl
+)
+"x86.ml" 209 5512 5543 "x86.ml" 209 5512 5568
+type(
+  string
+)
+"x86.ml" 209 5512 5522 "x86.ml" 209 5512 5568
+type(
+  string
+)
+"x86.ml" 209 5512 5516 "x86.ml" 209 5512 5568
+type(
+  string
+)
+"x86.ml" 211 5570 5574 "x86.ml" 211 5570 5588
+type(
+  opnd * cnd -> string
+)
+ident(
+  def setb_to_string "x86.ml" 214 5673 5673 --
+)
+"x86.ml" 211 5570 5590 "x86.ml" 211 5570 5594
+type(
+  opnd
+)
+ident(
+  def dest "x86.ml" 212 5602 5606 "x86.ml" 212 5602 5671
+)
+"x86.ml" 211 5570 5596 "x86.ml" 211 5570 5598
+type(
+  cnd
+)
+ident(
+  def cc "x86.ml" 212 5602 5606 "x86.ml" 212 5602 5671
+)
+"x86.ml" 211 5570 5589 "x86.ml" 211 5570 5599
+type(
+  opnd * cnd
+)
+"x86.ml" 212 5602 5606 "x86.ml" 212 5602 5611
+type(
+  string
+)
+"x86.ml" 212 5602 5612 "x86.ml" 212 5602 5613
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 212 5602 5615 "x86.ml" 212 5602 5628
+type(
+  cnd -> string
+)
+ident(
+  int_ref string_of_cnd "x86.ml" 153 3970 3974 "x86.ml" 153 3970 3987
+)
+"x86.ml" 212 5602 5629 "x86.ml" 212 5602 5631
+type(
+  cnd
+)
+ident(
+  int_ref cc "x86.ml" 211 5570 5596 "x86.ml" 211 5570 5598
+)
+"x86.ml" 212 5602 5614 "x86.ml" 212 5602 5632
+type(
+  string
+)
+"x86.ml" 212 5602 5633 "x86.ml" 212 5602 5634
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 212 5602 5635 "x86.ml" 212 5602 5638
+type(
+  string
+)
+"x86.ml" 212 5602 5639 "x86.ml" 212 5602 5640
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 212 5602 5642 "x86.ml" 212 5602 5665
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd_low_byte "x86.ml" 126 3310 3314 "x86.ml" 126 3310 3337
+)
+"x86.ml" 212 5602 5666 "x86.ml" 212 5602 5670
+type(
+  opnd
+)
+ident(
+  int_ref dest "x86.ml" 211 5570 5590 "x86.ml" 211 5570 5594
+)
+"x86.ml" 212 5602 5641 "x86.ml" 212 5602 5671
+type(
+  string
+)
+"x86.ml" 212 5602 5635 "x86.ml" 212 5602 5671
+type(
+  string
+)
+"x86.ml" 212 5602 5614 "x86.ml" 212 5602 5671
+type(
+  string
+)
+"x86.ml" 212 5602 5606 "x86.ml" 212 5602 5671
+type(
+  string
+)
+"x86.ml" 214 5673 5677 "x86.ml" 214 5673 5694
+type(
+  string -> reg * opnd -> string
+)
+ident(
+  def regdest_to_string "x86.ml" 217 5786 5786 --
+)
+"x86.ml" 214 5673 5695 "x86.ml" 214 5673 5699
+type(
+  string
+)
+ident(
+  def name "x86.ml" 214 5673 5700 "x86.ml" 215 5714 5782
+)
+"x86.ml" 214 5673 5701 "x86.ml" 214 5673 5705
+type(
+  reg
+)
+ident(
+  def dest "x86.ml" 215 5714 5718 "x86.ml" 215 5714 5782
+)
+"x86.ml" 214 5673 5707 "x86.ml" 214 5673 5710
+type(
+  opnd
+)
+ident(
+  def src "x86.ml" 215 5714 5718 "x86.ml" 215 5714 5782
+)
+"x86.ml" 214 5673 5700 "x86.ml" 214 5673 5711
+type(
+  reg * opnd
+)
+"x86.ml" 215 5714 5718 "x86.ml" 215 5714 5722
+type(
+  string
+)
+ident(
+  int_ref name "x86.ml" 214 5673 5695 "x86.ml" 214 5673 5699
+)
+"x86.ml" 215 5714 5723 "x86.ml" 215 5714 5724
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 215 5714 5725 "x86.ml" 215 5714 5729
+type(
+  string
+)
+"x86.ml" 215 5714 5730 "x86.ml" 215 5714 5731
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 215 5714 5733 "x86.ml" 215 5714 5747
+type(
+  opnd -> string
+)
+ident(
+  int_ref string_of_opnd "x86.ml" 119 3109 3113 "x86.ml" 119 3109 3127
+)
+"x86.ml" 215 5714 5748 "x86.ml" 215 5714 5751
+type(
+  opnd
+)
+ident(
+  int_ref src "x86.ml" 214 5673 5707 "x86.ml" 214 5673 5710
+)
+"x86.ml" 215 5714 5732 "x86.ml" 215 5714 5752
+type(
+  string
+)
+"x86.ml" 215 5714 5753 "x86.ml" 215 5714 5754
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 215 5714 5755 "x86.ml" 215 5714 5759
+type(
+  string
+)
+"x86.ml" 215 5714 5760 "x86.ml" 215 5714 5761
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 215 5714 5763 "x86.ml" 215 5714 5776
+type(
+  reg -> string
+)
+ident(
+  int_ref string_of_reg "x86.ml" 41 1063 1067 "x86.ml" 41 1063 1080
+)
+"x86.ml" 215 5714 5777 "x86.ml" 215 5714 5781
+type(
+  reg
+)
+ident(
+  int_ref dest "x86.ml" 214 5673 5701 "x86.ml" 214 5673 5705
+)
+"x86.ml" 215 5714 5762 "x86.ml" 215 5714 5782
+type(
+  string
+)
+"x86.ml" 215 5714 5755 "x86.ml" 215 5714 5782
+type(
+  string
+)
+"x86.ml" 215 5714 5732 "x86.ml" 215 5714 5782
+type(
+  string
+)
+"x86.ml" 215 5714 5725 "x86.ml" 215 5714 5782
+type(
+  string
+)
+"x86.ml" 215 5714 5718 "x86.ml" 215 5714 5782
+type(
+  string
+)
+"x86.ml" 217 5786 5794 "x86.ml" 217 5786 5808
+type(
+  insn -> string
+)
+ident(
+  def string_of_insn "x86.ml" 217 5786 5786 --
+)
+"x86.ml" 217 5786 5810 "x86.ml" 217 5786 5811
+type(
+  insn
+)
+ident(
+  def i "x86.ml" 217 5786 5818 "x86.ml" 240 6813 6818
+)
+"x86.ml" 218 5829 5843 "x86.ml" 218 5829 5844
+type(
+  insn
+)
+ident(
+  int_ref i "x86.ml" 217 5786 5810 "x86.ml" 217 5786 5811
+)
+"x86.ml" 219 5850 5861 "x86.ml" 219 5850 5862
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 219 5850 5869 "x86.ml" 219 5850 5898
+)
+"x86.ml" 219 5850 5863 "x86.ml" 219 5850 5864
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 219 5850 5869 "x86.ml" 219 5850 5898
+)
+"x86.ml" 219 5850 5856 "x86.ml" 219 5850 5865
+type(
+  insn
+)
+"x86.ml" 219 5850 5869 "x86.ml" 219 5850 5886
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref generic_to_string "x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+)
+"x86.ml" 219 5850 5887 "x86.ml" 219 5850 5892
+type(
+  string
+)
+"x86.ml" 219 5850 5894 "x86.ml" 219 5850 5895
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 219 5850 5861 "x86.ml" 219 5850 5862
+)
+"x86.ml" 219 5850 5896 "x86.ml" 219 5850 5897
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 219 5850 5863 "x86.ml" 219 5850 5864
+)
+"x86.ml" 219 5850 5893 "x86.ml" 219 5850 5898
+type(
+  opnd * opnd
+)
+"x86.ml" 219 5850 5869 "x86.ml" 219 5850 5898
+type(
+  string
+)
+"x86.ml" 220 5899 5909 "x86.ml" 220 5899 5910
+type(
+  opnd
+)
+ident(
+  def o "x86.ml" 220 5899 5918 "x86.ml" 220 5899 5941
+)
+"x86.ml" 220 5899 5905 "x86.ml" 220 5899 5910
+type(
+  insn
+)
+"x86.ml" 220 5899 5918 "x86.ml" 220 5899 5933
+type(
+  string -> opnd -> string
+)
+ident(
+  int_ref oneop_to_string "x86.ml" 198 5236 5240 "x86.ml" 198 5236 5255
+)
+"x86.ml" 220 5899 5934 "x86.ml" 220 5899 5939
+type(
+  string
+)
+"x86.ml" 220 5899 5940 "x86.ml" 220 5899 5941
+type(
+  opnd
+)
+ident(
+  int_ref o "x86.ml" 220 5899 5909 "x86.ml" 220 5899 5910
+)
+"x86.ml" 220 5899 5918 "x86.ml" 220 5899 5941
+type(
+  string
+)
+"x86.ml" 221 5943 5954 "x86.ml" 221 5943 5955
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 221 5943 5962 "x86.ml" 221 5943 5991
+)
+"x86.ml" 221 5943 5956 "x86.ml" 221 5943 5957
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 221 5943 5962 "x86.ml" 221 5943 5991
+)
+"x86.ml" 221 5943 5949 "x86.ml" 221 5943 5958
+type(
+  insn
+)
+"x86.ml" 221 5943 5962 "x86.ml" 221 5943 5979
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref generic_to_string "x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+)
+"x86.ml" 221 5943 5980 "x86.ml" 221 5943 5985
+type(
+  string
+)
+"x86.ml" 221 5943 5987 "x86.ml" 221 5943 5988
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 221 5943 5954 "x86.ml" 221 5943 5955
+)
+"x86.ml" 221 5943 5989 "x86.ml" 221 5943 5990
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 221 5943 5956 "x86.ml" 221 5943 5957
+)
+"x86.ml" 221 5943 5986 "x86.ml" 221 5943 5991
+type(
+  opnd * opnd
+)
+"x86.ml" 221 5943 5962 "x86.ml" 221 5943 5991
+type(
+  string
+)
+"x86.ml" 222 5992 6003 "x86.ml" 222 5992 6004
+type(
+  reg
+)
+ident(
+  def d "x86.ml" 222 5992 6011 "x86.ml" 222 5992 6030
+)
+"x86.ml" 222 5992 6005 "x86.ml" 222 5992 6006
+type(
+  ind
+)
+ident(
+  def s "x86.ml" 222 5992 6011 "x86.ml" 222 5992 6030
+)
+"x86.ml" 222 5992 5998 "x86.ml" 222 5992 6007
+type(
+  insn
+)
+"x86.ml" 222 5992 6011 "x86.ml" 222 5992 6024
+type(
+  reg * ind -> string
+)
+ident(
+  int_ref lea_to_string "x86.ml" 201 5307 5311 "x86.ml" 201 5307 5324
+)
+"x86.ml" 222 5992 6026 "x86.ml" 222 5992 6027
+type(
+  reg
+)
+ident(
+  int_ref d "x86.ml" 222 5992 6003 "x86.ml" 222 5992 6004
+)
+"x86.ml" 222 5992 6028 "x86.ml" 222 5992 6029
+type(
+  ind
+)
+ident(
+  int_ref s "x86.ml" 222 5992 6005 "x86.ml" 222 5992 6006
+)
+"x86.ml" 222 5992 6025 "x86.ml" 222 5992 6030
+type(
+  reg * ind
+)
+"x86.ml" 222 5992 6011 "x86.ml" 222 5992 6030
+type(
+  string
+)
+"x86.ml" 223 6031 6042 "x86.ml" 223 6031 6043
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 223 6031 6050 "x86.ml" 223 6031 6079
+)
+"x86.ml" 223 6031 6044 "x86.ml" 223 6031 6045
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 223 6031 6050 "x86.ml" 223 6031 6079
+)
+"x86.ml" 223 6031 6037 "x86.ml" 223 6031 6046
+type(
+  insn
+)
+"x86.ml" 223 6031 6050 "x86.ml" 223 6031 6067
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref generic_to_string "x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+)
+"x86.ml" 223 6031 6068 "x86.ml" 223 6031 6073
+type(
+  string
+)
+"x86.ml" 223 6031 6075 "x86.ml" 223 6031 6076
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 223 6031 6042 "x86.ml" 223 6031 6043
+)
+"x86.ml" 223 6031 6077 "x86.ml" 223 6031 6078
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 223 6031 6044 "x86.ml" 223 6031 6045
+)
+"x86.ml" 223 6031 6074 "x86.ml" 223 6031 6079
+type(
+  opnd * opnd
+)
+"x86.ml" 223 6031 6050 "x86.ml" 223 6031 6079
+type(
+  string
+)
+"x86.ml" 224 6080 6091 "x86.ml" 224 6080 6092
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 224 6080 6099 "x86.ml" 224 6080 6126
+)
+"x86.ml" 224 6080 6093 "x86.ml" 224 6080 6094
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 224 6080 6099 "x86.ml" 224 6080 6126
+)
+"x86.ml" 224 6080 6086 "x86.ml" 224 6080 6095
+type(
+  insn
+)
+"x86.ml" 224 6080 6099 "x86.ml" 224 6080 6114
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref shift_to_string "x86.ml" 192 4967 4971 "x86.ml" 192 4967 4986
+)
+"x86.ml" 224 6080 6115 "x86.ml" 224 6080 6120
+type(
+  string
+)
+"x86.ml" 224 6080 6122 "x86.ml" 224 6080 6123
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 224 6080 6091 "x86.ml" 224 6080 6092
+)
+"x86.ml" 224 6080 6124 "x86.ml" 224 6080 6125
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 224 6080 6093 "x86.ml" 224 6080 6094
+)
+"x86.ml" 224 6080 6121 "x86.ml" 224 6080 6126
+type(
+  opnd * opnd
+)
+"x86.ml" 224 6080 6099 "x86.ml" 224 6080 6126
+type(
+  string
+)
+"x86.ml" 225 6127 6138 "x86.ml" 225 6127 6139
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 225 6127 6146 "x86.ml" 225 6127 6173
+)
+"x86.ml" 225 6127 6140 "x86.ml" 225 6127 6141
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 225 6127 6146 "x86.ml" 225 6127 6173
+)
+"x86.ml" 225 6127 6133 "x86.ml" 225 6127 6142
+type(
+  insn
+)
+"x86.ml" 225 6127 6146 "x86.ml" 225 6127 6161
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref shift_to_string "x86.ml" 192 4967 4971 "x86.ml" 192 4967 4986
+)
+"x86.ml" 225 6127 6162 "x86.ml" 225 6127 6167
+type(
+  string
+)
+"x86.ml" 225 6127 6169 "x86.ml" 225 6127 6170
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 225 6127 6138 "x86.ml" 225 6127 6139
+)
+"x86.ml" 225 6127 6171 "x86.ml" 225 6127 6172
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 225 6127 6140 "x86.ml" 225 6127 6141
+)
+"x86.ml" 225 6127 6168 "x86.ml" 225 6127 6173
+type(
+  opnd * opnd
+)
+"x86.ml" 225 6127 6146 "x86.ml" 225 6127 6173
+type(
+  string
+)
+"x86.ml" 226 6174 6185 "x86.ml" 226 6174 6186
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 226 6174 6193 "x86.ml" 226 6174 6220
+)
+"x86.ml" 226 6174 6187 "x86.ml" 226 6174 6188
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 226 6174 6193 "x86.ml" 226 6174 6220
+)
+"x86.ml" 226 6174 6180 "x86.ml" 226 6174 6189
+type(
+  insn
+)
+"x86.ml" 226 6174 6193 "x86.ml" 226 6174 6208
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref shift_to_string "x86.ml" 192 4967 4971 "x86.ml" 192 4967 4986
+)
+"x86.ml" 226 6174 6209 "x86.ml" 226 6174 6214
+type(
+  string
+)
+"x86.ml" 226 6174 6216 "x86.ml" 226 6174 6217
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 226 6174 6185 "x86.ml" 226 6174 6186
+)
+"x86.ml" 226 6174 6218 "x86.ml" 226 6174 6219
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 226 6174 6187 "x86.ml" 226 6174 6188
+)
+"x86.ml" 226 6174 6215 "x86.ml" 226 6174 6220
+type(
+  opnd * opnd
+)
+"x86.ml" 226 6174 6193 "x86.ml" 226 6174 6220
+type(
+  string
+)
+"x86.ml" 227 6221 6231 "x86.ml" 227 6221 6232
+type(
+  opnd
+)
+ident(
+  def o "x86.ml" 227 6221 6240 "x86.ml" 227 6221 6263
+)
+"x86.ml" 227 6221 6227 "x86.ml" 227 6221 6232
+type(
+  insn
+)
+"x86.ml" 227 6221 6240 "x86.ml" 227 6221 6255
+type(
+  string -> opnd -> string
+)
+ident(
+  int_ref oneop_to_string "x86.ml" 198 5236 5240 "x86.ml" 198 5236 5255
+)
+"x86.ml" 227 6221 6256 "x86.ml" 227 6221 6261
+type(
+  string
+)
+"x86.ml" 227 6221 6262 "x86.ml" 227 6221 6263
+type(
+  opnd
+)
+ident(
+  int_ref o "x86.ml" 227 6221 6231 "x86.ml" 227 6221 6232
+)
+"x86.ml" 227 6221 6240 "x86.ml" 227 6221 6263
+type(
+  string
+)
+"x86.ml" 228 6265 6276 "x86.ml" 228 6265 6277
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 228 6265 6284 "x86.ml" 228 6265 6313
+)
+"x86.ml" 228 6265 6278 "x86.ml" 228 6265 6279
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 228 6265 6284 "x86.ml" 228 6265 6313
+)
+"x86.ml" 228 6265 6271 "x86.ml" 228 6265 6280
+type(
+  insn
+)
+"x86.ml" 228 6265 6284 "x86.ml" 228 6265 6301
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref generic_to_string "x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+)
+"x86.ml" 228 6265 6302 "x86.ml" 228 6265 6307
+type(
+  string
+)
+"x86.ml" 228 6265 6309 "x86.ml" 228 6265 6310
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 228 6265 6276 "x86.ml" 228 6265 6277
+)
+"x86.ml" 228 6265 6311 "x86.ml" 228 6265 6312
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 228 6265 6278 "x86.ml" 228 6265 6279
+)
+"x86.ml" 228 6265 6308 "x86.ml" 228 6265 6313
+type(
+  opnd * opnd
+)
+"x86.ml" 228 6265 6284 "x86.ml" 228 6265 6313
+type(
+  string
+)
+"x86.ml" 229 6314 6324 "x86.ml" 229 6314 6325
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 229 6314 6333 "x86.ml" 229 6314 6361
+)
+"x86.ml" 229 6314 6326 "x86.ml" 229 6314 6327
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 229 6314 6333 "x86.ml" 229 6314 6361
+)
+"x86.ml" 229 6314 6320 "x86.ml" 229 6314 6328
+type(
+  insn
+)
+"x86.ml" 229 6314 6333 "x86.ml" 229 6314 6350
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref generic_to_string "x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+)
+"x86.ml" 229 6314 6351 "x86.ml" 229 6314 6355
+type(
+  string
+)
+"x86.ml" 229 6314 6357 "x86.ml" 229 6314 6358
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 229 6314 6324 "x86.ml" 229 6314 6325
+)
+"x86.ml" 229 6314 6359 "x86.ml" 229 6314 6360
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 229 6314 6326 "x86.ml" 229 6314 6327
+)
+"x86.ml" 229 6314 6356 "x86.ml" 229 6314 6361
+type(
+  opnd * opnd
+)
+"x86.ml" 229 6314 6333 "x86.ml" 229 6314 6361
+type(
+  string
+)
+"x86.ml" 230 6362 6373 "x86.ml" 230 6362 6374
+type(
+  opnd
+)
+ident(
+  def d "x86.ml" 230 6362 6381 "x86.ml" 230 6362 6410
+)
+"x86.ml" 230 6362 6375 "x86.ml" 230 6362 6376
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 230 6362 6381 "x86.ml" 230 6362 6410
+)
+"x86.ml" 230 6362 6368 "x86.ml" 230 6362 6377
+type(
+  insn
+)
+"x86.ml" 230 6362 6381 "x86.ml" 230 6362 6398
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref generic_to_string "x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+)
+"x86.ml" 230 6362 6399 "x86.ml" 230 6362 6404
+type(
+  string
+)
+"x86.ml" 230 6362 6406 "x86.ml" 230 6362 6407
+type(
+  opnd
+)
+ident(
+  int_ref d "x86.ml" 230 6362 6373 "x86.ml" 230 6362 6374
+)
+"x86.ml" 230 6362 6408 "x86.ml" 230 6362 6409
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 230 6362 6375 "x86.ml" 230 6362 6376
+)
+"x86.ml" 230 6362 6405 "x86.ml" 230 6362 6410
+type(
+  opnd * opnd
+)
+"x86.ml" 230 6362 6381 "x86.ml" 230 6362 6410
+type(
+  string
+)
+"x86.ml" 231 6411 6422 "x86.ml" 231 6411 6423
+type(
+  opnd
+)
+ident(
+  def o "x86.ml" 231 6411 6430 "x86.ml" 231 6411 6454
+)
+"x86.ml" 231 6411 6417 "x86.ml" 231 6411 6423
+type(
+  insn
+)
+"x86.ml" 231 6411 6430 "x86.ml" 231 6411 6445
+type(
+  string -> opnd -> string
+)
+ident(
+  int_ref oneop_to_string "x86.ml" 198 5236 5240 "x86.ml" 198 5236 5255
+)
+"x86.ml" 231 6411 6446 "x86.ml" 231 6411 6452
+type(
+  string
+)
+"x86.ml" 231 6411 6453 "x86.ml" 231 6411 6454
+type(
+  opnd
+)
+ident(
+  int_ref o "x86.ml" 231 6411 6422 "x86.ml" 231 6411 6423
+)
+"x86.ml" 231 6411 6430 "x86.ml" 231 6411 6454
+type(
+  string
+)
+"x86.ml" 232 6456 6466 "x86.ml" 232 6456 6467
+type(
+  opnd
+)
+ident(
+  def o "x86.ml" 232 6456 6475 "x86.ml" 232 6456 6498
+)
+"x86.ml" 232 6456 6462 "x86.ml" 232 6456 6467
+type(
+  insn
+)
+"x86.ml" 232 6456 6475 "x86.ml" 232 6456 6490
+type(
+  string -> opnd -> string
+)
+ident(
+  int_ref oneop_to_string "x86.ml" 198 5236 5240 "x86.ml" 198 5236 5255
+)
+"x86.ml" 232 6456 6491 "x86.ml" 232 6456 6496
+type(
+  string
+)
+"x86.ml" 232 6456 6497 "x86.ml" 232 6456 6498
+type(
+  opnd
+)
+ident(
+  int_ref o "x86.ml" 232 6456 6466 "x86.ml" 232 6456 6467
+)
+"x86.ml" 232 6456 6475 "x86.ml" 232 6456 6498
+type(
+  string
+)
+"x86.ml" 233 6500 6511 "x86.ml" 233 6500 6513
+type(
+  opnd
+)
+ident(
+  def c1 "x86.ml" 233 6500 6524 "x86.ml" 233 6500 6555
+)
+"x86.ml" 233 6500 6514 "x86.ml" 233 6500 6516
+type(
+  opnd
+)
+ident(
+  def c2 "x86.ml" 233 6500 6524 "x86.ml" 233 6500 6555
+)
+"x86.ml" 233 6500 6506 "x86.ml" 233 6500 6517
+type(
+  insn
+)
+"x86.ml" 233 6500 6524 "x86.ml" 233 6500 6541
+type(
+  string -> opnd * opnd -> string
+)
+ident(
+  int_ref generic_to_string "x86.ml" 189 4855 4859 "x86.ml" 189 4855 4876
+)
+"x86.ml" 233 6500 6542 "x86.ml" 233 6500 6547
+type(
+  string
+)
+"x86.ml" 233 6500 6549 "x86.ml" 233 6500 6551
+type(
+  opnd
+)
+ident(
+  int_ref c1 "x86.ml" 233 6500 6511 "x86.ml" 233 6500 6513
+)
+"x86.ml" 233 6500 6552 "x86.ml" 233 6500 6554
+type(
+  opnd
+)
+ident(
+  int_ref c2 "x86.ml" 233 6500 6514 "x86.ml" 233 6500 6516
+)
+"x86.ml" 233 6500 6548 "x86.ml" 233 6500 6555
+type(
+  opnd * opnd
+)
+"x86.ml" 233 6500 6524 "x86.ml" 233 6500 6555
+type(
+  string
+)
+"x86.ml" 234 6556 6568 "x86.ml" 234 6556 6572
+type(
+  opnd
+)
+ident(
+  def dest "x86.ml" 234 6556 6580 "x86.ml" 234 6556 6604
+)
+"x86.ml" 234 6556 6573 "x86.ml" 234 6556 6575
+type(
+  cnd
+)
+ident(
+  def cc "x86.ml" 234 6556 6580 "x86.ml" 234 6556 6604
+)
+"x86.ml" 234 6556 6562 "x86.ml" 234 6556 6576
+type(
+  insn
+)
+"x86.ml" 234 6556 6580 "x86.ml" 234 6556 6594
+type(
+  opnd * cnd -> string
+)
+ident(
+  int_ref setb_to_string "x86.ml" 211 5570 5574 "x86.ml" 211 5570 5588
+)
+"x86.ml" 234 6556 6596 "x86.ml" 234 6556 6600
+type(
+  opnd
+)
+ident(
+  int_ref dest "x86.ml" 234 6556 6568 "x86.ml" 234 6556 6572
+)
+"x86.ml" 234 6556 6601 "x86.ml" 234 6556 6603
+type(
+  cnd
+)
+ident(
+  int_ref cc "x86.ml" 234 6556 6573 "x86.ml" 234 6556 6575
+)
+"x86.ml" 234 6556 6595 "x86.ml" 234 6556 6604
+type(
+  opnd * cnd
+)
+"x86.ml" 234 6556 6580 "x86.ml" 234 6556 6604
+type(
+  string
+)
+"x86.ml" 235 6605 6615 "x86.ml" 235 6605 6616
+type(
+  opnd
+)
+ident(
+  def o "x86.ml" 235 6605 6624 "x86.ml" 235 6605 6646
+)
+"x86.ml" 235 6605 6611 "x86.ml" 235 6605 6616
+type(
+  insn
+)
+"x86.ml" 235 6605 6624 "x86.ml" 235 6605 6638
+type(
+  string -> opnd -> string
+)
+ident(
+  int_ref cfop_to_string "x86.ml" 205 5416 5420 "x86.ml" 205 5416 5434
+)
+"x86.ml" 235 6605 6639 "x86.ml" 235 6605 6644
+type(
+  string
+)
+"x86.ml" 235 6605 6645 "x86.ml" 235 6605 6646
+type(
+  opnd
+)
+ident(
+  int_ref o "x86.ml" 235 6605 6615 "x86.ml" 235 6605 6616
+)
+"x86.ml" 235 6605 6624 "x86.ml" 235 6605 6646
+type(
+  string
+)
+"x86.ml" 236 6647 6658 "x86.ml" 236 6647 6659
+type(
+  opnd
+)
+ident(
+  def o "x86.ml" 236 6647 6666 "x86.ml" 236 6647 6689
+)
+"x86.ml" 236 6647 6653 "x86.ml" 236 6647 6659
+type(
+  insn
+)
+"x86.ml" 236 6647 6666 "x86.ml" 236 6647 6680
+type(
+  string -> opnd -> string
+)
+ident(
+  int_ref cfop_to_string "x86.ml" 205 5416 5420 "x86.ml" 205 5416 5434
+)
+"x86.ml" 236 6647 6681 "x86.ml" 236 6647 6687
+type(
+  string
+)
+"x86.ml" 236 6647 6688 "x86.ml" 236 6647 6689
+type(
+  opnd
+)
+ident(
+  int_ref o "x86.ml" 236 6647 6658 "x86.ml" 236 6647 6659
+)
+"x86.ml" 236 6647 6666 "x86.ml" 236 6647 6689
+type(
+  string
+)
+"x86.ml" 237 6690 6696 "x86.ml" 237 6690 6699
+type(
+  insn
+)
+"x86.ml" 237 6690 6709 "x86.ml" 237 6690 6714
+type(
+  string
+)
+"x86.ml" 238 6715 6724 "x86.ml" 238 6715 6728
+type(
+  cnd
+)
+ident(
+  def cond "x86.ml" 238 6715 6737 "x86.ml" 238 6715 6759
+)
+"x86.ml" 238 6715 6729 "x86.ml" 238 6715 6732
+type(
+  lbl
+)
+ident(
+  def lbl "x86.ml" 238 6715 6737 "x86.ml" 238 6715 6759
+)
+"x86.ml" 238 6715 6721 "x86.ml" 238 6715 6733
+type(
+  insn
+)
+"x86.ml" 238 6715 6737 "x86.ml" 238 6715 6748
+type(
+  cnd * lbl -> string
+)
+ident(
+  int_ref j_to_string "x86.ml" 208 5485 5489 "x86.ml" 208 5485 5500
+)
+"x86.ml" 238 6715 6750 "x86.ml" 238 6715 6754
+type(
+  cnd
+)
+ident(
+  int_ref cond "x86.ml" 238 6715 6724 "x86.ml" 238 6715 6728
+)
+"x86.ml" 238 6715 6755 "x86.ml" 238 6715 6758
+type(
+  lbl
+)
+ident(
+  int_ref lbl "x86.ml" 238 6715 6729 "x86.ml" 238 6715 6732
+)
+"x86.ml" 238 6715 6749 "x86.ml" 238 6715 6759
+type(
+  cnd * lbl
+)
+"x86.ml" 238 6715 6737 "x86.ml" 238 6715 6759
+type(
+  string
+)
+"x86.ml" 239 6760 6772 "x86.ml" 239 6760 6773
+type(
+  reg
+)
+ident(
+  def d "x86.ml" 239 6760 6782 "x86.ml" 239 6760 6812
+)
+"x86.ml" 239 6760 6774 "x86.ml" 239 6760 6775
+type(
+  opnd
+)
+ident(
+  def s "x86.ml" 239 6760 6782 "x86.ml" 239 6760 6812
+)
+"x86.ml" 239 6760 6766 "x86.ml" 239 6760 6776
+type(
+  insn
+)
+"x86.ml" 239 6760 6782 "x86.ml" 239 6760 6799
+type(
+  string -> reg * opnd -> string
+)
+ident(
+  int_ref regdest_to_string "x86.ml" 214 5673 5677 "x86.ml" 214 5673 5694
+)
+"x86.ml" 239 6760 6800 "x86.ml" 239 6760 6806
+type(
+  string
+)
+"x86.ml" 239 6760 6808 "x86.ml" 239 6760 6809
+type(
+  reg
+)
+ident(
+  int_ref d "x86.ml" 239 6760 6772 "x86.ml" 239 6760 6773
+)
+"x86.ml" 239 6760 6810 "x86.ml" 239 6760 6811
+type(
+  opnd
+)
+ident(
+  int_ref s "x86.ml" 239 6760 6774 "x86.ml" 239 6760 6775
+)
+"x86.ml" 239 6760 6807 "x86.ml" 239 6760 6812
+type(
+  reg * opnd
+)
+"x86.ml" 239 6760 6782 "x86.ml" 239 6760 6812
+type(
+  string
+)
+"x86.ml" 218 5829 5831 "x86.ml" 240 6813 6818
+type(
+  string
+)
+type(
+  string
+)
+"x86.ml" 251 7020 7024 "x86.ml" 251 7020 7037
+type(
+  lbl -> insn list -> insn_block
+)
+ident(
+  def mk_insn_block "x86.ml" 257 7208 7208 --
+)
+"x86.ml" 251 7020 7039 "x86.ml" 251 7020 7040
+type(
+  lbl
+)
+ident(
+  def l "x86.ml" 251 7020 7046 "x86.ml" 254 7109 7127
+)
+"x86.ml" 251 7020 7047 "x86.ml" 251 7020 7051
+type(
+  insn list
+)
+ident(
+  def body "x86.ml" 251 7020 7063 "x86.ml" 254 7109 7127
+)
+"x86.ml" 252 7078 7089 "x86.ml" 252 7078 7090
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 251 7020 7039 "x86.ml" 251 7020 7040
+)
+"x86.ml" 253 7092 7103 "x86.ml" 253 7092 7107
+type(
+  insn list
+)
+ident(
+  int_ref body "x86.ml" 251 7020 7047 "x86.ml" 251 7020 7051
+)
+"x86.ml" 254 7109 7121 "x86.ml" 254 7109 7126
+type(
+  bool
+)
+"x86.ml" 252 7078 7080 "x86.ml" 254 7109 7127
+type(
+  insn_block
+)
+type(
+  insn_block
+)
+"x86.ml" 257 7208 7212 "x86.ml" 257 7208 7226
+type(
+  insn list -> lbl * insn_block
+)
+ident(
+  def mk_ainsn_block "x86.ml" 262 7375 7375 --
+)
+"x86.ml" 257 7208 7228 "x86.ml" 257 7208 7232
+type(
+  insn list
+)
+ident(
+  def body "x86.ml" 257 7208 7244 "x86.ml" 259 7290 7319
+)
+"x86.ml" 258 7267 7273 "x86.ml" 258 7267 7274
+type(
+  lbl
+)
+"x86.ml" 258 7267 7277 "x86.ml" 258 7267 7283
+type(
+  unit -> lbl
+)
+ident(
+  int_ref mk_lbl "x86.ml" 13 189 193 "x86.ml" 13 189 199
+)
+"x86.ml" 258 7267 7284 "x86.ml" 258 7267 7286
+type(
+  unit
+)
+"x86.ml" 258 7267 7277 "x86.ml" 258 7267 7286
+type(
+  lbl
+)
+"x86.ml" 259 7290 7295 "x86.ml" 259 7290 7296
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 258 7267 7273 "x86.ml" 258 7267 7274
+)
+"x86.ml" 259 7290 7298 "x86.ml" 259 7290 7311
+type(
+  lbl -> insn list -> insn_block
+)
+ident(
+  int_ref mk_insn_block "x86.ml" 251 7020 7024 "x86.ml" 251 7020 7037
+)
+"x86.ml" 259 7290 7312 "x86.ml" 259 7290 7313
+type(
+  lbl
+)
+ident(
+  int_ref l "x86.ml" 258 7267 7273 "x86.ml" 258 7267 7274
+)
+"x86.ml" 259 7290 7314 "x86.ml" 259 7290 7318
+type(
+  insn list
+)
+ident(
+  int_ref body "x86.ml" 257 7208 7228 "x86.ml" 257 7208 7232
+)
+"x86.ml" 259 7290 7298 "x86.ml" 259 7290 7318
+type(
+  insn_block
+)
+"x86.ml" 259 7290 7294 "x86.ml" 259 7290 7319
+type(
+  lbl * insn_block
+)
+"x86.ml" 258 7267 7269 "x86.ml" 259 7290 7319
+type(
+  lbl * insn_block
+)
+type(
+  lbl * insn_block
+)
+"x86.ml" 262 7375 7379 "x86.ml" 262 7375 7387
+type(
+  lbl -> insn list -> insn_block
+)
+ident(
+  def mk_block "x86.ml" 266 7523 7523 --
+)
+"x86.ml" 262 7375 7389 "x86.ml" 262 7375 7390
+type(
+  lbl
+)
+ident(
+  def s "x86.ml" 262 7375 7399 "x86.ml" 263 7419 7457
+)
+"x86.ml" 262 7375 7400 "x86.ml" 262 7375 7405
+type(
+  insn list
+)
+ident(
+  def insns "x86.ml" 263 7419 7421 "x86.ml" 263 7419 7457
+)
+"x86.ml" 263 7419 7421 "x86.ml" 263 7419 7434
+type(
+  lbl -> insn list -> insn_block
+)
+ident(
+  int_ref mk_insn_block "x86.ml" 251 7020 7024 "x86.ml" 251 7020 7037
+)
+"x86.ml" 263 7419 7436 "x86.ml" 263 7419 7448
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref mk_lbl_named "x86.ml" 26 569 573 "x86.ml" 26 569 585
+)
+"x86.ml" 263 7419 7449 "x86.ml" 263 7419 7450
+type(
+  lbl
+)
+ident(
+  int_ref s "x86.ml" 262 7375 7389 "x86.ml" 262 7375 7390
+)
+"x86.ml" 263 7419 7435 "x86.ml" 263 7419 7451
+type(
+  lbl
+)
+"x86.ml" 263 7419 7452 "x86.ml" 263 7419 7457
+type(
+  insn list
+)
+ident(
+  int_ref insns "x86.ml" 262 7375 7400 "x86.ml" 262 7375 7405
+)
+"x86.ml" 263 7419 7421 "x86.ml" 263 7419 7457
+type(
+  insn_block
+)
+"x86.ml" 266 7523 7527 "x86.ml" 266 7523 7547
+type(
+  insn_block -> (string -> unit) -> unit
+)
+ident(
+  def serialize_insn_block "x86.ml" 274 7862 7862 --
+)
+"x86.ml" 266 7523 7549 "x86.ml" 266 7523 7552
+type(
+  insn_block
+)
+ident(
+  def blk "x86.ml" 266 7523 7567 "x86.ml" 272 7844 7857
+)
+"x86.ml" 266 7523 7568 "x86.ml" 266 7523 7573
+type(
+  string -> unit
+)
+ident(
+  def pfunc "x86.ml" 266 7523 7592 "x86.ml" 272 7844 7857
+)
+"x86.ml" 267 7601 7606 "x86.ml" 267 7601 7609
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 266 7523 7549 "x86.ml" 266 7523 7552
+)
+"x86.ml" 267 7601 7606 "x86.ml" 267 7601 7616
+type(
+  bool
+)
+"x86.ml" 268 7624 7628 "x86.ml" 268 7624 7633
+type(
+  string -> unit
+)
+ident(
+  int_ref pfunc "x86.ml" 266 7523 7568 "x86.ml" 266 7523 7573
+)
+"x86.ml" 268 7624 7635 "x86.ml" 268 7624 7649
+type(
+  (lbl -> string, unit, string) format -> lbl -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"x86.ml" 268 7624 7650 "x86.ml" 268 7624 7663
+type(
+  (lbl -> string, unit, string) format
+)
+"x86.ml" 268 7624 7665 "x86.ml" 268 7624 7678
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 268 7624 7679 "x86.ml" 268 7624 7682
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 266 7523 7549 "x86.ml" 266 7523 7552
+)
+"x86.ml" 268 7624 7679 "x86.ml" 268 7624 7688
+type(
+  lbl
+)
+"x86.ml" 268 7624 7664 "x86.ml" 268 7624 7689
+type(
+  lbl
+)
+"x86.ml" 268 7624 7634 "x86.ml" 268 7624 7690
+type(
+  string
+)
+"x86.ml" 267 7601 7622 "x86.ml" 269 7691 7694
+type(
+  unit
+)
+"x86.ml" 269 7691 7700 "x86.ml" 269 7691 7702
+type(
+  unit
+)
+"x86.ml" 267 7601 7603 "x86.ml" 269 7691 7702
+type(
+  unit
+)
+"x86.ml" 270 7704 7706 "x86.ml" 270 7704 7711
+type(
+  string -> unit
+)
+ident(
+  int_ref pfunc "x86.ml" 266 7523 7568 "x86.ml" 266 7523 7573
+)
+"x86.ml" 270 7704 7713 "x86.ml" 270 7704 7727
+type(
+  (lbl -> string, unit, string) format -> lbl -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"x86.ml" 270 7704 7728 "x86.ml" 270 7704 7735
+type(
+  (lbl -> string, unit, string) format
+)
+"x86.ml" 270 7704 7737 "x86.ml" 270 7704 7750
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 270 7704 7751 "x86.ml" 270 7704 7754
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 266 7523 7549 "x86.ml" 266 7523 7552
+)
+"x86.ml" 270 7704 7751 "x86.ml" 270 7704 7760
+type(
+  lbl
+)
+"x86.ml" 270 7704 7736 "x86.ml" 270 7704 7761
+type(
+  lbl
+)
+"x86.ml" 270 7704 7712 "x86.ml" 270 7704 7762
+type(
+  string
+)
+"x86.ml" 270 7704 7706 "x86.ml" 270 7704 7762
+type(
+  unit
+)
+"x86.ml" 271 7764 7766 "x86.ml" 271 7764 7775
+type(
+  (insn -> unit) -> insn list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"x86.ml" 271 7764 7781 "x86.ml" 271 7764 7785
+type(
+  insn
+)
+ident(
+  def insn "x86.ml" 271 7764 7789 "x86.ml" 271 7764 7842
+)
+"x86.ml" 271 7764 7789 "x86.ml" 271 7764 7794
+type(
+  string -> unit
+)
+ident(
+  int_ref pfunc "x86.ml" 266 7523 7568 "x86.ml" 266 7523 7573
+)
+"x86.ml" 271 7764 7796 "x86.ml" 271 7764 7810
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"x86.ml" 271 7764 7811 "x86.ml" 271 7764 7819
+type(
+  (string -> string, unit, string) format
+)
+"x86.ml" 271 7764 7821 "x86.ml" 271 7764 7835
+type(
+  insn -> string
+)
+ident(
+  int_ref string_of_insn "x86.ml" 217 5786 5794 "x86.ml" 217 5786 5808
+)
+"x86.ml" 271 7764 7836 "x86.ml" 271 7764 7840
+type(
+  insn
+)
+ident(
+  int_ref insn "x86.ml" 271 7764 7781 "x86.ml" 271 7764 7785
+)
+"x86.ml" 271 7764 7820 "x86.ml" 271 7764 7841
+type(
+  string
+)
+"x86.ml" 271 7764 7795 "x86.ml" 271 7764 7842
+type(
+  string
+)
+"x86.ml" 271 7764 7789 "x86.ml" 271 7764 7842
+type(
+  unit
+)
+"x86.ml" 271 7764 7776 "x86.ml" 271 7764 7843
+type(
+  insn -> unit
+)
+"x86.ml" 272 7844 7848 "x86.ml" 272 7844 7851
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 266 7523 7549 "x86.ml" 266 7523 7552
+)
+"x86.ml" 272 7844 7848 "x86.ml" 272 7844 7857
+type(
+  insn list
+)
+"x86.ml" 271 7764 7766 "x86.ml" 272 7844 7857
+type(
+  unit
+)
+"x86.ml" 270 7704 7706 "x86.ml" 272 7844 7857
+type(
+  unit
+)
+"x86.ml" 267 7601 7603 "x86.ml" 272 7844 7857
+type(
+  unit
+)
+type(
+  unit
+)
+"x86.ml" 274 7862 7866 "x86.ml" 274 7862 7886
+type(
+  insn_block -> string
+)
+ident(
+  def string_of_insn_block "x86.ml" 279 8119 8132 --
+)
+"x86.ml" 274 7862 7888 "x86.ml" 274 7862 7891
+type(
+  insn_block
+)
+ident(
+  def blk "x86.ml" 274 7862 7904 "x86.ml" 279 8119 8132
+)
+"x86.ml" 275 7915 7917 "x86.ml" 275 7915 7931
+type(
+  (string -> insn -> string) -> string -> insn list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"x86.ml" 275 7915 7937 "x86.ml" 275 7915 7938
+type(
+  string
+)
+ident(
+  def x "x86.ml" 275 7915 7939 "x86.ml" 275 7915 7966
+)
+"x86.ml" 275 7915 7939 "x86.ml" 275 7915 7940
+type(
+  insn
+)
+ident(
+  def i "x86.ml" 275 7915 7944 "x86.ml" 275 7915 7966
+)
+"x86.ml" 275 7915 7944 "x86.ml" 275 7915 7945
+type(
+  string
+)
+ident(
+  int_ref x "x86.ml" 275 7915 7937 "x86.ml" 275 7915 7938
+)
+"x86.ml" 275 7915 7946 "x86.ml" 275 7915 7947
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"x86.ml" 275 7915 7949 "x86.ml" 275 7915 7963
+type(
+  insn -> string
+)
+ident(
+  int_ref string_of_insn "x86.ml" 217 5786 5794 "x86.ml" 217 5786 5808
+)
+"x86.ml" 275 7915 7964 "x86.ml" 275 7915 7965
+type(
+  insn
+)
+ident(
+  int_ref i "x86.ml" 275 7915 7939 "x86.ml" 275 7915 7940
+)
+"x86.ml" 275 7915 7948 "x86.ml" 275 7915 7966
+type(
+  string
+)
+"x86.ml" 275 7915 7944 "x86.ml" 275 7915 7966
+type(
+  string
+)
+"x86.ml" 275 7915 7932 "x86.ml" 275 7915 7967
+type(
+  string -> insn -> string
+)
+"x86.ml" 276 7969 7977 "x86.ml" 276 7969 7980
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 274 7862 7888 "x86.ml" 274 7862 7891
+)
+"x86.ml" 276 7969 7977 "x86.ml" 276 7969 7987
+type(
+  bool
+)
+"x86.ml" 277 7989 8000 "x86.ml" 277 7989 8014
+type(
+  (lbl -> string, unit, string) format -> lbl -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"x86.ml" 277 7989 8015 "x86.ml" 277 7989 8029
+type(
+  (lbl -> string, unit, string) format
+)
+"x86.ml" 277 7989 8031 "x86.ml" 277 7989 8044
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 277 7989 8045 "x86.ml" 277 7989 8048
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 274 7862 7888 "x86.ml" 274 7862 7891
+)
+"x86.ml" 277 7989 8045 "x86.ml" 277 7989 8054
+type(
+  lbl
+)
+"x86.ml" 277 7989 8030 "x86.ml" 277 7989 8055
+type(
+  lbl
+)
+"x86.ml" 277 7989 7999 "x86.ml" 277 7989 8056
+type(
+  string
+)
+"x86.ml" 278 8057 8068 "x86.ml" 278 8057 8082
+type(
+  (lbl -> string, unit, string) format -> lbl -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"x86.ml" 278 8057 8083 "x86.ml" 278 8057 8089
+type(
+  (lbl -> string, unit, string) format
+)
+"x86.ml" 278 8057 8091 "x86.ml" 278 8057 8104
+type(
+  lbl -> lbl
+)
+ident(
+  int_ref string_of_lbl "x86.ml" 29 609 613 "x86.ml" 29 609 626
+)
+"x86.ml" 278 8057 8105 "x86.ml" 278 8057 8108
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 274 7862 7888 "x86.ml" 274 7862 7891
+)
+"x86.ml" 278 8057 8105 "x86.ml" 278 8057 8114
+type(
+  lbl
+)
+"x86.ml" 278 8057 8090 "x86.ml" 278 8057 8115
+type(
+  lbl
+)
+"x86.ml" 278 8057 8067 "x86.ml" 278 8057 8116
+type(
+  string
+)
+"x86.ml" 276 7969 7973 "x86.ml" 278 8057 8117
+type(
+  string
+)
+"x86.ml" 279 8119 8123 "x86.ml" 279 8119 8126
+type(
+  insn_block
+)
+ident(
+  int_ref blk "x86.ml" 274 7862 7888 "x86.ml" 274 7862 7891
+)
+"x86.ml" 279 8119 8123 "x86.ml" 279 8119 8132
+type(
+  insn list
+)
+"x86.ml" 275 7915 7917 "x86.ml" 279 8119 8132
+type(
+  string
+)
+type(
+  string
+)

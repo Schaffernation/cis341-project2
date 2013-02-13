@@ -1,0 +1,3648 @@
+"platform.ml" 12 430 434 "platform.ml" 12 430 436
+type(
+  string
+)
+ident(
+  def os "platform.ml" 13 493 493 --
+)
+"platform.ml" 12 430 439 "platform.ml" 12 430 450
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"platform.ml" 13 493 497 "platform.ml" 13 493 509
+type(
+  string ref
+)
+ident(
+  def runtime_path "platform.ml" 14 529 529 --
+)
+"platform.ml" 13 493 512 "platform.ml" 13 493 515
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 13 493 516 "platform.ml" 13 493 527
+type(
+  string
+)
+"platform.ml" 13 493 512 "platform.ml" 13 493 527
+type(
+  string ref
+)
+"platform.ml" 14 529 533 "platform.ml" 14 529 537
+type(
+  string list ref
+)
+ident(
+  def libs "platform.ml" 15 548 548 --
+)
+"platform.ml" 14 529 540 "platform.ml" 14 529 543
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 14 529 544 "platform.ml" 14 529 546
+type(
+  string list
+)
+"platform.ml" 14 529 540 "platform.ml" 14 529 546
+type(
+  string list ref
+)
+"platform.ml" 15 548 552 "platform.ml" 15 548 561
+type(
+  string list ref
+)
+ident(
+  def lib_paths "platform.ml" 16 571 571 --
+)
+"platform.ml" 15 548 564 "platform.ml" 15 548 567
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 15 548 568 "platform.ml" 15 548 570
+type(
+  string list
+)
+"platform.ml" 15 548 564 "platform.ml" 15 548 570
+type(
+  string list ref
+)
+"platform.ml" 16 571 575 "platform.ml" 16 571 591
+type(
+  string list ref
+)
+ident(
+  def lib_search_paths "platform.ml" 17 601 601 --
+)
+"platform.ml" 16 571 594 "platform.ml" 16 571 597
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 16 571 598 "platform.ml" 16 571 600
+type(
+  string list
+)
+"platform.ml" 16 571 594 "platform.ml" 16 571 600
+type(
+  string list ref
+)
+"platform.ml" 17 601 605 "platform.ml" 17 601 618
+type(
+  string list ref
+)
+ident(
+  def include_paths "platform.ml" 18 628 628 --
+)
+"platform.ml" 17 601 621 "platform.ml" 17 601 624
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 17 601 625 "platform.ml" 17 601 627
+type(
+  string list
+)
+"platform.ml" 17 601 621 "platform.ml" 17 601 627
+type(
+  string list ref
+)
+"platform.ml" 18 628 632 "platform.ml" 18 628 640
+type(
+  string ref
+)
+ident(
+  def obj_path "platform.ml" 19 693 693 --
+)
+"platform.ml" 18 628 643 "platform.ml" 18 628 646
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 18 628 651 "platform.ml" 18 628 653
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 18 628 654 "platform.ml" 18 628 655
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 18 628 656 "platform.ml" 18 628 662
+type(
+  string
+)
+"platform.ml" 18 628 651 "platform.ml" 18 628 662
+type(
+  bool
+)
+"platform.ml" 18 628 668 "platform.ml" 18 628 676
+type(
+  string
+)
+"platform.ml" 18 628 682 "platform.ml" 18 628 691
+type(
+  string
+)
+"platform.ml" 18 628 647 "platform.ml" 18 628 692
+type(
+  string
+)
+"platform.ml" 18 628 643 "platform.ml" 18 628 692
+type(
+  string ref
+)
+"platform.ml" 19 693 697 "platform.ml" 19 693 705
+type(
+  string ref
+)
+ident(
+  def bin_path "platform.ml" 20 758 758 --
+)
+"platform.ml" 19 693 708 "platform.ml" 19 693 711
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 19 693 716 "platform.ml" 19 693 718
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 19 693 719 "platform.ml" 19 693 720
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 19 693 721 "platform.ml" 19 693 727
+type(
+  string
+)
+"platform.ml" 19 693 716 "platform.ml" 19 693 727
+type(
+  bool
+)
+"platform.ml" 19 693 733 "platform.ml" 19 693 741
+type(
+  string
+)
+"platform.ml" 19 693 747 "platform.ml" 19 693 756
+type(
+  string
+)
+"platform.ml" 19 693 712 "platform.ml" 19 693 757
+type(
+  string
+)
+"platform.ml" 19 693 708 "platform.ml" 19 693 757
+type(
+  string ref
+)
+"platform.ml" 20 758 762 "platform.ml" 20 758 777
+type(
+  string ref
+)
+ident(
+  def executable_name "platform.ml" 21 827 827 --
+)
+"platform.ml" 20 758 780 "platform.ml" 20 758 783
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 20 758 788 "platform.ml" 20 758 790
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 20 758 791 "platform.ml" 20 758 792
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 20 758 793 "platform.ml" 20 758 799
+type(
+  string
+)
+"platform.ml" 20 758 788 "platform.ml" 20 758 799
+type(
+  bool
+)
+"platform.ml" 20 758 805 "platform.ml" 20 758 812
+type(
+  string
+)
+"platform.ml" 20 758 818 "platform.ml" 20 758 825
+type(
+  string
+)
+"platform.ml" 20 758 784 "platform.ml" 20 758 826
+type(
+  string
+)
+"platform.ml" 20 758 780 "platform.ml" 20 758 826
+type(
+  string ref
+)
+"platform.ml" 21 827 831 "platform.ml" 21 827 845
+type(
+  string
+)
+ident(
+  def executable_exn "platform.ml" 22 884 884 --
+)
+"platform.ml" 21 827 851 "platform.ml" 21 827 853
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 21 827 854 "platform.ml" 21 827 855
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 21 827 856 "platform.ml" 21 827 862
+type(
+  string
+)
+"platform.ml" 21 827 851 "platform.ml" 21 827 862
+type(
+  bool
+)
+"platform.ml" 21 827 868 "platform.ml" 21 827 870
+type(
+  string
+)
+"platform.ml" 21 827 876 "platform.ml" 21 827 882
+type(
+  string
+)
+"platform.ml" 21 827 848 "platform.ml" 21 827 882
+type(
+  string
+)
+"platform.ml" 22 884 888 "platform.ml" 22 884 896
+type(
+  string
+)
+ident(
+  def path_sep "platform.ml" 23 935 935 --
+)
+"platform.ml" 22 884 903 "platform.ml" 22 884 905
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 22 884 906 "platform.ml" 22 884 907
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 22 884 908 "platform.ml" 22 884 914
+type(
+  string
+)
+"platform.ml" 22 884 902 "platform.ml" 22 884 915
+type(
+  bool
+)
+"platform.ml" 22 884 921 "platform.ml" 22 884 924
+type(
+  string
+)
+"platform.ml" 22 884 930 "platform.ml" 22 884 934
+type(
+  string
+)
+"platform.ml" 22 884 899 "platform.ml" 22 884 934
+type(
+  string
+)
+"platform.ml" 23 935 939 "platform.ml" 23 935 959
+type(
+  unit -> string
+)
+ident(
+  def full_executable_name "platform.ml" 24 1005 1005 --
+)
+"platform.ml" 23 935 960 "platform.ml" 23 935 962
+type(
+  unit
+)
+"platform.ml" 23 935 965 "platform.ml" 23 935 966
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 23 935 966 "platform.ml" 23 935 974
+type(
+  string ref
+)
+ident(
+  int_ref bin_path "platform.ml" 19 693 697 "platform.ml" 19 693 705
+)
+"platform.ml" 23 935 965 "platform.ml" 23 935 974
+type(
+  string
+)
+"platform.ml" 23 935 975 "platform.ml" 23 935 976
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 23 935 977 "platform.ml" 23 935 985
+type(
+  string
+)
+ident(
+  int_ref path_sep "platform.ml" 22 884 888 "platform.ml" 22 884 896
+)
+"platform.ml" 23 935 986 "platform.ml" 23 935 987
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 23 935 988 "platform.ml" 23 935 989
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 23 935 989 "platform.ml" 23 935 1004
+type(
+  string ref
+)
+ident(
+  int_ref executable_name "platform.ml" 20 758 762 "platform.ml" 20 758 777
+)
+"platform.ml" 23 935 988 "platform.ml" 23 935 1004
+type(
+  string
+)
+"platform.ml" 23 935 977 "platform.ml" 23 935 1004
+type(
+  string
+)
+"platform.ml" 23 935 965 "platform.ml" 23 935 1004
+type(
+  string
+)
+"platform.ml" 24 1005 1009 "platform.ml" 24 1005 1014
+type(
+  bool ref
+)
+ident(
+  def linux "platform.ml" 26 1028 1028 --
+)
+"platform.ml" 24 1005 1017 "platform.ml" 24 1005 1020
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 24 1005 1021 "platform.ml" 24 1005 1026
+type(
+  bool
+)
+"platform.ml" 24 1005 1017 "platform.ml" 24 1005 1026
+type(
+  bool ref
+)
+"platform.ml" 26 1028 1032 "platform.ml" 26 1028 1038
+type(
+  string
+)
+ident(
+  def as_cmd "platform.ml" 27 1108 1108 --
+)
+"platform.ml" 26 1028 1044 "platform.ml" 26 1028 1046
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 26 1028 1047 "platform.ml" 26 1028 1048
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 26 1028 1049 "platform.ml" 26 1028 1055
+type(
+  string
+)
+"platform.ml" 26 1028 1044 "platform.ml" 26 1028 1055
+type(
+  bool
+)
+"platform.ml" 26 1028 1061 "platform.ml" 26 1028 1093
+type(
+  string
+)
+"platform.ml" 26 1028 1099 "platform.ml" 26 1028 1107
+type(
+  string
+)
+"platform.ml" 26 1028 1041 "platform.ml" 26 1028 1107
+type(
+  string
+)
+"platform.ml" 27 1108 1112 "platform.ml" 27 1108 1120
+type(
+  string
+)
+ident(
+  def link_cmd "platform.ml" 29 1198 1198 --
+)
+"platform.ml" 27 1108 1126 "platform.ml" 27 1108 1128
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 27 1108 1129 "platform.ml" 27 1108 1130
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 27 1108 1131 "platform.ml" 27 1108 1137
+type(
+  string
+)
+"platform.ml" 27 1108 1126 "platform.ml" 27 1108 1137
+type(
+  bool
+)
+"platform.ml" 27 1108 1143 "platform.ml" 27 1108 1172
+type(
+  string
+)
+"platform.ml" 28 1179 1181 "platform.ml" 28 1179 1197
+type(
+  string
+)
+"platform.ml" 27 1108 1123 "platform.ml" 28 1179 1197
+type(
+  string
+)
+"platform.ml" 29 1198 1202 "platform.ml" 29 1198 1213
+type(
+  string
+)
+ident(
+  def cpplink_cmd "platform.ml" 31 1291 1291 --
+)
+"platform.ml" 29 1198 1219 "platform.ml" 29 1198 1221
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 29 1198 1222 "platform.ml" 29 1198 1223
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 29 1198 1224 "platform.ml" 29 1198 1230
+type(
+  string
+)
+"platform.ml" 29 1198 1219 "platform.ml" 29 1198 1230
+type(
+  bool
+)
+"platform.ml" 29 1198 1236 "platform.ml" 29 1198 1265
+type(
+  string
+)
+"platform.ml" 30 1272 1274 "platform.ml" 30 1272 1290
+type(
+  string
+)
+"platform.ml" 29 1198 1216 "platform.ml" 30 1272 1290
+type(
+  string
+)
+"platform.ml" 31 1291 1295 "platform.ml" 31 1291 1301
+type(
+  string
+)
+ident(
+  def pp_cmd "platform.ml" 32 1353 1353 --
+)
+"platform.ml" 31 1291 1307 "platform.ml" 31 1291 1309
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 31 1291 1310 "platform.ml" 31 1291 1311
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 31 1291 1312 "platform.ml" 31 1291 1318
+type(
+  string
+)
+"platform.ml" 31 1291 1307 "platform.ml" 31 1291 1318
+type(
+  bool
+)
+"platform.ml" 31 1291 1324 "platform.ml" 31 1291 1333
+type(
+  string
+)
+"platform.ml" 31 1291 1339 "platform.ml" 31 1291 1350
+type(
+  string
+)
+"platform.ml" 31 1291 1304 "platform.ml" 31 1291 1350
+type(
+  string
+)
+"platform.ml" 32 1353 1357 "platform.ml" 32 1353 1363
+type(
+  string
+)
+ident(
+  def rm_cmd "platform.ml" 33 1410 1410 --
+)
+"platform.ml" 32 1353 1369 "platform.ml" 32 1353 1371
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 32 1353 1372 "platform.ml" 32 1353 1373
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 32 1353 1374 "platform.ml" 32 1353 1380
+type(
+  string
+)
+"platform.ml" 32 1353 1369 "platform.ml" 32 1353 1380
+type(
+  bool
+)
+"platform.ml" 32 1353 1386 "platform.ml" 32 1353 1394
+type(
+  string
+)
+"platform.ml" 32 1353 1400 "platform.ml" 32 1353 1409
+type(
+  string
+)
+"platform.ml" 32 1353 1366 "platform.ml" 32 1353 1409
+type(
+  string
+)
+"platform.ml" 33 1410 1414 "platform.ml" 33 1410 1422
+type(
+  string
+)
+ident(
+  def dot_path "platform.ml" 37 1530 1530 --
+)
+"platform.ml" 33 1410 1428 "platform.ml" 33 1410 1430
+type(
+  string
+)
+ident(
+  int_ref os "platform.ml" 12 430 434 "platform.ml" 12 430 436
+)
+"platform.ml" 33 1410 1431 "platform.ml" 33 1410 1432
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"platform.ml" 33 1410 1433 "platform.ml" 33 1410 1439
+type(
+  string
+)
+"platform.ml" 33 1410 1428 "platform.ml" 33 1410 1439
+type(
+  bool
+)
+"platform.ml" 33 1410 1445 "platform.ml" 33 1410 1449
+type(
+  string
+)
+"platform.ml" 33 1410 1455 "platform.ml" 33 1410 1460
+type(
+  string
+)
+"platform.ml" 33 1410 1425 "platform.ml" 33 1410 1460
+type(
+  string
+)
+"platform.ml" 37 1530 1534 "platform.ml" 37 1530 1544
+type(
+  bool ref
+)
+ident(
+  def verbose_on "platform.ml" 39 1557 1557 --
+)
+"platform.ml" 37 1530 1547 "platform.ml" 37 1530 1550
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"platform.ml" 37 1530 1551 "platform.ml" 37 1530 1555
+type(
+  bool
+)
+"platform.ml" 37 1530 1547 "platform.ml" 37 1530 1555
+type(
+  bool ref
+)
+"platform.ml" 39 1557 1561 "platform.ml" 39 1557 1575
+type(
+  string -> string
+)
+ident(
+  def decorate_cdecl "platform.ml" 41 1622 1622 --
+)
+"platform.ml" 39 1557 1576 "platform.ml" 39 1557 1580
+type(
+  string
+)
+ident(
+  def name "platform.ml" 39 1557 1583 "platform.ml" 39 1557 1620
+)
+"platform.ml" 39 1557 1586 "platform.ml" 39 1557 1587
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 39 1557 1587 "platform.ml" 39 1557 1592
+type(
+  bool ref
+)
+ident(
+  int_ref linux "platform.ml" 24 1005 1009 "platform.ml" 24 1005 1014
+)
+"platform.ml" 39 1557 1586 "platform.ml" 39 1557 1592
+type(
+  bool
+)
+"platform.ml" 39 1557 1598 "platform.ml" 39 1557 1602
+type(
+  string
+)
+ident(
+  int_ref name "platform.ml" 39 1557 1576 "platform.ml" 39 1557 1580
+)
+"platform.ml" 39 1557 1609 "platform.ml" 39 1557 1612
+type(
+  string
+)
+"platform.ml" 39 1557 1613 "platform.ml" 39 1557 1614
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 39 1557 1615 "platform.ml" 39 1557 1619
+type(
+  string
+)
+ident(
+  int_ref name "platform.ml" 39 1557 1576 "platform.ml" 39 1557 1580
+)
+"platform.ml" 39 1557 1608 "platform.ml" 39 1557 1620
+type(
+  string
+)
+"platform.ml" 39 1557 1583 "platform.ml" 39 1557 1620
+type(
+  string
+)
+"platform.ml" 41 1622 1626 "platform.ml" 41 1622 1628
+type(
+  string -> unit
+)
+ident(
+  def sh "platform.ml" 50 1997 1997 --
+)
+"platform.ml" 41 1622 1630 "platform.ml" 41 1622 1633
+type(
+  string
+)
+ident(
+  def cmd "platform.ml" 41 1622 1642 "platform.ml" 48 1984 1995
+)
+"platform.ml" 42 1651 1657 "platform.ml" 42 1651 1658
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 42 1651 1658 "platform.ml" 42 1651 1668
+type(
+  bool ref
+)
+ident(
+  int_ref verbose_on "platform.ml" 37 1530 1534 "platform.ml" 37 1530 1544
+)
+"platform.ml" 42 1651 1657 "platform.ml" 42 1651 1668
+type(
+  bool
+)
+"platform.ml" 42 1651 1675 "platform.ml" 42 1651 1681
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"platform.ml" 42 1651 1682 "platform.ml" 42 1651 1688
+type(
+  (string -> unit, out_channel, unit) format
+)
+"platform.ml" 42 1651 1689 "platform.ml" 42 1651 1692
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 41 1622 1630 "platform.ml" 41 1622 1633
+)
+"platform.ml" 42 1651 1675 "platform.ml" 42 1651 1692
+type(
+  unit
+)
+"platform.ml" 42 1651 1694 "platform.ml" 42 1651 1707
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"platform.ml" 42 1651 1708 "platform.ml" 42 1651 1710
+type(
+  unit
+)
+"platform.ml" 42 1651 1694 "platform.ml" 42 1651 1710
+type(
+  unit
+)
+"platform.ml" 42 1651 1674 "platform.ml" 42 1651 1711
+type(
+  unit
+)
+"platform.ml" 42 1651 1653 "platform.ml" 42 1651 1712
+type(
+  unit
+)
+"platform.ml" 43 1714 1723 "platform.ml" 43 1714 1729
+type(
+  string -> Unix.process_status
+)
+ident(
+  ext_ref Unix.system
+)
+"platform.ml" 43 1714 1730 "platform.ml" 43 1714 1733
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 41 1622 1630 "platform.ml" 41 1622 1633
+)
+"platform.ml" 43 1714 1722 "platform.ml" 43 1714 1734
+type(
+  Unix.process_status
+)
+"platform.ml" 44 1740 1752 "platform.ml" 44 1740 1753
+type(
+  int
+)
+ident(
+  def i "platform.ml" 44 1740 1754 "platform.ml" 45 1769 1831
+)
+"platform.ml" 44 1740 1744 "platform.ml" 44 1740 1753
+type(
+  Unix.process_status
+)
+"platform.ml" 44 1740 1759 "platform.ml" 44 1740 1760
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 44 1740 1752 "platform.ml" 44 1740 1753
+)
+"platform.ml" 44 1740 1761 "platform.ml" 44 1740 1763
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"platform.ml" 44 1740 1764 "platform.ml" 44 1740 1765
+type(
+  int
+)
+"platform.ml" 44 1740 1759 "platform.ml" 44 1740 1765
+type(
+  bool
+)
+"platform.ml" 45 1769 1775 "platform.ml" 45 1769 1780
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 45 1769 1796 "platform.ml" 45 1769 1799
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 41 1622 1630 "platform.ml" 41 1622 1633
+)
+"platform.ml" 45 1769 1801 "platform.ml" 45 1769 1808
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 45 1769 1809 "platform.ml" 45 1769 1827
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 45 1769 1828 "platform.ml" 45 1769 1829
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 44 1740 1752 "platform.ml" 44 1740 1753
+)
+"platform.ml" 45 1769 1801 "platform.ml" 45 1769 1829
+type(
+  string
+)
+"platform.ml" 45 1769 1781 "platform.ml" 45 1769 1831
+type(
+  exn
+)
+"platform.ml" 45 1769 1775 "platform.ml" 45 1769 1831
+type(
+  unit
+)
+"platform.ml" 44 1740 1754 "platform.ml" 45 1769 1831
+type(
+  unit
+)
+"platform.ml" 46 1832 1846 "platform.ml" 46 1832 1847
+type(
+  int
+)
+ident(
+  def i "platform.ml" 46 1832 1851 "platform.ml" 46 1832 1908
+)
+"platform.ml" 46 1832 1836 "platform.ml" 46 1832 1847
+type(
+  Unix.process_status
+)
+"platform.ml" 46 1832 1851 "platform.ml" 46 1832 1856
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 46 1832 1872 "platform.ml" 46 1832 1875
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 41 1622 1630 "platform.ml" 41 1622 1633
+)
+"platform.ml" 46 1832 1877 "platform.ml" 46 1832 1884
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 46 1832 1885 "platform.ml" 46 1832 1904
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 46 1832 1905 "platform.ml" 46 1832 1906
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 46 1832 1846 "platform.ml" 46 1832 1847
+)
+"platform.ml" 46 1832 1877 "platform.ml" 46 1832 1906
+type(
+  string
+)
+"platform.ml" 46 1832 1857 "platform.ml" 46 1832 1908
+type(
+  exn
+)
+"platform.ml" 46 1832 1851 "platform.ml" 46 1832 1908
+type(
+  unit
+)
+"platform.ml" 47 1909 1922 "platform.ml" 47 1909 1923
+type(
+  int
+)
+ident(
+  def i "platform.ml" 47 1909 1927 "platform.ml" 47 1909 1983
+)
+"platform.ml" 47 1909 1913 "platform.ml" 47 1909 1923
+type(
+  Unix.process_status
+)
+"platform.ml" 47 1909 1927 "platform.ml" 47 1909 1932
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 47 1909 1948 "platform.ml" 47 1909 1951
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 41 1622 1630 "platform.ml" 41 1622 1633
+)
+"platform.ml" 47 1909 1953 "platform.ml" 47 1909 1960
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 47 1909 1961 "platform.ml" 47 1909 1979
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 47 1909 1980 "platform.ml" 47 1909 1981
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 47 1909 1922 "platform.ml" 47 1909 1923
+)
+"platform.ml" 47 1909 1953 "platform.ml" 47 1909 1981
+type(
+  string
+)
+"platform.ml" 47 1909 1933 "platform.ml" 47 1909 1983
+type(
+  exn
+)
+"platform.ml" 47 1909 1927 "platform.ml" 47 1909 1983
+type(
+  unit
+)
+"platform.ml" 48 1984 1988 "platform.ml" 48 1984 1989
+type(
+  Unix.process_status
+)
+"platform.ml" 48 1984 1993 "platform.ml" 48 1984 1995
+type(
+  unit
+)
+"platform.ml" 43 1714 1716 "platform.ml" 48 1984 1995
+type(
+  unit
+)
+"platform.ml" 42 1651 1653 "platform.ml" 48 1984 1995
+type(
+  unit
+)
+type(
+  unit
+)
+"platform.ml" 50 1997 2001 "platform.ml" 50 1997 2009
+type(
+  string -> string -> string -> string
+)
+ident(
+  def gen_name "platform.ml" 58 2344 2344 --
+)
+"platform.ml" 50 1997 2011 "platform.ml" 50 1997 2018
+type(
+  string
+)
+ident(
+  def basedir "platform.ml" 50 1997 2027 "platform.ml" 56 2323 2340
+)
+"platform.ml" 50 1997 2028 "platform.ml" 50 1997 2033
+type(
+  string
+)
+ident(
+  def basen "platform.ml" 50 1997 2042 "platform.ml" 56 2323 2340
+)
+"platform.ml" 50 1997 2043 "platform.ml" 50 1997 2050
+type(
+  string
+)
+ident(
+  def baseext "platform.ml" 50 1997 2059 "platform.ml" 56 2323 2340
+)
+"platform.ml" 51 2072 2082 "platform.ml" 51 2072 2091
+type(
+  int64 -> string
+)
+"platform.ml" 51 2072 2092 "platform.ml" 51 2072 2095
+type(
+  int64
+)
+ident(
+  def ofs "platform.ml" 52 2098 2102 "platform.ml" 55 2281 2322
+)
+"platform.ml" 52 2098 2106 "platform.ml" 52 2098 2111
+type(
+  int64
+)
+"platform.ml" 52 2098 2114 "platform.ml" 52 2098 2123
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"platform.ml" 52 2098 2125 "platform.ml" 52 2098 2139
+type(
+  float -> int64
+)
+ident(
+  ext_ref Int64.of_float
+)
+"platform.ml" 52 2098 2141 "platform.ml" 52 2098 2145
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.time
+)
+"platform.ml" 52 2098 2146 "platform.ml" 52 2098 2148
+type(
+  unit
+)
+"platform.ml" 52 2098 2140 "platform.ml" 52 2098 2149
+type(
+  float
+)
+"platform.ml" 52 2098 2124 "platform.ml" 52 2098 2150
+type(
+  int64
+)
+"platform.ml" 52 2098 2151 "platform.ml" 52 2098 2154
+type(
+  int64
+)
+ident(
+  int_ref ofs "platform.ml" 51 2072 2092 "platform.ml" 51 2072 2095
+)
+"platform.ml" 52 2098 2114 "platform.ml" 52 2098 2154
+type(
+  int64
+)
+"platform.ml" 53 2158 2166 "platform.ml" 53 2158 2169
+type(
+  string
+)
+"platform.ml" 53 2158 2172 "platform.ml" 53 2158 2179
+type(
+  (string -> string -> int64 -> string -> string, unit, string) format ->
+  string -> string -> int64 -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 53 2158 2180 "platform.ml" 53 2158 2191
+type(
+  (string -> string -> int64 -> string -> string, unit, string) format
+)
+"platform.ml" 53 2158 2192 "platform.ml" 53 2158 2199
+type(
+  string
+)
+ident(
+  int_ref basedir "platform.ml" 50 1997 2011 "platform.ml" 50 1997 2018
+)
+"platform.ml" 53 2158 2200 "platform.ml" 53 2158 2205
+type(
+  string
+)
+ident(
+  int_ref basen "platform.ml" 50 1997 2028 "platform.ml" 50 1997 2033
+)
+"platform.ml" 53 2158 2206 "platform.ml" 53 2158 2211
+type(
+  int64
+)
+ident(
+  int_ref ctime "platform.ml" 52 2098 2106 "platform.ml" 52 2098 2111
+)
+"platform.ml" 53 2158 2212 "platform.ml" 53 2158 2219
+type(
+  string
+)
+ident(
+  int_ref baseext "platform.ml" 50 1997 2043 "platform.ml" 50 1997 2050
+)
+"platform.ml" 53 2158 2172 "platform.ml" 53 2158 2219
+type(
+  string
+)
+"platform.ml" 54 2223 2233 "platform.ml" 54 2223 2239
+type(
+  Unix.stats -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"platform.ml" 54 2223 2241 "platform.ml" 54 2223 2245
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"platform.ml" 54 2223 2246 "platform.ml" 54 2223 2249
+type(
+  string
+)
+ident(
+  int_ref nfn "platform.ml" 53 2158 2166 "platform.ml" 53 2158 2169
+)
+"platform.ml" 54 2223 2240 "platform.ml" 54 2223 2250
+type(
+  Unix.stats
+)
+"platform.ml" 54 2223 2233 "platform.ml" 54 2223 2250
+type(
+  unit
+)
+"platform.ml" 54 2223 2252 "platform.ml" 54 2223 2261
+type(
+  int64 -> string
+)
+ident(
+  int_ref nocollide "platform.ml" 51 2072 2082 "platform.ml" 51 2072 2091
+)
+"platform.ml" 54 2223 2263 "platform.ml" 54 2223 2272
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"platform.ml" 54 2223 2273 "platform.ml" 54 2223 2276
+type(
+  int64
+)
+ident(
+  int_ref ofs "platform.ml" 51 2072 2092 "platform.ml" 51 2072 2095
+)
+"platform.ml" 54 2223 2277 "platform.ml" 54 2223 2279
+type(
+  int64
+)
+"platform.ml" 54 2223 2262 "platform.ml" 54 2223 2280
+type(
+  int64
+)
+"platform.ml" 54 2223 2252 "platform.ml" 54 2223 2280
+type(
+  string
+)
+"platform.ml" 54 2223 2233 "platform.ml" 54 2223 2280
+type(
+  string
+)
+"platform.ml" 55 2281 2304 "platform.ml" 55 2281 2310
+type(
+  Unix.error
+)
+"platform.ml" 55 2281 2311 "platform.ml" 55 2281 2312
+type(
+  string
+)
+"platform.ml" 55 2281 2313 "platform.ml" 55 2281 2314
+type(
+  string
+)
+"platform.ml" 55 2281 2292 "platform.ml" 55 2281 2315
+type(
+  exn
+)
+"platform.ml" 55 2281 2319 "platform.ml" 55 2281 2322
+type(
+  string
+)
+ident(
+  int_ref nfn "platform.ml" 53 2158 2166 "platform.ml" 53 2158 2169
+)
+"platform.ml" 54 2223 2229 "platform.ml" 55 2281 2322
+type(
+  string
+)
+"platform.ml" 53 2158 2162 "platform.ml" 55 2281 2322
+type(
+  string
+)
+"platform.ml" 52 2098 2102 "platform.ml" 55 2281 2322
+type(
+  string
+)
+"platform.ml" 56 2323 2328 "platform.ml" 56 2323 2337
+type(
+  int64 -> string
+)
+ident(
+  int_ref nocollide "platform.ml" 51 2072 2082 "platform.ml" 51 2072 2091
+)
+"platform.ml" 56 2323 2338 "platform.ml" 56 2323 2340
+type(
+  int64
+)
+"platform.ml" 56 2323 2328 "platform.ml" 56 2323 2340
+type(
+  string
+)
+"platform.ml" 51 2072 2074 "platform.ml" 56 2323 2340
+type(
+  string
+)
+type(
+  string
+)
+"platform.ml" 58 2344 2348 "platform.ml" 58 2344 2356
+type(
+  string -> string -> unit
+)
+ident(
+  def assemble "platform.ml" 61 2441 2441 --
+)
+"platform.ml" 58 2344 2358 "platform.ml" 58 2344 2363
+type(
+  string
+)
+ident(
+  def dot_s "platform.ml" 58 2344 2372 "platform.ml" 59 2396 2439
+)
+"platform.ml" 58 2344 2373 "platform.ml" 58 2344 2378
+type(
+  string
+)
+ident(
+  def dot_o "platform.ml" 58 2344 2387 "platform.ml" 59 2396 2439
+)
+"platform.ml" 59 2396 2398 "platform.ml" 59 2396 2400
+type(
+  string -> unit
+)
+ident(
+  int_ref sh "platform.ml" 41 1622 1626 "platform.ml" 41 1622 1628
+)
+"platform.ml" 59 2396 2402 "platform.ml" 59 2396 2409
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 59 2396 2410 "platform.ml" 59 2396 2419
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"platform.ml" 59 2396 2420 "platform.ml" 59 2396 2426
+type(
+  string
+)
+ident(
+  int_ref as_cmd "platform.ml" 26 1028 1032 "platform.ml" 26 1028 1038
+)
+"platform.ml" 59 2396 2427 "platform.ml" 59 2396 2432
+type(
+  string
+)
+ident(
+  int_ref dot_o "platform.ml" 58 2344 2373 "platform.ml" 58 2344 2378
+)
+"platform.ml" 59 2396 2433 "platform.ml" 59 2396 2438
+type(
+  string
+)
+ident(
+  int_ref dot_s "platform.ml" 58 2344 2358 "platform.ml" 58 2344 2363
+)
+"platform.ml" 59 2396 2401 "platform.ml" 59 2396 2439
+type(
+  string
+)
+"platform.ml" 59 2396 2398 "platform.ml" 59 2396 2439
+type(
+  unit
+)
+type(
+  unit
+)
+"platform.ml" 61 2441 2445 "platform.ml" 61 2441 2455
+type(
+  string -> string -> unit
+)
+ident(
+  def preprocess "platform.ml" 66 2626 2626 --
+)
+"platform.ml" 61 2441 2457 "platform.ml" 61 2441 2464
+type(
+  string
+)
+ident(
+  def dot_oat "platform.ml" 61 2441 2473 "platform.ml" 64 2602 2624
+)
+"platform.ml" 61 2441 2474 "platform.ml" 61 2441 2479
+type(
+  string
+)
+ident(
+  def dot_i "platform.ml" 61 2441 2488 "platform.ml" 64 2602 2624
+)
+"platform.ml" 62 2497 2499 "platform.ml" 62 2497 2501
+type(
+  string -> unit
+)
+ident(
+  int_ref sh "platform.ml" 41 1622 1626 "platform.ml" 41 1622 1628
+)
+"platform.ml" 62 2497 2503 "platform.ml" 62 2497 2510
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 62 2497 2511 "platform.ml" 62 2497 2523
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"platform.ml" 62 2497 2524 "platform.ml" 62 2497 2530
+type(
+  string
+)
+ident(
+  int_ref pp_cmd "platform.ml" 31 1291 1295 "platform.ml" 31 1291 1301
+)
+"platform.ml" 63 2532 2534 "platform.ml" 63 2532 2548
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"platform.ml" 63 2532 2554 "platform.ml" 63 2532 2555
+type(
+  string
+)
+ident(
+  def s "platform.ml" 63 2532 2559 "platform.ml" 63 2532 2581
+)
+"platform.ml" 63 2532 2563 "platform.ml" 63 2532 2564
+type(
+  string
+)
+ident(
+  def i "platform.ml" 63 2532 2568 "platform.ml" 63 2532 2581
+)
+"platform.ml" 63 2532 2568 "platform.ml" 63 2532 2569
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 63 2532 2554 "platform.ml" 63 2532 2555
+)
+"platform.ml" 63 2532 2570 "platform.ml" 63 2532 2571
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 63 2532 2572 "platform.ml" 63 2532 2577
+type(
+  string
+)
+"platform.ml" 63 2532 2578 "platform.ml" 63 2532 2579
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 63 2532 2580 "platform.ml" 63 2532 2581
+type(
+  string
+)
+ident(
+  int_ref i "platform.ml" 63 2532 2563 "platform.ml" 63 2532 2564
+)
+"platform.ml" 63 2532 2572 "platform.ml" 63 2532 2581
+type(
+  string
+)
+"platform.ml" 63 2532 2568 "platform.ml" 63 2532 2581
+type(
+  string
+)
+"platform.ml" 63 2532 2559 "platform.ml" 63 2532 2581
+type(
+  string -> string
+)
+"platform.ml" 63 2532 2549 "platform.ml" 63 2532 2582
+type(
+  string -> string -> string
+)
+"platform.ml" 63 2532 2583 "platform.ml" 63 2532 2585
+type(
+  string
+)
+"platform.ml" 63 2532 2586 "platform.ml" 63 2532 2587
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 63 2532 2587 "platform.ml" 63 2532 2600
+type(
+  string list ref
+)
+ident(
+  int_ref include_paths "platform.ml" 17 601 605 "platform.ml" 17 601 618
+)
+"platform.ml" 63 2532 2586 "platform.ml" 63 2532 2600
+type(
+  string list
+)
+"platform.ml" 63 2532 2533 "platform.ml" 63 2532 2601
+type(
+  string
+)
+"platform.ml" 64 2602 2610 "platform.ml" 64 2602 2617
+type(
+  string
+)
+ident(
+  int_ref dot_oat "platform.ml" 61 2441 2457 "platform.ml" 61 2441 2464
+)
+"platform.ml" 64 2602 2618 "platform.ml" 64 2602 2623
+type(
+  string
+)
+ident(
+  int_ref dot_i "platform.ml" 61 2441 2474 "platform.ml" 61 2441 2479
+)
+"platform.ml" 62 2497 2502 "platform.ml" 64 2602 2624
+type(
+  string
+)
+"platform.ml" 62 2497 2499 "platform.ml" 64 2602 2624
+type(
+  unit
+)
+type(
+  unit
+)
+"platform.ml" 66 2626 2630 "platform.ml" 66 2626 2634
+type(
+  string list -> string -> unit
+)
+ident(
+  def link "platform.ml" 73 2993 2993 --
+)
+"platform.ml" 66 2626 2636 "platform.ml" 66 2626 2640
+type(
+  string list
+)
+ident(
+  def mods "platform.ml" 66 2626 2654 "platform.ml" 71 2930 2991
+)
+"platform.ml" 66 2626 2655 "platform.ml" 66 2626 2661
+type(
+  string
+)
+ident(
+  def out_fn "platform.ml" 66 2626 2670 "platform.ml" 71 2930 2991
+)
+"platform.ml" 67 2679 2681 "platform.ml" 67 2679 2683
+type(
+  string -> unit
+)
+ident(
+  int_ref sh "platform.ml" 41 1622 1626 "platform.ml" 41 1622 1628
+)
+"platform.ml" 67 2679 2685 "platform.ml" 67 2679 2692
+type(
+  (string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format ->
+  string -> string -> string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 67 2679 2693 "platform.ml" 67 2679 2711
+type(
+  (string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format
+)
+"platform.ml" 67 2679 2712 "platform.ml" 67 2679 2720
+type(
+  string
+)
+ident(
+  int_ref link_cmd "platform.ml" 27 1108 1112 "platform.ml" 27 1108 1120
+)
+"platform.ml" 67 2679 2721 "platform.ml" 67 2679 2727
+type(
+  string
+)
+ident(
+  int_ref out_fn "platform.ml" 66 2626 2655 "platform.ml" 66 2626 2661
+)
+"platform.ml" 68 2729 2731 "platform.ml" 68 2729 2744
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"platform.ml" 68 2729 2745 "platform.ml" 68 2729 2748
+type(
+  string
+)
+"platform.ml" 68 2729 2750 "platform.ml" 68 2729 2754
+type(
+  string list
+)
+ident(
+  int_ref mods "platform.ml" 66 2626 2636 "platform.ml" 66 2626 2640
+)
+"platform.ml" 68 2729 2755 "platform.ml" 68 2729 2756
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"platform.ml" 68 2729 2757 "platform.ml" 68 2729 2758
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 68 2729 2758 "platform.ml" 68 2729 2770
+type(
+  string ref
+)
+ident(
+  int_ref runtime_path "platform.ml" 13 493 497 "platform.ml" 13 493 509
+)
+"platform.ml" 68 2729 2757 "platform.ml" 68 2729 2770
+type(
+  string
+)
+"platform.ml" 68 2729 2774 "platform.ml" 68 2729 2775
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 68 2729 2775 "platform.ml" 68 2729 2784
+type(
+  string list ref
+)
+ident(
+  int_ref lib_paths "platform.ml" 15 548 552 "platform.ml" 15 548 561
+)
+"platform.ml" 68 2729 2774 "platform.ml" 68 2729 2784
+type(
+  string list
+)
+"platform.ml" 68 2729 2757 "platform.ml" 68 2729 2784
+type(
+  string list
+)
+"platform.ml" 68 2729 2749 "platform.ml" 68 2729 2785
+type(
+  string list
+)
+"platform.ml" 68 2729 2730 "platform.ml" 68 2729 2786
+type(
+  string
+)
+"platform.ml" 69 2787 2789 "platform.ml" 69 2787 2803
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"platform.ml" 69 2787 2809 "platform.ml" 69 2787 2810
+type(
+  string
+)
+ident(
+  def s "platform.ml" 69 2787 2814 "platform.ml" 69 2787 2836
+)
+"platform.ml" 69 2787 2818 "platform.ml" 69 2787 2819
+type(
+  string
+)
+ident(
+  def i "platform.ml" 69 2787 2823 "platform.ml" 69 2787 2836
+)
+"platform.ml" 69 2787 2823 "platform.ml" 69 2787 2824
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 69 2787 2809 "platform.ml" 69 2787 2810
+)
+"platform.ml" 69 2787 2825 "platform.ml" 69 2787 2826
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 69 2787 2827 "platform.ml" 69 2787 2832
+type(
+  string
+)
+"platform.ml" 69 2787 2833 "platform.ml" 69 2787 2834
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 69 2787 2835 "platform.ml" 69 2787 2836
+type(
+  string
+)
+ident(
+  int_ref i "platform.ml" 69 2787 2818 "platform.ml" 69 2787 2819
+)
+"platform.ml" 69 2787 2827 "platform.ml" 69 2787 2836
+type(
+  string
+)
+"platform.ml" 69 2787 2823 "platform.ml" 69 2787 2836
+type(
+  string
+)
+"platform.ml" 69 2787 2814 "platform.ml" 69 2787 2836
+type(
+  string -> string
+)
+"platform.ml" 69 2787 2804 "platform.ml" 69 2787 2837
+type(
+  string -> string -> string
+)
+"platform.ml" 69 2787 2838 "platform.ml" 69 2787 2840
+type(
+  string
+)
+"platform.ml" 69 2787 2841 "platform.ml" 69 2787 2842
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 69 2787 2842 "platform.ml" 69 2787 2858
+type(
+  string list ref
+)
+ident(
+  int_ref lib_search_paths "platform.ml" 16 571 575 "platform.ml" 16 571 591
+)
+"platform.ml" 69 2787 2841 "platform.ml" 69 2787 2858
+type(
+  string list
+)
+"platform.ml" 69 2787 2788 "platform.ml" 69 2787 2859
+type(
+  string
+)
+"platform.ml" 70 2860 2862 "platform.ml" 70 2860 2876
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"platform.ml" 70 2860 2882 "platform.ml" 70 2860 2883
+type(
+  string
+)
+ident(
+  def s "platform.ml" 70 2860 2887 "platform.ml" 70 2860 2909
+)
+"platform.ml" 70 2860 2891 "platform.ml" 70 2860 2892
+type(
+  string
+)
+ident(
+  def i "platform.ml" 70 2860 2896 "platform.ml" 70 2860 2909
+)
+"platform.ml" 70 2860 2896 "platform.ml" 70 2860 2897
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 70 2860 2882 "platform.ml" 70 2860 2883
+)
+"platform.ml" 70 2860 2898 "platform.ml" 70 2860 2899
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 70 2860 2900 "platform.ml" 70 2860 2905
+type(
+  string
+)
+"platform.ml" 70 2860 2906 "platform.ml" 70 2860 2907
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 70 2860 2908 "platform.ml" 70 2860 2909
+type(
+  string
+)
+ident(
+  int_ref i "platform.ml" 70 2860 2891 "platform.ml" 70 2860 2892
+)
+"platform.ml" 70 2860 2900 "platform.ml" 70 2860 2909
+type(
+  string
+)
+"platform.ml" 70 2860 2896 "platform.ml" 70 2860 2909
+type(
+  string
+)
+"platform.ml" 70 2860 2887 "platform.ml" 70 2860 2909
+type(
+  string -> string
+)
+"platform.ml" 70 2860 2877 "platform.ml" 70 2860 2910
+type(
+  string -> string -> string
+)
+"platform.ml" 70 2860 2911 "platform.ml" 70 2860 2913
+type(
+  string
+)
+"platform.ml" 70 2860 2914 "platform.ml" 70 2860 2915
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 70 2860 2915 "platform.ml" 70 2860 2928
+type(
+  string list ref
+)
+ident(
+  int_ref include_paths "platform.ml" 17 601 605 "platform.ml" 17 601 618
+)
+"platform.ml" 70 2860 2914 "platform.ml" 70 2860 2928
+type(
+  string list
+)
+"platform.ml" 70 2860 2861 "platform.ml" 70 2860 2929
+type(
+  string
+)
+"platform.ml" 71 2930 2932 "platform.ml" 71 2930 2946
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"platform.ml" 71 2930 2952 "platform.ml" 71 2930 2953
+type(
+  string
+)
+ident(
+  def s "platform.ml" 71 2930 2957 "platform.ml" 71 2930 2979
+)
+"platform.ml" 71 2930 2961 "platform.ml" 71 2930 2962
+type(
+  string
+)
+ident(
+  def l "platform.ml" 71 2930 2966 "platform.ml" 71 2930 2979
+)
+"platform.ml" 71 2930 2966 "platform.ml" 71 2930 2967
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 71 2930 2952 "platform.ml" 71 2930 2953
+)
+"platform.ml" 71 2930 2968 "platform.ml" 71 2930 2969
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 71 2930 2970 "platform.ml" 71 2930 2975
+type(
+  string
+)
+"platform.ml" 71 2930 2976 "platform.ml" 71 2930 2977
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 71 2930 2978 "platform.ml" 71 2930 2979
+type(
+  string
+)
+ident(
+  int_ref l "platform.ml" 71 2930 2961 "platform.ml" 71 2930 2962
+)
+"platform.ml" 71 2930 2970 "platform.ml" 71 2930 2979
+type(
+  string
+)
+"platform.ml" 71 2930 2966 "platform.ml" 71 2930 2979
+type(
+  string
+)
+"platform.ml" 71 2930 2957 "platform.ml" 71 2930 2979
+type(
+  string -> string
+)
+"platform.ml" 71 2930 2947 "platform.ml" 71 2930 2980
+type(
+  string -> string -> string
+)
+"platform.ml" 71 2930 2981 "platform.ml" 71 2930 2983
+type(
+  string
+)
+"platform.ml" 71 2930 2984 "platform.ml" 71 2930 2985
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 71 2930 2985 "platform.ml" 71 2930 2989
+type(
+  string list ref
+)
+ident(
+  int_ref libs "platform.ml" 14 529 533 "platform.ml" 14 529 537
+)
+"platform.ml" 71 2930 2984 "platform.ml" 71 2930 2989
+type(
+  string list
+)
+"platform.ml" 71 2930 2931 "platform.ml" 71 2930 2990
+type(
+  string
+)
+"platform.ml" 67 2679 2684 "platform.ml" 71 2930 2991
+type(
+  string
+)
+"platform.ml" 67 2679 2681 "platform.ml" 71 2930 2991
+type(
+  unit
+)
+type(
+  unit
+)
+"platform.ml" 73 2993 2997 "platform.ml" 73 2993 3004
+type(
+  string list -> string -> unit
+)
+ident(
+  def cpplink "platform.ml" 80 3366 3366 --
+)
+"platform.ml" 73 2993 3006 "platform.ml" 73 2993 3010
+type(
+  string list
+)
+ident(
+  def mods "platform.ml" 73 2993 3024 "platform.ml" 78 3303 3364
+)
+"platform.ml" 73 2993 3025 "platform.ml" 73 2993 3031
+type(
+  string
+)
+ident(
+  def out_fn "platform.ml" 73 2993 3040 "platform.ml" 78 3303 3364
+)
+"platform.ml" 74 3049 3051 "platform.ml" 74 3049 3053
+type(
+  string -> unit
+)
+ident(
+  int_ref sh "platform.ml" 41 1622 1626 "platform.ml" 41 1622 1628
+)
+"platform.ml" 74 3049 3055 "platform.ml" 74 3049 3062
+type(
+  (string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format ->
+  string -> string -> string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 74 3049 3063 "platform.ml" 74 3049 3081
+type(
+  (string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format
+)
+"platform.ml" 74 3049 3082 "platform.ml" 74 3049 3093
+type(
+  string
+)
+ident(
+  int_ref cpplink_cmd "platform.ml" 29 1198 1202 "platform.ml" 29 1198 1213
+)
+"platform.ml" 74 3049 3094 "platform.ml" 74 3049 3100
+type(
+  string
+)
+ident(
+  int_ref out_fn "platform.ml" 73 2993 3025 "platform.ml" 73 2993 3031
+)
+"platform.ml" 75 3102 3104 "platform.ml" 75 3102 3117
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"platform.ml" 75 3102 3118 "platform.ml" 75 3102 3121
+type(
+  string
+)
+"platform.ml" 75 3102 3123 "platform.ml" 75 3102 3127
+type(
+  string list
+)
+ident(
+  int_ref mods "platform.ml" 73 2993 3006 "platform.ml" 73 2993 3010
+)
+"platform.ml" 75 3102 3128 "platform.ml" 75 3102 3129
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"platform.ml" 75 3102 3130 "platform.ml" 75 3102 3131
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 75 3102 3131 "platform.ml" 75 3102 3143
+type(
+  string ref
+)
+ident(
+  int_ref runtime_path "platform.ml" 13 493 497 "platform.ml" 13 493 509
+)
+"platform.ml" 75 3102 3130 "platform.ml" 75 3102 3143
+type(
+  string
+)
+"platform.ml" 75 3102 3147 "platform.ml" 75 3102 3148
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 75 3102 3148 "platform.ml" 75 3102 3157
+type(
+  string list ref
+)
+ident(
+  int_ref lib_paths "platform.ml" 15 548 552 "platform.ml" 15 548 561
+)
+"platform.ml" 75 3102 3147 "platform.ml" 75 3102 3157
+type(
+  string list
+)
+"platform.ml" 75 3102 3130 "platform.ml" 75 3102 3157
+type(
+  string list
+)
+"platform.ml" 75 3102 3122 "platform.ml" 75 3102 3158
+type(
+  string list
+)
+"platform.ml" 75 3102 3103 "platform.ml" 75 3102 3159
+type(
+  string
+)
+"platform.ml" 76 3160 3162 "platform.ml" 76 3160 3176
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"platform.ml" 76 3160 3182 "platform.ml" 76 3160 3183
+type(
+  string
+)
+ident(
+  def s "platform.ml" 76 3160 3187 "platform.ml" 76 3160 3209
+)
+"platform.ml" 76 3160 3191 "platform.ml" 76 3160 3192
+type(
+  string
+)
+ident(
+  def i "platform.ml" 76 3160 3196 "platform.ml" 76 3160 3209
+)
+"platform.ml" 76 3160 3196 "platform.ml" 76 3160 3197
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 76 3160 3182 "platform.ml" 76 3160 3183
+)
+"platform.ml" 76 3160 3198 "platform.ml" 76 3160 3199
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 76 3160 3200 "platform.ml" 76 3160 3205
+type(
+  string
+)
+"platform.ml" 76 3160 3206 "platform.ml" 76 3160 3207
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 76 3160 3208 "platform.ml" 76 3160 3209
+type(
+  string
+)
+ident(
+  int_ref i "platform.ml" 76 3160 3191 "platform.ml" 76 3160 3192
+)
+"platform.ml" 76 3160 3200 "platform.ml" 76 3160 3209
+type(
+  string
+)
+"platform.ml" 76 3160 3196 "platform.ml" 76 3160 3209
+type(
+  string
+)
+"platform.ml" 76 3160 3187 "platform.ml" 76 3160 3209
+type(
+  string -> string
+)
+"platform.ml" 76 3160 3177 "platform.ml" 76 3160 3210
+type(
+  string -> string -> string
+)
+"platform.ml" 76 3160 3211 "platform.ml" 76 3160 3213
+type(
+  string
+)
+"platform.ml" 76 3160 3214 "platform.ml" 76 3160 3215
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 76 3160 3215 "platform.ml" 76 3160 3231
+type(
+  string list ref
+)
+ident(
+  int_ref lib_search_paths "platform.ml" 16 571 575 "platform.ml" 16 571 591
+)
+"platform.ml" 76 3160 3214 "platform.ml" 76 3160 3231
+type(
+  string list
+)
+"platform.ml" 76 3160 3161 "platform.ml" 76 3160 3232
+type(
+  string
+)
+"platform.ml" 77 3233 3235 "platform.ml" 77 3233 3249
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"platform.ml" 77 3233 3255 "platform.ml" 77 3233 3256
+type(
+  string
+)
+ident(
+  def s "platform.ml" 77 3233 3260 "platform.ml" 77 3233 3282
+)
+"platform.ml" 77 3233 3264 "platform.ml" 77 3233 3265
+type(
+  string
+)
+ident(
+  def i "platform.ml" 77 3233 3269 "platform.ml" 77 3233 3282
+)
+"platform.ml" 77 3233 3269 "platform.ml" 77 3233 3270
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 77 3233 3255 "platform.ml" 77 3233 3256
+)
+"platform.ml" 77 3233 3271 "platform.ml" 77 3233 3272
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 77 3233 3273 "platform.ml" 77 3233 3278
+type(
+  string
+)
+"platform.ml" 77 3233 3279 "platform.ml" 77 3233 3280
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 77 3233 3281 "platform.ml" 77 3233 3282
+type(
+  string
+)
+ident(
+  int_ref i "platform.ml" 77 3233 3264 "platform.ml" 77 3233 3265
+)
+"platform.ml" 77 3233 3273 "platform.ml" 77 3233 3282
+type(
+  string
+)
+"platform.ml" 77 3233 3269 "platform.ml" 77 3233 3282
+type(
+  string
+)
+"platform.ml" 77 3233 3260 "platform.ml" 77 3233 3282
+type(
+  string -> string
+)
+"platform.ml" 77 3233 3250 "platform.ml" 77 3233 3283
+type(
+  string -> string -> string
+)
+"platform.ml" 77 3233 3284 "platform.ml" 77 3233 3286
+type(
+  string
+)
+"platform.ml" 77 3233 3287 "platform.ml" 77 3233 3288
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 77 3233 3288 "platform.ml" 77 3233 3301
+type(
+  string list ref
+)
+ident(
+  int_ref include_paths "platform.ml" 17 601 605 "platform.ml" 17 601 618
+)
+"platform.ml" 77 3233 3287 "platform.ml" 77 3233 3301
+type(
+  string list
+)
+"platform.ml" 77 3233 3234 "platform.ml" 77 3233 3302
+type(
+  string
+)
+"platform.ml" 78 3303 3305 "platform.ml" 78 3303 3319
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"platform.ml" 78 3303 3325 "platform.ml" 78 3303 3326
+type(
+  string
+)
+ident(
+  def s "platform.ml" 78 3303 3330 "platform.ml" 78 3303 3352
+)
+"platform.ml" 78 3303 3334 "platform.ml" 78 3303 3335
+type(
+  string
+)
+ident(
+  def l "platform.ml" 78 3303 3339 "platform.ml" 78 3303 3352
+)
+"platform.ml" 78 3303 3339 "platform.ml" 78 3303 3340
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 78 3303 3325 "platform.ml" 78 3303 3326
+)
+"platform.ml" 78 3303 3341 "platform.ml" 78 3303 3342
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 78 3303 3343 "platform.ml" 78 3303 3348
+type(
+  string
+)
+"platform.ml" 78 3303 3349 "platform.ml" 78 3303 3350
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"platform.ml" 78 3303 3351 "platform.ml" 78 3303 3352
+type(
+  string
+)
+ident(
+  int_ref l "platform.ml" 78 3303 3334 "platform.ml" 78 3303 3335
+)
+"platform.ml" 78 3303 3343 "platform.ml" 78 3303 3352
+type(
+  string
+)
+"platform.ml" 78 3303 3339 "platform.ml" 78 3303 3352
+type(
+  string
+)
+"platform.ml" 78 3303 3330 "platform.ml" 78 3303 3352
+type(
+  string -> string
+)
+"platform.ml" 78 3303 3320 "platform.ml" 78 3303 3353
+type(
+  string -> string -> string
+)
+"platform.ml" 78 3303 3354 "platform.ml" 78 3303 3356
+type(
+  string
+)
+"platform.ml" 78 3303 3357 "platform.ml" 78 3303 3358
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 78 3303 3358 "platform.ml" 78 3303 3362
+type(
+  string list ref
+)
+ident(
+  int_ref libs "platform.ml" 14 529 533 "platform.ml" 14 529 537
+)
+"platform.ml" 78 3303 3357 "platform.ml" 78 3303 3362
+type(
+  string list
+)
+"platform.ml" 78 3303 3304 "platform.ml" 78 3303 3363
+type(
+  string
+)
+"platform.ml" 74 3049 3054 "platform.ml" 78 3303 3364
+type(
+  string
+)
+"platform.ml" 74 3049 3051 "platform.ml" 78 3303 3364
+type(
+  unit
+)
+type(
+  unit
+)
+"platform.ml" 80 3366 3370 "platform.ml" 80 3366 3384
+type(
+  int -> string -> int
+)
+ident(
+  def run_executable "platform.ml" 88 3686 3686 --
+)
+"platform.ml" 80 3366 3385 "platform.ml" 80 3366 3388
+type(
+  int
+)
+ident(
+  def arg "platform.ml" 80 3366 3389 "platform.ml" 86 3610 3684
+)
+"platform.ml" 80 3366 3389 "platform.ml" 80 3366 3391
+type(
+  string
+)
+ident(
+  def pr "platform.ml" 81 3394 3396 "platform.ml" 86 3610 3684
+)
+"platform.ml" 81 3394 3400 "platform.ml" 81 3394 3403
+type(
+  string
+)
+"platform.ml" 81 3394 3406 "platform.ml" 81 3394 3413
+type(
+  (string -> string -> int -> string, unit, string) format ->
+  string -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 81 3394 3414 "platform.ml" 81 3394 3423
+type(
+  (string -> string -> int -> string, unit, string) format
+)
+"platform.ml" 81 3394 3424 "platform.ml" 81 3394 3432
+type(
+  string
+)
+ident(
+  int_ref dot_path "platform.ml" 33 1410 1414 "platform.ml" 33 1410 1422
+)
+"platform.ml" 81 3394 3433 "platform.ml" 81 3394 3435
+type(
+  string
+)
+ident(
+  int_ref pr "platform.ml" 80 3366 3389 "platform.ml" 80 3366 3391
+)
+"platform.ml" 81 3394 3436 "platform.ml" 81 3394 3439
+type(
+  int
+)
+ident(
+  int_ref arg "platform.ml" 80 3366 3385 "platform.ml" 80 3366 3388
+)
+"platform.ml" 81 3394 3406 "platform.ml" 81 3394 3439
+type(
+  string
+)
+"platform.ml" 82 3443 3449 "platform.ml" 82 3443 3450
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 82 3443 3450 "platform.ml" 82 3443 3460
+type(
+  bool ref
+)
+ident(
+  int_ref verbose_on "platform.ml" 37 1530 1534 "platform.ml" 37 1530 1544
+)
+"platform.ml" 82 3443 3449 "platform.ml" 82 3443 3460
+type(
+  bool
+)
+"platform.ml" 82 3443 3466 "platform.ml" 82 3443 3472
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"platform.ml" 82 3443 3473 "platform.ml" 82 3443 3481
+type(
+  (string -> unit, out_channel, unit) format
+)
+"platform.ml" 82 3443 3482 "platform.ml" 82 3443 3485
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 81 3394 3400 "platform.ml" 81 3394 3403
+)
+"platform.ml" 82 3443 3466 "platform.ml" 82 3443 3485
+type(
+  unit
+)
+"platform.ml" 82 3443 3445 "platform.ml" 82 3443 3486
+type(
+  unit
+)
+"platform.ml" 83 3488 3497 "platform.ml" 83 3488 3503
+type(
+  string -> Unix.process_status
+)
+ident(
+  ext_ref Unix.system
+)
+"platform.ml" 83 3488 3504 "platform.ml" 83 3488 3507
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 81 3394 3400 "platform.ml" 81 3394 3403
+)
+"platform.ml" 83 3488 3496 "platform.ml" 83 3488 3508
+type(
+  Unix.process_status
+)
+"platform.ml" 84 3514 3526 "platform.ml" 84 3514 3527
+type(
+  int
+)
+ident(
+  def i "platform.ml" 84 3514 3531 "platform.ml" 84 3514 3532
+)
+"platform.ml" 84 3514 3518 "platform.ml" 84 3514 3527
+type(
+  Unix.process_status
+)
+"platform.ml" 84 3514 3531 "platform.ml" 84 3514 3532
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 84 3514 3526 "platform.ml" 84 3514 3527
+)
+"platform.ml" 85 3533 3547 "platform.ml" 85 3533 3548
+type(
+  int
+)
+ident(
+  def i "platform.ml" 85 3533 3552 "platform.ml" 85 3533 3609
+)
+"platform.ml" 85 3533 3537 "platform.ml" 85 3533 3548
+type(
+  Unix.process_status
+)
+"platform.ml" 85 3533 3552 "platform.ml" 85 3533 3557
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 85 3533 3573 "platform.ml" 85 3533 3576
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 81 3394 3400 "platform.ml" 81 3394 3403
+)
+"platform.ml" 85 3533 3578 "platform.ml" 85 3533 3585
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 85 3533 3586 "platform.ml" 85 3533 3605
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 85 3533 3606 "platform.ml" 85 3533 3607
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 85 3533 3547 "platform.ml" 85 3533 3548
+)
+"platform.ml" 85 3533 3578 "platform.ml" 85 3533 3607
+type(
+  string
+)
+"platform.ml" 85 3533 3558 "platform.ml" 85 3533 3609
+type(
+  exn
+)
+"platform.ml" 85 3533 3552 "platform.ml" 85 3533 3609
+type(
+  int
+)
+"platform.ml" 86 3610 3623 "platform.ml" 86 3610 3624
+type(
+  int
+)
+ident(
+  def i "platform.ml" 86 3610 3628 "platform.ml" 86 3610 3684
+)
+"platform.ml" 86 3610 3614 "platform.ml" 86 3610 3624
+type(
+  Unix.process_status
+)
+"platform.ml" 86 3610 3628 "platform.ml" 86 3610 3633
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 86 3610 3649 "platform.ml" 86 3610 3652
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 81 3394 3400 "platform.ml" 81 3394 3403
+)
+"platform.ml" 86 3610 3654 "platform.ml" 86 3610 3661
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 86 3610 3662 "platform.ml" 86 3610 3680
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 86 3610 3681 "platform.ml" 86 3610 3682
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 86 3610 3623 "platform.ml" 86 3610 3624
+)
+"platform.ml" 86 3610 3654 "platform.ml" 86 3610 3682
+type(
+  string
+)
+"platform.ml" 86 3610 3634 "platform.ml" 86 3610 3684
+type(
+  exn
+)
+"platform.ml" 86 3610 3628 "platform.ml" 86 3610 3684
+type(
+  int
+)
+"platform.ml" 83 3488 3490 "platform.ml" 86 3610 3684
+type(
+  int
+)
+"platform.ml" 82 3443 3445 "platform.ml" 86 3610 3684
+type(
+  int
+)
+"platform.ml" 81 3394 3396 "platform.ml" 86 3610 3684
+type(
+  int
+)
+"platform.ml" 88 3686 3690 "platform.ml" 88 3686 3715
+type(
+  int -> string -> string -> unit
+)
+ident(
+  def run_executable_to_tmpfile "platform.ml" 96 4036 4036 --
+)
+"platform.ml" 88 3686 3716 "platform.ml" 88 3686 3719
+type(
+  int
+)
+ident(
+  def arg "platform.ml" 88 3686 3720 "platform.ml" 94 3960 4034
+)
+"platform.ml" 88 3686 3720 "platform.ml" 88 3686 3722
+type(
+  string
+)
+ident(
+  def pr "platform.ml" 88 3686 3723 "platform.ml" 94 3960 4034
+)
+"platform.ml" 88 3686 3723 "platform.ml" 88 3686 3726
+type(
+  string
+)
+ident(
+  def tmp "platform.ml" 89 3729 3731 "platform.ml" 94 3960 4034
+)
+"platform.ml" 89 3729 3735 "platform.ml" 89 3729 3738
+type(
+  string
+)
+"platform.ml" 89 3729 3741 "platform.ml" 89 3729 3748
+type(
+  (string -> string -> int -> string -> string, unit, string) format ->
+  string -> string -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 89 3729 3749 "platform.ml" 89 3729 3768
+type(
+  (string -> string -> int -> string -> string, unit, string) format
+)
+"platform.ml" 89 3729 3769 "platform.ml" 89 3729 3777
+type(
+  string
+)
+ident(
+  int_ref dot_path "platform.ml" 33 1410 1414 "platform.ml" 33 1410 1422
+)
+"platform.ml" 89 3729 3778 "platform.ml" 89 3729 3780
+type(
+  string
+)
+ident(
+  int_ref pr "platform.ml" 88 3686 3720 "platform.ml" 88 3686 3722
+)
+"platform.ml" 89 3729 3781 "platform.ml" 89 3729 3784
+type(
+  int
+)
+ident(
+  int_ref arg "platform.ml" 88 3686 3716 "platform.ml" 88 3686 3719
+)
+"platform.ml" 89 3729 3785 "platform.ml" 89 3729 3788
+type(
+  string
+)
+ident(
+  int_ref tmp "platform.ml" 88 3686 3723 "platform.ml" 88 3686 3726
+)
+"platform.ml" 89 3729 3741 "platform.ml" 89 3729 3788
+type(
+  string
+)
+"platform.ml" 90 3792 3798 "platform.ml" 90 3792 3799
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 90 3792 3799 "platform.ml" 90 3792 3809
+type(
+  bool ref
+)
+ident(
+  int_ref verbose_on "platform.ml" 37 1530 1534 "platform.ml" 37 1530 1544
+)
+"platform.ml" 90 3792 3798 "platform.ml" 90 3792 3809
+type(
+  bool
+)
+"platform.ml" 90 3792 3815 "platform.ml" 90 3792 3821
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"platform.ml" 90 3792 3822 "platform.ml" 90 3792 3830
+type(
+  (string -> unit, out_channel, unit) format
+)
+"platform.ml" 90 3792 3831 "platform.ml" 90 3792 3834
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 89 3729 3735 "platform.ml" 89 3729 3738
+)
+"platform.ml" 90 3792 3815 "platform.ml" 90 3792 3834
+type(
+  unit
+)
+"platform.ml" 90 3792 3794 "platform.ml" 90 3792 3835
+type(
+  unit
+)
+"platform.ml" 91 3837 3846 "platform.ml" 91 3837 3852
+type(
+  string -> Unix.process_status
+)
+ident(
+  ext_ref Unix.system
+)
+"platform.ml" 91 3837 3853 "platform.ml" 91 3837 3856
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 89 3729 3735 "platform.ml" 89 3729 3738
+)
+"platform.ml" 91 3837 3845 "platform.ml" 91 3837 3857
+type(
+  Unix.process_status
+)
+"platform.ml" 92 3863 3875 "platform.ml" 92 3863 3876
+type(
+  int
+)
+ident(
+  def i "platform.ml" 92 3863 3880 "platform.ml" 92 3863 3882
+)
+"platform.ml" 92 3863 3867 "platform.ml" 92 3863 3876
+type(
+  Unix.process_status
+)
+"platform.ml" 92 3863 3880 "platform.ml" 92 3863 3882
+type(
+  unit
+)
+"platform.ml" 93 3883 3897 "platform.ml" 93 3883 3898
+type(
+  int
+)
+ident(
+  def i "platform.ml" 93 3883 3902 "platform.ml" 93 3883 3959
+)
+"platform.ml" 93 3883 3887 "platform.ml" 93 3883 3898
+type(
+  Unix.process_status
+)
+"platform.ml" 93 3883 3902 "platform.ml" 93 3883 3907
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 93 3883 3923 "platform.ml" 93 3883 3926
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 89 3729 3735 "platform.ml" 89 3729 3738
+)
+"platform.ml" 93 3883 3928 "platform.ml" 93 3883 3935
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 93 3883 3936 "platform.ml" 93 3883 3955
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 93 3883 3956 "platform.ml" 93 3883 3957
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 93 3883 3897 "platform.ml" 93 3883 3898
+)
+"platform.ml" 93 3883 3928 "platform.ml" 93 3883 3957
+type(
+  string
+)
+"platform.ml" 93 3883 3908 "platform.ml" 93 3883 3959
+type(
+  exn
+)
+"platform.ml" 93 3883 3902 "platform.ml" 93 3883 3959
+type(
+  unit
+)
+"platform.ml" 94 3960 3973 "platform.ml" 94 3960 3974
+type(
+  int
+)
+ident(
+  def i "platform.ml" 94 3960 3978 "platform.ml" 94 3960 4034
+)
+"platform.ml" 94 3960 3964 "platform.ml" 94 3960 3974
+type(
+  Unix.process_status
+)
+"platform.ml" 94 3960 3978 "platform.ml" 94 3960 3983
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 94 3960 3999 "platform.ml" 94 3960 4002
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 89 3729 3735 "platform.ml" 89 3729 3738
+)
+"platform.ml" 94 3960 4004 "platform.ml" 94 3960 4011
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 94 3960 4012 "platform.ml" 94 3960 4030
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 94 3960 4031 "platform.ml" 94 3960 4032
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 94 3960 3973 "platform.ml" 94 3960 3974
+)
+"platform.ml" 94 3960 4004 "platform.ml" 94 3960 4032
+type(
+  string
+)
+"platform.ml" 94 3960 3984 "platform.ml" 94 3960 4034
+type(
+  exn
+)
+"platform.ml" 94 3960 3978 "platform.ml" 94 3960 4034
+type(
+  unit
+)
+"platform.ml" 91 3837 3839 "platform.ml" 94 3960 4034
+type(
+  unit
+)
+"platform.ml" 90 3792 3794 "platform.ml" 94 3960 4034
+type(
+  unit
+)
+"platform.ml" 89 3729 3731 "platform.ml" 94 3960 4034
+type(
+  unit
+)
+"platform.ml" 96 4036 4040 "platform.ml" 96 4036 4054
+type(
+  in_channel -> string
+)
+ident(
+  def string_of_file "platform.ml" 106 4336 4336 --
+)
+"platform.ml" 96 4036 4056 "platform.ml" 96 4036 4057
+type(
+  in_channel
+)
+ident(
+  def f "platform.ml" 96 4036 4070 "platform.ml" 104 4278 4334
+)
+"platform.ml" 97 4081 4091 "platform.ml" 97 4081 4106
+type(
+  string list -> in_channel -> string list
+)
+"platform.ml" 97 4081 4108 "platform.ml" 97 4081 4114
+type(
+  string list
+)
+ident(
+  def stream "platform.ml" 97 4081 4128 "platform.ml" 102 4242 4271
+)
+"platform.ml" 97 4081 4129 "platform.ml" 97 4081 4130
+type(
+  in_channel
+)
+ident(
+  def f "platform.ml" 97 4081 4143 "platform.ml" 102 4242 4271
+)
+"platform.ml" 99 4167 4177 "platform.ml" 99 4167 4178
+type(
+  string
+)
+ident(
+  def s "platform.ml" 100 4197 4203 "platform.ml" 100 4197 4232
+)
+"platform.ml" 99 4167 4181 "platform.ml" 99 4167 4191
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"platform.ml" 99 4167 4192 "platform.ml" 99 4167 4193
+type(
+  in_channel
+)
+ident(
+  int_ref f "platform.ml" 97 4081 4129 "platform.ml" 97 4081 4130
+)
+"platform.ml" 99 4167 4181 "platform.ml" 99 4167 4193
+type(
+  string
+)
+"platform.ml" 100 4197 4203 "platform.ml" 100 4197 4218
+type(
+  string list -> in_channel -> string list
+)
+ident(
+  int_ref _string_of_file "platform.ml" 97 4081 4091 "platform.ml" 97 4081 4106
+)
+"platform.ml" 100 4197 4220 "platform.ml" 100 4197 4221
+type(
+  string
+)
+ident(
+  int_ref s "platform.ml" 99 4167 4177 "platform.ml" 99 4167 4178
+)
+"platform.ml" 100 4197 4223 "platform.ml" 100 4197 4229
+type(
+  string list
+)
+ident(
+  int_ref stream "platform.ml" 97 4081 4108 "platform.ml" 97 4081 4114
+)
+"platform.ml" 100 4197 4219 "platform.ml" 100 4197 4230
+type(
+  string list
+)
+"platform.ml" 100 4197 4231 "platform.ml" 100 4197 4232
+type(
+  in_channel
+)
+ident(
+  int_ref f "platform.ml" 97 4081 4129 "platform.ml" 97 4081 4130
+)
+"platform.ml" 100 4197 4203 "platform.ml" 100 4197 4232
+type(
+  string list
+)
+"platform.ml" 99 4167 4173 "platform.ml" 100 4197 4232
+type(
+  string list
+)
+"platform.ml" 102 4242 4250 "platform.ml" 102 4242 4261
+type(
+  exn
+)
+"platform.ml" 102 4242 4265 "platform.ml" 102 4242 4271
+type(
+  string list
+)
+ident(
+  int_ref stream "platform.ml" 97 4081 4108 "platform.ml" 97 4081 4114
+)
+"platform.ml" 98 4158 4162 "platform.ml" 102 4242 4271
+type(
+  string list
+)
+type(
+  string list
+)
+"platform.ml" 104 4278 4282 "platform.ml" 104 4278 4295
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"platform.ml" 104 4278 4296 "platform.ml" 104 4278 4300
+type(
+  string
+)
+"platform.ml" 104 4278 4302 "platform.ml" 104 4278 4310
+type(
+  string list -> string list
+)
+ident(
+  ext_ref List.rev
+)
+"platform.ml" 104 4278 4312 "platform.ml" 104 4278 4327
+type(
+  string list -> in_channel -> string list
+)
+ident(
+  int_ref _string_of_file "platform.ml" 97 4081 4091 "platform.ml" 97 4081 4106
+)
+"platform.ml" 104 4278 4328 "platform.ml" 104 4278 4330
+type(
+  string list
+)
+"platform.ml" 104 4278 4331 "platform.ml" 104 4278 4332
+type(
+  in_channel
+)
+ident(
+  int_ref f "platform.ml" 96 4036 4056 "platform.ml" 96 4036 4057
+)
+"platform.ml" 104 4278 4311 "platform.ml" 104 4278 4333
+type(
+  string list
+)
+"platform.ml" 104 4278 4301 "platform.ml" 104 4278 4334
+type(
+  string list
+)
+"platform.ml" 104 4278 4282 "platform.ml" 104 4278 4334
+type(
+  string
+)
+"platform.ml" 97 4081 4083 "platform.ml" 104 4278 4334
+type(
+  string
+)
+type(
+  string
+)
+"platform.ml" 106 4336 4340 "platform.ml" 106 4336 4351
+type(
+  string -> string -> string -> string
+)
+ident(
+  def run_program "platform.ml" 120 4858 4858 --
+)
+"platform.ml" 106 4336 4353 "platform.ml" 106 4336 4357
+type(
+  string
+)
+ident(
+  def args "platform.ml" 106 4336 4366 "platform.ml" 118 4846 4856
+)
+"platform.ml" 106 4336 4367 "platform.ml" 106 4336 4374
+type(
+  string
+)
+ident(
+  def tmp_exe "platform.ml" 106 4336 4383 "platform.ml" 118 4846 4856
+)
+"platform.ml" 106 4336 4384 "platform.ml" 106 4336 4391
+type(
+  string
+)
+ident(
+  def tmp_out "platform.ml" 106 4336 4400 "platform.ml" 118 4846 4856
+)
+"platform.ml" 107 4411 4417 "platform.ml" 107 4411 4418
+type(
+  unit
+)
+"platform.ml" 108 4422 4430 "platform.ml" 108 4422 4433
+type(
+  string
+)
+"platform.ml" 108 4422 4436 "platform.ml" 108 4422 4443
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 108 4422 4444 "platform.ml" 108 4422 4463
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"platform.ml" 108 4422 4464 "platform.ml" 108 4422 4472
+type(
+  string
+)
+ident(
+  int_ref dot_path "platform.ml" 33 1410 1414 "platform.ml" 33 1410 1422
+)
+"platform.ml" 108 4422 4473 "platform.ml" 108 4422 4480
+type(
+  string
+)
+ident(
+  int_ref tmp_exe "platform.ml" 106 4336 4367 "platform.ml" 106 4336 4374
+)
+"platform.ml" 108 4422 4481 "platform.ml" 108 4422 4485
+type(
+  string
+)
+ident(
+  int_ref args "platform.ml" 106 4336 4353 "platform.ml" 106 4336 4357
+)
+"platform.ml" 108 4422 4486 "platform.ml" 108 4422 4493
+type(
+  string
+)
+ident(
+  int_ref tmp_out "platform.ml" 106 4336 4384 "platform.ml" 106 4336 4391
+)
+"platform.ml" 108 4422 4436 "platform.ml" 108 4422 4493
+type(
+  string
+)
+"platform.ml" 109 4497 4505 "platform.ml" 109 4497 4506
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 109 4497 4506 "platform.ml" 109 4497 4516
+type(
+  bool ref
+)
+ident(
+  int_ref verbose_on "platform.ml" 37 1530 1534 "platform.ml" 37 1530 1544
+)
+"platform.ml" 109 4497 4505 "platform.ml" 109 4497 4516
+type(
+  bool
+)
+"platform.ml" 109 4497 4522 "platform.ml" 109 4497 4528
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"platform.ml" 109 4497 4529 "platform.ml" 109 4497 4537
+type(
+  (string -> unit, out_channel, unit) format
+)
+"platform.ml" 109 4497 4538 "platform.ml" 109 4497 4541
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 108 4422 4430 "platform.ml" 108 4422 4433
+)
+"platform.ml" 109 4497 4522 "platform.ml" 109 4497 4541
+type(
+  unit
+)
+"platform.ml" 109 4497 4501 "platform.ml" 109 4497 4542
+type(
+  unit
+)
+"platform.ml" 110 4544 4555 "platform.ml" 110 4544 4561
+type(
+  string -> Unix.process_status
+)
+ident(
+  ext_ref Unix.system
+)
+"platform.ml" 110 4544 4562 "platform.ml" 110 4544 4565
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 108 4422 4430 "platform.ml" 108 4422 4433
+)
+"platform.ml" 110 4544 4554 "platform.ml" 110 4544 4566
+type(
+  Unix.process_status
+)
+"platform.ml" 111 4572 4586 "platform.ml" 111 4572 4587
+type(
+  int
+)
+ident(
+  def i "platform.ml" 111 4572 4591 "platform.ml" 111 4572 4593
+)
+"platform.ml" 111 4572 4578 "platform.ml" 111 4572 4587
+type(
+  Unix.process_status
+)
+"platform.ml" 111 4572 4591 "platform.ml" 111 4572 4593
+type(
+  unit
+)
+"platform.ml" 112 4594 4610 "platform.ml" 112 4594 4611
+type(
+  int
+)
+ident(
+  def i "platform.ml" 112 4594 4615 "platform.ml" 112 4594 4672
+)
+"platform.ml" 112 4594 4600 "platform.ml" 112 4594 4611
+type(
+  Unix.process_status
+)
+"platform.ml" 112 4594 4615 "platform.ml" 112 4594 4620
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 112 4594 4636 "platform.ml" 112 4594 4639
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 108 4422 4430 "platform.ml" 108 4422 4433
+)
+"platform.ml" 112 4594 4641 "platform.ml" 112 4594 4648
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 112 4594 4649 "platform.ml" 112 4594 4668
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 112 4594 4669 "platform.ml" 112 4594 4670
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 112 4594 4610 "platform.ml" 112 4594 4611
+)
+"platform.ml" 112 4594 4641 "platform.ml" 112 4594 4670
+type(
+  string
+)
+"platform.ml" 112 4594 4621 "platform.ml" 112 4594 4672
+type(
+  exn
+)
+"platform.ml" 112 4594 4615 "platform.ml" 112 4594 4672
+type(
+  unit
+)
+"platform.ml" 113 4673 4688 "platform.ml" 113 4673 4689
+type(
+  int
+)
+ident(
+  def i "platform.ml" 113 4673 4693 "platform.ml" 113 4673 4749
+)
+"platform.ml" 113 4673 4679 "platform.ml" 113 4673 4689
+type(
+  Unix.process_status
+)
+"platform.ml" 113 4673 4693 "platform.ml" 113 4673 4698
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"platform.ml" 113 4673 4714 "platform.ml" 113 4673 4717
+type(
+  string
+)
+ident(
+  int_ref cmd "platform.ml" 108 4422 4430 "platform.ml" 108 4422 4433
+)
+"platform.ml" 113 4673 4719 "platform.ml" 113 4673 4726
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 113 4673 4727 "platform.ml" 113 4673 4745
+type(
+  (int -> string, unit, string) format
+)
+"platform.ml" 113 4673 4746 "platform.ml" 113 4673 4747
+type(
+  int
+)
+ident(
+  int_ref i "platform.ml" 113 4673 4688 "platform.ml" 113 4673 4689
+)
+"platform.ml" 113 4673 4719 "platform.ml" 113 4673 4747
+type(
+  string
+)
+"platform.ml" 113 4673 4699 "platform.ml" 113 4673 4749
+type(
+  exn
+)
+"platform.ml" 113 4673 4693 "platform.ml" 113 4673 4749
+type(
+  unit
+)
+"platform.ml" 110 4544 4548 "platform.ml" 113 4673 4749
+type(
+  unit
+)
+"platform.ml" 109 4497 4501 "platform.ml" 113 4673 4749
+type(
+  unit
+)
+"platform.ml" 108 4422 4426 "platform.ml" 113 4673 4749
+type(
+  unit
+)
+"platform.ml" 115 4755 4761 "platform.ml" 115 4755 4763
+type(
+  in_channel
+)
+"platform.ml" 115 4755 4766 "platform.ml" 115 4755 4773
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"platform.ml" 115 4755 4774 "platform.ml" 115 4755 4781
+type(
+  string
+)
+ident(
+  int_ref tmp_out "platform.ml" 106 4336 4384 "platform.ml" 106 4336 4391
+)
+"platform.ml" 115 4755 4766 "platform.ml" 115 4755 4781
+type(
+  in_channel
+)
+"platform.ml" 116 4785 4791 "platform.ml" 116 4785 4797
+type(
+  string
+)
+"platform.ml" 116 4785 4800 "platform.ml" 116 4785 4814
+type(
+  in_channel -> string
+)
+ident(
+  int_ref string_of_file "platform.ml" 96 4036 4040 "platform.ml" 96 4036 4054
+)
+"platform.ml" 116 4785 4815 "platform.ml" 116 4785 4817
+type(
+  in_channel
+)
+ident(
+  int_ref fi "platform.ml" 115 4755 4761 "platform.ml" 115 4755 4763
+)
+"platform.ml" 116 4785 4800 "platform.ml" 116 4785 4817
+type(
+  string
+)
+"platform.ml" 117 4821 4827 "platform.ml" 117 4821 4828
+type(
+  unit
+)
+"platform.ml" 117 4821 4831 "platform.ml" 117 4821 4839
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"platform.ml" 117 4821 4840 "platform.ml" 117 4821 4842
+type(
+  in_channel
+)
+ident(
+  int_ref fi "platform.ml" 115 4755 4761 "platform.ml" 115 4755 4763
+)
+"platform.ml" 117 4821 4831 "platform.ml" 117 4821 4842
+type(
+  unit
+)
+"platform.ml" 118 4846 4850 "platform.ml" 118 4846 4856
+type(
+  string
+)
+ident(
+  int_ref result "platform.ml" 116 4785 4791 "platform.ml" 116 4785 4797
+)
+"platform.ml" 117 4821 4823 "platform.ml" 118 4846 4856
+type(
+  string
+)
+"platform.ml" 116 4785 4787 "platform.ml" 118 4846 4856
+type(
+  string
+)
+"platform.ml" 115 4755 4757 "platform.ml" 118 4846 4856
+type(
+  string
+)
+"platform.ml" 107 4411 4413 "platform.ml" 118 4846 4856
+type(
+  string
+)
+type(
+  string
+)
+"platform.ml" 120 4858 4862 "platform.ml" 120 4858 4873
+type(
+  unit -> unit
+)
+ident(
+  def clean_paths "platform.ml" 122 4920 4959 --
+)
+"platform.ml" 120 4858 4874 "platform.ml" 120 4858 4876
+type(
+  unit
+)
+"platform.ml" 121 4879 4881 "platform.ml" 121 4879 4883
+type(
+  string -> unit
+)
+ident(
+  int_ref sh "platform.ml" 41 1622 1626 "platform.ml" 41 1622 1628
+)
+"platform.ml" 121 4879 4885 "platform.ml" 121 4879 4892
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 121 4879 4893 "platform.ml" 121 4879 4900
+type(
+  (string -> string -> string, unit, string) format
+)
+"platform.ml" 121 4879 4901 "platform.ml" 121 4879 4907
+type(
+  string
+)
+ident(
+  int_ref rm_cmd "platform.ml" 32 1353 1357 "platform.ml" 32 1353 1363
+)
+"platform.ml" 121 4879 4908 "platform.ml" 121 4879 4909
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 121 4879 4909 "platform.ml" 121 4879 4917
+type(
+  string ref
+)
+ident(
+  int_ref obj_path "platform.ml" 18 628 632 "platform.ml" 18 628 640
+)
+"platform.ml" 121 4879 4908 "platform.ml" 121 4879 4917
+type(
+  string
+)
+"platform.ml" 121 4879 4884 "platform.ml" 121 4879 4918
+type(
+  string
+)
+"platform.ml" 121 4879 4881 "platform.ml" 121 4879 4918
+type(
+  unit
+)
+"platform.ml" 122 4920 4922 "platform.ml" 122 4920 4924
+type(
+  string -> unit
+)
+ident(
+  int_ref sh "platform.ml" 41 1622 1626 "platform.ml" 41 1622 1628
+)
+"platform.ml" 122 4920 4926 "platform.ml" 122 4920 4933
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"platform.ml" 122 4920 4934 "platform.ml" 122 4920 4941
+type(
+  (string -> string -> string, unit, string) format
+)
+"platform.ml" 122 4920 4942 "platform.ml" 122 4920 4948
+type(
+  string
+)
+ident(
+  int_ref rm_cmd "platform.ml" 32 1353 1357 "platform.ml" 32 1353 1363
+)
+"platform.ml" 122 4920 4949 "platform.ml" 122 4920 4950
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"platform.ml" 122 4920 4950 "platform.ml" 122 4920 4958
+type(
+  string ref
+)
+ident(
+  int_ref bin_path "platform.ml" 19 693 697 "platform.ml" 19 693 705
+)
+"platform.ml" 122 4920 4949 "platform.ml" 122 4920 4958
+type(
+  string
+)
+"platform.ml" 122 4920 4925 "platform.ml" 122 4920 4959
+type(
+  string
+)
+"platform.ml" 122 4920 4922 "platform.ml" 122 4920 4959
+type(
+  unit
+)
+"platform.ml" 121 4879 4881 "platform.ml" 122 4920 4959
+type(
+  unit
+)

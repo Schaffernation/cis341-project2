@@ -1,0 +1,14 @@
+"providedtests.ml" 8 219 223 "providedtests.ml" 8 219 237
+type(
+  Assert.suite
+)
+ident(
+  def provided_tests "providedtests.ml" 10 253 254 --
+)
+"providedtests.ml" 8 219 248 "providedtests.ml" 10 253 254
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)

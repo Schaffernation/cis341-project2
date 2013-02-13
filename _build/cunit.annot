@@ -1,0 +1,1504 @@
+"cunit.ml" 26 568 572 "cunit.ml" 26 568 588
+type(
+  string -> string
+)
+ident(
+  def quote_asm_string "cunit.ml" 39 987 987 --
+)
+"cunit.ml" 26 568 589 "cunit.ml" 26 568 590
+type(
+  string
+)
+ident(
+  def s "cunit.ml" 27 593 595 "cunit.ml" 37 961 985
+)
+"cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+type(
+  Buffer.t
+)
+"cunit.ml" 27 593 608 "cunit.ml" 27 593 621
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"cunit.ml" 27 593 623 "cunit.ml" 27 593 636
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"cunit.ml" 27 593 637 "cunit.ml" 27 593 638
+type(
+  string
+)
+ident(
+  int_ref s "cunit.ml" 26 568 589 "cunit.ml" 26 568 590
+)
+"cunit.ml" 27 593 622 "cunit.ml" 27 593 639
+type(
+  int
+)
+"cunit.ml" 27 593 608 "cunit.ml" 27 593 639
+type(
+  Buffer.t
+)
+"cunit.ml" 28 643 645 "cunit.ml" 28 643 660
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"cunit.ml" 28 643 661 "cunit.ml" 28 643 667
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 28 643 668 "cunit.ml" 28 643 672
+type(
+  char
+)
+"cunit.ml" 28 643 645 "cunit.ml" 28 643 672
+type(
+  unit
+)
+"cunit.ml" 29 674 676 "cunit.ml" 29 674 687
+type(
+  (char -> unit) -> string -> unit
+)
+ident(
+  ext_ref String.iter
+)
+"cunit.ml" 30 698 704 "cunit.ml" 30 698 708
+type(
+  char
+)
+"cunit.ml" 30 698 712 "cunit.ml" 30 698 729
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"cunit.ml" 30 698 730 "cunit.ml" 30 698 736
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 30 698 737 "cunit.ml" 30 698 742
+type(
+  string
+)
+"cunit.ml" 30 698 712 "cunit.ml" 30 698 742
+type(
+  unit
+)
+"cunit.ml" 31 743 749 "cunit.ml" 31 743 753
+type(
+  char
+)
+"cunit.ml" 31 743 757 "cunit.ml" 31 743 774
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"cunit.ml" 31 743 775 "cunit.ml" 31 743 781
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 31 743 782 "cunit.ml" 31 743 788
+type(
+  string
+)
+"cunit.ml" 31 743 757 "cunit.ml" 31 743 788
+type(
+  unit
+)
+"cunit.ml" 32 789 795 "cunit.ml" 32 789 799
+type(
+  char
+)
+"cunit.ml" 32 789 803 "cunit.ml" 32 789 820
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"cunit.ml" 32 789 821 "cunit.ml" 32 789 827
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 32 789 828 "cunit.ml" 32 789 834
+type(
+  string
+)
+"cunit.ml" 32 789 803 "cunit.ml" 32 789 834
+type(
+  unit
+)
+"cunit.ml" 33 835 841 "cunit.ml" 33 835 845
+type(
+  char
+)
+"cunit.ml" 33 835 849 "cunit.ml" 33 835 866
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"cunit.ml" 33 835 867 "cunit.ml" 33 835 873
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 33 835 874 "cunit.ml" 33 835 879
+type(
+  string
+)
+"cunit.ml" 33 835 849 "cunit.ml" 33 835 879
+type(
+  unit
+)
+"cunit.ml" 34 880 886 "cunit.ml" 34 880 887
+type(
+  char
+)
+ident(
+  def c "cunit.ml" 34 880 891 "cunit.ml" 34 880 915
+)
+"cunit.ml" 34 880 891 "cunit.ml" 34 880 906
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"cunit.ml" 34 880 907 "cunit.ml" 34 880 913
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 34 880 914 "cunit.ml" 34 880 915
+type(
+  char
+)
+ident(
+  int_ref c "cunit.ml" 34 880 886 "cunit.ml" 34 880 887
+)
+"cunit.ml" 34 880 891 "cunit.ml" 34 880 915
+type(
+  unit
+)
+"cunit.ml" 29 674 688 "cunit.ml" 35 916 921
+type(
+  char -> unit
+)
+"cunit.ml" 35 916 922 "cunit.ml" 35 916 923
+type(
+  string
+)
+ident(
+  int_ref s "cunit.ml" 26 568 589 "cunit.ml" 26 568 590
+)
+"cunit.ml" 29 674 676 "cunit.ml" 35 916 923
+type(
+  unit
+)
+"cunit.ml" 36 925 927 "cunit.ml" 36 925 944
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"cunit.ml" 36 925 945 "cunit.ml" 36 925 951
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 36 925 952 "cunit.ml" 36 925 959
+type(
+  string
+)
+"cunit.ml" 36 925 927 "cunit.ml" 36 925 959
+type(
+  unit
+)
+"cunit.ml" 37 961 963 "cunit.ml" 37 961 978
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"cunit.ml" 37 961 979 "cunit.ml" 37 961 985
+type(
+  Buffer.t
+)
+ident(
+  int_ref outbuf "cunit.ml" 27 593 599 "cunit.ml" 27 593 605
+)
+"cunit.ml" 37 961 963 "cunit.ml" 37 961 985
+type(
+  string
+)
+"cunit.ml" 36 925 927 "cunit.ml" 37 961 985
+type(
+  string
+)
+"cunit.ml" 29 674 676 "cunit.ml" 37 961 985
+type(
+  string
+)
+"cunit.ml" 28 643 645 "cunit.ml" 37 961 985
+type(
+  string
+)
+"cunit.ml" 27 593 595 "cunit.ml" 37 961 985
+type(
+  string
+)
+"cunit.ml" 39 987 991 "cunit.ml" 39 987 1012
+type(
+  global_data -> string
+)
+ident(
+  def string_of_global_data "cunit.ml" 63 1895 1895 --
+)
+"cunit.ml" 39 987 1013 "cunit.ml" 39 987 1014
+type(
+  global_data
+)
+ident(
+  def d "cunit.ml" 40 1017 1019 "cunit.ml" 60 1824 1839
+)
+"cunit.ml" 40 1017 1023 "cunit.ml" 40 1017 1035
+type(
+  string
+)
+"cunit.ml" 40 1017 1042 "cunit.ml" 40 1017 1043
+type(
+  global_data
+)
+ident(
+  int_ref d "cunit.ml" 39 987 1013 "cunit.ml" 39 987 1014
+)
+"cunit.ml" 40 1017 1042 "cunit.ml" 40 1017 1048
+type(
+  bool
+)
+"cunit.ml" 40 1017 1049 "cunit.ml" 40 1017 1051
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"cunit.ml" 40 1017 1052 "cunit.ml" 40 1017 1053
+type(
+  global_data
+)
+ident(
+  int_ref d "cunit.ml" 39 987 1013 "cunit.ml" 39 987 1014
+)
+"cunit.ml" 40 1017 1052 "cunit.ml" 40 1017 1059
+type(
+  global
+)
+"cunit.ml" 40 1017 1060 "cunit.ml" 40 1017 1061
+type(
+  global -> global -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"cunit.ml" 40 1017 1062 "cunit.ml" 40 1017 1069
+type(
+  global
+)
+"cunit.ml" 40 1017 1052 "cunit.ml" 40 1017 1069
+type(
+  bool
+)
+"cunit.ml" 40 1017 1041 "cunit.ml" 40 1017 1070
+type(
+  bool
+)
+"cunit.ml" 41 1078 1084 "cunit.ml" 41 1078 1093
+type(
+  string
+)
+"cunit.ml" 41 1078 1094 "cunit.ml" 41 1078 1095
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 41 1078 1097 "cunit.ml" 41 1078 1114
+type(
+  X86.lbl -> string
+)
+ident(
+  ext_ref X86.string_of_lbl
+)
+"cunit.ml" 41 1078 1115 "cunit.ml" 41 1078 1116
+type(
+  global_data
+)
+ident(
+  int_ref d "cunit.ml" 39 987 1013 "cunit.ml" 39 987 1014
+)
+"cunit.ml" 41 1078 1115 "cunit.ml" 41 1078 1122
+type(
+  X86.lbl
+)
+"cunit.ml" 41 1078 1096 "cunit.ml" 41 1078 1123
+type(
+  string
+)
+"cunit.ml" 41 1078 1124 "cunit.ml" 41 1078 1125
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 41 1078 1126 "cunit.ml" 41 1078 1130
+type(
+  string
+)
+"cunit.ml" 41 1078 1096 "cunit.ml" 41 1078 1130
+type(
+  string
+)
+"cunit.ml" 40 1017 1076 "cunit.ml" 42 1131 1136
+type(
+  string
+)
+"cunit.ml" 42 1131 1142 "cunit.ml" 42 1131 1144
+type(
+  string
+)
+"cunit.ml" 40 1017 1038 "cunit.ml" 42 1131 1144
+type(
+  string
+)
+"cunit.ml" 43 1148 1154 "cunit.ml" 43 1148 1163
+type(
+  string
+)
+"cunit.ml" 44 1166 1176 "cunit.ml" 44 1166 1177
+type(
+  global_data
+)
+ident(
+  int_ref d "cunit.ml" 39 987 1013 "cunit.ml" 39 987 1014
+)
+"cunit.ml" 44 1166 1176 "cunit.ml" 44 1166 1183
+type(
+  global
+)
+"cunit.ml" 45 1189 1208 "cunit.ml" 45 1189 1209
+type(
+  string
+)
+ident(
+  def s "cunit.ml" 45 1189 1213 "cunit.ml" 46 1262 1306
+)
+"cunit.ml" 45 1189 1195 "cunit.ml" 45 1189 1209
+type(
+  global
+)
+"cunit.ml" 45 1189 1213 "cunit.ml" 45 1189 1223
+type(
+  string
+)
+"cunit.ml" 45 1189 1224 "cunit.ml" 45 1189 1225
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 45 1189 1227 "cunit.ml" 45 1189 1240
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"cunit.ml" 45 1189 1242 "cunit.ml" 45 1189 1255
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"cunit.ml" 45 1189 1256 "cunit.ml" 45 1189 1257
+type(
+  string
+)
+ident(
+  int_ref s "cunit.ml" 45 1189 1208 "cunit.ml" 45 1189 1209
+)
+"cunit.ml" 45 1189 1241 "cunit.ml" 45 1189 1258
+type(
+  int
+)
+"cunit.ml" 45 1189 1226 "cunit.ml" 45 1189 1259
+type(
+  string
+)
+"cunit.ml" 45 1189 1260 "cunit.ml" 45 1189 1261
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 46 1262 1270 "cunit.ml" 46 1262 1283
+type(
+  string
+)
+"cunit.ml" 46 1262 1284 "cunit.ml" 46 1262 1285
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 46 1262 1287 "cunit.ml" 46 1262 1303
+type(
+  string -> string
+)
+ident(
+  int_ref quote_asm_string "cunit.ml" 26 568 572 "cunit.ml" 26 568 588
+)
+"cunit.ml" 46 1262 1304 "cunit.ml" 46 1262 1305
+type(
+  string
+)
+ident(
+  int_ref s "cunit.ml" 45 1189 1208 "cunit.ml" 45 1189 1209
+)
+"cunit.ml" 46 1262 1286 "cunit.ml" 46 1262 1306
+type(
+  string
+)
+"cunit.ml" 46 1262 1270 "cunit.ml" 46 1262 1306
+type(
+  string
+)
+"cunit.ml" 45 1189 1226 "cunit.ml" 46 1262 1306
+type(
+  string
+)
+"cunit.ml" 45 1189 1213 "cunit.ml" 46 1262 1306
+type(
+  string
+)
+"cunit.ml" 47 1307 1322 "cunit.ml" 47 1307 1323
+type(
+  string
+)
+ident(
+  def s "cunit.ml" 47 1307 1327 "cunit.ml" 47 1307 1361
+)
+"cunit.ml" 47 1307 1313 "cunit.ml" 47 1307 1323
+type(
+  global
+)
+"cunit.ml" 47 1307 1327 "cunit.ml" 47 1307 1338
+type(
+  string
+)
+"cunit.ml" 47 1307 1339 "cunit.ml" 47 1307 1340
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 47 1307 1342 "cunit.ml" 47 1307 1358
+type(
+  string -> string
+)
+ident(
+  int_ref quote_asm_string "cunit.ml" 26 568 572 "cunit.ml" 26 568 588
+)
+"cunit.ml" 47 1307 1359 "cunit.ml" 47 1307 1360
+type(
+  string
+)
+ident(
+  int_ref s "cunit.ml" 47 1307 1322 "cunit.ml" 47 1307 1323
+)
+"cunit.ml" 47 1307 1341 "cunit.ml" 47 1307 1361
+type(
+  string
+)
+"cunit.ml" 47 1307 1327 "cunit.ml" 47 1307 1361
+type(
+  string
+)
+"cunit.ml" 48 1362 1382 "cunit.ml" 48 1362 1383
+type(
+  X86.lbl
+)
+ident(
+  def l "cunit.ml" 48 1362 1391 "cunit.ml" 49 1437 1464
+)
+"cunit.ml" 48 1362 1385 "cunit.ml" 48 1362 1386
+type(
+  int32
+)
+ident(
+  def i "cunit.ml" 48 1362 1391 "cunit.ml" 49 1437 1464
+)
+"cunit.ml" 48 1362 1368 "cunit.ml" 48 1362 1387
+type(
+  global
+)
+"cunit.ml" 48 1362 1391 "cunit.ml" 48 1362 1401
+type(
+  string
+)
+"cunit.ml" 48 1362 1402 "cunit.ml" 48 1362 1403
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 48 1362 1405 "cunit.ml" 48 1362 1422
+type(
+  X86.lbl -> string
+)
+ident(
+  ext_ref X86.string_of_lbl
+)
+"cunit.ml" 48 1362 1423 "cunit.ml" 48 1362 1424
+type(
+  X86.lbl
+)
+ident(
+  int_ref l "cunit.ml" 48 1362 1382 "cunit.ml" 48 1362 1383
+)
+"cunit.ml" 48 1362 1404 "cunit.ml" 48 1362 1425
+type(
+  string
+)
+"cunit.ml" 48 1362 1426 "cunit.ml" 48 1362 1427
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 48 1362 1428 "cunit.ml" 48 1362 1433
+type(
+  string
+)
+"cunit.ml" 48 1362 1434 "cunit.ml" 48 1362 1435
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 49 1437 1446 "cunit.ml" 49 1437 1461
+type(
+  int32 -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"cunit.ml" 49 1437 1462 "cunit.ml" 49 1437 1463
+type(
+  int32
+)
+ident(
+  int_ref i "cunit.ml" 48 1362 1385 "cunit.ml" 48 1362 1386
+)
+"cunit.ml" 49 1437 1445 "cunit.ml" 49 1437 1464
+type(
+  string
+)
+"cunit.ml" 48 1362 1428 "cunit.ml" 49 1437 1464
+type(
+  string
+)
+"cunit.ml" 48 1362 1404 "cunit.ml" 49 1437 1464
+type(
+  string
+)
+"cunit.ml" 48 1362 1391 "cunit.ml" 49 1437 1464
+type(
+  string
+)
+"cunit.ml" 50 1465 1479 "cunit.ml" 50 1465 1481
+type(
+  X86.lbl list
+)
+ident(
+  def ls "cunit.ml" 50 1465 1485 "cunit.ml" 51 1501 1578
+)
+"cunit.ml" 50 1465 1471 "cunit.ml" 50 1465 1481
+type(
+  global
+)
+"cunit.ml" 50 1465 1485 "cunit.ml" 50 1465 1499
+type(
+  (string -> X86.lbl -> string) -> string -> X86.lbl list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"cunit.ml" 51 1501 1514 "cunit.ml" 51 1501 1515
+type(
+  string
+)
+ident(
+  def s "cunit.ml" 51 1501 1519 "cunit.ml" 51 1501 1571
+)
+"cunit.ml" 51 1501 1523 "cunit.ml" 51 1501 1524
+type(
+  X86.lbl
+)
+ident(
+  def l "cunit.ml" 51 1501 1528 "cunit.ml" 51 1501 1571
+)
+"cunit.ml" 51 1501 1528 "cunit.ml" 51 1501 1529
+type(
+  string
+)
+ident(
+  int_ref s "cunit.ml" 51 1501 1514 "cunit.ml" 51 1501 1515
+)
+"cunit.ml" 51 1501 1530 "cunit.ml" 51 1501 1531
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 51 1501 1532 "cunit.ml" 51 1501 1542
+type(
+  string
+)
+"cunit.ml" 51 1501 1543 "cunit.ml" 51 1501 1544
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 51 1501 1545 "cunit.ml" 51 1501 1562
+type(
+  X86.lbl -> string
+)
+ident(
+  ext_ref X86.string_of_lbl
+)
+"cunit.ml" 51 1501 1563 "cunit.ml" 51 1501 1564
+type(
+  X86.lbl
+)
+ident(
+  int_ref l "cunit.ml" 51 1501 1523 "cunit.ml" 51 1501 1524
+)
+"cunit.ml" 51 1501 1545 "cunit.ml" 51 1501 1564
+type(
+  string
+)
+"cunit.ml" 51 1501 1565 "cunit.ml" 51 1501 1566
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 51 1501 1567 "cunit.ml" 51 1501 1571
+type(
+  string
+)
+"cunit.ml" 51 1501 1545 "cunit.ml" 51 1501 1571
+type(
+  string
+)
+"cunit.ml" 51 1501 1532 "cunit.ml" 51 1501 1571
+type(
+  string
+)
+"cunit.ml" 51 1501 1528 "cunit.ml" 51 1501 1571
+type(
+  string
+)
+"cunit.ml" 51 1501 1519 "cunit.ml" 51 1501 1571
+type(
+  X86.lbl -> string
+)
+"cunit.ml" 51 1501 1509 "cunit.ml" 51 1501 1572
+type(
+  string -> X86.lbl -> string
+)
+"cunit.ml" 51 1501 1573 "cunit.ml" 51 1501 1575
+type(
+  string
+)
+"cunit.ml" 51 1501 1576 "cunit.ml" 51 1501 1578
+type(
+  X86.lbl list
+)
+ident(
+  int_ref ls "cunit.ml" 50 1465 1479 "cunit.ml" 50 1465 1481
+)
+"cunit.ml" 50 1465 1485 "cunit.ml" 51 1501 1578
+type(
+  string
+)
+"cunit.ml" 52 1579 1592 "cunit.ml" 52 1579 1593
+type(
+  int32
+)
+ident(
+  def v "cunit.ml" 52 1579 1597 "cunit.ml" 52 1579 1629
+)
+"cunit.ml" 52 1579 1585 "cunit.ml" 52 1579 1593
+type(
+  global
+)
+"cunit.ml" 52 1579 1597 "cunit.ml" 52 1579 1607
+type(
+  string
+)
+"cunit.ml" 52 1579 1608 "cunit.ml" 52 1579 1609
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 52 1579 1611 "cunit.ml" 52 1579 1626
+type(
+  int32 -> string
+)
+ident(
+  ext_ref Int32.to_string
+)
+"cunit.ml" 52 1579 1627 "cunit.ml" 52 1579 1628
+type(
+  int32
+)
+ident(
+  int_ref v "cunit.ml" 52 1579 1592 "cunit.ml" 52 1579 1593
+)
+"cunit.ml" 52 1579 1610 "cunit.ml" 52 1579 1629
+type(
+  string
+)
+"cunit.ml" 52 1579 1597 "cunit.ml" 52 1579 1629
+type(
+  string
+)
+"cunit.ml" 53 1630 1642 "cunit.ml" 53 1630 1643
+type(
+  int
+)
+ident(
+  def z "cunit.ml" 53 1630 1647 "cunit.ml" 53 1630 1677
+)
+"cunit.ml" 53 1630 1636 "cunit.ml" 53 1630 1643
+type(
+  global
+)
+"cunit.ml" 53 1630 1647 "cunit.ml" 53 1630 1657
+type(
+  string
+)
+"cunit.ml" 53 1630 1658 "cunit.ml" 53 1630 1659
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 53 1630 1661 "cunit.ml" 53 1630 1674
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"cunit.ml" 53 1630 1675 "cunit.ml" 53 1630 1676
+type(
+  int
+)
+ident(
+  int_ref z "cunit.ml" 53 1630 1642 "cunit.ml" 53 1630 1643
+)
+"cunit.ml" 53 1630 1660 "cunit.ml" 53 1630 1677
+type(
+  string
+)
+"cunit.ml" 53 1630 1647 "cunit.ml" 53 1630 1677
+type(
+  string
+)
+"cunit.ml" 54 1678 1684 "cunit.ml" 54 1678 1691
+type(
+  global
+)
+"cunit.ml" 54 1678 1695 "cunit.ml" 54 1678 1697
+type(
+  string
+)
+"cunit.ml" 44 1166 1170 "cunit.ml" 54 1678 1697
+type(
+  string
+)
+"cunit.ml" 57 1704 1708 "cunit.ml" 57 1704 1720
+type(
+  string
+)
+ident(
+  int_ref maybe_global "cunit.ml" 40 1017 1023 "cunit.ml" 40 1017 1035
+)
+"cunit.ml" 57 1704 1721 "cunit.ml" 57 1704 1722
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 58 1724 1735 "cunit.ml" 58 1724 1736
+type(
+  global_data
+)
+ident(
+  int_ref d "cunit.ml" 39 987 1013 "cunit.ml" 39 987 1014
+)
+"cunit.ml" 58 1724 1735 "cunit.ml" 58 1724 1742
+type(
+  global
+)
+"cunit.ml" 58 1724 1743 "cunit.ml" 58 1724 1745
+type(
+  global -> global -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"cunit.ml" 58 1724 1746 "cunit.ml" 58 1724 1753
+type(
+  global
+)
+"cunit.ml" 58 1724 1734 "cunit.ml" 58 1724 1754
+type(
+  bool
+)
+"cunit.ml" 59 1760 1770 "cunit.ml" 59 1760 1787
+type(
+  X86.lbl -> string
+)
+ident(
+  ext_ref X86.string_of_lbl
+)
+"cunit.ml" 59 1760 1788 "cunit.ml" 59 1760 1789
+type(
+  global_data
+)
+ident(
+  int_ref d "cunit.ml" 39 987 1013 "cunit.ml" 39 987 1014
+)
+"cunit.ml" 59 1760 1788 "cunit.ml" 59 1760 1795
+type(
+  X86.lbl
+)
+"cunit.ml" 59 1760 1769 "cunit.ml" 59 1760 1796
+type(
+  string
+)
+"cunit.ml" 59 1760 1797 "cunit.ml" 59 1760 1798
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 59 1760 1799 "cunit.ml" 59 1760 1804
+type(
+  string
+)
+"cunit.ml" 59 1760 1805 "cunit.ml" 59 1760 1806
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 59 1760 1807 "cunit.ml" 59 1760 1816
+type(
+  string
+)
+ident(
+  int_ref data_defn "cunit.ml" 43 1148 1154 "cunit.ml" 43 1148 1163
+)
+"cunit.ml" 59 1760 1817 "cunit.ml" 59 1760 1818
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"cunit.ml" 59 1760 1819 "cunit.ml" 59 1760 1823
+type(
+  string
+)
+"cunit.ml" 59 1760 1807 "cunit.ml" 59 1760 1823
+type(
+  string
+)
+"cunit.ml" 59 1760 1799 "cunit.ml" 59 1760 1823
+type(
+  string
+)
+"cunit.ml" 59 1760 1769 "cunit.ml" 59 1760 1823
+type(
+  string
+)
+"cunit.ml" 60 1824 1836 "cunit.ml" 60 1824 1838
+type(
+  string
+)
+"cunit.ml" 58 1724 1730 "cunit.ml" 60 1824 1839
+type(
+  string
+)
+"cunit.ml" 57 1704 1708 "cunit.ml" 60 1824 1839
+type(
+  string
+)
+"cunit.ml" 43 1148 1150 "cunit.ml" 60 1824 1839
+type(
+  string
+)
+"cunit.ml" 40 1017 1019 "cunit.ml" 60 1824 1839
+type(
+  string
+)
+"cunit.ml" 69 1999 2003 "cunit.ml" 69 1999 2012
+type(
+  string
+)
+ident(
+  def mode_data "cunit.ml" 70 2027 2027 --
+)
+"cunit.ml" 69 1999 2015 "cunit.ml" 69 1999 2026
+type(
+  string
+)
+"cunit.ml" 70 2027 2031 "cunit.ml" 70 2027 2040
+type(
+  string
+)
+ident(
+  def mode_text "cunit.ml" 72 2056 2056 --
+)
+"cunit.ml" 70 2027 2043 "cunit.ml" 70 2027 2054
+type(
+  string
+)
+"cunit.ml" 72 2056 2060 "cunit.ml" 72 2056 2075
+type(
+  cunit -> (string -> unit) -> unit
+)
+ident(
+  def serialize_cunit "cunit.ml" 95 2967 2967 --
+)
+"cunit.ml" 72 2056 2077 "cunit.ml" 72 2056 2079
+type(
+  cunit
+)
+ident(
+  def cu "cunit.ml" 72 2056 2087 "cunit.ml" 93 2948 2961
+)
+"cunit.ml" 72 2056 2088 "cunit.ml" 72 2056 2095
+type(
+  string -> unit
+)
+ident(
+  def printfn "cunit.ml" 79 2546 2548 "cunit.ml" 93 2948 2961
+)
+"cunit.ml" 79 2546 2548 "cunit.ml" 79 2546 2555
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "cunit.ml" 72 2056 2088 "cunit.ml" 72 2056 2095
+)
+"cunit.ml" 79 2546 2556 "cunit.ml" 79 2546 2570
+type(
+  string
+)
+"cunit.ml" 79 2546 2548 "cunit.ml" 79 2546 2570
+type(
+  unit
+)
+"cunit.ml" 80 2572 2574 "cunit.ml" 80 2572 2580
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"cunit.ml" 80 2572 2582 "cunit.ml" 80 2572 2596
+type(
+  (string -> component -> string) -> string -> cunit -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"cunit.ml" 81 2598 2608 "cunit.ml" 81 2598 2612
+type(
+  string
+)
+ident(
+  def mode "cunit.ml" 81 2598 2613 "cunit.ml" 92 2931 2947
+)
+"cunit.ml" 81 2598 2613 "cunit.ml" 81 2598 2615
+type(
+  component
+)
+ident(
+  def ni "cunit.ml" 82 2619 2627 "cunit.ml" 92 2931 2947
+)
+"cunit.ml" 82 2619 2631 "cunit.ml" 82 2619 2636
+type(
+  string
+)
+"cunit.ml" 83 2639 2648 "cunit.ml" 83 2639 2650
+type(
+  component
+)
+ident(
+  int_ref ni "cunit.ml" 81 2598 2613 "cunit.ml" 81 2598 2615
+)
+"cunit.ml" 84 2656 2668 "cunit.ml" 84 2656 2669
+type(
+  X86.insn_block
+)
+ident(
+  def c "cunit.ml" 85 2673 2682 "cunit.ml" 87 2774 2792
+)
+"cunit.ml" 84 2656 2663 "cunit.ml" 84 2656 2669
+type(
+  component
+)
+"cunit.ml" 85 2673 2686 "cunit.ml" 85 2673 2690
+type(
+  string
+)
+ident(
+  int_ref mode "cunit.ml" 81 2598 2608 "cunit.ml" 81 2598 2612
+)
+"cunit.ml" 85 2673 2691 "cunit.ml" 85 2673 2693
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"cunit.ml" 85 2673 2694 "cunit.ml" 85 2673 2703
+type(
+  string
+)
+ident(
+  int_ref mode_text "cunit.ml" 70 2027 2031 "cunit.ml" 70 2027 2040
+)
+"cunit.ml" 85 2673 2686 "cunit.ml" 85 2673 2703
+type(
+  bool
+)
+"cunit.ml" 85 2673 2709 "cunit.ml" 85 2673 2716
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "cunit.ml" 72 2056 2088 "cunit.ml" 72 2056 2095
+)
+"cunit.ml" 85 2673 2717 "cunit.ml" 85 2673 2726
+type(
+  string
+)
+ident(
+  int_ref mode_text "cunit.ml" 70 2027 2031 "cunit.ml" 70 2027 2040
+)
+"cunit.ml" 85 2673 2709 "cunit.ml" 85 2673 2726
+type(
+  unit
+)
+"cunit.ml" 85 2673 2682 "cunit.ml" 85 2673 2727
+type(
+  unit
+)
+"cunit.ml" 86 2729 2738 "cunit.ml" 86 2729 2762
+type(
+  X86.insn_block -> (string -> unit) -> unit
+)
+ident(
+  ext_ref X86.serialize_insn_block
+)
+"cunit.ml" 86 2729 2763 "cunit.ml" 86 2729 2764
+type(
+  X86.insn_block
+)
+ident(
+  int_ref c "cunit.ml" 84 2656 2668 "cunit.ml" 84 2656 2669
+)
+"cunit.ml" 86 2729 2765 "cunit.ml" 86 2729 2772
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "cunit.ml" 72 2056 2088 "cunit.ml" 72 2056 2095
+)
+"cunit.ml" 86 2729 2738 "cunit.ml" 86 2729 2772
+type(
+  unit
+)
+"cunit.ml" 87 2774 2783 "cunit.ml" 87 2774 2792
+type(
+  string
+)
+ident(
+  int_ref mode_text "cunit.ml" 70 2027 2031 "cunit.ml" 70 2027 2040
+)
+"cunit.ml" 86 2729 2738 "cunit.ml" 87 2774 2792
+type(
+  string
+)
+"cunit.ml" 85 2673 2682 "cunit.ml" 87 2774 2792
+type(
+  string
+)
+"cunit.ml" 88 2793 2805 "cunit.ml" 88 2793 2806
+type(
+  global_data
+)
+ident(
+  def d "cunit.ml" 89 2810 2819 "cunit.ml" 91 2912 2930
+)
+"cunit.ml" 88 2793 2800 "cunit.ml" 88 2793 2806
+type(
+  component
+)
+"cunit.ml" 89 2810 2823 "cunit.ml" 89 2810 2827
+type(
+  string
+)
+ident(
+  int_ref mode "cunit.ml" 81 2598 2608 "cunit.ml" 81 2598 2612
+)
+"cunit.ml" 89 2810 2828 "cunit.ml" 89 2810 2830
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"cunit.ml" 89 2810 2831 "cunit.ml" 89 2810 2840
+type(
+  string
+)
+ident(
+  int_ref mode_data "cunit.ml" 69 1999 2003 "cunit.ml" 69 1999 2012
+)
+"cunit.ml" 89 2810 2823 "cunit.ml" 89 2810 2840
+type(
+  bool
+)
+"cunit.ml" 89 2810 2846 "cunit.ml" 89 2810 2853
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "cunit.ml" 72 2056 2088 "cunit.ml" 72 2056 2095
+)
+"cunit.ml" 89 2810 2854 "cunit.ml" 89 2810 2863
+type(
+  string
+)
+ident(
+  int_ref mode_data "cunit.ml" 69 1999 2003 "cunit.ml" 69 1999 2012
+)
+"cunit.ml" 89 2810 2846 "cunit.ml" 89 2810 2863
+type(
+  unit
+)
+"cunit.ml" 89 2810 2819 "cunit.ml" 89 2810 2864
+type(
+  unit
+)
+"cunit.ml" 90 2868 2877 "cunit.ml" 90 2868 2884
+type(
+  string -> unit
+)
+ident(
+  int_ref printfn "cunit.ml" 72 2056 2088 "cunit.ml" 72 2056 2095
+)
+"cunit.ml" 90 2868 2886 "cunit.ml" 90 2868 2907
+type(
+  global_data -> string
+)
+ident(
+  int_ref string_of_global_data "cunit.ml" 39 987 991 "cunit.ml" 39 987 1012
+)
+"cunit.ml" 90 2868 2908 "cunit.ml" 90 2868 2909
+type(
+  global_data
+)
+ident(
+  int_ref d "cunit.ml" 88 2793 2805 "cunit.ml" 88 2793 2806
+)
+"cunit.ml" 90 2868 2885 "cunit.ml" 90 2868 2910
+type(
+  string
+)
+"cunit.ml" 90 2868 2877 "cunit.ml" 90 2868 2910
+type(
+  unit
+)
+"cunit.ml" 91 2912 2921 "cunit.ml" 91 2912 2930
+type(
+  string
+)
+ident(
+  int_ref mode_data "cunit.ml" 69 1999 2003 "cunit.ml" 69 1999 2012
+)
+"cunit.ml" 90 2868 2877 "cunit.ml" 91 2912 2930
+type(
+  string
+)
+"cunit.ml" 89 2810 2819 "cunit.ml" 91 2912 2930
+type(
+  string
+)
+"cunit.ml" 83 2639 2642 "cunit.ml" 91 2912 2930
+type(
+  string
+)
+"cunit.ml" 92 2931 2942 "cunit.ml" 92 2931 2947
+type(
+  string
+)
+ident(
+  int_ref mode' "cunit.ml" 82 2619 2631 "cunit.ml" 82 2619 2636
+)
+"cunit.ml" 82 2619 2627 "cunit.ml" 92 2931 2947
+type(
+  string
+)
+"cunit.ml" 81 2598 2603 "cunit.ml" 93 2948 2954
+type(
+  string -> component -> string
+)
+"cunit.ml" 93 2948 2955 "cunit.ml" 93 2948 2957
+type(
+  string
+)
+"cunit.ml" 93 2948 2958 "cunit.ml" 93 2948 2960
+type(
+  cunit
+)
+ident(
+  int_ref cu "cunit.ml" 72 2056 2077 "cunit.ml" 72 2056 2079
+)
+"cunit.ml" 80 2572 2581 "cunit.ml" 93 2948 2961
+type(
+  string
+)
+"cunit.ml" 80 2572 2574 "cunit.ml" 93 2948 2961
+type(
+  unit
+)
+"cunit.ml" 79 2546 2548 "cunit.ml" 93 2948 2961
+type(
+  unit
+)
+"cunit.ml" 95 2967 2971 "cunit.ml" 95 2967 2986
+type(
+  cunit -> string
+)
+ident(
+  def string_of_cunit "cunit.ml" 100 3100 3100 --
+)
+"cunit.ml" 95 2967 2987 "cunit.ml" 95 2967 2989
+type(
+  cunit
+)
+ident(
+  def cu "cunit.ml" 96 2992 2994 "cunit.ml" 98 3071 3092
+)
+"cunit.ml" 96 2992 2998 "cunit.ml" 96 2992 2999
+type(
+  Buffer.t
+)
+"cunit.ml" 96 2992 3002 "cunit.ml" 96 2992 3015
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"cunit.ml" 96 2992 3016 "cunit.ml" 96 2992 3019
+type(
+  int
+)
+"cunit.ml" 96 2992 3002 "cunit.ml" 96 2992 3019
+type(
+  Buffer.t
+)
+"cunit.ml" 97 3023 3028 "cunit.ml" 97 3023 3043
+type(
+  cunit -> (string -> unit) -> unit
+)
+ident(
+  int_ref serialize_cunit "cunit.ml" 72 2056 2060 "cunit.ml" 72 2056 2075
+)
+"cunit.ml" 97 3023 3044 "cunit.ml" 97 3023 3046
+type(
+  cunit
+)
+ident(
+  int_ref cu "cunit.ml" 95 2967 2987 "cunit.ml" 95 2967 2989
+)
+"cunit.ml" 97 3023 3048 "cunit.ml" 97 3023 3065
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"cunit.ml" 97 3023 3066 "cunit.ml" 97 3023 3067
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "cunit.ml" 96 2992 2998 "cunit.ml" 96 2992 2999
+)
+"cunit.ml" 97 3023 3047 "cunit.ml" 97 3023 3068
+type(
+  string -> unit
+)
+"cunit.ml" 97 3023 3027 "cunit.ml" 97 3023 3069
+type(
+  unit
+)
+"cunit.ml" 98 3071 3075 "cunit.ml" 98 3071 3090
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"cunit.ml" 98 3071 3091 "cunit.ml" 98 3071 3092
+type(
+  Buffer.t
+)
+ident(
+  int_ref b "cunit.ml" 96 2992 2998 "cunit.ml" 96 2992 2999
+)
+"cunit.ml" 98 3071 3075 "cunit.ml" 98 3071 3092
+type(
+  string
+)
+"cunit.ml" 97 3023 3027 "cunit.ml" 98 3071 3092
+type(
+  string
+)
+"cunit.ml" 96 2992 2994 "cunit.ml" 98 3071 3092
+type(
+  string
+)
+"cunit.ml" 100 3100 3104 "cunit.ml" 100 3100 3116
+type(
+  cunit -> out_channel -> unit
+)
+ident(
+  def output_cunit "cunit.ml" 101 3147 3186 --
+)
+"cunit.ml" 100 3100 3118 "cunit.ml" 100 3100 3120
+type(
+  cunit
+)
+ident(
+  def cu "cunit.ml" 100 3100 3128 "cunit.ml" 101 3147 3186
+)
+"cunit.ml" 100 3100 3129 "cunit.ml" 100 3100 3131
+type(
+  out_channel
+)
+ident(
+  def oc "cunit.ml" 101 3147 3149 "cunit.ml" 101 3147 3186
+)
+"cunit.ml" 101 3147 3149 "cunit.ml" 101 3147 3164
+type(
+  cunit -> (string -> unit) -> unit
+)
+ident(
+  int_ref serialize_cunit "cunit.ml" 72 2056 2060 "cunit.ml" 72 2056 2075
+)
+"cunit.ml" 101 3147 3165 "cunit.ml" 101 3147 3167
+type(
+  cunit
+)
+ident(
+  int_ref cu "cunit.ml" 100 3100 3118 "cunit.ml" 100 3100 3120
+)
+"cunit.ml" 101 3147 3169 "cunit.ml" 101 3147 3182
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"cunit.ml" 101 3147 3183 "cunit.ml" 101 3147 3185
+type(
+  out_channel
+)
+ident(
+  int_ref oc "cunit.ml" 100 3100 3129 "cunit.ml" 100 3100 3131
+)
+"cunit.ml" 101 3147 3168 "cunit.ml" 101 3147 3186
+type(
+  string -> unit
+)
+"cunit.ml" 101 3147 3149 "cunit.ml" 101 3147 3186
+type(
+  unit
+)

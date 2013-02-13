@@ -1,0 +1,2446 @@
+"assert.ml" 23 573 577 "assert.ml" 23 573 586
+type(
+  'a -> 'a -> assertion
+)
+ident(
+  def assert_eq "assert.ml" 26 666 666 --
+)
+"assert.ml" 23 573 587 "assert.ml" 23 573 589
+type(
+  'a
+)
+ident(
+  def v1 "assert.ml" 23 573 590 "assert.ml" 24 607 664
+)
+"assert.ml" 23 573 590 "assert.ml" 23 573 592
+type(
+  'a
+)
+ident(
+  def v2 "assert.ml" 23 573 593 "assert.ml" 24 607 664
+)
+"assert.ml" 24 607 613 "assert.ml" 24 607 615
+type(
+  unit
+)
+"assert.ml" 24 607 622 "assert.ml" 24 607 624
+type(
+  'a
+)
+ident(
+  int_ref v1 "assert.ml" 23 573 587 "assert.ml" 23 573 589
+)
+"assert.ml" 24 607 625 "assert.ml" 24 607 627
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"assert.ml" 24 607 628 "assert.ml" 24 607 630
+type(
+  'a
+)
+ident(
+  int_ref v2 "assert.ml" 23 573 590 "assert.ml" 23 573 592
+)
+"assert.ml" 24 607 622 "assert.ml" 24 607 630
+type(
+  bool
+)
+"assert.ml" 24 607 636 "assert.ml" 24 607 644
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"assert.ml" 24 607 645 "assert.ml" 24 607 656
+type(
+  string
+)
+"assert.ml" 24 607 636 "assert.ml" 24 607 656
+type(
+  unit
+)
+"assert.ml" 24 607 662 "assert.ml" 24 607 664
+type(
+  unit
+)
+"assert.ml" 24 607 619 "assert.ml" 24 607 664
+type(
+  unit
+)
+"assert.ml" 24 607 609 "assert.ml" 24 607 664
+type(
+  assertion
+)
+type(
+  unit -> unit
+)
+"assert.ml" 26 666 670 "assert.ml" 26 666 680
+type(
+  (unit -> 'a) -> 'a -> assertion
+)
+ident(
+  def assert_eqf "assert.ml" 29 763 763 --
+)
+"assert.ml" 26 666 681 "assert.ml" 26 666 682
+type(
+  unit -> 'a
+)
+ident(
+  def f "assert.ml" 26 666 683 "assert.ml" 27 700 761
+)
+"assert.ml" 26 666 683 "assert.ml" 26 666 685
+type(
+  'a
+)
+ident(
+  def v2 "assert.ml" 26 666 686 "assert.ml" 27 700 761
+)
+"assert.ml" 27 700 706 "assert.ml" 27 700 708
+type(
+  unit
+)
+"assert.ml" 27 700 716 "assert.ml" 27 700 717
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "assert.ml" 26 666 681 "assert.ml" 26 666 682
+)
+"assert.ml" 27 700 718 "assert.ml" 27 700 720
+type(
+  unit
+)
+"assert.ml" 27 700 715 "assert.ml" 27 700 721
+type(
+  'a
+)
+"assert.ml" 27 700 722 "assert.ml" 27 700 724
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"assert.ml" 27 700 725 "assert.ml" 27 700 727
+type(
+  'a
+)
+ident(
+  int_ref v2 "assert.ml" 26 666 683 "assert.ml" 26 666 685
+)
+"assert.ml" 27 700 715 "assert.ml" 27 700 727
+type(
+  bool
+)
+"assert.ml" 27 700 733 "assert.ml" 27 700 741
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"assert.ml" 27 700 742 "assert.ml" 27 700 753
+type(
+  string
+)
+"assert.ml" 27 700 733 "assert.ml" 27 700 753
+type(
+  unit
+)
+"assert.ml" 27 700 759 "assert.ml" 27 700 761
+type(
+  unit
+)
+"assert.ml" 27 700 712 "assert.ml" 27 700 761
+type(
+  unit
+)
+"assert.ml" 27 700 702 "assert.ml" 27 700 761
+type(
+  assertion
+)
+type(
+  unit -> unit
+)
+"assert.ml" 29 763 767 "assert.ml" 29 763 778
+type(
+  assertion
+)
+ident(
+  def assert_fail "assert.ml" 36 890 890 --
+)
+"assert.ml" 29 763 797 "assert.ml" 29 763 799
+type(
+  unit
+)
+"assert.ml" 29 763 803 "assert.ml" 29 763 811
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"assert.ml" 29 763 812 "assert.ml" 29 763 825
+type(
+  string
+)
+"assert.ml" 29 763 803 "assert.ml" 29 763 825
+type(
+  unit
+)
+"assert.ml" 29 763 793 "assert.ml" 29 763 825
+type(
+  assertion
+)
+type(
+  unit -> unit
+)
+"assert.ml" 42 970 974 "assert.ml" 42 970 987
+type(
+  assertion -> result
+)
+ident(
+  def run_assertion "assert.ml" 50 1141 1141 --
+)
+"assert.ml" 42 970 989 "assert.ml" 42 970 990
+type(
+  assertion
+)
+ident(
+  def f "assert.ml" 42 970 1002 "assert.ml" 48 1072 1139
+)
+"assert.ml" 44 1020 1024 "assert.ml" 44 1020 1025
+type(
+  assertion
+)
+ident(
+  int_ref f "assert.ml" 42 970 989 "assert.ml" 42 970 990
+)
+"assert.ml" 44 1020 1026 "assert.ml" 44 1020 1028
+type(
+  unit
+)
+"assert.ml" 44 1020 1024 "assert.ml" 44 1020 1028
+type(
+  unit
+)
+"assert.ml" 45 1030 1034 "assert.ml" 45 1030 1038
+type(
+  result
+)
+"assert.ml" 44 1020 1024 "assert.ml" 45 1030 1038
+type(
+  result
+)
+"assert.ml" 47 1046 1060 "assert.ml" 47 1046 1061
+type(
+  string
+)
+ident(
+  def m "assert.ml" 47 1046 1065 "assert.ml" 47 1046 1071
+)
+"assert.ml" 47 1046 1052 "assert.ml" 47 1046 1061
+type(
+  exn
+)
+"assert.ml" 47 1046 1070 "assert.ml" 47 1046 1071
+type(
+  string
+)
+ident(
+  int_ref m "assert.ml" 47 1046 1060 "assert.ml" 47 1046 1061
+)
+"assert.ml" 47 1046 1065 "assert.ml" 47 1046 1071
+type(
+  result
+)
+"assert.ml" 48 1072 1078 "assert.ml" 48 1072 1079
+type(
+  exn
+)
+ident(
+  def e "assert.ml" 48 1072 1083 "assert.ml" 48 1072 1139
+)
+"assert.ml" 48 1072 1089 "assert.ml" 48 1072 1113
+type(
+  string
+)
+"assert.ml" 48 1072 1114 "assert.ml" 48 1072 1115
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 48 1072 1117 "assert.ml" 48 1072 1135
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"assert.ml" 48 1072 1136 "assert.ml" 48 1072 1137
+type(
+  exn
+)
+ident(
+  int_ref e "assert.ml" 48 1072 1078 "assert.ml" 48 1072 1079
+)
+"assert.ml" 48 1072 1116 "assert.ml" 48 1072 1138
+type(
+  string
+)
+"assert.ml" 48 1072 1088 "assert.ml" 48 1072 1139
+type(
+  string
+)
+"assert.ml" 48 1072 1083 "assert.ml" 48 1072 1139
+type(
+  result
+)
+"assert.ml" 43 1013 1015 "assert.ml" 48 1072 1139
+type(
+  result
+)
+type(
+  result
+)
+"assert.ml" 50 1141 1145 "assert.ml" 50 1141 1153
+type(
+  assertion test -> result test
+)
+ident(
+  def run_test "assert.ml" 57 1399 1399 --
+)
+"assert.ml" 50 1141 1155 "assert.ml" 50 1141 1156
+type(
+  assertion test
+)
+ident(
+  def t "assert.ml" 50 1141 1173 "assert.ml" 55 1390 1395
+)
+"assert.ml" 51 1189 1195 "assert.ml" 51 1189 1203
+type(
+  'a * assertion -> 'a * result
+)
+"assert.ml" 51 1189 1205 "assert.ml" 51 1189 1207
+type(
+  'a
+)
+ident(
+  def cn "assert.ml" 51 1189 1214 "assert.ml" 51 1189 1235
+)
+"assert.ml" 51 1189 1209 "assert.ml" 51 1189 1210
+type(
+  assertion
+)
+ident(
+  def f "assert.ml" 51 1189 1214 "assert.ml" 51 1189 1235
+)
+"assert.ml" 51 1189 1204 "assert.ml" 51 1189 1211
+type(
+  'a * assertion
+)
+"assert.ml" 51 1189 1215 "assert.ml" 51 1189 1217
+type(
+  'a
+)
+ident(
+  int_ref cn "assert.ml" 51 1189 1205 "assert.ml" 51 1189 1207
+)
+"assert.ml" 51 1189 1219 "assert.ml" 51 1189 1232
+type(
+  assertion -> result
+)
+ident(
+  int_ref run_assertion "assert.ml" 42 970 974 "assert.ml" 42 970 987
+)
+"assert.ml" 51 1189 1233 "assert.ml" 51 1189 1234
+type(
+  assertion
+)
+ident(
+  int_ref f "assert.ml" 51 1189 1209 "assert.ml" 51 1189 1210
+)
+"assert.ml" 51 1189 1219 "assert.ml" 51 1189 1234
+type(
+  result
+)
+"assert.ml" 51 1189 1214 "assert.ml" 51 1189 1235
+type(
+  'a * result
+)
+"assert.ml" 52 1239 1253 "assert.ml" 52 1239 1254
+type(
+  assertion test
+)
+ident(
+  int_ref t "assert.ml" 50 1141 1155 "assert.ml" 50 1141 1156
+)
+"assert.ml" 53 1260 1278 "assert.ml" 53 1260 1279
+type(
+  string
+)
+ident(
+  def n "assert.ml" 53 1260 1292 "assert.ml" 53 1260 1331
+)
+"assert.ml" 53 1260 1280 "assert.ml" 53 1260 1281
+type(
+  int
+)
+ident(
+  def s "assert.ml" 53 1260 1292 "assert.ml" 53 1260 1331
+)
+"assert.ml" 53 1260 1282 "assert.ml" 53 1260 1287
+type(
+  (string * assertion) list
+)
+ident(
+  def cases "assert.ml" 53 1260 1292 "assert.ml" 53 1260 1331
+)
+"assert.ml" 53 1260 1266 "assert.ml" 53 1260 1288
+type(
+  assertion test
+)
+"assert.ml" 53 1260 1303 "assert.ml" 53 1260 1304
+type(
+  string
+)
+ident(
+  int_ref n "assert.ml" 53 1260 1278 "assert.ml" 53 1260 1279
+)
+"assert.ml" 53 1260 1305 "assert.ml" 53 1260 1306
+type(
+  int
+)
+ident(
+  int_ref s "assert.ml" 53 1260 1280 "assert.ml" 53 1260 1281
+)
+"assert.ml" 53 1260 1307 "assert.ml" 53 1260 1315
+type(
+  (string * assertion -> string * result) ->
+  (string * assertion) list -> (string * result) list
+)
+ident(
+  ext_ref List.map
+)
+"assert.ml" 53 1260 1316 "assert.ml" 53 1260 1324
+type(
+  string * assertion -> string * result
+)
+ident(
+  int_ref run_case "assert.ml" 51 1189 1195 "assert.ml" 51 1189 1203
+)
+"assert.ml" 53 1260 1325 "assert.ml" 53 1260 1330
+type(
+  (string * assertion) list
+)
+ident(
+  int_ref cases "assert.ml" 53 1260 1282 "assert.ml" 53 1260 1287
+)
+"assert.ml" 53 1260 1307 "assert.ml" 53 1260 1330
+type(
+  (string * result) list
+)
+"assert.ml" 53 1260 1292 "assert.ml" 53 1260 1331
+type(
+  result test
+)
+"assert.ml" 54 1332 1344 "assert.ml" 54 1332 1345
+type(
+  string
+)
+ident(
+  def n "assert.ml" 54 1332 1357 "assert.ml" 54 1332 1389
+)
+"assert.ml" 54 1332 1347 "assert.ml" 54 1332 1352
+type(
+  (string * assertion) list
+)
+ident(
+  def cases "assert.ml" 54 1332 1357 "assert.ml" 54 1332 1389
+)
+"assert.ml" 54 1332 1338 "assert.ml" 54 1332 1353
+type(
+  assertion test
+)
+"assert.ml" 54 1332 1362 "assert.ml" 54 1332 1363
+type(
+  string
+)
+ident(
+  int_ref n "assert.ml" 54 1332 1344 "assert.ml" 54 1332 1345
+)
+"assert.ml" 54 1332 1365 "assert.ml" 54 1332 1373
+type(
+  (string * assertion -> string * result) ->
+  (string * assertion) list -> (string * result) list
+)
+ident(
+  ext_ref List.map
+)
+"assert.ml" 54 1332 1374 "assert.ml" 54 1332 1382
+type(
+  string * assertion -> string * result
+)
+ident(
+  int_ref run_case "assert.ml" 51 1189 1195 "assert.ml" 51 1189 1203
+)
+"assert.ml" 54 1332 1383 "assert.ml" 54 1332 1388
+type(
+  (string * assertion) list
+)
+ident(
+  int_ref cases "assert.ml" 54 1332 1347 "assert.ml" 54 1332 1352
+)
+"assert.ml" 54 1332 1365 "assert.ml" 54 1332 1388
+type(
+  (string * result) list
+)
+"assert.ml" 54 1332 1357 "assert.ml" 54 1332 1389
+type(
+  result test
+)
+"assert.ml" 52 1239 1241 "assert.ml" 55 1390 1395
+type(
+  result test
+)
+"assert.ml" 51 1189 1191 "assert.ml" 55 1390 1395
+type(
+  result test
+)
+type(
+  result test
+)
+"assert.ml" 57 1399 1403 "assert.ml" 57 1399 1412
+type(
+  suite -> outcome
+)
+ident(
+  def run_suite "assert.ml" 67 1513 1513 --
+)
+"assert.ml" 57 1399 1414 "assert.ml" 57 1399 1415
+type(
+  suite
+)
+ident(
+  def s "assert.ml" 57 1399 1422 "assert.ml" 58 1433 1454
+)
+"assert.ml" 58 1433 1435 "assert.ml" 58 1433 1443
+type(
+  (assertion test -> result test) -> suite -> outcome
+)
+ident(
+  ext_ref List.map
+)
+"assert.ml" 58 1433 1444 "assert.ml" 58 1433 1452
+type(
+  assertion test -> result test
+)
+ident(
+  int_ref run_test "assert.ml" 50 1141 1145 "assert.ml" 50 1141 1153
+)
+"assert.ml" 58 1433 1453 "assert.ml" 58 1433 1454
+type(
+  suite
+)
+ident(
+  int_ref s "assert.ml" 57 1399 1414 "assert.ml" 57 1399 1415
+)
+"assert.ml" 58 1433 1435 "assert.ml" 58 1433 1454
+type(
+  outcome
+)
+type(
+  outcome
+)
+"assert.ml" 67 1513 1517 "assert.ml" 67 1513 1538
+type(
+  string -> result test -> string
+)
+ident(
+  def result_test_to_string "assert.ml" 85 2157 2157 --
+)
+"assert.ml" 67 1513 1540 "assert.ml" 67 1513 1548
+type(
+  string
+)
+ident(
+  def name_pts "assert.ml" 67 1513 1557 "assert.ml" 82 2064 2069
+)
+"assert.ml" 67 1513 1558 "assert.ml" 67 1513 1559
+type(
+  result test
+)
+ident(
+  def r "assert.ml" 67 1513 1572 "assert.ml" 82 2064 2069
+)
+"assert.ml" 68 1583 1589 "assert.ml" 68 1583 1603
+type(
+  string * result -> string
+)
+"assert.ml" 68 1583 1605 "assert.ml" 68 1583 1609
+type(
+  string
+)
+ident(
+  def name "assert.ml" 69 1619 1623 "assert.ml" 74 1746 1751
+)
+"assert.ml" 68 1583 1611 "assert.ml" 68 1583 1614
+type(
+  result
+)
+ident(
+  def res "assert.ml" 69 1619 1623 "assert.ml" 74 1746 1751
+)
+"assert.ml" 68 1583 1604 "assert.ml" 68 1583 1615
+type(
+  string * result
+)
+"assert.ml" 69 1619 1623 "assert.ml" 69 1619 1627
+type(
+  string
+)
+"assert.ml" 69 1619 1628 "assert.ml" 69 1619 1629
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 69 1619 1630 "assert.ml" 69 1619 1634
+type(
+  string
+)
+ident(
+  int_ref name "assert.ml" 68 1583 1605 "assert.ml" 68 1583 1609
+)
+"assert.ml" 69 1619 1635 "assert.ml" 69 1619 1636
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 69 1619 1637 "assert.ml" 69 1619 1641
+type(
+  string
+)
+"assert.ml" 69 1619 1642 "assert.ml" 69 1619 1643
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 70 1646 1662 "assert.ml" 70 1646 1665
+type(
+  result
+)
+ident(
+  int_ref res "assert.ml" 68 1583 1611 "assert.ml" 68 1583 1614
+)
+"assert.ml" 71 1671 1679 "assert.ml" 71 1671 1683
+type(
+  result
+)
+"assert.ml" 71 1671 1691 "assert.ml" 71 1671 1699
+type(
+  string
+)
+"assert.ml" 72 1700 1713 "assert.ml" 72 1700 1716
+type(
+  string
+)
+ident(
+  def msg "assert.ml" 72 1700 1720 "assert.ml" 72 1700 1737
+)
+"assert.ml" 72 1700 1708 "assert.ml" 72 1700 1716
+type(
+  result
+)
+"assert.ml" 72 1700 1720 "assert.ml" 72 1700 1731
+type(
+  string
+)
+"assert.ml" 72 1700 1732 "assert.ml" 72 1700 1733
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 72 1700 1734 "assert.ml" 72 1700 1737
+type(
+  string
+)
+ident(
+  int_ref msg "assert.ml" 72 1700 1713 "assert.ml" 72 1700 1716
+)
+"assert.ml" 72 1700 1720 "assert.ml" 72 1700 1737
+type(
+  string
+)
+"assert.ml" 69 1619 1644 "assert.ml" 74 1746 1751
+type(
+  string
+)
+"assert.ml" 69 1619 1637 "assert.ml" 74 1746 1751
+type(
+  string
+)
+"assert.ml" 69 1619 1630 "assert.ml" 74 1746 1751
+type(
+  string
+)
+"assert.ml" 69 1619 1623 "assert.ml" 74 1746 1751
+type(
+  string
+)
+"assert.ml" 75 1755 1769 "assert.ml" 75 1755 1770
+type(
+  result test
+)
+ident(
+  int_ref r "assert.ml" 67 1513 1558 "assert.ml" 67 1513 1559
+)
+"assert.ml" 76 1776 1794 "assert.ml" 76 1776 1795
+type(
+  string
+)
+"assert.ml" 76 1776 1797 "assert.ml" 76 1776 1798
+type(
+  int
+)
+"assert.ml" 76 1776 1800 "assert.ml" 76 1776 1805
+type(
+  (string * result) list
+)
+ident(
+  def cases "assert.ml" 77 1810 1816 "assert.ml" 78 1827 1920
+)
+"assert.ml" 76 1776 1782 "assert.ml" 76 1776 1806
+type(
+  result test
+)
+"assert.ml" 77 1810 1816 "assert.ml" 77 1810 1824
+type(
+  string
+)
+ident(
+  int_ref name_pts "assert.ml" 67 1513 1540 "assert.ml" 67 1513 1548
+)
+"assert.ml" 77 1810 1825 "assert.ml" 77 1810 1826
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 78 1827 1834 "assert.ml" 78 1827 1848
+type(
+  (string -> string * result -> string) ->
+  string -> (string * result) list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"assert.ml" 78 1827 1854 "assert.ml" 78 1827 1858
+type(
+  string
+)
+ident(
+  def rest "assert.ml" 78 1827 1862 "assert.ml" 78 1827 1909
+)
+"assert.ml" 78 1827 1866 "assert.ml" 78 1827 1870
+type(
+  string * result
+)
+ident(
+  def case "assert.ml" 78 1827 1874 "assert.ml" 78 1827 1909
+)
+"assert.ml" 78 1827 1874 "assert.ml" 78 1827 1878
+type(
+  string
+)
+ident(
+  int_ref rest "assert.ml" 78 1827 1854 "assert.ml" 78 1827 1858
+)
+"assert.ml" 78 1827 1879 "assert.ml" 78 1827 1880
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 78 1827 1881 "assert.ml" 78 1827 1885
+type(
+  string
+)
+"assert.ml" 78 1827 1886 "assert.ml" 78 1827 1887
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 78 1827 1889 "assert.ml" 78 1827 1903
+type(
+  string * result -> string
+)
+ident(
+  int_ref string_of_case "assert.ml" 68 1583 1589 "assert.ml" 68 1583 1603
+)
+"assert.ml" 78 1827 1904 "assert.ml" 78 1827 1908
+type(
+  string * result
+)
+ident(
+  int_ref case "assert.ml" 78 1827 1866 "assert.ml" 78 1827 1870
+)
+"assert.ml" 78 1827 1888 "assert.ml" 78 1827 1909
+type(
+  string
+)
+"assert.ml" 78 1827 1881 "assert.ml" 78 1827 1909
+type(
+  string
+)
+"assert.ml" 78 1827 1874 "assert.ml" 78 1827 1909
+type(
+  string
+)
+"assert.ml" 78 1827 1862 "assert.ml" 78 1827 1909
+type(
+  string * result -> string
+)
+"assert.ml" 78 1827 1849 "assert.ml" 78 1827 1910
+type(
+  string -> string * result -> string
+)
+"assert.ml" 78 1827 1911 "assert.ml" 78 1827 1913
+type(
+  string
+)
+"assert.ml" 78 1827 1914 "assert.ml" 78 1827 1919
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 76 1776 1800 "assert.ml" 76 1776 1805
+)
+"assert.ml" 78 1827 1833 "assert.ml" 78 1827 1920
+type(
+  string
+)
+"assert.ml" 77 1810 1816 "assert.ml" 78 1827 1920
+type(
+  string
+)
+"assert.ml" 79 1921 1933 "assert.ml" 79 1921 1934
+type(
+  string
+)
+"assert.ml" 79 1921 1936 "assert.ml" 79 1921 1941
+type(
+  (string * result) list
+)
+ident(
+  def cases "assert.ml" 80 1946 1952 "assert.ml" 81 1970 2063
+)
+"assert.ml" 79 1921 1927 "assert.ml" 79 1921 1942
+type(
+  result test
+)
+"assert.ml" 80 1946 1952 "assert.ml" 80 1946 1960
+type(
+  string
+)
+ident(
+  int_ref name_pts "assert.ml" 67 1513 1540 "assert.ml" 67 1513 1548
+)
+"assert.ml" 80 1946 1961 "assert.ml" 80 1946 1962
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 80 1946 1963 "assert.ml" 80 1946 1966
+type(
+  string
+)
+"assert.ml" 80 1946 1967 "assert.ml" 80 1946 1968
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 81 1970 1977 "assert.ml" 81 1970 1991
+type(
+  (string -> string * result -> string) ->
+  string -> (string * result) list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"assert.ml" 81 1970 1997 "assert.ml" 81 1970 2001
+type(
+  string
+)
+ident(
+  def rest "assert.ml" 81 1970 2005 "assert.ml" 81 1970 2052
+)
+"assert.ml" 81 1970 2009 "assert.ml" 81 1970 2013
+type(
+  string * result
+)
+ident(
+  def case "assert.ml" 81 1970 2017 "assert.ml" 81 1970 2052
+)
+"assert.ml" 81 1970 2017 "assert.ml" 81 1970 2021
+type(
+  string
+)
+ident(
+  int_ref rest "assert.ml" 81 1970 1997 "assert.ml" 81 1970 2001
+)
+"assert.ml" 81 1970 2022 "assert.ml" 81 1970 2023
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 81 1970 2024 "assert.ml" 81 1970 2028
+type(
+  string
+)
+"assert.ml" 81 1970 2029 "assert.ml" 81 1970 2030
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 81 1970 2032 "assert.ml" 81 1970 2046
+type(
+  string * result -> string
+)
+ident(
+  int_ref string_of_case "assert.ml" 68 1583 1589 "assert.ml" 68 1583 1603
+)
+"assert.ml" 81 1970 2047 "assert.ml" 81 1970 2051
+type(
+  string * result
+)
+ident(
+  int_ref case "assert.ml" 81 1970 2009 "assert.ml" 81 1970 2013
+)
+"assert.ml" 81 1970 2031 "assert.ml" 81 1970 2052
+type(
+  string
+)
+"assert.ml" 81 1970 2024 "assert.ml" 81 1970 2052
+type(
+  string
+)
+"assert.ml" 81 1970 2017 "assert.ml" 81 1970 2052
+type(
+  string
+)
+"assert.ml" 81 1970 2005 "assert.ml" 81 1970 2052
+type(
+  string * result -> string
+)
+"assert.ml" 81 1970 1992 "assert.ml" 81 1970 2053
+type(
+  string -> string * result -> string
+)
+"assert.ml" 81 1970 2054 "assert.ml" 81 1970 2056
+type(
+  string
+)
+"assert.ml" 81 1970 2057 "assert.ml" 81 1970 2062
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 79 1921 1936 "assert.ml" 79 1921 1941
+)
+"assert.ml" 81 1970 1976 "assert.ml" 81 1970 2063
+type(
+  string
+)
+"assert.ml" 80 1946 1963 "assert.ml" 81 1970 2063
+type(
+  string
+)
+"assert.ml" 80 1946 1952 "assert.ml" 81 1970 2063
+type(
+  string
+)
+"assert.ml" 75 1755 1757 "assert.ml" 82 2064 2069
+type(
+  string
+)
+"assert.ml" 68 1583 1585 "assert.ml" 82 2064 2069
+type(
+  string
+)
+type(
+  string
+)
+"assert.ml" 85 2157 2161 "assert.ml" 85 2157 2172
+type(
+  result test -> string * int * int * int * float * int * int
+)
+ident(
+  def get_results "assert.ml" 109 3220 3220 --
+)
+"assert.ml" 85 2157 2174 "assert.ml" 85 2157 2175
+type(
+  result test
+)
+ident(
+  def t "assert.ml" 86 2191 2193 "assert.ml" 107 3213 3218
+)
+"assert.ml" 86 2191 2197 "assert.ml" 86 2191 2207
+type(
+  ('a * result) list -> int
+)
+"assert.ml" 86 2191 2208 "assert.ml" 86 2191 2213
+type(
+  ('a * result) list
+)
+ident(
+  def cases "assert.ml" 87 2217 2221 "assert.ml" 87 2217 2302
+)
+"assert.ml" 87 2217 2221 "assert.ml" 87 2217 2235
+type(
+  (int -> 'a * result -> int) -> int -> ('a * result) list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"assert.ml" 87 2217 2241 "assert.ml" 87 2217 2244
+type(
+  int
+)
+ident(
+  def cnt "assert.ml" 87 2217 2245 "assert.ml" 87 2217 2293
+)
+"assert.ml" 87 2217 2246 "assert.ml" 87 2217 2247
+type(
+  'a
+)
+"assert.ml" 87 2217 2248 "assert.ml" 87 2217 2249
+type(
+  result
+)
+ident(
+  def r "assert.ml" 87 2217 2254 "assert.ml" 87 2217 2293
+)
+"assert.ml" 87 2217 2245 "assert.ml" 87 2217 2250
+type(
+  'a * result
+)
+"assert.ml" 87 2217 2260 "assert.ml" 87 2217 2261
+type(
+  result
+)
+ident(
+  int_ref r "assert.ml" 87 2217 2248 "assert.ml" 87 2217 2249
+)
+"assert.ml" 87 2217 2267 "assert.ml" 87 2217 2271
+type(
+  result
+)
+"assert.ml" 87 2217 2275 "assert.ml" 87 2217 2278
+type(
+  int
+)
+ident(
+  int_ref cnt "assert.ml" 87 2217 2241 "assert.ml" 87 2217 2244
+)
+"assert.ml" 87 2217 2279 "assert.ml" 87 2217 2280
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"assert.ml" 87 2217 2281 "assert.ml" 87 2217 2282
+type(
+  int
+)
+"assert.ml" 87 2217 2275 "assert.ml" 87 2217 2282
+type(
+  int
+)
+"assert.ml" 87 2217 2285 "assert.ml" 87 2217 2286
+type(
+  result
+)
+"assert.ml" 87 2217 2290 "assert.ml" 87 2217 2293
+type(
+  int
+)
+ident(
+  int_ref cnt "assert.ml" 87 2217 2241 "assert.ml" 87 2217 2244
+)
+"assert.ml" 87 2217 2254 "assert.ml" 87 2217 2293
+type(
+  int
+)
+"assert.ml" 87 2217 2236 "assert.ml" 87 2217 2294
+type(
+  int -> 'a * result -> int
+)
+"assert.ml" 87 2217 2295 "assert.ml" 87 2217 2296
+type(
+  int
+)
+"assert.ml" 87 2217 2297 "assert.ml" 87 2217 2302
+type(
+  ('a * result) list
+)
+ident(
+  int_ref cases "assert.ml" 86 2191 2208 "assert.ml" 86 2191 2213
+)
+"assert.ml" 87 2217 2221 "assert.ml" 87 2217 2302
+type(
+  int
+)
+"assert.ml" 88 2306 2312 "assert.ml" 88 2306 2322
+type(
+  ('b * result) list -> int
+)
+"assert.ml" 88 2306 2323 "assert.ml" 88 2306 2328
+type(
+  ('b * result) list
+)
+ident(
+  def cases "assert.ml" 89 2332 2336 "assert.ml" 89 2332 2419
+)
+"assert.ml" 89 2332 2336 "assert.ml" 89 2332 2350
+type(
+  (int -> 'b * result -> int) -> int -> ('b * result) list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"assert.ml" 89 2332 2356 "assert.ml" 89 2332 2359
+type(
+  int
+)
+ident(
+  def cnt "assert.ml" 89 2332 2360 "assert.ml" 89 2332 2410
+)
+"assert.ml" 89 2332 2361 "assert.ml" 89 2332 2362
+type(
+  'b
+)
+"assert.ml" 89 2332 2363 "assert.ml" 89 2332 2364
+type(
+  result
+)
+ident(
+  def r "assert.ml" 89 2332 2369 "assert.ml" 89 2332 2410
+)
+"assert.ml" 89 2332 2360 "assert.ml" 89 2332 2365
+type(
+  'b * result
+)
+"assert.ml" 89 2332 2375 "assert.ml" 89 2332 2376
+type(
+  result
+)
+ident(
+  int_ref r "assert.ml" 89 2332 2363 "assert.ml" 89 2332 2364
+)
+"assert.ml" 89 2332 2387 "assert.ml" 89 2332 2388
+type(
+  string
+)
+"assert.ml" 89 2332 2382 "assert.ml" 89 2332 2388
+type(
+  result
+)
+"assert.ml" 89 2332 2392 "assert.ml" 89 2332 2395
+type(
+  int
+)
+ident(
+  int_ref cnt "assert.ml" 89 2332 2356 "assert.ml" 89 2332 2359
+)
+"assert.ml" 89 2332 2396 "assert.ml" 89 2332 2397
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"assert.ml" 89 2332 2398 "assert.ml" 89 2332 2399
+type(
+  int
+)
+"assert.ml" 89 2332 2392 "assert.ml" 89 2332 2399
+type(
+  int
+)
+"assert.ml" 89 2332 2402 "assert.ml" 89 2332 2403
+type(
+  result
+)
+"assert.ml" 89 2332 2407 "assert.ml" 89 2332 2410
+type(
+  int
+)
+ident(
+  int_ref cnt "assert.ml" 89 2332 2356 "assert.ml" 89 2332 2359
+)
+"assert.ml" 89 2332 2369 "assert.ml" 89 2332 2410
+type(
+  int
+)
+"assert.ml" 89 2332 2351 "assert.ml" 89 2332 2411
+type(
+  int -> 'b * result -> int
+)
+"assert.ml" 89 2332 2412 "assert.ml" 89 2332 2413
+type(
+  int
+)
+"assert.ml" 89 2332 2414 "assert.ml" 89 2332 2419
+type(
+  ('b * result) list
+)
+ident(
+  int_ref cases "assert.ml" 88 2306 2323 "assert.ml" 88 2306 2328
+)
+"assert.ml" 89 2332 2336 "assert.ml" 89 2332 2419
+type(
+  int
+)
+"assert.ml" 90 2423 2437 "assert.ml" 90 2423 2438
+type(
+  result test
+)
+ident(
+  int_ref t "assert.ml" 85 2157 2174 "assert.ml" 85 2157 2175
+)
+"assert.ml" 91 2444 2462 "assert.ml" 91 2444 2466
+type(
+  string
+)
+ident(
+  def name "assert.ml" 92 2481 2487 "assert.ml" 101 2965 3021
+)
+"assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
+type(
+  int
+)
+ident(
+  def pts "assert.ml" 92 2481 2487 "assert.ml" 101 2965 3021
+)
+"assert.ml" 91 2444 2471 "assert.ml" 91 2444 2476
+type(
+  (string * result) list
+)
+ident(
+  def cases "assert.ml" 92 2481 2487 "assert.ml" 101 2965 3021
+)
+"assert.ml" 91 2444 2450 "assert.ml" 91 2444 2477
+type(
+  result test
+)
+"assert.ml" 92 2481 2491 "assert.ml" 92 2481 2497
+type(
+  int
+)
+"assert.ml" 92 2481 2500 "assert.ml" 92 2481 2510
+type(
+  (string * result) list -> int
+)
+ident(
+  int_ref num_passed "assert.ml" 86 2191 2197 "assert.ml" 86 2191 2207
+)
+"assert.ml" 92 2481 2511 "assert.ml" 92 2481 2516
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 91 2444 2471 "assert.ml" 91 2444 2476
+)
+"assert.ml" 92 2481 2500 "assert.ml" 92 2481 2516
+type(
+  int
+)
+"assert.ml" 93 2520 2530 "assert.ml" 93 2520 2536
+type(
+  int
+)
+"assert.ml" 93 2520 2539 "assert.ml" 93 2520 2549
+type(
+  (string * result) list -> int
+)
+ident(
+  int_ref num_failed "assert.ml" 88 2306 2312 "assert.ml" 88 2306 2322
+)
+"assert.ml" 93 2520 2550 "assert.ml" 93 2520 2555
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 91 2444 2471 "assert.ml" 91 2444 2476
+)
+"assert.ml" 93 2520 2539 "assert.ml" 93 2520 2555
+type(
+  int
+)
+"assert.ml" 94 2559 2569 "assert.ml" 94 2559 2574
+type(
+  int
+)
+"assert.ml" 94 2559 2577 "assert.ml" 94 2559 2588
+type(
+  (string * result) list -> int
+)
+ident(
+  ext_ref List.length
+)
+"assert.ml" 94 2559 2589 "assert.ml" 94 2559 2594
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 91 2444 2471 "assert.ml" 91 2444 2476
+)
+"assert.ml" 94 2559 2577 "assert.ml" 94 2559 2594
+type(
+  int
+)
+"assert.ml" 95 2598 2607 "assert.ml" 95 2598 2612
+type(
+  int
+)
+ident(
+  int_ref total "assert.ml" 94 2559 2569 "assert.ml" 94 2559 2574
+)
+"assert.ml" 95 2598 2613 "assert.ml" 95 2598 2614
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"assert.ml" 95 2598 2615 "assert.ml" 95 2598 2616
+type(
+  int
+)
+"assert.ml" 95 2598 2607 "assert.ml" 95 2598 2616
+type(
+  bool
+)
+"assert.ml" 96 2622 2636 "assert.ml" 96 2622 2649
+type(
+  float
+)
+ident(
+  def points_earned "assert.ml" 97 2725 2735 "assert.ml" 98 2813 2879
+)
+"assert.ml" 96 2622 2654 "assert.ml" 96 2622 2666
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"assert.ml" 96 2622 2667 "assert.ml" 96 2622 2673
+type(
+  int
+)
+ident(
+  int_ref passed "assert.ml" 92 2481 2491 "assert.ml" 92 2481 2497
+)
+"assert.ml" 96 2622 2653 "assert.ml" 96 2622 2674
+type(
+  float
+)
+"assert.ml" 96 2622 2675 "assert.ml" 96 2622 2677
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"assert.ml" 96 2622 2679 "assert.ml" 96 2622 2691
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"assert.ml" 96 2622 2692 "assert.ml" 96 2622 2697
+type(
+  int
+)
+ident(
+  int_ref total "assert.ml" 94 2559 2569 "assert.ml" 94 2559 2574
+)
+"assert.ml" 96 2622 2678 "assert.ml" 96 2622 2698
+type(
+  float
+)
+"assert.ml" 96 2622 2652 "assert.ml" 96 2622 2699
+type(
+  float
+)
+"assert.ml" 96 2622 2700 "assert.ml" 96 2622 2702
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"assert.ml" 96 2622 2704 "assert.ml" 96 2622 2716
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"assert.ml" 96 2622 2717 "assert.ml" 96 2622 2720
+type(
+  int
+)
+ident(
+  int_ref pts "assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
+)
+"assert.ml" 96 2622 2703 "assert.ml" 96 2622 2721
+type(
+  float
+)
+"assert.ml" 96 2622 2652 "assert.ml" 96 2622 2721
+type(
+  float
+)
+"assert.ml" 97 2725 2739 "assert.ml" 97 2725 2747
+type(
+  string
+)
+ident(
+  def name_pts "assert.ml" 98 2813 2823 "assert.ml" 98 2813 2879
+)
+"assert.ml" 97 2725 2750 "assert.ml" 97 2725 2764
+type(
+  (string -> float -> int -> string, unit, string) format ->
+  string -> float -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"assert.ml" 97 2725 2765 "assert.ml" 97 2725 2786
+type(
+  (string -> float -> int -> string, unit, string) format
+)
+"assert.ml" 97 2725 2787 "assert.ml" 97 2725 2791
+type(
+  string
+)
+ident(
+  int_ref name "assert.ml" 91 2444 2462 "assert.ml" 91 2444 2466
+)
+"assert.ml" 97 2725 2792 "assert.ml" 97 2725 2805
+type(
+  float
+)
+ident(
+  int_ref points_earned "assert.ml" 96 2622 2636 "assert.ml" 96 2622 2649
+)
+"assert.ml" 97 2725 2806 "assert.ml" 97 2725 2809
+type(
+  int
+)
+ident(
+  int_ref pts "assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
+)
+"assert.ml" 97 2725 2750 "assert.ml" 97 2725 2809
+type(
+  string
+)
+"assert.ml" 98 2813 2824 "assert.ml" 98 2813 2832
+type(
+  string
+)
+ident(
+  int_ref name_pts "assert.ml" 97 2725 2739 "assert.ml" 97 2725 2747
+)
+"assert.ml" 98 2813 2834 "assert.ml" 98 2813 2840
+type(
+  int
+)
+ident(
+  int_ref passed "assert.ml" 92 2481 2491 "assert.ml" 92 2481 2497
+)
+"assert.ml" 98 2813 2842 "assert.ml" 98 2813 2848
+type(
+  int
+)
+ident(
+  int_ref failed "assert.ml" 93 2520 2530 "assert.ml" 93 2520 2536
+)
+"assert.ml" 98 2813 2850 "assert.ml" 98 2813 2855
+type(
+  int
+)
+ident(
+  int_ref total "assert.ml" 94 2559 2569 "assert.ml" 94 2559 2574
+)
+"assert.ml" 98 2813 2857 "assert.ml" 98 2813 2870
+type(
+  float
+)
+ident(
+  int_ref points_earned "assert.ml" 96 2622 2636 "assert.ml" 96 2622 2649
+)
+"assert.ml" 98 2813 2872 "assert.ml" 98 2813 2875
+type(
+  int
+)
+ident(
+  int_ref pts "assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
+)
+"assert.ml" 98 2813 2877 "assert.ml" 98 2813 2878
+type(
+  int
+)
+"assert.ml" 98 2813 2823 "assert.ml" 98 2813 2879
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 97 2725 2735 "assert.ml" 98 2813 2879
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 96 2622 2632 "assert.ml" 98 2813 2879
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 100 2893 2907 "assert.ml" 100 2893 2915
+type(
+  string
+)
+"assert.ml" 100 2893 2918 "assert.ml" 100 2893 2932
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"assert.ml" 100 2893 2933 "assert.ml" 100 2893 2952
+type(
+  (string -> int -> string, unit, string) format
+)
+"assert.ml" 100 2893 2953 "assert.ml" 100 2893 2957
+type(
+  string
+)
+ident(
+  int_ref name "assert.ml" 91 2444 2462 "assert.ml" 91 2444 2466
+)
+"assert.ml" 100 2893 2958 "assert.ml" 100 2893 2961
+type(
+  int
+)
+ident(
+  int_ref pts "assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
+)
+"assert.ml" 100 2893 2918 "assert.ml" 100 2893 2961
+type(
+  string
+)
+"assert.ml" 101 2965 2976 "assert.ml" 101 2965 2984
+type(
+  string
+)
+ident(
+  int_ref name_pts "assert.ml" 100 2893 2907 "assert.ml" 100 2893 2915
+)
+"assert.ml" 101 2965 2986 "assert.ml" 101 2965 2992
+type(
+  int
+)
+ident(
+  int_ref passed "assert.ml" 92 2481 2491 "assert.ml" 92 2481 2497
+)
+"assert.ml" 101 2965 2994 "assert.ml" 101 2965 3000
+type(
+  int
+)
+ident(
+  int_ref failed "assert.ml" 93 2520 2530 "assert.ml" 93 2520 2536
+)
+"assert.ml" 101 2965 3002 "assert.ml" 101 2965 3007
+type(
+  int
+)
+ident(
+  int_ref total "assert.ml" 94 2559 2569 "assert.ml" 94 2559 2574
+)
+"assert.ml" 101 2965 3009 "assert.ml" 101 2965 3012
+type(
+  float
+)
+"assert.ml" 101 2965 3014 "assert.ml" 101 2965 3015
+type(
+  int
+)
+"assert.ml" 101 2965 3017 "assert.ml" 101 2965 3020
+type(
+  int
+)
+ident(
+  int_ref pts "assert.ml" 91 2444 2467 "assert.ml" 91 2444 2470
+)
+"assert.ml" 101 2965 2975 "assert.ml" 101 2965 3021
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 100 2893 2903 "assert.ml" 101 2965 3021
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 95 2598 2604 "assert.ml" 101 2965 3021
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 94 2559 2565 "assert.ml" 101 2965 3021
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 93 2520 2526 "assert.ml" 101 2965 3021
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 92 2481 2487 "assert.ml" 101 2965 3021
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 102 3022 3033 "assert.ml" 102 3022 3037
+type(
+  string
+)
+ident(
+  def name "assert.ml" 103 3049 3055 "assert.ml" 106 3166 3212
+)
+"assert.ml" 102 3022 3039 "assert.ml" 102 3022 3044
+type(
+  (string * result) list
+)
+ident(
+  def cases "assert.ml" 103 3049 3055 "assert.ml" 106 3166 3212
+)
+"assert.ml" 102 3022 3028 "assert.ml" 102 3022 3045
+type(
+  result test
+)
+"assert.ml" 103 3049 3059 "assert.ml" 103 3049 3064
+type(
+  int
+)
+"assert.ml" 103 3049 3067 "assert.ml" 103 3049 3078
+type(
+  (string * result) list -> int
+)
+ident(
+  ext_ref List.length
+)
+"assert.ml" 103 3049 3079 "assert.ml" 103 3049 3084
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 102 3022 3039 "assert.ml" 102 3022 3044
+)
+"assert.ml" 103 3049 3067 "assert.ml" 103 3049 3084
+type(
+  int
+)
+"assert.ml" 104 3088 3098 "assert.ml" 104 3088 3104
+type(
+  int
+)
+"assert.ml" 104 3088 3107 "assert.ml" 104 3088 3117
+type(
+  (string * result) list -> int
+)
+ident(
+  int_ref num_passed "assert.ml" 86 2191 2197 "assert.ml" 86 2191 2207
+)
+"assert.ml" 104 3088 3118 "assert.ml" 104 3088 3123
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 102 3022 3039 "assert.ml" 102 3022 3044
+)
+"assert.ml" 104 3088 3107 "assert.ml" 104 3088 3123
+type(
+  int
+)
+"assert.ml" 105 3127 3137 "assert.ml" 105 3127 3143
+type(
+  int
+)
+"assert.ml" 105 3127 3146 "assert.ml" 105 3127 3156
+type(
+  (string * result) list -> int
+)
+ident(
+  int_ref num_failed "assert.ml" 88 2306 2312 "assert.ml" 88 2306 2322
+)
+"assert.ml" 105 3127 3157 "assert.ml" 105 3127 3162
+type(
+  (string * result) list
+)
+ident(
+  int_ref cases "assert.ml" 102 3022 3039 "assert.ml" 102 3022 3044
+)
+"assert.ml" 105 3127 3146 "assert.ml" 105 3127 3162
+type(
+  int
+)
+"assert.ml" 106 3166 3173 "assert.ml" 106 3166 3177
+type(
+  string
+)
+ident(
+  int_ref name "assert.ml" 102 3022 3033 "assert.ml" 102 3022 3037
+)
+"assert.ml" 106 3166 3179 "assert.ml" 106 3166 3185
+type(
+  int
+)
+ident(
+  int_ref passed "assert.ml" 104 3088 3098 "assert.ml" 104 3088 3104
+)
+"assert.ml" 106 3166 3187 "assert.ml" 106 3166 3193
+type(
+  int
+)
+ident(
+  int_ref failed "assert.ml" 105 3127 3137 "assert.ml" 105 3127 3143
+)
+"assert.ml" 106 3166 3195 "assert.ml" 106 3166 3200
+type(
+  int
+)
+ident(
+  int_ref total "assert.ml" 103 3049 3059 "assert.ml" 103 3049 3064
+)
+"assert.ml" 106 3166 3202 "assert.ml" 106 3166 3205
+type(
+  float
+)
+"assert.ml" 106 3166 3207 "assert.ml" 106 3166 3208
+type(
+  int
+)
+"assert.ml" 106 3166 3210 "assert.ml" 106 3166 3211
+type(
+  int
+)
+"assert.ml" 106 3166 3172 "assert.ml" 106 3166 3212
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 105 3127 3133 "assert.ml" 106 3166 3212
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 104 3088 3094 "assert.ml" 106 3166 3212
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 103 3049 3055 "assert.ml" 106 3166 3212
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 90 2423 2425 "assert.ml" 107 3213 3218
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 88 2306 2308 "assert.ml" 107 3213 3218
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 86 2191 2193 "assert.ml" 107 3213 3218
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 109 3220 3224 "assert.ml" 109 3220 3241
+type(
+  outcome -> string
+)
+ident(
+  def outcome_to_string "assert.ml" 121 3815 3949 --
+)
+"assert.ml" 109 3220 3243 "assert.ml" 109 3220 3244
+type(
+  outcome
+)
+ident(
+  def o "assert.ml" 109 3220 3253 "assert.ml" 121 3815 3949
+)
+"assert.ml" 110 3263 3269 "assert.ml" 110 3263 3272
+type(
+  string
+)
+"assert.ml" 110 3263 3275 "assert.ml" 110 3263 3332
+type(
+  string
+)
+"assert.ml" 111 3336 3342 "assert.ml" 111 3336 3348
+type(
+  int * int * int * float * int * int * string ->
+  result test -> int * int * int * float * int * int * string
+)
+"assert.ml" 111 3336 3351 "assert.ml" 111 3336 3357
+type(
+  int
+)
+ident(
+  def passed "assert.ml" 111 3336 3396 "assert.ml" 119 3723 3728
+)
+"assert.ml" 111 3336 3359 "assert.ml" 111 3336 3365
+type(
+  int
+)
+ident(
+  def failed "assert.ml" 111 3336 3396 "assert.ml" 119 3723 3728
+)
+"assert.ml" 111 3336 3367 "assert.ml" 111 3336 3372
+type(
+  int
+)
+ident(
+  def total "assert.ml" 111 3336 3396 "assert.ml" 119 3723 3728
+)
+"assert.ml" 111 3336 3374 "assert.ml" 111 3336 3377
+type(
+  float
+)
+ident(
+  def pts "assert.ml" 111 3336 3396 "assert.ml" 119 3723 3728
+)
+"assert.ml" 111 3336 3379 "assert.ml" 111 3336 3383
+type(
+  int
+)
+ident(
+  def maxg "assert.ml" 111 3336 3396 "assert.ml" 119 3723 3728
+)
+"assert.ml" 111 3336 3385 "assert.ml" 111 3336 3389
+type(
+  int
+)
+ident(
+  def maxh "assert.ml" 111 3336 3396 "assert.ml" 119 3723 3728
+)
+"assert.ml" 111 3336 3391 "assert.ml" 111 3336 3394
+type(
+  string
+)
+ident(
+  def str "assert.ml" 111 3336 3396 "assert.ml" 119 3723 3728
+)
+"assert.ml" 111 3336 3350 "assert.ml" 111 3336 3395
+type(
+  int * int * int * float * int * int * string
+)
+"assert.ml" 111 3336 3397 "assert.ml" 111 3336 3398
+type(
+  result test
+)
+ident(
+  def t "assert.ml" 112 3414 3418 "assert.ml" 119 3723 3728
+)
+"assert.ml" 112 3414 3423 "assert.ml" 112 3414 3431
+type(
+  string
+)
+"assert.ml" 112 3414 3433 "assert.ml" 112 3414 3434
+type(
+  int
+)
+"assert.ml" 112 3414 3436 "assert.ml" 112 3414 3437
+type(
+  int
+)
+"assert.ml" 112 3414 3439 "assert.ml" 112 3414 3442
+type(
+  int
+)
+"assert.ml" 112 3414 3444 "assert.ml" 112 3414 3445
+type(
+  float
+)
+"assert.ml" 112 3414 3447 "assert.ml" 112 3414 3449
+type(
+  int
+)
+"assert.ml" 112 3414 3451 "assert.ml" 112 3414 3453
+type(
+  int
+)
+"assert.ml" 112 3414 3422 "assert.ml" 112 3414 3454
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 112 3414 3457 "assert.ml" 112 3414 3468
+type(
+  result test -> string * int * int * int * float * int * int
+)
+ident(
+  int_ref get_results "assert.ml" 85 2157 2161 "assert.ml" 85 2157 2172
+)
+"assert.ml" 112 3414 3469 "assert.ml" 112 3414 3470
+type(
+  result test
+)
+ident(
+  int_ref t "assert.ml" 111 3336 3397 "assert.ml" 111 3336 3398
+)
+"assert.ml" 112 3414 3457 "assert.ml" 112 3414 3470
+type(
+  string * int * int * int * float * int * int
+)
+"assert.ml" 113 3474 3479 "assert.ml" 113 3474 3485
+type(
+  int
+)
+ident(
+  int_ref passed "assert.ml" 111 3336 3351 "assert.ml" 111 3336 3357
+)
+"assert.ml" 113 3474 3486 "assert.ml" 113 3474 3487
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"assert.ml" 113 3474 3488 "assert.ml" 113 3474 3489
+type(
+  int
+)
+ident(
+  int_ref p "assert.ml" 112 3414 3433 "assert.ml" 112 3414 3434
+)
+"assert.ml" 113 3474 3479 "assert.ml" 113 3474 3489
+type(
+  int
+)
+"assert.ml" 113 3474 3491 "assert.ml" 113 3474 3497
+type(
+  int
+)
+ident(
+  int_ref failed "assert.ml" 111 3336 3359 "assert.ml" 111 3336 3365
+)
+"assert.ml" 113 3474 3498 "assert.ml" 113 3474 3499
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"assert.ml" 113 3474 3500 "assert.ml" 113 3474 3501
+type(
+  int
+)
+ident(
+  int_ref f "assert.ml" 112 3414 3436 "assert.ml" 112 3414 3437
+)
+"assert.ml" 113 3474 3491 "assert.ml" 113 3474 3501
+type(
+  int
+)
+"assert.ml" 113 3474 3503 "assert.ml" 113 3474 3508
+type(
+  int
+)
+ident(
+  int_ref total "assert.ml" 111 3336 3367 "assert.ml" 111 3336 3372
+)
+"assert.ml" 113 3474 3509 "assert.ml" 113 3474 3510
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"assert.ml" 113 3474 3511 "assert.ml" 113 3474 3514
+type(
+  int
+)
+ident(
+  int_ref tot "assert.ml" 112 3414 3439 "assert.ml" 112 3414 3442
+)
+"assert.ml" 113 3474 3503 "assert.ml" 113 3474 3514
+type(
+  int
+)
+"assert.ml" 113 3474 3516 "assert.ml" 113 3474 3517
+type(
+  float
+)
+ident(
+  int_ref s "assert.ml" 112 3414 3444 "assert.ml" 112 3414 3445
+)
+"assert.ml" 113 3474 3518 "assert.ml" 113 3474 3520
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"assert.ml" 113 3474 3521 "assert.ml" 113 3474 3524
+type(
+  float
+)
+ident(
+  int_ref pts "assert.ml" 111 3336 3374 "assert.ml" 111 3336 3377
+)
+"assert.ml" 113 3474 3516 "assert.ml" 113 3474 3524
+type(
+  float
+)
+"assert.ml" 113 3474 3526 "assert.ml" 113 3474 3530
+type(
+  int
+)
+ident(
+  int_ref maxg "assert.ml" 111 3336 3379 "assert.ml" 111 3336 3383
+)
+"assert.ml" 113 3474 3531 "assert.ml" 113 3474 3532
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"assert.ml" 113 3474 3533 "assert.ml" 113 3474 3535
+type(
+  int
+)
+ident(
+  int_ref mg "assert.ml" 112 3414 3447 "assert.ml" 112 3414 3449
+)
+"assert.ml" 113 3474 3526 "assert.ml" 113 3474 3535
+type(
+  int
+)
+"assert.ml" 113 3474 3537 "assert.ml" 113 3474 3541
+type(
+  int
+)
+ident(
+  int_ref maxh "assert.ml" 111 3336 3385 "assert.ml" 111 3336 3389
+)
+"assert.ml" 113 3474 3542 "assert.ml" 113 3474 3543
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"assert.ml" 113 3474 3544 "assert.ml" 113 3474 3546
+type(
+  int
+)
+ident(
+  int_ref mh "assert.ml" 112 3414 3451 "assert.ml" 112 3414 3453
+)
+"assert.ml" 113 3474 3537 "assert.ml" 113 3474 3546
+type(
+  int
+)
+"assert.ml" 114 3549 3553 "assert.ml" 114 3549 3556
+type(
+  string
+)
+ident(
+  int_ref str "assert.ml" 111 3336 3391 "assert.ml" 111 3336 3394
+)
+"assert.ml" 114 3549 3557 "assert.ml" 114 3549 3558
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 114 3549 3559 "assert.ml" 114 3549 3563
+type(
+  string
+)
+"assert.ml" 114 3549 3564 "assert.ml" 114 3549 3565
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 115 3568 3577 "assert.ml" 115 3568 3578
+type(
+  int
+)
+ident(
+  int_ref f "assert.ml" 112 3414 3436 "assert.ml" 112 3414 3437
+)
+"assert.ml" 115 3568 3579 "assert.ml" 115 3568 3580
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"assert.ml" 115 3568 3581 "assert.ml" 115 3568 3582
+type(
+  int
+)
+"assert.ml" 115 3568 3577 "assert.ml" 115 3568 3582
+type(
+  bool
+)
+"assert.ml" 115 3568 3589 "assert.ml" 115 3568 3610
+type(
+  string -> result test -> string
+)
+ident(
+  int_ref result_test_to_string "assert.ml" 67 1513 1517 "assert.ml" 67 1513 1538
+)
+"assert.ml" 115 3568 3611 "assert.ml" 115 3568 3619
+type(
+  string
+)
+ident(
+  int_ref name_pts "assert.ml" 112 3414 3423 "assert.ml" 112 3414 3431
+)
+"assert.ml" 115 3568 3620 "assert.ml" 115 3568 3621
+type(
+  result test
+)
+ident(
+  int_ref t "assert.ml" 111 3336 3397 "assert.ml" 111 3336 3398
+)
+"assert.ml" 115 3568 3588 "assert.ml" 115 3568 3622
+type(
+  string
+)
+"assert.ml" 116 3629 3638 "assert.ml" 116 3629 3641
+type(
+  int
+)
+ident(
+  int_ref tot "assert.ml" 112 3414 3439 "assert.ml" 112 3414 3442
+)
+"assert.ml" 116 3629 3642 "assert.ml" 116 3629 3643
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"assert.ml" 116 3629 3644 "assert.ml" 116 3629 3645
+type(
+  int
+)
+"assert.ml" 116 3629 3638 "assert.ml" 116 3629 3645
+type(
+  bool
+)
+"assert.ml" 116 3629 3652 "assert.ml" 116 3629 3660
+type(
+  string
+)
+ident(
+  int_ref name_pts "assert.ml" 112 3414 3423 "assert.ml" 112 3414 3431
+)
+"assert.ml" 116 3629 3661 "assert.ml" 116 3629 3662
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 116 3629 3663 "assert.ml" 116 3629 3672
+type(
+  string
+)
+"assert.ml" 116 3629 3651 "assert.ml" 116 3629 3673
+type(
+  string
+)
+"assert.ml" 117 3679 3688 "assert.ml" 117 3679 3696
+type(
+  string
+)
+ident(
+  int_ref name_pts "assert.ml" 112 3414 3423 "assert.ml" 112 3414 3431
+)
+"assert.ml" 117 3679 3697 "assert.ml" 117 3679 3698
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 117 3679 3699 "assert.ml" 117 3679 3712
+type(
+  string
+)
+"assert.ml" 117 3679 3687 "assert.ml" 117 3679 3713
+type(
+  string
+)
+"assert.ml" 116 3629 3635 "assert.ml" 117 3679 3713
+type(
+  string
+)
+"assert.ml" 114 3549 3566 "assert.ml" 118 3715 3722
+type(
+  string
+)
+"assert.ml" 114 3549 3559 "assert.ml" 118 3715 3722
+type(
+  string
+)
+"assert.ml" 114 3549 3553 "assert.ml" 118 3715 3722
+type(
+  string
+)
+"assert.ml" 113 3474 3478 "assert.ml" 119 3723 3728
+type(
+  int * int * int * float * int * int * string
+)
+"assert.ml" 112 3414 3418 "assert.ml" 119 3723 3728
+type(
+  int * int * int * float * int * int * string
+)
+"assert.ml" 120 3732 3739 "assert.ml" 120 3732 3740
+type(
+  int
+)
+"assert.ml" 120 3732 3741 "assert.ml" 120 3732 3742
+type(
+  int
+)
+"assert.ml" 120 3732 3743 "assert.ml" 120 3732 3746
+type(
+  int
+)
+"assert.ml" 120 3732 3747 "assert.ml" 120 3732 3750
+type(
+  float
+)
+"assert.ml" 120 3732 3751 "assert.ml" 120 3732 3755
+type(
+  int
+)
+"assert.ml" 120 3732 3757 "assert.ml" 120 3732 3761
+type(
+  int
+)
+"assert.ml" 120 3732 3762 "assert.ml" 120 3732 3765
+type(
+  string
+)
+"assert.ml" 120 3732 3738 "assert.ml" 120 3732 3766
+type(
+  int * int * int * float * int * int * string
+)
+"assert.ml" 120 3732 3769 "assert.ml" 120 3732 3783
+type(
+  (int * int * int * float * int * int * string ->
+   result test -> int * int * int * float * int * int * string) ->
+  int * int * int * float * int * int * string ->
+  outcome -> int * int * int * float * int * int * string
+)
+ident(
+  ext_ref List.fold_left
+)
+"assert.ml" 120 3732 3784 "assert.ml" 120 3732 3790
+type(
+  int * int * int * float * int * int * string ->
+  result test -> int * int * int * float * int * int * string
+)
+ident(
+  int_ref helper "assert.ml" 111 3336 3342 "assert.ml" 111 3336 3348
+)
+"assert.ml" 120 3732 3792 "assert.ml" 120 3732 3793
+type(
+  int
+)
+"assert.ml" 120 3732 3794 "assert.ml" 120 3732 3795
+type(
+  int
+)
+"assert.ml" 120 3732 3796 "assert.ml" 120 3732 3797
+type(
+  int
+)
+"assert.ml" 120 3732 3798 "assert.ml" 120 3732 3801
+type(
+  float
+)
+"assert.ml" 120 3732 3802 "assert.ml" 120 3732 3803
+type(
+  int
+)
+"assert.ml" 120 3732 3804 "assert.ml" 120 3732 3805
+type(
+  int
+)
+"assert.ml" 120 3732 3806 "assert.ml" 120 3732 3808
+type(
+  string
+)
+"assert.ml" 120 3732 3791 "assert.ml" 120 3732 3809
+type(
+  int * int * int * float * int * int * string
+)
+"assert.ml" 120 3732 3810 "assert.ml" 120 3732 3811
+type(
+  outcome
+)
+ident(
+  int_ref o "assert.ml" 109 3220 3243 "assert.ml" 109 3220 3244
+)
+"assert.ml" 120 3732 3769 "assert.ml" 120 3732 3811
+type(
+  int * int * int * float * int * int * string
+)
+"assert.ml" 121 3815 3817 "assert.ml" 121 3815 3820
+type(
+  string
+)
+ident(
+  int_ref str "assert.ml" 120 3732 3762 "assert.ml" 120 3732 3765
+)
+"assert.ml" 121 3815 3821 "assert.ml" 121 3815 3822
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 121 3815 3823 "assert.ml" 121 3815 3826
+type(
+  string
+)
+ident(
+  int_ref sep "assert.ml" 110 3263 3269 "assert.ml" 110 3263 3272
+)
+"assert.ml" 121 3815 3827 "assert.ml" 121 3815 3828
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"assert.ml" 121 3815 3830 "assert.ml" 121 3815 3844
+type(
+  (int -> int -> int -> int -> float -> int -> int -> string, unit, string)
+  format -> int -> int -> int -> int -> float -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"assert.ml" 121 3815 3845 "assert.ml" 121 3815 3922
+type(
+  (int -> int -> int -> int -> float -> int -> int -> string, unit, string)
+  format
+)
+"assert.ml" 121 3815 3923 "assert.ml" 121 3815 3924
+type(
+  int
+)
+ident(
+  int_ref p "assert.ml" 120 3732 3739 "assert.ml" 120 3732 3740
+)
+"assert.ml" 121 3815 3925 "assert.ml" 121 3815 3928
+type(
+  int
+)
+ident(
+  int_ref tot "assert.ml" 120 3732 3743 "assert.ml" 120 3732 3746
+)
+"assert.ml" 121 3815 3929 "assert.ml" 121 3815 3930
+type(
+  int
+)
+ident(
+  int_ref f "assert.ml" 120 3732 3741 "assert.ml" 120 3732 3742
+)
+"assert.ml" 121 3815 3931 "assert.ml" 121 3815 3934
+type(
+  int
+)
+ident(
+  int_ref tot "assert.ml" 120 3732 3743 "assert.ml" 120 3732 3746
+)
+"assert.ml" 121 3815 3935 "assert.ml" 121 3815 3938
+type(
+  float
+)
+ident(
+  int_ref pts "assert.ml" 120 3732 3747 "assert.ml" 120 3732 3750
+)
+"assert.ml" 121 3815 3939 "assert.ml" 121 3815 3943
+type(
+  int
+)
+ident(
+  int_ref maxg "assert.ml" 120 3732 3751 "assert.ml" 120 3732 3755
+)
+"assert.ml" 121 3815 3944 "assert.ml" 121 3815 3948
+type(
+  int
+)
+ident(
+  int_ref maxh "assert.ml" 120 3732 3757 "assert.ml" 120 3732 3761
+)
+"assert.ml" 121 3815 3829 "assert.ml" 121 3815 3949
+type(
+  string
+)
+"assert.ml" 121 3815 3823 "assert.ml" 121 3815 3949
+type(
+  string
+)
+"assert.ml" 121 3815 3817 "assert.ml" 121 3815 3949
+type(
+  string
+)
+"assert.ml" 120 3732 3734 "assert.ml" 121 3815 3949
+type(
+  string
+)
+"assert.ml" 111 3336 3338 "assert.ml" 121 3815 3949
+type(
+  string
+)
+"assert.ml" 110 3263 3265 "assert.ml" 121 3815 3949
+type(
+  string
+)
+type(
+  string
+)

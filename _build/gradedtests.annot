@@ -1,0 +1,5047 @@
+"gradedtests.ml" 8 158 162 "gradedtests.ml" 8 158 171
+type(
+  string ref
+)
+ident(
+  def test_path "gradedtests.ml" 12 245 245 --
+)
+"gradedtests.ml" 8 158 174 "gradedtests.ml" 8 158 177
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"gradedtests.ml" 8 158 178 "gradedtests.ml" 8 158 186
+type(
+  string
+)
+"gradedtests.ml" 8 158 174 "gradedtests.ml" 8 158 186
+type(
+  string ref
+)
+"gradedtests.ml" 12 245 249 "gradedtests.ml" 12 245 260
+type(
+  string -> bool -> unit
+)
+ident(
+  def assert_bool "gradedtests.ml" 15 322 322 --
+)
+"gradedtests.ml" 12 245 262 "gradedtests.ml" 12 245 263
+type(
+  string
+)
+ident(
+  def s "gradedtests.ml" 12 245 272 "gradedtests.ml" 13 290 320
+)
+"gradedtests.ml" 12 245 273 "gradedtests.ml" 12 245 274
+type(
+  bool
+)
+ident(
+  def b "gradedtests.ml" 12 245 281 "gradedtests.ml" 13 290 320
+)
+"gradedtests.ml" 13 290 295 "gradedtests.ml" 13 290 296
+type(
+  bool
+)
+ident(
+  int_ref b "gradedtests.ml" 12 245 273 "gradedtests.ml" 12 245 274
+)
+"gradedtests.ml" 13 290 302 "gradedtests.ml" 13 290 304
+type(
+  unit
+)
+"gradedtests.ml" 13 290 310 "gradedtests.ml" 13 290 318
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gradedtests.ml" 13 290 319 "gradedtests.ml" 13 290 320
+type(
+  string
+)
+ident(
+  int_ref s "gradedtests.ml" 12 245 262 "gradedtests.ml" 12 245 263
+)
+"gradedtests.ml" 13 290 310 "gradedtests.ml" 13 290 320
+type(
+  unit
+)
+"gradedtests.ml" 13 290 292 "gradedtests.ml" 13 290 320
+type(
+  unit
+)
+type(
+  unit
+)
+"gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+type(
+  string -> Ast.exp -> unit -> unit
+)
+ident(
+  def ast_test "gradedtests.ml" 19 513 513 --
+)
+"gradedtests.ml" 15 322 336 "gradedtests.ml" 15 322 337
+type(
+  string
+)
+ident(
+  def s "gradedtests.ml" 15 322 346 "gradedtests.ml" 17 434 511
+)
+"gradedtests.ml" 15 322 347 "gradedtests.ml" 15 322 348
+type(
+  Ast.exp
+)
+ident(
+  def a "gradedtests.ml" 15 322 358 "gradedtests.ml" 17 434 511
+)
+"gradedtests.ml" 15 322 358 "gradedtests.ml" 15 322 360
+type(
+  unit
+)
+"gradedtests.ml" 16 370 376 "gradedtests.ml" 16 370 379
+type(
+  Ast.exp
+)
+"gradedtests.ml" 16 370 382 "gradedtests.ml" 16 370 396
+type(
+  string -> Lexing.lexbuf -> Ast.exp
+)
+ident(
+  ext_ref Compiler.parse
+)
+"gradedtests.ml" 16 370 397 "gradedtests.ml" 16 370 407
+type(
+  string
+)
+"gradedtests.ml" 16 370 409 "gradedtests.ml" 16 370 427
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"gradedtests.ml" 16 370 428 "gradedtests.ml" 16 370 429
+type(
+  string
+)
+ident(
+  int_ref s "gradedtests.ml" 15 322 336 "gradedtests.ml" 15 322 337
+)
+"gradedtests.ml" 16 370 408 "gradedtests.ml" 16 370 430
+type(
+  Lexing.lexbuf
+)
+"gradedtests.ml" 16 370 382 "gradedtests.ml" 16 370 430
+type(
+  Ast.exp
+)
+"gradedtests.ml" 17 434 441 "gradedtests.ml" 17 434 444
+type(
+  Ast.exp
+)
+ident(
+  int_ref ast "gradedtests.ml" 16 370 376 "gradedtests.ml" 16 370 379
+)
+"gradedtests.ml" 17 434 445 "gradedtests.ml" 17 434 446
+type(
+  Ast.exp -> Ast.exp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gradedtests.ml" 17 434 447 "gradedtests.ml" 17 434 448
+type(
+  Ast.exp
+)
+ident(
+  int_ref a "gradedtests.ml" 15 322 347 "gradedtests.ml" 15 322 348
+)
+"gradedtests.ml" 17 434 441 "gradedtests.ml" 17 434 448
+type(
+  bool
+)
+"gradedtests.ml" 17 434 454 "gradedtests.ml" 17 434 456
+type(
+  unit
+)
+"gradedtests.ml" 17 434 462 "gradedtests.ml" 17 434 470
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gradedtests.ml" 17 434 472 "gradedtests.ml" 17 434 486
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"gradedtests.ml" 17 434 487 "gradedtests.ml" 17 434 508
+type(
+  (string -> string, unit, string) format
+)
+"gradedtests.ml" 17 434 509 "gradedtests.ml" 17 434 510
+type(
+  string
+)
+ident(
+  int_ref s "gradedtests.ml" 15 322 336 "gradedtests.ml" 15 322 337
+)
+"gradedtests.ml" 17 434 471 "gradedtests.ml" 17 434 511
+type(
+  string
+)
+"gradedtests.ml" 17 434 462 "gradedtests.ml" 17 434 511
+type(
+  unit
+)
+"gradedtests.ml" 17 434 438 "gradedtests.ml" 17 434 511
+type(
+  unit
+)
+"gradedtests.ml" 16 370 372 "gradedtests.ml" 17 434 511
+type(
+  unit
+)
+type(
+  unit
+)
+"gradedtests.ml" 19 513 517 "gradedtests.ml" 19 513 533
+type(
+  string -> exn -> unit -> unit
+)
+ident(
+  def parse_error_test "gradedtests.ml" 27 837 837 --
+)
+"gradedtests.ml" 19 513 535 "gradedtests.ml" 19 513 536
+type(
+  string
+)
+ident(
+  def s "gradedtests.ml" 19 513 545 "gradedtests.ml" 25 755 835
+)
+"gradedtests.ml" 19 513 546 "gradedtests.ml" 19 513 554
+type(
+  exn
+)
+ident(
+  def expected "gradedtests.ml" 19 513 560 "gradedtests.ml" 25 755 835
+)
+"gradedtests.ml" 19 513 560 "gradedtests.ml" 19 513 562
+type(
+  unit
+)
+"gradedtests.ml" 21 579 587 "gradedtests.ml" 21 579 588
+type(
+  Ast.exp
+)
+"gradedtests.ml" 21 579 591 "gradedtests.ml" 21 579 605
+type(
+  string -> Lexing.lexbuf -> Ast.exp
+)
+ident(
+  ext_ref Compiler.parse
+)
+"gradedtests.ml" 21 579 606 "gradedtests.ml" 21 579 613
+type(
+  string
+)
+"gradedtests.ml" 21 579 615 "gradedtests.ml" 21 579 633
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"gradedtests.ml" 21 579 634 "gradedtests.ml" 21 579 635
+type(
+  string
+)
+ident(
+  int_ref s "gradedtests.ml" 19 513 535 "gradedtests.ml" 19 513 536
+)
+"gradedtests.ml" 21 579 614 "gradedtests.ml" 21 579 636
+type(
+  Lexing.lexbuf
+)
+"gradedtests.ml" 21 579 591 "gradedtests.ml" 21 579 636
+type(
+  Ast.exp
+)
+"gradedtests.ml" 22 640 646 "gradedtests.ml" 22 640 654
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gradedtests.ml" 22 640 656 "gradedtests.ml" 22 640 670
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"gradedtests.ml" 22 640 671 "gradedtests.ml" 22 640 704
+type(
+  (string -> string, unit, string) format
+)
+"gradedtests.ml" 22 640 705 "gradedtests.ml" 22 640 706
+type(
+  string
+)
+ident(
+  int_ref s "gradedtests.ml" 19 513 535 "gradedtests.ml" 19 513 536
+)
+"gradedtests.ml" 22 640 655 "gradedtests.ml" 22 640 707
+type(
+  string
+)
+"gradedtests.ml" 22 640 646 "gradedtests.ml" 22 640 707
+type(
+  unit
+)
+"gradedtests.ml" 21 579 583 "gradedtests.ml" 22 640 707
+type(
+  unit
+)
+"gradedtests.ml" 24 715 721 "gradedtests.ml" 24 715 722
+type(
+  exn
+)
+ident(
+  def e "gradedtests.ml" 24 715 726 "gradedtests.ml" 25 755 835
+)
+"gradedtests.ml" 24 715 729 "gradedtests.ml" 24 715 730
+type(
+  exn
+)
+ident(
+  int_ref e "gradedtests.ml" 24 715 721 "gradedtests.ml" 24 715 722
+)
+"gradedtests.ml" 24 715 731 "gradedtests.ml" 24 715 732
+type(
+  exn -> exn -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gradedtests.ml" 24 715 733 "gradedtests.ml" 24 715 741
+type(
+  exn
+)
+ident(
+  int_ref expected "gradedtests.ml" 19 513 546 "gradedtests.ml" 19 513 554
+)
+"gradedtests.ml" 24 715 729 "gradedtests.ml" 24 715 741
+type(
+  bool
+)
+"gradedtests.ml" 24 715 747 "gradedtests.ml" 24 715 749
+type(
+  unit
+)
+"gradedtests.ml" 25 755 756 "gradedtests.ml" 25 755 764
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gradedtests.ml" 25 755 766 "gradedtests.ml" 25 755 780
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"gradedtests.ml" 25 755 781 "gradedtests.ml" 25 755 832
+type(
+  (string -> string, unit, string) format
+)
+"gradedtests.ml" 25 755 833 "gradedtests.ml" 25 755 834
+type(
+  string
+)
+ident(
+  int_ref s "gradedtests.ml" 19 513 535 "gradedtests.ml" 19 513 536
+)
+"gradedtests.ml" 25 755 765 "gradedtests.ml" 25 755 835
+type(
+  string
+)
+"gradedtests.ml" 25 755 756 "gradedtests.ml" 25 755 835
+type(
+  unit
+)
+"gradedtests.ml" 24 715 726 "gradedtests.ml" 25 755 835
+type(
+  unit
+)
+"gradedtests.ml" 20 572 574 "gradedtests.ml" 25 755 835
+type(
+  unit
+)
+type(
+  unit
+)
+"gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+type(
+  int -> Ast.exp -> int -> unit -> unit
+)
+ident(
+  def comp_test "gradedtests.ml" 58 2074 2074 --
+)
+"gradedtests.ml" 27 837 852 "gradedtests.ml" 27 837 855
+type(
+  int
+)
+ident(
+  def arg "gradedtests.ml" 27 837 861 "gradedtests.ml" 54 2040 2047
+)
+"gradedtests.ml" 27 837 862 "gradedtests.ml" 27 837 863
+type(
+  Ast.exp
+)
+ident(
+  def e "gradedtests.ml" 27 837 873 "gradedtests.ml" 54 2040 2047
+)
+"gradedtests.ml" 27 837 874 "gradedtests.ml" 27 837 877
+type(
+  int
+)
+ident(
+  def ans "gradedtests.ml" 27 837 883 "gradedtests.ml" 54 2040 2047
+)
+"gradedtests.ml" 27 837 883 "gradedtests.ml" 27 837 885
+type(
+  unit
+)
+"gradedtests.ml" 28 895 901 "gradedtests.ml" 28 895 902
+type(
+  unit
+)
+"gradedtests.ml" 28 895 909 "gradedtests.ml" 28 895 910
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gradedtests.ml" 28 895 910 "gradedtests.ml" 28 895 929
+type(
+  bool ref
+)
+ident(
+  ext_ref Platform.verbose_on
+)
+"gradedtests.ml" 28 895 908 "gradedtests.ml" 28 895 930
+type(
+  bool
+)
+"gradedtests.ml" 29 936 940 "gradedtests.ml" 29 936 953
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"gradedtests.ml" 29 936 954 "gradedtests.ml" 29 936 971
+type(
+  (string -> unit, out_channel, unit) format
+)
+"gradedtests.ml" 29 936 973 "gradedtests.ml" 29 936 990
+type(
+  Ast.exp -> string
+)
+ident(
+  ext_ref Ast.string_of_exp
+)
+"gradedtests.ml" 29 936 991 "gradedtests.ml" 29 936 992
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "gradedtests.ml" 27 837 862 "gradedtests.ml" 27 837 863
+)
+"gradedtests.ml" 29 936 972 "gradedtests.ml" 29 936 993
+type(
+  string
+)
+"gradedtests.ml" 29 936 940 "gradedtests.ml" 29 936 993
+type(
+  unit
+)
+"gradedtests.ml" 30 994 1002 "gradedtests.ml" 30 994 1012
+type(
+  char -> unit
+)
+ident(
+  ext_ref Pervasives.print_char
+)
+"gradedtests.ml" 30 994 1013 "gradedtests.ml" 30 994 1016
+type(
+  char
+)
+"gradedtests.ml" 30 994 1002 "gradedtests.ml" 30 994 1016
+type(
+  unit
+)
+"gradedtests.ml" 30 994 1018 "gradedtests.ml" 30 994 1023
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"gradedtests.ml" 30 994 1024 "gradedtests.ml" 30 994 1030
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"gradedtests.ml" 30 994 1018 "gradedtests.ml" 30 994 1030
+type(
+  unit
+)
+"gradedtests.ml" 30 994 1001 "gradedtests.ml" 30 994 1031
+type(
+  unit
+)
+"gradedtests.ml" 28 895 905 "gradedtests.ml" 30 994 1031
+type(
+  unit
+)
+"gradedtests.ml" 31 1035 1041 "gradedtests.ml" 31 1035 1050
+type(
+  string
+)
+"gradedtests.ml" 31 1035 1053 "gradedtests.ml" 31 1035 1070
+type(
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Platform.gen_name
+)
+"gradedtests.ml" 31 1035 1072 "gradedtests.ml" 31 1035 1073
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gradedtests.ml" 31 1035 1073 "gradedtests.ml" 31 1035 1090
+type(
+  string ref
+)
+ident(
+  ext_ref Platform.obj_path
+)
+"gradedtests.ml" 31 1035 1071 "gradedtests.ml" 31 1035 1091
+type(
+  string
+)
+"gradedtests.ml" 31 1035 1092 "gradedtests.ml" 31 1035 1097
+type(
+  string
+)
+"gradedtests.ml" 31 1035 1098 "gradedtests.ml" 31 1035 1102
+type(
+  string
+)
+"gradedtests.ml" 31 1035 1053 "gradedtests.ml" 31 1035 1102
+type(
+  string
+)
+"gradedtests.ml" 32 1106 1112 "gradedtests.ml" 32 1106 1121
+type(
+  string
+)
+"gradedtests.ml" 32 1106 1124 "gradedtests.ml" 32 1106 1141
+type(
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Platform.gen_name
+)
+"gradedtests.ml" 32 1106 1143 "gradedtests.ml" 32 1106 1144
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gradedtests.ml" 32 1106 1144 "gradedtests.ml" 32 1106 1161
+type(
+  string ref
+)
+ident(
+  ext_ref Platform.obj_path
+)
+"gradedtests.ml" 32 1106 1142 "gradedtests.ml" 32 1106 1162
+type(
+  string
+)
+"gradedtests.ml" 32 1106 1163 "gradedtests.ml" 32 1106 1168
+type(
+  string
+)
+"gradedtests.ml" 32 1106 1169 "gradedtests.ml" 32 1106 1173
+type(
+  string
+)
+"gradedtests.ml" 32 1106 1124 "gradedtests.ml" 32 1106 1173
+type(
+  string
+)
+"gradedtests.ml" 33 1177 1183 "gradedtests.ml" 33 1177 1190
+type(
+  string
+)
+"gradedtests.ml" 33 1177 1195 "gradedtests.ml" 33 1177 1212
+type(
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Platform.gen_name
+)
+"gradedtests.ml" 33 1177 1214 "gradedtests.ml" 33 1177 1215
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gradedtests.ml" 33 1177 1215 "gradedtests.ml" 33 1177 1232
+type(
+  string ref
+)
+ident(
+  ext_ref Platform.bin_path
+)
+"gradedtests.ml" 33 1177 1213 "gradedtests.ml" 33 1177 1233
+type(
+  string
+)
+"gradedtests.ml" 33 1177 1234 "gradedtests.ml" 33 1177 1239
+type(
+  string
+)
+"gradedtests.ml" 33 1177 1240 "gradedtests.ml" 33 1177 1265
+type(
+  string
+)
+ident(
+  ext_ref Platform.executable_exn
+)
+"gradedtests.ml" 33 1177 1195 "gradedtests.ml" 33 1177 1265
+type(
+  string
+)
+"gradedtests.ml" 34 1269 1275 "gradedtests.ml" 34 1269 1282
+type(
+  string
+)
+"gradedtests.ml" 34 1269 1287 "gradedtests.ml" 34 1269 1294
+type(
+  string
+)
+ident(
+  int_ref tmp_exe "gradedtests.ml" 33 1177 1183 "gradedtests.ml" 33 1177 1190
+)
+"gradedtests.ml" 34 1269 1295 "gradedtests.ml" 34 1269 1296
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"gradedtests.ml" 34 1269 1297 "gradedtests.ml" 34 1269 1303
+type(
+  string
+)
+"gradedtests.ml" 34 1269 1287 "gradedtests.ml" 34 1269 1303
+type(
+  string
+)
+"gradedtests.ml" 35 1307 1313 "gradedtests.ml" 35 1307 1314
+type(
+  unit
+)
+"gradedtests.ml" 35 1307 1321 "gradedtests.ml" 35 1307 1322
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"gradedtests.ml" 35 1307 1322 "gradedtests.ml" 35 1307 1341
+type(
+  bool ref
+)
+ident(
+  ext_ref Platform.verbose_on
+)
+"gradedtests.ml" 35 1307 1320 "gradedtests.ml" 35 1307 1342
+type(
+  bool
+)
+"gradedtests.ml" 36 1348 1352 "gradedtests.ml" 36 1348 1365
+type(
+  (string -> string -> string -> unit, out_channel, unit) format ->
+  string -> string -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"gradedtests.ml" 36 1348 1366 "gradedtests.ml" 36 1348 1403
+type(
+  (string -> string -> string -> unit, out_channel, unit) format
+)
+"gradedtests.ml" 36 1348 1404 "gradedtests.ml" 36 1348 1413
+type(
+  string
+)
+ident(
+  int_ref tmp_dot_s "gradedtests.ml" 31 1035 1041 "gradedtests.ml" 31 1035 1050
+)
+"gradedtests.ml" 36 1348 1414 "gradedtests.ml" 36 1348 1423
+type(
+  string
+)
+ident(
+  int_ref tmp_dot_o "gradedtests.ml" 32 1106 1112 "gradedtests.ml" 32 1106 1121
+)
+"gradedtests.ml" 36 1348 1424 "gradedtests.ml" 36 1348 1431
+type(
+  string
+)
+ident(
+  int_ref tmp_exe "gradedtests.ml" 33 1177 1183 "gradedtests.ml" 33 1177 1190
+)
+"gradedtests.ml" 36 1348 1352 "gradedtests.ml" 36 1348 1431
+type(
+  unit
+)
+"gradedtests.ml" 37 1433 1440 "gradedtests.ml" 37 1433 1442
+type(
+  unit
+)
+"gradedtests.ml" 35 1307 1317 "gradedtests.ml" 37 1433 1442
+type(
+  unit
+)
+"gradedtests.ml" 38 1446 1452 "gradedtests.ml" 38 1446 1454
+type(
+  Cunit.cunit
+)
+"gradedtests.ml" 38 1446 1457 "gradedtests.ml" 38 1446 1477
+type(
+  Ast.exp -> Cunit.cunit
+)
+ident(
+  ext_ref Compiler.compile_exp
+)
+"gradedtests.ml" 38 1446 1478 "gradedtests.ml" 38 1446 1479
+type(
+  Ast.exp
+)
+ident(
+  int_ref e "gradedtests.ml" 27 837 862 "gradedtests.ml" 27 837 863
+)
+"gradedtests.ml" 38 1446 1457 "gradedtests.ml" 38 1446 1479
+type(
+  Cunit.cunit
+)
+"gradedtests.ml" 39 1483 1489 "gradedtests.ml" 39 1483 1493
+type(
+  out_channel
+)
+"gradedtests.ml" 39 1483 1496 "gradedtests.ml" 39 1483 1504
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"gradedtests.ml" 39 1483 1505 "gradedtests.ml" 39 1483 1514
+type(
+  string
+)
+ident(
+  int_ref tmp_dot_s "gradedtests.ml" 31 1035 1041 "gradedtests.ml" 31 1035 1050
+)
+"gradedtests.ml" 39 1483 1496 "gradedtests.ml" 39 1483 1514
+type(
+  out_channel
+)
+"gradedtests.ml" 41 1528 1534 "gradedtests.ml" 41 1528 1552
+type(
+  Cunit.cunit -> out_channel -> unit
+)
+ident(
+  ext_ref Cunit.output_cunit
+)
+"gradedtests.ml" 41 1528 1553 "gradedtests.ml" 41 1528 1555
+type(
+  Cunit.cunit
+)
+ident(
+  int_ref cu "gradedtests.ml" 38 1446 1452 "gradedtests.ml" 38 1446 1454
+)
+"gradedtests.ml" 41 1528 1556 "gradedtests.ml" 41 1528 1560
+type(
+  out_channel
+)
+ident(
+  int_ref fout "gradedtests.ml" 39 1483 1489 "gradedtests.ml" 39 1483 1493
+)
+"gradedtests.ml" 41 1528 1534 "gradedtests.ml" 41 1528 1560
+type(
+  unit
+)
+"gradedtests.ml" 42 1562 1568 "gradedtests.ml" 42 1562 1577
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"gradedtests.ml" 42 1562 1578 "gradedtests.ml" 42 1562 1582
+type(
+  out_channel
+)
+ident(
+  int_ref fout "gradedtests.ml" 39 1483 1489 "gradedtests.ml" 39 1483 1493
+)
+"gradedtests.ml" 42 1562 1568 "gradedtests.ml" 42 1562 1582
+type(
+  unit
+)
+"gradedtests.ml" 43 1584 1590 "gradedtests.ml" 43 1584 1607
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Platform.assemble
+)
+"gradedtests.ml" 43 1584 1608 "gradedtests.ml" 43 1584 1617
+type(
+  string
+)
+ident(
+  int_ref tmp_dot_s "gradedtests.ml" 31 1035 1041 "gradedtests.ml" 31 1035 1050
+)
+"gradedtests.ml" 43 1584 1618 "gradedtests.ml" 43 1584 1627
+type(
+  string
+)
+ident(
+  int_ref tmp_dot_o "gradedtests.ml" 32 1106 1112 "gradedtests.ml" 32 1106 1121
+)
+"gradedtests.ml" 43 1584 1590 "gradedtests.ml" 43 1584 1627
+type(
+  unit
+)
+"gradedtests.ml" 44 1629 1635 "gradedtests.ml" 44 1629 1648
+type(
+  string list -> string -> unit
+)
+ident(
+  ext_ref Platform.link
+)
+"gradedtests.ml" 44 1629 1650 "gradedtests.ml" 44 1629 1659
+type(
+  string
+)
+ident(
+  int_ref tmp_dot_o "gradedtests.ml" 32 1106 1112 "gradedtests.ml" 32 1106 1121
+)
+"gradedtests.ml" 44 1629 1649 "gradedtests.ml" 44 1629 1660
+type(
+  string list
+)
+"gradedtests.ml" 44 1629 1661 "gradedtests.ml" 44 1629 1668
+type(
+  string
+)
+ident(
+  int_ref tmp_exe "gradedtests.ml" 33 1177 1183 "gradedtests.ml" 33 1177 1190
+)
+"gradedtests.ml" 44 1629 1635 "gradedtests.ml" 44 1629 1668
+type(
+  unit
+)
+"gradedtests.ml" 46 1681 1686 "gradedtests.ml" 46 1681 1687
+type(
+  unit
+)
+"gradedtests.ml" 46 1681 1690 "gradedtests.ml" 46 1681 1724
+type(
+  int -> string -> string -> unit
+)
+ident(
+  ext_ref Platform.run_executable_to_tmpfile
+)
+"gradedtests.ml" 46 1681 1725 "gradedtests.ml" 46 1681 1728
+type(
+  int
+)
+ident(
+  int_ref arg "gradedtests.ml" 27 837 852 "gradedtests.ml" 27 837 855
+)
+"gradedtests.ml" 46 1681 1729 "gradedtests.ml" 46 1681 1736
+type(
+  string
+)
+ident(
+  int_ref tmp_exe "gradedtests.ml" 33 1177 1183 "gradedtests.ml" 33 1177 1190
+)
+"gradedtests.ml" 46 1681 1737 "gradedtests.ml" 46 1681 1744
+type(
+  string
+)
+ident(
+  int_ref tmp_out "gradedtests.ml" 34 1269 1275 "gradedtests.ml" 34 1269 1282
+)
+"gradedtests.ml" 46 1681 1690 "gradedtests.ml" 46 1681 1744
+type(
+  unit
+)
+"gradedtests.ml" 47 1748 1753 "gradedtests.ml" 47 1748 1755
+type(
+  in_channel
+)
+ident(
+  def fi "gradedtests.ml" 48 1777 1778 "gradedtests.ml" 51 1875 1951
+)
+"gradedtests.ml" 47 1748 1758 "gradedtests.ml" 47 1748 1765
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"gradedtests.ml" 47 1748 1766 "gradedtests.ml" 47 1748 1773
+type(
+  string
+)
+ident(
+  int_ref tmp_out "gradedtests.ml" 34 1269 1275 "gradedtests.ml" 34 1269 1282
+)
+"gradedtests.ml" 47 1748 1758 "gradedtests.ml" 47 1748 1773
+type(
+  in_channel
+)
+"gradedtests.ml" 48 1777 1782 "gradedtests.ml" 48 1777 1788
+type(
+  int
+)
+ident(
+  def result "gradedtests.ml" 49 1824 1825 "gradedtests.ml" 51 1875 1951
+)
+"gradedtests.ml" 48 1777 1791 "gradedtests.ml" 48 1777 1804
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"gradedtests.ml" 48 1777 1806 "gradedtests.ml" 48 1777 1816
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"gradedtests.ml" 48 1777 1817 "gradedtests.ml" 48 1777 1819
+type(
+  in_channel
+)
+ident(
+  int_ref fi "gradedtests.ml" 47 1748 1753 "gradedtests.ml" 47 1748 1755
+)
+"gradedtests.ml" 48 1777 1805 "gradedtests.ml" 48 1777 1820
+type(
+  string
+)
+"gradedtests.ml" 48 1777 1791 "gradedtests.ml" 48 1777 1820
+type(
+  int
+)
+"gradedtests.ml" 49 1824 1829 "gradedtests.ml" 49 1824 1830
+type(
+  unit
+)
+"gradedtests.ml" 49 1824 1833 "gradedtests.ml" 49 1824 1841
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"gradedtests.ml" 49 1824 1842 "gradedtests.ml" 49 1824 1844
+type(
+  in_channel
+)
+ident(
+  int_ref fi "gradedtests.ml" 47 1748 1753 "gradedtests.ml" 47 1748 1755
+)
+"gradedtests.ml" 49 1824 1833 "gradedtests.ml" 49 1824 1844
+type(
+  unit
+)
+"gradedtests.ml" 50 1848 1854 "gradedtests.ml" 50 1848 1860
+type(
+  int
+)
+ident(
+  int_ref result "gradedtests.ml" 48 1777 1782 "gradedtests.ml" 48 1777 1788
+)
+"gradedtests.ml" 50 1848 1861 "gradedtests.ml" 50 1848 1862
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"gradedtests.ml" 50 1848 1863 "gradedtests.ml" 50 1848 1866
+type(
+  int
+)
+ident(
+  int_ref ans "gradedtests.ml" 27 837 874 "gradedtests.ml" 27 837 877
+)
+"gradedtests.ml" 50 1848 1854 "gradedtests.ml" 50 1848 1866
+type(
+  bool
+)
+"gradedtests.ml" 50 1848 1872 "gradedtests.ml" 50 1848 1874
+type(
+  unit
+)
+"gradedtests.ml" 51 1875 1883 "gradedtests.ml" 51 1875 1891
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gradedtests.ml" 51 1875 1893 "gradedtests.ml" 51 1875 1907
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"gradedtests.ml" 51 1875 1908 "gradedtests.ml" 51 1875 1939
+type(
+  (int -> int -> string, unit, string) format
+)
+"gradedtests.ml" 51 1875 1940 "gradedtests.ml" 51 1875 1946
+type(
+  int
+)
+ident(
+  int_ref result "gradedtests.ml" 48 1777 1782 "gradedtests.ml" 48 1777 1788
+)
+"gradedtests.ml" 51 1875 1947 "gradedtests.ml" 51 1875 1950
+type(
+  int
+)
+ident(
+  int_ref ans "gradedtests.ml" 27 837 874 "gradedtests.ml" 27 837 877
+)
+"gradedtests.ml" 51 1875 1892 "gradedtests.ml" 51 1875 1951
+type(
+  string
+)
+"gradedtests.ml" 51 1875 1883 "gradedtests.ml" 51 1875 1951
+type(
+  unit
+)
+"gradedtests.ml" 50 1848 1851 "gradedtests.ml" 51 1875 1951
+type(
+  unit
+)
+"gradedtests.ml" 49 1824 1825 "gradedtests.ml" 51 1875 1951
+type(
+  unit
+)
+"gradedtests.ml" 48 1777 1778 "gradedtests.ml" 51 1875 1951
+type(
+  unit
+)
+"gradedtests.ml" 47 1748 1749 "gradedtests.ml" 51 1875 1951
+type(
+  unit
+)
+"gradedtests.ml" 46 1681 1682 "gradedtests.ml" 51 1875 1951
+type(
+  unit
+)
+"gradedtests.ml" 53 1963 1988 "gradedtests.ml" 53 1963 1990
+type(
+  string
+)
+ident(
+  def s1 "gradedtests.ml" 53 1963 1999 "gradedtests.ml" 53 1963 2039
+)
+"gradedtests.ml" 53 1963 1992 "gradedtests.ml" 53 1963 1994
+type(
+  string
+)
+ident(
+  def s2 "gradedtests.ml" 53 1963 1999 "gradedtests.ml" 53 1963 2039
+)
+"gradedtests.ml" 53 1963 1966 "gradedtests.ml" 53 1963 1995
+type(
+  exn
+)
+"gradedtests.ml" 53 1963 1999 "gradedtests.ml" 53 1963 2007
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"gradedtests.ml" 53 1963 2009 "gradedtests.ml" 53 1963 2023
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"gradedtests.ml" 53 1963 2024 "gradedtests.ml" 53 1963 2032
+type(
+  (string -> string -> string, unit, string) format
+)
+"gradedtests.ml" 53 1963 2033 "gradedtests.ml" 53 1963 2035
+type(
+  string
+)
+ident(
+  int_ref s1 "gradedtests.ml" 53 1963 1988 "gradedtests.ml" 53 1963 1990
+)
+"gradedtests.ml" 53 1963 2036 "gradedtests.ml" 53 1963 2038
+type(
+  string
+)
+ident(
+  int_ref s2 "gradedtests.ml" 53 1963 1992 "gradedtests.ml" 53 1963 1994
+)
+"gradedtests.ml" 53 1963 2008 "gradedtests.ml" 53 1963 2039
+type(
+  string
+)
+"gradedtests.ml" 53 1963 1999 "gradedtests.ml" 53 1963 2039
+type(
+  unit
+)
+"gradedtests.ml" 45 1670 1676 "gradedtests.ml" 53 1963 2039
+type(
+  unit
+)
+"gradedtests.ml" 44 1629 1635 "gradedtests.ml" 53 1963 2039
+type(
+  unit
+)
+"gradedtests.ml" 43 1584 1590 "gradedtests.ml" 53 1963 2039
+type(
+  unit
+)
+"gradedtests.ml" 42 1562 1568 "gradedtests.ml" 53 1963 2039
+type(
+  unit
+)
+"gradedtests.ml" 40 1518 1522 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 39 1483 1485 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 38 1446 1448 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 35 1307 1309 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 34 1269 1271 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 33 1177 1179 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 32 1106 1108 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 31 1035 1037 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+"gradedtests.ml" 28 895 897 "gradedtests.ml" 54 2040 2047
+type(
+  unit
+)
+type(
+  unit
+)
+"gradedtests.ml" 58 2074 2078 "gradedtests.ml" 58 2074 2096
+type(
+  Assert.suite
+)
+ident(
+  def easy_parsing_tests "gradedtests.ml" 136 4032 4032 --
+)
+"gradedtests.ml" 59 2109 2120 "gradedtests.ml" 59 2109 2133
+type(
+  string
+)
+"gradedtests.ml" 59 2109 2135 "gradedtests.ml" 59 2109 2137
+type(
+  int
+)
+"gradedtests.ml" 61 2149 2150 "gradedtests.ml" 61 2149 2163
+type(
+  string
+)
+"gradedtests.ml" 61 2149 2166 "gradedtests.ml" 61 2149 2174
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 61 2149 2175 "gradedtests.ml" 61 2149 2178
+type(
+  string
+)
+"gradedtests.ml" 61 2149 2179 "gradedtests.ml" 61 2149 2182
+type(
+  Ast.exp
+)
+"gradedtests.ml" 61 2149 2165 "gradedtests.ml" 61 2149 2183
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 61 2149 2149 "gradedtests.ml" 61 2149 2184
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 64 2199 2200 "gradedtests.ml" 64 2199 2213
+type(
+  string
+)
+"gradedtests.ml" 64 2199 2216 "gradedtests.ml" 64 2199 2224
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 64 2199 2225 "gradedtests.ml" 64 2199 2232
+type(
+  string
+)
+"gradedtests.ml" 64 2199 2241 "gradedtests.ml" 64 2199 2245
+type(
+  Ast.binop
+)
+"gradedtests.ml" 64 2199 2246 "gradedtests.ml" 64 2199 2249
+type(
+  Ast.exp
+)
+"gradedtests.ml" 64 2199 2256 "gradedtests.ml" 64 2199 2258
+type(
+  int32
+)
+"gradedtests.ml" 64 2199 2250 "gradedtests.ml" 64 2199 2259
+type(
+  Ast.exp
+)
+"gradedtests.ml" 64 2199 2233 "gradedtests.ml" 64 2199 2261
+type(
+  Ast.exp
+)
+"gradedtests.ml" 64 2199 2215 "gradedtests.ml" 64 2199 2262
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 64 2199 2199 "gradedtests.ml" 64 2199 2263
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 67 2278 2279 "gradedtests.ml" 67 2278 2292
+type(
+  string
+)
+"gradedtests.ml" 67 2278 2295 "gradedtests.ml" 67 2278 2303
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 67 2278 2304 "gradedtests.ml" 67 2278 2311
+type(
+  string
+)
+"gradedtests.ml" 67 2278 2320 "gradedtests.ml" 67 2278 2324
+type(
+  Ast.binop
+)
+"gradedtests.ml" 67 2278 2325 "gradedtests.ml" 67 2278 2328
+type(
+  Ast.exp
+)
+"gradedtests.ml" 67 2278 2329 "gradedtests.ml" 67 2278 2332
+type(
+  Ast.exp
+)
+"gradedtests.ml" 67 2278 2312 "gradedtests.ml" 67 2278 2334
+type(
+  Ast.exp
+)
+"gradedtests.ml" 67 2278 2294 "gradedtests.ml" 67 2278 2335
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 67 2278 2278 "gradedtests.ml" 67 2278 2336
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 70 2352 2353 "gradedtests.ml" 70 2352 2366
+type(
+  string
+)
+"gradedtests.ml" 70 2352 2369 "gradedtests.ml" 70 2352 2377
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 70 2352 2378 "gradedtests.ml" 70 2352 2386
+type(
+  string
+)
+"gradedtests.ml" 70 2352 2395 "gradedtests.ml" 70 2352 2400
+type(
+  Ast.binop
+)
+"gradedtests.ml" 70 2352 2401 "gradedtests.ml" 70 2352 2404
+type(
+  Ast.exp
+)
+"gradedtests.ml" 70 2352 2411 "gradedtests.ml" 70 2352 2414
+type(
+  int32
+)
+"gradedtests.ml" 70 2352 2405 "gradedtests.ml" 70 2352 2415
+type(
+  Ast.exp
+)
+"gradedtests.ml" 70 2352 2387 "gradedtests.ml" 70 2352 2417
+type(
+  Ast.exp
+)
+"gradedtests.ml" 70 2352 2368 "gradedtests.ml" 70 2352 2418
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 70 2352 2352 "gradedtests.ml" 70 2352 2419
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 73 2435 2436 "gradedtests.ml" 73 2435 2449
+type(
+  string
+)
+"gradedtests.ml" 73 2435 2452 "gradedtests.ml" 73 2435 2460
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 73 2435 2461 "gradedtests.ml" 73 2435 2469
+type(
+  string
+)
+"gradedtests.ml" 73 2435 2478 "gradedtests.ml" 73 2435 2483
+type(
+  Ast.binop
+)
+"gradedtests.ml" 73 2435 2490 "gradedtests.ml" 73 2435 2493
+type(
+  int32
+)
+"gradedtests.ml" 73 2435 2484 "gradedtests.ml" 73 2435 2494
+type(
+  Ast.exp
+)
+"gradedtests.ml" 73 2435 2495 "gradedtests.ml" 73 2435 2498
+type(
+  Ast.exp
+)
+"gradedtests.ml" 73 2435 2470 "gradedtests.ml" 73 2435 2500
+type(
+  Ast.exp
+)
+"gradedtests.ml" 73 2435 2451 "gradedtests.ml" 73 2435 2501
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 73 2435 2435 "gradedtests.ml" 73 2435 2502
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 76 2517 2518 "gradedtests.ml" 76 2517 2531
+type(
+  string
+)
+"gradedtests.ml" 76 2517 2534 "gradedtests.ml" 76 2517 2542
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 76 2517 2543 "gradedtests.ml" 76 2517 2550
+type(
+  string
+)
+"gradedtests.ml" 76 2517 2559 "gradedtests.ml" 76 2517 2561
+type(
+  Ast.binop
+)
+"gradedtests.ml" 76 2517 2562 "gradedtests.ml" 76 2517 2565
+type(
+  Ast.exp
+)
+"gradedtests.ml" 76 2517 2566 "gradedtests.ml" 76 2517 2569
+type(
+  Ast.exp
+)
+"gradedtests.ml" 76 2517 2551 "gradedtests.ml" 76 2517 2571
+type(
+  Ast.exp
+)
+"gradedtests.ml" 76 2517 2533 "gradedtests.ml" 76 2517 2572
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 76 2517 2517 "gradedtests.ml" 76 2517 2573
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 79 2586 2587 "gradedtests.ml" 79 2586 2600
+type(
+  string
+)
+"gradedtests.ml" 79 2586 2603 "gradedtests.ml" 79 2586 2611
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 79 2586 2612 "gradedtests.ml" 79 2586 2617
+type(
+  string
+)
+"gradedtests.ml" 79 2586 2624 "gradedtests.ml" 79 2586 2628
+type(
+  int32
+)
+"gradedtests.ml" 79 2586 2618 "gradedtests.ml" 79 2586 2629
+type(
+  Ast.exp
+)
+"gradedtests.ml" 79 2586 2602 "gradedtests.ml" 79 2586 2630
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 79 2586 2586 "gradedtests.ml" 79 2586 2631
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 82 2648 2649 "gradedtests.ml" 82 2648 2662
+type(
+  string
+)
+"gradedtests.ml" 82 2648 2665 "gradedtests.ml" 82 2648 2673
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 82 2648 2674 "gradedtests.ml" 82 2648 2683
+type(
+  string
+)
+"gradedtests.ml" 82 2648 2692 "gradedtests.ml" 82 2648 2695
+type(
+  Ast.binop
+)
+"gradedtests.ml" 82 2648 2702 "gradedtests.ml" 82 2648 2705
+type(
+  int32
+)
+"gradedtests.ml" 82 2648 2696 "gradedtests.ml" 82 2648 2706
+type(
+  Ast.exp
+)
+"gradedtests.ml" 82 2648 2707 "gradedtests.ml" 82 2648 2710
+type(
+  Ast.exp
+)
+"gradedtests.ml" 82 2648 2684 "gradedtests.ml" 82 2648 2712
+type(
+  Ast.exp
+)
+"gradedtests.ml" 82 2648 2664 "gradedtests.ml" 82 2648 2713
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 82 2648 2648 "gradedtests.ml" 82 2648 2714
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 85 2731 2732 "gradedtests.ml" 85 2731 2745
+type(
+  string
+)
+"gradedtests.ml" 85 2731 2748 "gradedtests.ml" 85 2731 2756
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 85 2731 2757 "gradedtests.ml" 85 2731 2766
+type(
+  string
+)
+"gradedtests.ml" 85 2731 2775 "gradedtests.ml" 85 2731 2778
+type(
+  Ast.binop
+)
+"gradedtests.ml" 85 2731 2785 "gradedtests.ml" 85 2731 2788
+type(
+  int32
+)
+"gradedtests.ml" 85 2731 2779 "gradedtests.ml" 85 2731 2789
+type(
+  Ast.exp
+)
+"gradedtests.ml" 85 2731 2790 "gradedtests.ml" 85 2731 2793
+type(
+  Ast.exp
+)
+"gradedtests.ml" 85 2731 2767 "gradedtests.ml" 85 2731 2795
+type(
+  Ast.exp
+)
+"gradedtests.ml" 85 2731 2747 "gradedtests.ml" 85 2731 2796
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 85 2731 2731 "gradedtests.ml" 85 2731 2797
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 88 2813 2814 "gradedtests.ml" 88 2813 2827
+type(
+  string
+)
+"gradedtests.ml" 88 2813 2830 "gradedtests.ml" 88 2813 2838
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 88 2813 2839 "gradedtests.ml" 88 2813 2847
+type(
+  string
+)
+"gradedtests.ml" 88 2813 2856 "gradedtests.ml" 88 2813 2859
+type(
+  Ast.binop
+)
+"gradedtests.ml" 88 2813 2866 "gradedtests.ml" 88 2813 2869
+type(
+  int32
+)
+"gradedtests.ml" 88 2813 2860 "gradedtests.ml" 88 2813 2870
+type(
+  Ast.exp
+)
+"gradedtests.ml" 88 2813 2871 "gradedtests.ml" 88 2813 2874
+type(
+  Ast.exp
+)
+"gradedtests.ml" 88 2813 2848 "gradedtests.ml" 88 2813 2876
+type(
+  Ast.exp
+)
+"gradedtests.ml" 88 2813 2829 "gradedtests.ml" 88 2813 2877
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 88 2813 2813 "gradedtests.ml" 88 2813 2878
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 91 2894 2895 "gradedtests.ml" 91 2894 2909
+type(
+  string
+)
+"gradedtests.ml" 91 2894 2912 "gradedtests.ml" 91 2894 2920
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 91 2894 2921 "gradedtests.ml" 91 2894 2929
+type(
+  string
+)
+"gradedtests.ml" 91 2894 2938 "gradedtests.ml" 91 2894 2940
+type(
+  Ast.binop
+)
+"gradedtests.ml" 91 2894 2947 "gradedtests.ml" 91 2894 2950
+type(
+  int32
+)
+"gradedtests.ml" 91 2894 2941 "gradedtests.ml" 91 2894 2951
+type(
+  Ast.exp
+)
+"gradedtests.ml" 91 2894 2952 "gradedtests.ml" 91 2894 2955
+type(
+  Ast.exp
+)
+"gradedtests.ml" 91 2894 2930 "gradedtests.ml" 91 2894 2957
+type(
+  Ast.exp
+)
+"gradedtests.ml" 91 2894 2911 "gradedtests.ml" 91 2894 2958
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 91 2894 2894 "gradedtests.ml" 91 2894 2959
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 94 2976 2977 "gradedtests.ml" 94 2976 2991
+type(
+  string
+)
+"gradedtests.ml" 94 2976 2994 "gradedtests.ml" 94 2976 3002
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 94 2976 3003 "gradedtests.ml" 94 2976 3012
+type(
+  string
+)
+"gradedtests.ml" 94 2976 3021 "gradedtests.ml" 94 2976 3024
+type(
+  Ast.binop
+)
+"gradedtests.ml" 94 2976 3031 "gradedtests.ml" 94 2976 3034
+type(
+  int32
+)
+"gradedtests.ml" 94 2976 3025 "gradedtests.ml" 94 2976 3035
+type(
+  Ast.exp
+)
+"gradedtests.ml" 94 2976 3043 "gradedtests.ml" 94 2976 3049
+type(
+  Ast.unop
+)
+"gradedtests.ml" 94 2976 3050 "gradedtests.ml" 94 2976 3053
+type(
+  Ast.exp
+)
+"gradedtests.ml" 94 2976 3036 "gradedtests.ml" 94 2976 3055
+type(
+  Ast.exp
+)
+"gradedtests.ml" 94 2976 3013 "gradedtests.ml" 94 2976 3057
+type(
+  Ast.exp
+)
+"gradedtests.ml" 94 2976 2993 "gradedtests.ml" 94 2976 3058
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 94 2976 2976 "gradedtests.ml" 94 2976 3059
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 97 3076 3077 "gradedtests.ml" 97 3076 3091
+type(
+  string
+)
+"gradedtests.ml" 97 3076 3094 "gradedtests.ml" 97 3076 3102
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 97 3076 3103 "gradedtests.ml" 97 3076 3112
+type(
+  string
+)
+"gradedtests.ml" 97 3076 3121 "gradedtests.ml" 97 3076 3123
+type(
+  Ast.binop
+)
+"gradedtests.ml" 97 3076 3130 "gradedtests.ml" 97 3076 3133
+type(
+  int32
+)
+"gradedtests.ml" 97 3076 3124 "gradedtests.ml" 97 3076 3134
+type(
+  Ast.exp
+)
+"gradedtests.ml" 97 3076 3142 "gradedtests.ml" 97 3076 3148
+type(
+  Ast.unop
+)
+"gradedtests.ml" 97 3076 3149 "gradedtests.ml" 97 3076 3152
+type(
+  Ast.exp
+)
+"gradedtests.ml" 97 3076 3135 "gradedtests.ml" 97 3076 3154
+type(
+  Ast.exp
+)
+"gradedtests.ml" 97 3076 3113 "gradedtests.ml" 97 3076 3156
+type(
+  Ast.exp
+)
+"gradedtests.ml" 97 3076 3093 "gradedtests.ml" 97 3076 3157
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 97 3076 3076 "gradedtests.ml" 97 3076 3158
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 100 3174 3175 "gradedtests.ml" 100 3174 3189
+type(
+  string
+)
+"gradedtests.ml" 100 3174 3192 "gradedtests.ml" 100 3174 3200
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 100 3174 3201 "gradedtests.ml" 100 3174 3209
+type(
+  string
+)
+"gradedtests.ml" 100 3174 3218 "gradedtests.ml" 100 3174 3223
+type(
+  Ast.binop
+)
+"gradedtests.ml" 100 3174 3230 "gradedtests.ml" 100 3174 3233
+type(
+  int32
+)
+"gradedtests.ml" 100 3174 3224 "gradedtests.ml" 100 3174 3234
+type(
+  Ast.exp
+)
+"gradedtests.ml" 100 3174 3235 "gradedtests.ml" 100 3174 3238
+type(
+  Ast.exp
+)
+"gradedtests.ml" 100 3174 3210 "gradedtests.ml" 100 3174 3240
+type(
+  Ast.exp
+)
+"gradedtests.ml" 100 3174 3191 "gradedtests.ml" 100 3174 3241
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 100 3174 3174 "gradedtests.ml" 100 3174 3242
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 103 3255 3256 "gradedtests.ml" 103 3255 3270
+type(
+  string
+)
+"gradedtests.ml" 103 3255 3273 "gradedtests.ml" 103 3255 3281
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 103 3255 3282 "gradedtests.ml" 103 3255 3287
+type(
+  string
+)
+"gradedtests.ml" 103 3255 3295 "gradedtests.ml" 103 3255 3298
+type(
+  Ast.unop
+)
+"gradedtests.ml" 103 3255 3305 "gradedtests.ml" 103 3255 3308
+type(
+  int32
+)
+"gradedtests.ml" 103 3255 3299 "gradedtests.ml" 103 3255 3309
+type(
+  Ast.exp
+)
+"gradedtests.ml" 103 3255 3288 "gradedtests.ml" 103 3255 3311
+type(
+  Ast.exp
+)
+"gradedtests.ml" 103 3255 3272 "gradedtests.ml" 103 3255 3312
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 103 3255 3255 "gradedtests.ml" 103 3255 3313
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 106 3328 3329 "gradedtests.ml" 106 3328 3343
+type(
+  string
+)
+"gradedtests.ml" 106 3328 3346 "gradedtests.ml" 106 3328 3354
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 106 3328 3355 "gradedtests.ml" 106 3328 3362
+type(
+  string
+)
+"gradedtests.ml" 106 3328 3371 "gradedtests.ml" 106 3328 3373
+type(
+  Ast.binop
+)
+"gradedtests.ml" 106 3328 3374 "gradedtests.ml" 106 3328 3377
+type(
+  Ast.exp
+)
+"gradedtests.ml" 106 3328 3384 "gradedtests.ml" 106 3328 3386
+type(
+  int32
+)
+"gradedtests.ml" 106 3328 3378 "gradedtests.ml" 106 3328 3387
+type(
+  Ast.exp
+)
+"gradedtests.ml" 106 3328 3363 "gradedtests.ml" 106 3328 3389
+type(
+  Ast.exp
+)
+"gradedtests.ml" 106 3328 3345 "gradedtests.ml" 106 3328 3390
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 106 3328 3328 "gradedtests.ml" 106 3328 3391
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 109 3406 3407 "gradedtests.ml" 109 3406 3421
+type(
+  string
+)
+"gradedtests.ml" 109 3406 3424 "gradedtests.ml" 109 3406 3432
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 109 3406 3433 "gradedtests.ml" 109 3406 3440
+type(
+  string
+)
+"gradedtests.ml" 109 3406 3449 "gradedtests.ml" 109 3406 3451
+type(
+  Ast.binop
+)
+"gradedtests.ml" 109 3406 3452 "gradedtests.ml" 109 3406 3455
+type(
+  Ast.exp
+)
+"gradedtests.ml" 109 3406 3462 "gradedtests.ml" 109 3406 3464
+type(
+  int32
+)
+"gradedtests.ml" 109 3406 3456 "gradedtests.ml" 109 3406 3465
+type(
+  Ast.exp
+)
+"gradedtests.ml" 109 3406 3441 "gradedtests.ml" 109 3406 3467
+type(
+  Ast.exp
+)
+"gradedtests.ml" 109 3406 3423 "gradedtests.ml" 109 3406 3468
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 109 3406 3406 "gradedtests.ml" 109 3406 3469
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 112 3485 3486 "gradedtests.ml" 112 3485 3500
+type(
+  string
+)
+"gradedtests.ml" 112 3485 3503 "gradedtests.ml" 112 3485 3511
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 112 3485 3512 "gradedtests.ml" 112 3485 3520
+type(
+  string
+)
+"gradedtests.ml" 112 3485 3529 "gradedtests.ml" 112 3485 3532
+type(
+  Ast.binop
+)
+"gradedtests.ml" 112 3485 3533 "gradedtests.ml" 112 3485 3536
+type(
+  Ast.exp
+)
+"gradedtests.ml" 112 3485 3543 "gradedtests.ml" 112 3485 3545
+type(
+  int32
+)
+"gradedtests.ml" 112 3485 3537 "gradedtests.ml" 112 3485 3546
+type(
+  Ast.exp
+)
+"gradedtests.ml" 112 3485 3521 "gradedtests.ml" 112 3485 3548
+type(
+  Ast.exp
+)
+"gradedtests.ml" 112 3485 3502 "gradedtests.ml" 112 3485 3549
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 112 3485 3485 "gradedtests.ml" 112 3485 3550
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 115 3566 3567 "gradedtests.ml" 115 3566 3581
+type(
+  string
+)
+"gradedtests.ml" 115 3566 3584 "gradedtests.ml" 115 3566 3592
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 115 3566 3593 "gradedtests.ml" 115 3566 3601
+type(
+  string
+)
+"gradedtests.ml" 115 3566 3610 "gradedtests.ml" 115 3566 3613
+type(
+  Ast.binop
+)
+"gradedtests.ml" 115 3566 3614 "gradedtests.ml" 115 3566 3617
+type(
+  Ast.exp
+)
+"gradedtests.ml" 115 3566 3624 "gradedtests.ml" 115 3566 3626
+type(
+  int32
+)
+"gradedtests.ml" 115 3566 3618 "gradedtests.ml" 115 3566 3627
+type(
+  Ast.exp
+)
+"gradedtests.ml" 115 3566 3602 "gradedtests.ml" 115 3566 3629
+type(
+  Ast.exp
+)
+"gradedtests.ml" 115 3566 3583 "gradedtests.ml" 115 3566 3630
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 115 3566 3566 "gradedtests.ml" 115 3566 3631
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 118 3647 3648 "gradedtests.ml" 118 3647 3662
+type(
+  string
+)
+"gradedtests.ml" 118 3647 3665 "gradedtests.ml" 118 3647 3673
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 118 3647 3674 "gradedtests.ml" 118 3647 3682
+type(
+  string
+)
+"gradedtests.ml" 118 3647 3691 "gradedtests.ml" 118 3647 3693
+type(
+  Ast.binop
+)
+"gradedtests.ml" 118 3647 3694 "gradedtests.ml" 118 3647 3697
+type(
+  Ast.exp
+)
+"gradedtests.ml" 118 3647 3698 "gradedtests.ml" 118 3647 3701
+type(
+  Ast.exp
+)
+"gradedtests.ml" 118 3647 3683 "gradedtests.ml" 118 3647 3703
+type(
+  Ast.exp
+)
+"gradedtests.ml" 118 3647 3664 "gradedtests.ml" 118 3647 3704
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 118 3647 3647 "gradedtests.ml" 118 3647 3705
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 121 3721 3722 "gradedtests.ml" 121 3721 3736
+type(
+  string
+)
+"gradedtests.ml" 121 3721 3739 "gradedtests.ml" 121 3721 3747
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 121 3721 3748 "gradedtests.ml" 121 3721 3756
+type(
+  string
+)
+"gradedtests.ml" 121 3721 3765 "gradedtests.ml" 121 3721 3768
+type(
+  Ast.binop
+)
+"gradedtests.ml" 121 3721 3769 "gradedtests.ml" 121 3721 3772
+type(
+  Ast.exp
+)
+"gradedtests.ml" 121 3721 3773 "gradedtests.ml" 121 3721 3776
+type(
+  Ast.exp
+)
+"gradedtests.ml" 121 3721 3757 "gradedtests.ml" 121 3721 3778
+type(
+  Ast.exp
+)
+"gradedtests.ml" 121 3721 3738 "gradedtests.ml" 121 3721 3779
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 121 3721 3721 "gradedtests.ml" 121 3721 3780
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 124 3792 3793 "gradedtests.ml" 124 3792 3807
+type(
+  string
+)
+"gradedtests.ml" 124 3792 3810 "gradedtests.ml" 124 3792 3818
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 124 3792 3819 "gradedtests.ml" 124 3792 3823
+type(
+  string
+)
+"gradedtests.ml" 124 3792 3831 "gradedtests.ml" 124 3792 3834
+type(
+  Ast.unop
+)
+"gradedtests.ml" 124 3792 3835 "gradedtests.ml" 124 3792 3838
+type(
+  Ast.exp
+)
+"gradedtests.ml" 124 3792 3824 "gradedtests.ml" 124 3792 3840
+type(
+  Ast.exp
+)
+"gradedtests.ml" 124 3792 3809 "gradedtests.ml" 124 3792 3841
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 124 3792 3792 "gradedtests.ml" 124 3792 3842
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 127 3854 3855 "gradedtests.ml" 127 3854 3869
+type(
+  string
+)
+"gradedtests.ml" 127 3854 3872 "gradedtests.ml" 127 3854 3880
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 127 3854 3881 "gradedtests.ml" 127 3854 3885
+type(
+  string
+)
+"gradedtests.ml" 127 3854 3893 "gradedtests.ml" 127 3854 3899
+type(
+  Ast.unop
+)
+"gradedtests.ml" 127 3854 3900 "gradedtests.ml" 127 3854 3903
+type(
+  Ast.exp
+)
+"gradedtests.ml" 127 3854 3886 "gradedtests.ml" 127 3854 3905
+type(
+  Ast.exp
+)
+"gradedtests.ml" 127 3854 3871 "gradedtests.ml" 127 3854 3906
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 127 3854 3854 "gradedtests.ml" 127 3854 3907
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 130 3926 3927 "gradedtests.ml" 130 3926 3941
+type(
+  string
+)
+"gradedtests.ml" 130 3926 3944 "gradedtests.ml" 130 3926 3952
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 130 3926 3953 "gradedtests.ml" 130 3926 3964
+type(
+  string
+)
+"gradedtests.ml" 130 3926 3973 "gradedtests.ml" 130 3926 3976
+type(
+  Ast.binop
+)
+"gradedtests.ml" 130 3926 3983 "gradedtests.ml" 130 3926 3987
+type(
+  int32
+)
+"gradedtests.ml" 130 3926 3977 "gradedtests.ml" 130 3926 3988
+type(
+  Ast.exp
+)
+"gradedtests.ml" 130 3926 3989 "gradedtests.ml" 130 3926 3992
+type(
+  Ast.exp
+)
+"gradedtests.ml" 130 3926 3965 "gradedtests.ml" 130 3926 3994
+type(
+  Ast.exp
+)
+"gradedtests.ml" 130 3926 3943 "gradedtests.ml" 130 3926 3995
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 130 3926 3926 "gradedtests.ml" 130 3926 3996
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 59 2109 2139 "gradedtests.ml" 132 3999 4000
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 59 2109 2109 "gradedtests.ml" 132 3999 4001
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 58 2074 2107 "gradedtests.ml" 133 4003 4004
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
+"gradedtests.ml" 136 4032 4036 "gradedtests.ml" 136 4032 4056
+type(
+  Assert.suite
+)
+ident(
+  def easy_compiling_tests "gradedtests.ml" 213 5954 5954 --
+)
+"gradedtests.ml" 137 4069 4080 "gradedtests.ml" 137 4069 4095
+type(
+  string
+)
+"gradedtests.ml" 137 4069 4097 "gradedtests.ml" 137 4069 4099
+type(
+  int
+)
+"gradedtests.ml" 139 4111 4112 "gradedtests.ml" 139 4111 4127
+type(
+  string
+)
+"gradedtests.ml" 139 4111 4130 "gradedtests.ml" 139 4111 4139
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 139 4111 4140 "gradedtests.ml" 139 4111 4141
+type(
+  int
+)
+"gradedtests.ml" 139 4111 4142 "gradedtests.ml" 139 4111 4145
+type(
+  Ast.exp
+)
+"gradedtests.ml" 139 4111 4146 "gradedtests.ml" 139 4111 4147
+type(
+  int
+)
+"gradedtests.ml" 139 4111 4129 "gradedtests.ml" 139 4111 4148
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 139 4111 4111 "gradedtests.ml" 139 4111 4149
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 142 4164 4165 "gradedtests.ml" 142 4164 4180
+type(
+  string
+)
+"gradedtests.ml" 142 4164 4183 "gradedtests.ml" 142 4164 4192
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 142 4164 4193 "gradedtests.ml" 142 4164 4194
+type(
+  int
+)
+"gradedtests.ml" 142 4164 4203 "gradedtests.ml" 142 4164 4207
+type(
+  Ast.binop
+)
+"gradedtests.ml" 142 4164 4208 "gradedtests.ml" 142 4164 4211
+type(
+  Ast.exp
+)
+"gradedtests.ml" 142 4164 4218 "gradedtests.ml" 142 4164 4220
+type(
+  int32
+)
+"gradedtests.ml" 142 4164 4212 "gradedtests.ml" 142 4164 4221
+type(
+  Ast.exp
+)
+"gradedtests.ml" 142 4164 4195 "gradedtests.ml" 142 4164 4223
+type(
+  Ast.exp
+)
+"gradedtests.ml" 142 4164 4224 "gradedtests.ml" 142 4164 4225
+type(
+  int
+)
+"gradedtests.ml" 142 4164 4182 "gradedtests.ml" 142 4164 4226
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 142 4164 4164 "gradedtests.ml" 142 4164 4227
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 145 4242 4243 "gradedtests.ml" 145 4242 4258
+type(
+  string
+)
+"gradedtests.ml" 145 4242 4261 "gradedtests.ml" 145 4242 4270
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 145 4242 4271 "gradedtests.ml" 145 4242 4272
+type(
+  int
+)
+"gradedtests.ml" 145 4242 4281 "gradedtests.ml" 145 4242 4285
+type(
+  Ast.binop
+)
+"gradedtests.ml" 145 4242 4286 "gradedtests.ml" 145 4242 4289
+type(
+  Ast.exp
+)
+"gradedtests.ml" 145 4242 4290 "gradedtests.ml" 145 4242 4293
+type(
+  Ast.exp
+)
+"gradedtests.ml" 145 4242 4273 "gradedtests.ml" 145 4242 4295
+type(
+  Ast.exp
+)
+"gradedtests.ml" 145 4242 4296 "gradedtests.ml" 145 4242 4297
+type(
+  int
+)
+"gradedtests.ml" 145 4242 4260 "gradedtests.ml" 145 4242 4298
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 145 4242 4242 "gradedtests.ml" 145 4242 4299
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 148 4315 4316 "gradedtests.ml" 148 4315 4331
+type(
+  string
+)
+"gradedtests.ml" 148 4315 4334 "gradedtests.ml" 148 4315 4343
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 148 4315 4344 "gradedtests.ml" 148 4315 4345
+type(
+  int
+)
+"gradedtests.ml" 148 4315 4354 "gradedtests.ml" 148 4315 4359
+type(
+  Ast.binop
+)
+"gradedtests.ml" 148 4315 4360 "gradedtests.ml" 148 4315 4363
+type(
+  Ast.exp
+)
+"gradedtests.ml" 148 4315 4370 "gradedtests.ml" 148 4315 4373
+type(
+  int32
+)
+"gradedtests.ml" 148 4315 4364 "gradedtests.ml" 148 4315 4374
+type(
+  Ast.exp
+)
+"gradedtests.ml" 148 4315 4346 "gradedtests.ml" 148 4315 4376
+type(
+  Ast.exp
+)
+"gradedtests.ml" 148 4315 4377 "gradedtests.ml" 148 4315 4379
+type(
+  int
+)
+"gradedtests.ml" 148 4315 4333 "gradedtests.ml" 148 4315 4380
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 148 4315 4315 "gradedtests.ml" 148 4315 4381
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 151 4397 4398 "gradedtests.ml" 151 4397 4413
+type(
+  string
+)
+"gradedtests.ml" 151 4397 4416 "gradedtests.ml" 151 4397 4425
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 151 4397 4426 "gradedtests.ml" 151 4397 4427
+type(
+  int
+)
+"gradedtests.ml" 151 4397 4436 "gradedtests.ml" 151 4397 4441
+type(
+  Ast.binop
+)
+"gradedtests.ml" 151 4397 4448 "gradedtests.ml" 151 4397 4451
+type(
+  int32
+)
+"gradedtests.ml" 151 4397 4442 "gradedtests.ml" 151 4397 4452
+type(
+  Ast.exp
+)
+"gradedtests.ml" 151 4397 4453 "gradedtests.ml" 151 4397 4456
+type(
+  Ast.exp
+)
+"gradedtests.ml" 151 4397 4428 "gradedtests.ml" 151 4397 4458
+type(
+  Ast.exp
+)
+"gradedtests.ml" 151 4397 4459 "gradedtests.ml" 151 4397 4461
+type(
+  int
+)
+"gradedtests.ml" 151 4397 4415 "gradedtests.ml" 151 4397 4462
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 151 4397 4397 "gradedtests.ml" 151 4397 4463
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 154 4478 4479 "gradedtests.ml" 154 4478 4494
+type(
+  string
+)
+"gradedtests.ml" 154 4478 4497 "gradedtests.ml" 154 4478 4506
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 154 4478 4507 "gradedtests.ml" 154 4478 4508
+type(
+  int
+)
+"gradedtests.ml" 154 4478 4517 "gradedtests.ml" 154 4478 4519
+type(
+  Ast.binop
+)
+"gradedtests.ml" 154 4478 4520 "gradedtests.ml" 154 4478 4523
+type(
+  Ast.exp
+)
+"gradedtests.ml" 154 4478 4524 "gradedtests.ml" 154 4478 4527
+type(
+  Ast.exp
+)
+"gradedtests.ml" 154 4478 4509 "gradedtests.ml" 154 4478 4529
+type(
+  Ast.exp
+)
+"gradedtests.ml" 154 4478 4530 "gradedtests.ml" 154 4478 4531
+type(
+  int
+)
+"gradedtests.ml" 154 4478 4496 "gradedtests.ml" 154 4478 4532
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 154 4478 4478 "gradedtests.ml" 154 4478 4533
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 157 4546 4547 "gradedtests.ml" 157 4546 4562
+type(
+  string
+)
+"gradedtests.ml" 157 4546 4565 "gradedtests.ml" 157 4546 4574
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 157 4546 4575 "gradedtests.ml" 157 4546 4576
+type(
+  int
+)
+"gradedtests.ml" 157 4546 4583 "gradedtests.ml" 157 4546 4587
+type(
+  int32
+)
+"gradedtests.ml" 157 4546 4577 "gradedtests.ml" 157 4546 4588
+type(
+  Ast.exp
+)
+"gradedtests.ml" 157 4546 4589 "gradedtests.ml" 157 4546 4592
+type(
+  int
+)
+"gradedtests.ml" 157 4546 4564 "gradedtests.ml" 157 4546 4593
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 157 4546 4546 "gradedtests.ml" 157 4546 4594
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 160 4611 4612 "gradedtests.ml" 160 4611 4627
+type(
+  string
+)
+"gradedtests.ml" 160 4611 4630 "gradedtests.ml" 160 4611 4639
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 160 4611 4640 "gradedtests.ml" 160 4611 4641
+type(
+  int
+)
+"gradedtests.ml" 160 4611 4650 "gradedtests.ml" 160 4611 4653
+type(
+  Ast.binop
+)
+"gradedtests.ml" 160 4611 4660 "gradedtests.ml" 160 4611 4663
+type(
+  int32
+)
+"gradedtests.ml" 160 4611 4654 "gradedtests.ml" 160 4611 4664
+type(
+  Ast.exp
+)
+"gradedtests.ml" 160 4611 4665 "gradedtests.ml" 160 4611 4668
+type(
+  Ast.exp
+)
+"gradedtests.ml" 160 4611 4642 "gradedtests.ml" 160 4611 4670
+type(
+  Ast.exp
+)
+"gradedtests.ml" 160 4611 4671 "gradedtests.ml" 160 4611 4672
+type(
+  int
+)
+"gradedtests.ml" 160 4611 4629 "gradedtests.ml" 160 4611 4673
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 160 4611 4611 "gradedtests.ml" 160 4611 4674
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 163 4691 4692 "gradedtests.ml" 163 4691 4707
+type(
+  string
+)
+"gradedtests.ml" 163 4691 4710 "gradedtests.ml" 163 4691 4719
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 163 4691 4720 "gradedtests.ml" 163 4691 4721
+type(
+  int
+)
+"gradedtests.ml" 163 4691 4730 "gradedtests.ml" 163 4691 4733
+type(
+  Ast.binop
+)
+"gradedtests.ml" 163 4691 4740 "gradedtests.ml" 163 4691 4743
+type(
+  int32
+)
+"gradedtests.ml" 163 4691 4734 "gradedtests.ml" 163 4691 4744
+type(
+  Ast.exp
+)
+"gradedtests.ml" 163 4691 4745 "gradedtests.ml" 163 4691 4748
+type(
+  Ast.exp
+)
+"gradedtests.ml" 163 4691 4722 "gradedtests.ml" 163 4691 4750
+type(
+  Ast.exp
+)
+"gradedtests.ml" 163 4691 4751 "gradedtests.ml" 163 4691 4754
+type(
+  int
+)
+"gradedtests.ml" 163 4691 4709 "gradedtests.ml" 163 4691 4755
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 163 4691 4691 "gradedtests.ml" 163 4691 4756
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 166 4772 4773 "gradedtests.ml" 166 4772 4788
+type(
+  string
+)
+"gradedtests.ml" 166 4772 4791 "gradedtests.ml" 166 4772 4800
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 166 4772 4801 "gradedtests.ml" 166 4772 4802
+type(
+  int
+)
+"gradedtests.ml" 166 4772 4811 "gradedtests.ml" 166 4772 4814
+type(
+  Ast.binop
+)
+"gradedtests.ml" 166 4772 4821 "gradedtests.ml" 166 4772 4824
+type(
+  int32
+)
+"gradedtests.ml" 166 4772 4815 "gradedtests.ml" 166 4772 4825
+type(
+  Ast.exp
+)
+"gradedtests.ml" 166 4772 4826 "gradedtests.ml" 166 4772 4829
+type(
+  Ast.exp
+)
+"gradedtests.ml" 166 4772 4803 "gradedtests.ml" 166 4772 4831
+type(
+  Ast.exp
+)
+"gradedtests.ml" 166 4772 4832 "gradedtests.ml" 166 4772 4833
+type(
+  int
+)
+"gradedtests.ml" 166 4772 4790 "gradedtests.ml" 166 4772 4834
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 166 4772 4772 "gradedtests.ml" 166 4772 4835
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 169 4851 4852 "gradedtests.ml" 169 4851 4868
+type(
+  string
+)
+"gradedtests.ml" 169 4851 4871 "gradedtests.ml" 169 4851 4880
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 169 4851 4881 "gradedtests.ml" 169 4851 4882
+type(
+  int
+)
+"gradedtests.ml" 169 4851 4891 "gradedtests.ml" 169 4851 4893
+type(
+  Ast.binop
+)
+"gradedtests.ml" 169 4851 4900 "gradedtests.ml" 169 4851 4903
+type(
+  int32
+)
+"gradedtests.ml" 169 4851 4894 "gradedtests.ml" 169 4851 4904
+type(
+  Ast.exp
+)
+"gradedtests.ml" 169 4851 4905 "gradedtests.ml" 169 4851 4908
+type(
+  Ast.exp
+)
+"gradedtests.ml" 169 4851 4883 "gradedtests.ml" 169 4851 4910
+type(
+  Ast.exp
+)
+"gradedtests.ml" 169 4851 4911 "gradedtests.ml" 169 4851 4913
+type(
+  int
+)
+"gradedtests.ml" 169 4851 4870 "gradedtests.ml" 169 4851 4914
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 169 4851 4851 "gradedtests.ml" 169 4851 4915
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 172 4932 4933 "gradedtests.ml" 172 4932 4949
+type(
+  string
+)
+"gradedtests.ml" 172 4932 4952 "gradedtests.ml" 172 4932 4961
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 172 4932 4962 "gradedtests.ml" 172 4932 4963
+type(
+  int
+)
+"gradedtests.ml" 172 4932 4972 "gradedtests.ml" 172 4932 4975
+type(
+  Ast.binop
+)
+"gradedtests.ml" 172 4932 4982 "gradedtests.ml" 172 4932 4985
+type(
+  int32
+)
+"gradedtests.ml" 172 4932 4976 "gradedtests.ml" 172 4932 4986
+type(
+  Ast.exp
+)
+"gradedtests.ml" 172 4932 4994 "gradedtests.ml" 172 4932 5000
+type(
+  Ast.unop
+)
+"gradedtests.ml" 172 4932 5001 "gradedtests.ml" 172 4932 5004
+type(
+  Ast.exp
+)
+"gradedtests.ml" 172 4932 4987 "gradedtests.ml" 172 4932 5006
+type(
+  Ast.exp
+)
+"gradedtests.ml" 172 4932 4964 "gradedtests.ml" 172 4932 5008
+type(
+  Ast.exp
+)
+"gradedtests.ml" 172 4932 5009 "gradedtests.ml" 172 4932 5010
+type(
+  int
+)
+"gradedtests.ml" 172 4932 4951 "gradedtests.ml" 172 4932 5011
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 172 4932 4932 "gradedtests.ml" 172 4932 5012
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 175 5029 5030 "gradedtests.ml" 175 5029 5046
+type(
+  string
+)
+"gradedtests.ml" 175 5029 5049 "gradedtests.ml" 175 5029 5058
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 175 5029 5059 "gradedtests.ml" 175 5029 5060
+type(
+  int
+)
+"gradedtests.ml" 175 5029 5069 "gradedtests.ml" 175 5029 5071
+type(
+  Ast.binop
+)
+"gradedtests.ml" 175 5029 5078 "gradedtests.ml" 175 5029 5081
+type(
+  int32
+)
+"gradedtests.ml" 175 5029 5072 "gradedtests.ml" 175 5029 5082
+type(
+  Ast.exp
+)
+"gradedtests.ml" 175 5029 5090 "gradedtests.ml" 175 5029 5096
+type(
+  Ast.unop
+)
+"gradedtests.ml" 175 5029 5097 "gradedtests.ml" 175 5029 5100
+type(
+  Ast.exp
+)
+"gradedtests.ml" 175 5029 5083 "gradedtests.ml" 175 5029 5102
+type(
+  Ast.exp
+)
+"gradedtests.ml" 175 5029 5061 "gradedtests.ml" 175 5029 5104
+type(
+  Ast.exp
+)
+"gradedtests.ml" 175 5029 5105 "gradedtests.ml" 175 5029 5107
+type(
+  int
+)
+"gradedtests.ml" 175 5029 5048 "gradedtests.ml" 175 5029 5108
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 175 5029 5029 "gradedtests.ml" 175 5029 5109
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 178 5125 5126 "gradedtests.ml" 178 5125 5142
+type(
+  string
+)
+"gradedtests.ml" 178 5125 5145 "gradedtests.ml" 178 5125 5154
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 178 5125 5155 "gradedtests.ml" 178 5125 5156
+type(
+  int
+)
+"gradedtests.ml" 178 5125 5165 "gradedtests.ml" 178 5125 5170
+type(
+  Ast.binop
+)
+"gradedtests.ml" 178 5125 5177 "gradedtests.ml" 178 5125 5180
+type(
+  int32
+)
+"gradedtests.ml" 178 5125 5171 "gradedtests.ml" 178 5125 5181
+type(
+  Ast.exp
+)
+"gradedtests.ml" 178 5125 5182 "gradedtests.ml" 178 5125 5185
+type(
+  Ast.exp
+)
+"gradedtests.ml" 178 5125 5157 "gradedtests.ml" 178 5125 5187
+type(
+  Ast.exp
+)
+"gradedtests.ml" 178 5125 5188 "gradedtests.ml" 178 5125 5190
+type(
+  int
+)
+"gradedtests.ml" 178 5125 5144 "gradedtests.ml" 178 5125 5191
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 178 5125 5125 "gradedtests.ml" 178 5125 5192
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 181 5205 5206 "gradedtests.ml" 181 5205 5222
+type(
+  string
+)
+"gradedtests.ml" 181 5205 5225 "gradedtests.ml" 181 5205 5234
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 181 5205 5235 "gradedtests.ml" 181 5205 5236
+type(
+  int
+)
+"gradedtests.ml" 181 5205 5244 "gradedtests.ml" 181 5205 5247
+type(
+  Ast.unop
+)
+"gradedtests.ml" 181 5205 5254 "gradedtests.ml" 181 5205 5257
+type(
+  int32
+)
+"gradedtests.ml" 181 5205 5248 "gradedtests.ml" 181 5205 5258
+type(
+  Ast.exp
+)
+"gradedtests.ml" 181 5205 5237 "gradedtests.ml" 181 5205 5260
+type(
+  Ast.exp
+)
+"gradedtests.ml" 181 5205 5261 "gradedtests.ml" 181 5205 5266
+type(
+  int
+)
+"gradedtests.ml" 181 5205 5224 "gradedtests.ml" 181 5205 5267
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 181 5205 5205 "gradedtests.ml" 181 5205 5268
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 184 5283 5284 "gradedtests.ml" 184 5283 5300
+type(
+  string
+)
+"gradedtests.ml" 184 5283 5303 "gradedtests.ml" 184 5283 5312
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 184 5283 5313 "gradedtests.ml" 184 5283 5314
+type(
+  int
+)
+"gradedtests.ml" 184 5283 5323 "gradedtests.ml" 184 5283 5325
+type(
+  Ast.binop
+)
+"gradedtests.ml" 184 5283 5326 "gradedtests.ml" 184 5283 5329
+type(
+  Ast.exp
+)
+"gradedtests.ml" 184 5283 5336 "gradedtests.ml" 184 5283 5338
+type(
+  int32
+)
+"gradedtests.ml" 184 5283 5330 "gradedtests.ml" 184 5283 5339
+type(
+  Ast.exp
+)
+"gradedtests.ml" 184 5283 5315 "gradedtests.ml" 184 5283 5341
+type(
+  Ast.exp
+)
+"gradedtests.ml" 184 5283 5342 "gradedtests.ml" 184 5283 5343
+type(
+  int
+)
+"gradedtests.ml" 184 5283 5302 "gradedtests.ml" 184 5283 5344
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 184 5283 5283 "gradedtests.ml" 184 5283 5345
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 187 5360 5361 "gradedtests.ml" 187 5360 5377
+type(
+  string
+)
+"gradedtests.ml" 187 5360 5380 "gradedtests.ml" 187 5360 5389
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 187 5360 5390 "gradedtests.ml" 187 5360 5391
+type(
+  int
+)
+"gradedtests.ml" 187 5360 5400 "gradedtests.ml" 187 5360 5402
+type(
+  Ast.binop
+)
+"gradedtests.ml" 187 5360 5403 "gradedtests.ml" 187 5360 5406
+type(
+  Ast.exp
+)
+"gradedtests.ml" 187 5360 5413 "gradedtests.ml" 187 5360 5415
+type(
+  int32
+)
+"gradedtests.ml" 187 5360 5407 "gradedtests.ml" 187 5360 5416
+type(
+  Ast.exp
+)
+"gradedtests.ml" 187 5360 5392 "gradedtests.ml" 187 5360 5418
+type(
+  Ast.exp
+)
+"gradedtests.ml" 187 5360 5419 "gradedtests.ml" 187 5360 5420
+type(
+  int
+)
+"gradedtests.ml" 187 5360 5379 "gradedtests.ml" 187 5360 5421
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 187 5360 5360 "gradedtests.ml" 187 5360 5422
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 190 5438 5439 "gradedtests.ml" 190 5438 5455
+type(
+  string
+)
+"gradedtests.ml" 190 5438 5458 "gradedtests.ml" 190 5438 5467
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 190 5438 5468 "gradedtests.ml" 190 5438 5469
+type(
+  int
+)
+"gradedtests.ml" 190 5438 5478 "gradedtests.ml" 190 5438 5481
+type(
+  Ast.binop
+)
+"gradedtests.ml" 190 5438 5482 "gradedtests.ml" 190 5438 5485
+type(
+  Ast.exp
+)
+"gradedtests.ml" 190 5438 5492 "gradedtests.ml" 190 5438 5494
+type(
+  int32
+)
+"gradedtests.ml" 190 5438 5486 "gradedtests.ml" 190 5438 5495
+type(
+  Ast.exp
+)
+"gradedtests.ml" 190 5438 5470 "gradedtests.ml" 190 5438 5497
+type(
+  Ast.exp
+)
+"gradedtests.ml" 190 5438 5498 "gradedtests.ml" 190 5438 5499
+type(
+  int
+)
+"gradedtests.ml" 190 5438 5457 "gradedtests.ml" 190 5438 5500
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 190 5438 5438 "gradedtests.ml" 190 5438 5501
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 193 5517 5518 "gradedtests.ml" 193 5517 5534
+type(
+  string
+)
+"gradedtests.ml" 193 5517 5537 "gradedtests.ml" 193 5517 5546
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 193 5517 5547 "gradedtests.ml" 193 5517 5548
+type(
+  int
+)
+"gradedtests.ml" 193 5517 5557 "gradedtests.ml" 193 5517 5560
+type(
+  Ast.binop
+)
+"gradedtests.ml" 193 5517 5561 "gradedtests.ml" 193 5517 5564
+type(
+  Ast.exp
+)
+"gradedtests.ml" 193 5517 5571 "gradedtests.ml" 193 5517 5573
+type(
+  int32
+)
+"gradedtests.ml" 193 5517 5565 "gradedtests.ml" 193 5517 5574
+type(
+  Ast.exp
+)
+"gradedtests.ml" 193 5517 5549 "gradedtests.ml" 193 5517 5576
+type(
+  Ast.exp
+)
+"gradedtests.ml" 193 5517 5577 "gradedtests.ml" 193 5517 5578
+type(
+  int
+)
+"gradedtests.ml" 193 5517 5536 "gradedtests.ml" 193 5517 5579
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 193 5517 5517 "gradedtests.ml" 193 5517 5580
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 196 5596 5597 "gradedtests.ml" 196 5596 5613
+type(
+  string
+)
+"gradedtests.ml" 196 5596 5616 "gradedtests.ml" 196 5596 5625
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 196 5596 5626 "gradedtests.ml" 196 5596 5627
+type(
+  int
+)
+"gradedtests.ml" 196 5596 5636 "gradedtests.ml" 196 5596 5638
+type(
+  Ast.binop
+)
+"gradedtests.ml" 196 5596 5639 "gradedtests.ml" 196 5596 5642
+type(
+  Ast.exp
+)
+"gradedtests.ml" 196 5596 5643 "gradedtests.ml" 196 5596 5646
+type(
+  Ast.exp
+)
+"gradedtests.ml" 196 5596 5628 "gradedtests.ml" 196 5596 5648
+type(
+  Ast.exp
+)
+"gradedtests.ml" 196 5596 5649 "gradedtests.ml" 196 5596 5650
+type(
+  int
+)
+"gradedtests.ml" 196 5596 5615 "gradedtests.ml" 196 5596 5651
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 196 5596 5596 "gradedtests.ml" 196 5596 5652
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 199 5668 5669 "gradedtests.ml" 199 5668 5685
+type(
+  string
+)
+"gradedtests.ml" 199 5668 5688 "gradedtests.ml" 199 5668 5697
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 199 5668 5698 "gradedtests.ml" 199 5668 5699
+type(
+  int
+)
+"gradedtests.ml" 199 5668 5708 "gradedtests.ml" 199 5668 5711
+type(
+  Ast.binop
+)
+"gradedtests.ml" 199 5668 5712 "gradedtests.ml" 199 5668 5715
+type(
+  Ast.exp
+)
+"gradedtests.ml" 199 5668 5716 "gradedtests.ml" 199 5668 5719
+type(
+  Ast.exp
+)
+"gradedtests.ml" 199 5668 5700 "gradedtests.ml" 199 5668 5721
+type(
+  Ast.exp
+)
+"gradedtests.ml" 199 5668 5722 "gradedtests.ml" 199 5668 5723
+type(
+  int
+)
+"gradedtests.ml" 199 5668 5687 "gradedtests.ml" 199 5668 5724
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 199 5668 5668 "gradedtests.ml" 199 5668 5725
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 202 5737 5738 "gradedtests.ml" 202 5737 5754
+type(
+  string
+)
+"gradedtests.ml" 202 5737 5757 "gradedtests.ml" 202 5737 5766
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 202 5737 5767 "gradedtests.ml" 202 5737 5768
+type(
+  int
+)
+"gradedtests.ml" 202 5737 5776 "gradedtests.ml" 202 5737 5779
+type(
+  Ast.unop
+)
+"gradedtests.ml" 202 5737 5780 "gradedtests.ml" 202 5737 5783
+type(
+  Ast.exp
+)
+"gradedtests.ml" 202 5737 5769 "gradedtests.ml" 202 5737 5785
+type(
+  Ast.exp
+)
+"gradedtests.ml" 202 5737 5786 "gradedtests.ml" 202 5737 5790
+type(
+  int
+)
+"gradedtests.ml" 202 5737 5756 "gradedtests.ml" 202 5737 5791
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 202 5737 5737 "gradedtests.ml" 202 5737 5792
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 205 5804 5805 "gradedtests.ml" 205 5804 5821
+type(
+  string
+)
+"gradedtests.ml" 205 5804 5824 "gradedtests.ml" 205 5804 5833
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 205 5804 5834 "gradedtests.ml" 205 5804 5835
+type(
+  int
+)
+"gradedtests.ml" 205 5804 5843 "gradedtests.ml" 205 5804 5849
+type(
+  Ast.unop
+)
+"gradedtests.ml" 205 5804 5850 "gradedtests.ml" 205 5804 5853
+type(
+  Ast.exp
+)
+"gradedtests.ml" 205 5804 5836 "gradedtests.ml" 205 5804 5855
+type(
+  Ast.exp
+)
+"gradedtests.ml" 205 5804 5856 "gradedtests.ml" 205 5804 5857
+type(
+  int
+)
+"gradedtests.ml" 205 5804 5823 "gradedtests.ml" 205 5804 5858
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 205 5804 5804 "gradedtests.ml" 205 5804 5859
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 208 5878 5879 "gradedtests.ml" 208 5878 5895
+type(
+  string
+)
+"gradedtests.ml" 208 5878 5898 "gradedtests.ml" 208 5878 5907
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 208 5878 5908 "gradedtests.ml" 208 5878 5909
+type(
+  int
+)
+"gradedtests.ml" 208 5878 5918 "gradedtests.ml" 208 5878 5921
+type(
+  Ast.binop
+)
+"gradedtests.ml" 208 5878 5928 "gradedtests.ml" 208 5878 5932
+type(
+  int32
+)
+"gradedtests.ml" 208 5878 5922 "gradedtests.ml" 208 5878 5933
+type(
+  Ast.exp
+)
+"gradedtests.ml" 208 5878 5934 "gradedtests.ml" 208 5878 5937
+type(
+  Ast.exp
+)
+"gradedtests.ml" 208 5878 5910 "gradedtests.ml" 208 5878 5939
+type(
+  Ast.exp
+)
+"gradedtests.ml" 208 5878 5940 "gradedtests.ml" 208 5878 5942
+type(
+  int
+)
+"gradedtests.ml" 208 5878 5897 "gradedtests.ml" 208 5878 5943
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 208 5878 5878 "gradedtests.ml" 208 5878 5944
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 137 4069 4101 "gradedtests.ml" 210 5947 5948
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 137 4069 4069 "gradedtests.ml" 210 5947 5949
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 136 4032 4067 "gradedtests.ml" 211 5951 5952
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
+"gradedtests.ml" 213 5954 5958 "gradedtests.ml" 213 5954 5975
+type(
+  Assert.suite
+)
+ident(
+  def med_parsing_tests "gradedtests.ml" 253 7120 7120 --
+)
+"gradedtests.ml" 214 5988 5999 "gradedtests.ml" 214 5988 6014
+type(
+  string
+)
+"gradedtests.ml" 214 5988 6016 "gradedtests.ml" 214 5988 6017
+type(
+  int
+)
+"gradedtests.ml" 216 6037 6038 "gradedtests.ml" 216 6037 6050
+type(
+  string
+)
+"gradedtests.ml" 216 6037 6053 "gradedtests.ml" 216 6037 6061
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 216 6037 6062 "gradedtests.ml" 216 6037 6073
+type(
+  string
+)
+"gradedtests.ml" 216 6037 6082 "gradedtests.ml" 216 6037 6086
+type(
+  Ast.binop
+)
+"gradedtests.ml" 216 6037 6095 "gradedtests.ml" 216 6037 6099
+type(
+  Ast.binop
+)
+"gradedtests.ml" 216 6037 6100 "gradedtests.ml" 216 6037 6103
+type(
+  Ast.exp
+)
+"gradedtests.ml" 216 6037 6104 "gradedtests.ml" 216 6037 6107
+type(
+  Ast.exp
+)
+"gradedtests.ml" 216 6037 6087 "gradedtests.ml" 216 6037 6109
+type(
+  Ast.exp
+)
+"gradedtests.ml" 216 6037 6110 "gradedtests.ml" 216 6037 6113
+type(
+  Ast.exp
+)
+"gradedtests.ml" 216 6037 6074 "gradedtests.ml" 216 6037 6115
+type(
+  Ast.exp
+)
+"gradedtests.ml" 216 6037 6052 "gradedtests.ml" 216 6037 6116
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 216 6037 6037 "gradedtests.ml" 216 6037 6117
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 219 6136 6137 "gradedtests.ml" 219 6136 6149
+type(
+  string
+)
+"gradedtests.ml" 219 6136 6152 "gradedtests.ml" 219 6136 6160
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 219 6136 6161 "gradedtests.ml" 219 6136 6172
+type(
+  string
+)
+"gradedtests.ml" 219 6136 6181 "gradedtests.ml" 219 6136 6186
+type(
+  Ast.binop
+)
+"gradedtests.ml" 219 6136 6195 "gradedtests.ml" 219 6136 6200
+type(
+  Ast.binop
+)
+"gradedtests.ml" 219 6136 6201 "gradedtests.ml" 219 6136 6204
+type(
+  Ast.exp
+)
+"gradedtests.ml" 219 6136 6205 "gradedtests.ml" 219 6136 6208
+type(
+  Ast.exp
+)
+"gradedtests.ml" 219 6136 6187 "gradedtests.ml" 219 6136 6210
+type(
+  Ast.exp
+)
+"gradedtests.ml" 219 6136 6211 "gradedtests.ml" 219 6136 6214
+type(
+  Ast.exp
+)
+"gradedtests.ml" 219 6136 6173 "gradedtests.ml" 219 6136 6216
+type(
+  Ast.exp
+)
+"gradedtests.ml" 219 6136 6151 "gradedtests.ml" 219 6136 6217
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 219 6136 6136 "gradedtests.ml" 219 6136 6218
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 222 6237 6238 "gradedtests.ml" 222 6237 6250
+type(
+  string
+)
+"gradedtests.ml" 222 6237 6253 "gradedtests.ml" 222 6237 6261
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 222 6237 6262 "gradedtests.ml" 222 6237 6273
+type(
+  string
+)
+"gradedtests.ml" 222 6237 6282 "gradedtests.ml" 222 6237 6286
+type(
+  Ast.binop
+)
+"gradedtests.ml" 222 6237 6287 "gradedtests.ml" 222 6237 6290
+type(
+  Ast.exp
+)
+"gradedtests.ml" 222 6237 6299 "gradedtests.ml" 222 6237 6304
+type(
+  Ast.binop
+)
+"gradedtests.ml" 222 6237 6305 "gradedtests.ml" 222 6237 6308
+type(
+  Ast.exp
+)
+"gradedtests.ml" 222 6237 6309 "gradedtests.ml" 222 6237 6312
+type(
+  Ast.exp
+)
+"gradedtests.ml" 222 6237 6291 "gradedtests.ml" 222 6237 6314
+type(
+  Ast.exp
+)
+"gradedtests.ml" 222 6237 6274 "gradedtests.ml" 222 6237 6316
+type(
+  Ast.exp
+)
+"gradedtests.ml" 222 6237 6252 "gradedtests.ml" 222 6237 6317
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 222 6237 6237 "gradedtests.ml" 222 6237 6318
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 225 6337 6338 "gradedtests.ml" 225 6337 6350
+type(
+  string
+)
+"gradedtests.ml" 225 6337 6353 "gradedtests.ml" 225 6337 6361
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 225 6337 6362 "gradedtests.ml" 225 6337 6373
+type(
+  string
+)
+"gradedtests.ml" 225 6337 6382 "gradedtests.ml" 225 6337 6386
+type(
+  Ast.binop
+)
+"gradedtests.ml" 225 6337 6395 "gradedtests.ml" 225 6337 6400
+type(
+  Ast.binop
+)
+"gradedtests.ml" 225 6337 6401 "gradedtests.ml" 225 6337 6404
+type(
+  Ast.exp
+)
+"gradedtests.ml" 225 6337 6405 "gradedtests.ml" 225 6337 6408
+type(
+  Ast.exp
+)
+"gradedtests.ml" 225 6337 6387 "gradedtests.ml" 225 6337 6410
+type(
+  Ast.exp
+)
+"gradedtests.ml" 225 6337 6411 "gradedtests.ml" 225 6337 6414
+type(
+  Ast.exp
+)
+"gradedtests.ml" 225 6337 6374 "gradedtests.ml" 225 6337 6416
+type(
+  Ast.exp
+)
+"gradedtests.ml" 225 6337 6352 "gradedtests.ml" 225 6337 6417
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 225 6337 6337 "gradedtests.ml" 225 6337 6418
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 228 6439 6440 "gradedtests.ml" 228 6439 6452
+type(
+  string
+)
+"gradedtests.ml" 228 6439 6455 "gradedtests.ml" 228 6439 6463
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 228 6439 6464 "gradedtests.ml" 228 6439 6477
+type(
+  string
+)
+"gradedtests.ml" 228 6439 6486 "gradedtests.ml" 228 6439 6491
+type(
+  Ast.binop
+)
+"gradedtests.ml" 228 6439 6492 "gradedtests.ml" 228 6439 6495
+type(
+  Ast.exp
+)
+"gradedtests.ml" 228 6439 6504 "gradedtests.ml" 228 6439 6508
+type(
+  Ast.binop
+)
+"gradedtests.ml" 228 6439 6509 "gradedtests.ml" 228 6439 6512
+type(
+  Ast.exp
+)
+"gradedtests.ml" 228 6439 6513 "gradedtests.ml" 228 6439 6516
+type(
+  Ast.exp
+)
+"gradedtests.ml" 228 6439 6496 "gradedtests.ml" 228 6439 6518
+type(
+  Ast.exp
+)
+"gradedtests.ml" 228 6439 6478 "gradedtests.ml" 228 6439 6520
+type(
+  Ast.exp
+)
+"gradedtests.ml" 228 6439 6454 "gradedtests.ml" 228 6439 6521
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 228 6439 6439 "gradedtests.ml" 228 6439 6522
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 231 6543 6544 "gradedtests.ml" 231 6543 6556
+type(
+  string
+)
+"gradedtests.ml" 231 6543 6559 "gradedtests.ml" 231 6543 6567
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 231 6543 6568 "gradedtests.ml" 231 6543 6581
+type(
+  string
+)
+"gradedtests.ml" 231 6543 6590 "gradedtests.ml" 231 6543 6595
+type(
+  Ast.binop
+)
+"gradedtests.ml" 231 6543 6604 "gradedtests.ml" 231 6543 6608
+type(
+  Ast.binop
+)
+"gradedtests.ml" 231 6543 6609 "gradedtests.ml" 231 6543 6612
+type(
+  Ast.exp
+)
+"gradedtests.ml" 231 6543 6613 "gradedtests.ml" 231 6543 6616
+type(
+  Ast.exp
+)
+"gradedtests.ml" 231 6543 6596 "gradedtests.ml" 231 6543 6618
+type(
+  Ast.exp
+)
+"gradedtests.ml" 231 6543 6619 "gradedtests.ml" 231 6543 6622
+type(
+  Ast.exp
+)
+"gradedtests.ml" 231 6543 6582 "gradedtests.ml" 231 6543 6624
+type(
+  Ast.exp
+)
+"gradedtests.ml" 231 6543 6558 "gradedtests.ml" 231 6543 6625
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 231 6543 6543 "gradedtests.ml" 231 6543 6626
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 234 6639 6640 "gradedtests.ml" 234 6639 6652
+type(
+  string
+)
+"gradedtests.ml" 234 6639 6655 "gradedtests.ml" 234 6639 6663
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 234 6639 6664 "gradedtests.ml" 234 6639 6669
+type(
+  string
+)
+"gradedtests.ml" 234 6639 6670 "gradedtests.ml" 234 6639 6673
+type(
+  Ast.exp
+)
+"gradedtests.ml" 234 6639 6654 "gradedtests.ml" 234 6639 6674
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 234 6639 6639 "gradedtests.ml" 234 6639 6675
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 237 6690 6691 "gradedtests.ml" 237 6690 6703
+type(
+  string
+)
+"gradedtests.ml" 237 6690 6706 "gradedtests.ml" 237 6690 6714
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 237 6690 6715 "gradedtests.ml" 237 6690 6722
+type(
+  string
+)
+"gradedtests.ml" 237 6690 6723 "gradedtests.ml" 237 6690 6726
+type(
+  Ast.exp
+)
+"gradedtests.ml" 237 6690 6705 "gradedtests.ml" 237 6690 6727
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 237 6690 6690 "gradedtests.ml" 237 6690 6728
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 240 6748 6749 "gradedtests.ml" 240 6748 6761
+type(
+  string
+)
+"gradedtests.ml" 240 6748 6764 "gradedtests.ml" 240 6748 6772
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 240 6748 6773 "gradedtests.ml" 240 6748 6785
+type(
+  string
+)
+"gradedtests.ml" 240 6748 6794 "gradedtests.ml" 240 6748 6797
+type(
+  Ast.binop
+)
+"gradedtests.ml" 240 6748 6806 "gradedtests.ml" 240 6748 6810
+type(
+  Ast.binop
+)
+"gradedtests.ml" 240 6748 6811 "gradedtests.ml" 240 6748 6814
+type(
+  Ast.exp
+)
+"gradedtests.ml" 240 6748 6821 "gradedtests.ml" 240 6748 6824
+type(
+  int32
+)
+"gradedtests.ml" 240 6748 6815 "gradedtests.ml" 240 6748 6825
+type(
+  Ast.exp
+)
+"gradedtests.ml" 240 6748 6798 "gradedtests.ml" 240 6748 6827
+type(
+  Ast.exp
+)
+"gradedtests.ml" 240 6748 6828 "gradedtests.ml" 240 6748 6831
+type(
+  Ast.exp
+)
+"gradedtests.ml" 240 6748 6786 "gradedtests.ml" 240 6748 6833
+type(
+  Ast.exp
+)
+"gradedtests.ml" 240 6748 6763 "gradedtests.ml" 240 6748 6834
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 240 6748 6748 "gradedtests.ml" 240 6748 6835
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 243 6856 6857 "gradedtests.ml" 243 6856 6869
+type(
+  string
+)
+"gradedtests.ml" 243 6856 6872 "gradedtests.ml" 243 6856 6880
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 243 6856 6881 "gradedtests.ml" 243 6856 6894
+type(
+  string
+)
+"gradedtests.ml" 243 6856 6903 "gradedtests.ml" 243 6856 6905
+type(
+  Ast.binop
+)
+"gradedtests.ml" 243 6856 6914 "gradedtests.ml" 243 6856 6917
+type(
+  Ast.binop
+)
+"gradedtests.ml" 243 6856 6918 "gradedtests.ml" 243 6856 6921
+type(
+  Ast.exp
+)
+"gradedtests.ml" 243 6856 6928 "gradedtests.ml" 243 6856 6931
+type(
+  int32
+)
+"gradedtests.ml" 243 6856 6922 "gradedtests.ml" 243 6856 6932
+type(
+  Ast.exp
+)
+"gradedtests.ml" 243 6856 6906 "gradedtests.ml" 243 6856 6934
+type(
+  Ast.exp
+)
+"gradedtests.ml" 243 6856 6941 "gradedtests.ml" 243 6856 6944
+type(
+  int32
+)
+"gradedtests.ml" 243 6856 6935 "gradedtests.ml" 243 6856 6945
+type(
+  Ast.exp
+)
+"gradedtests.ml" 243 6856 6895 "gradedtests.ml" 243 6856 6947
+type(
+  Ast.exp
+)
+"gradedtests.ml" 243 6856 6871 "gradedtests.ml" 243 6856 6948
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 243 6856 6856 "gradedtests.ml" 243 6856 6949
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 246 6972 6973 "gradedtests.ml" 246 6972 6986
+type(
+  string
+)
+"gradedtests.ml" 246 6972 6989 "gradedtests.ml" 246 6972 6997
+type(
+  string -> Ast.exp -> Assert.assertion
+)
+ident(
+  int_ref ast_test "gradedtests.ml" 15 322 326 "gradedtests.ml" 15 322 334
+)
+"gradedtests.ml" 246 6972 6998 "gradedtests.ml" 246 6972 7013
+type(
+  string
+)
+"gradedtests.ml" 246 6972 7022 "gradedtests.ml" 246 6972 7024
+type(
+  Ast.binop
+)
+"gradedtests.ml" 246 6972 7033 "gradedtests.ml" 246 6972 7036
+type(
+  Ast.binop
+)
+"gradedtests.ml" 246 6972 7037 "gradedtests.ml" 246 6972 7040
+type(
+  Ast.exp
+)
+"gradedtests.ml" 246 6972 7047 "gradedtests.ml" 246 6972 7050
+type(
+  int32
+)
+"gradedtests.ml" 246 6972 7041 "gradedtests.ml" 246 6972 7051
+type(
+  Ast.exp
+)
+"gradedtests.ml" 246 6972 7025 "gradedtests.ml" 246 6972 7053
+type(
+  Ast.exp
+)
+"gradedtests.ml" 246 6972 7060 "gradedtests.ml" 246 6972 7063
+type(
+  int32
+)
+"gradedtests.ml" 246 6972 7054 "gradedtests.ml" 246 6972 7064
+type(
+  Ast.exp
+)
+"gradedtests.ml" 246 6972 7014 "gradedtests.ml" 246 6972 7066
+type(
+  Ast.exp
+)
+"gradedtests.ml" 246 6972 6988 "gradedtests.ml" 246 6972 7067
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 246 6972 6972 "gradedtests.ml" 246 6972 7068
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 214 5988 6019 "gradedtests.ml" 247 7070 7075
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 214 5988 5988 "gradedtests.ml" 247 7070 7076
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 248 7078 7089 "gradedtests.ml" 248 7078 7105
+type(
+  string
+)
+"gradedtests.ml" 248 7078 7107 "gradedtests.ml" 248 7078 7108
+type(
+  int
+)
+"gradedtests.ml" 248 7078 7110 "gradedtests.ml" 250 7113 7114
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 248 7078 7078 "gradedtests.ml" 250 7113 7115
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 213 5954 5986 "gradedtests.ml" 250 7113 7117
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
+"gradedtests.ml" 253 7120 7124 "gradedtests.ml" 253 7120 7143
+type(
+  Assert.suite
+)
+ident(
+  def med_compiling_tests "gradedtests.ml" 295 8334 8334 --
+)
+"gradedtests.ml" 254 7156 7167 "gradedtests.ml" 254 7156 7184
+type(
+  string
+)
+"gradedtests.ml" 254 7156 7186 "gradedtests.ml" 254 7156 7187
+type(
+  int
+)
+"gradedtests.ml" 256 7207 7208 "gradedtests.ml" 256 7207 7222
+type(
+  string
+)
+"gradedtests.ml" 256 7207 7225 "gradedtests.ml" 256 7207 7234
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 256 7207 7235 "gradedtests.ml" 256 7207 7238
+type(
+  int
+)
+"gradedtests.ml" 256 7207 7247 "gradedtests.ml" 256 7207 7251
+type(
+  Ast.binop
+)
+"gradedtests.ml" 256 7207 7260 "gradedtests.ml" 256 7207 7264
+type(
+  Ast.binop
+)
+"gradedtests.ml" 256 7207 7265 "gradedtests.ml" 256 7207 7268
+type(
+  Ast.exp
+)
+"gradedtests.ml" 256 7207 7269 "gradedtests.ml" 256 7207 7272
+type(
+  Ast.exp
+)
+"gradedtests.ml" 256 7207 7252 "gradedtests.ml" 256 7207 7274
+type(
+  Ast.exp
+)
+"gradedtests.ml" 256 7207 7275 "gradedtests.ml" 256 7207 7278
+type(
+  Ast.exp
+)
+"gradedtests.ml" 256 7207 7239 "gradedtests.ml" 256 7207 7280
+type(
+  Ast.exp
+)
+"gradedtests.ml" 256 7207 7281 "gradedtests.ml" 256 7207 7285
+type(
+  int
+)
+"gradedtests.ml" 256 7207 7224 "gradedtests.ml" 256 7207 7286
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 256 7207 7207 "gradedtests.ml" 256 7207 7287
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 259 7306 7307 "gradedtests.ml" 259 7306 7321
+type(
+  string
+)
+"gradedtests.ml" 259 7306 7324 "gradedtests.ml" 259 7306 7333
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 259 7306 7334 "gradedtests.ml" 259 7306 7337
+type(
+  int
+)
+"gradedtests.ml" 259 7306 7346 "gradedtests.ml" 259 7306 7351
+type(
+  Ast.binop
+)
+"gradedtests.ml" 259 7306 7360 "gradedtests.ml" 259 7306 7365
+type(
+  Ast.binop
+)
+"gradedtests.ml" 259 7306 7366 "gradedtests.ml" 259 7306 7369
+type(
+  Ast.exp
+)
+"gradedtests.ml" 259 7306 7370 "gradedtests.ml" 259 7306 7373
+type(
+  Ast.exp
+)
+"gradedtests.ml" 259 7306 7352 "gradedtests.ml" 259 7306 7375
+type(
+  Ast.exp
+)
+"gradedtests.ml" 259 7306 7376 "gradedtests.ml" 259 7306 7379
+type(
+  Ast.exp
+)
+"gradedtests.ml" 259 7306 7338 "gradedtests.ml" 259 7306 7381
+type(
+  Ast.exp
+)
+"gradedtests.ml" 259 7306 7382 "gradedtests.ml" 259 7306 7390
+type(
+  int
+)
+"gradedtests.ml" 259 7306 7323 "gradedtests.ml" 259 7306 7391
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 259 7306 7306 "gradedtests.ml" 259 7306 7392
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 262 7411 7412 "gradedtests.ml" 262 7411 7426
+type(
+  string
+)
+"gradedtests.ml" 262 7411 7429 "gradedtests.ml" 262 7411 7438
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 262 7411 7439 "gradedtests.ml" 262 7411 7442
+type(
+  int
+)
+"gradedtests.ml" 262 7411 7451 "gradedtests.ml" 262 7411 7455
+type(
+  Ast.binop
+)
+"gradedtests.ml" 262 7411 7456 "gradedtests.ml" 262 7411 7459
+type(
+  Ast.exp
+)
+"gradedtests.ml" 262 7411 7468 "gradedtests.ml" 262 7411 7473
+type(
+  Ast.binop
+)
+"gradedtests.ml" 262 7411 7474 "gradedtests.ml" 262 7411 7477
+type(
+  Ast.exp
+)
+"gradedtests.ml" 262 7411 7478 "gradedtests.ml" 262 7411 7481
+type(
+  Ast.exp
+)
+"gradedtests.ml" 262 7411 7460 "gradedtests.ml" 262 7411 7483
+type(
+  Ast.exp
+)
+"gradedtests.ml" 262 7411 7443 "gradedtests.ml" 262 7411 7485
+type(
+  Ast.exp
+)
+"gradedtests.ml" 262 7411 7486 "gradedtests.ml" 262 7411 7492
+type(
+  int
+)
+"gradedtests.ml" 262 7411 7428 "gradedtests.ml" 262 7411 7493
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 262 7411 7411 "gradedtests.ml" 262 7411 7494
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 265 7513 7514 "gradedtests.ml" 265 7513 7528
+type(
+  string
+)
+"gradedtests.ml" 265 7513 7531 "gradedtests.ml" 265 7513 7540
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 265 7513 7541 "gradedtests.ml" 265 7513 7544
+type(
+  int
+)
+"gradedtests.ml" 265 7513 7553 "gradedtests.ml" 265 7513 7557
+type(
+  Ast.binop
+)
+"gradedtests.ml" 265 7513 7566 "gradedtests.ml" 265 7513 7571
+type(
+  Ast.binop
+)
+"gradedtests.ml" 265 7513 7572 "gradedtests.ml" 265 7513 7575
+type(
+  Ast.exp
+)
+"gradedtests.ml" 265 7513 7576 "gradedtests.ml" 265 7513 7579
+type(
+  Ast.exp
+)
+"gradedtests.ml" 265 7513 7558 "gradedtests.ml" 265 7513 7581
+type(
+  Ast.exp
+)
+"gradedtests.ml" 265 7513 7582 "gradedtests.ml" 265 7513 7585
+type(
+  Ast.exp
+)
+"gradedtests.ml" 265 7513 7545 "gradedtests.ml" 265 7513 7587
+type(
+  Ast.exp
+)
+"gradedtests.ml" 265 7513 7588 "gradedtests.ml" 265 7513 7594
+type(
+  int
+)
+"gradedtests.ml" 265 7513 7530 "gradedtests.ml" 265 7513 7595
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 265 7513 7513 "gradedtests.ml" 265 7513 7596
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 268 7617 7618 "gradedtests.ml" 268 7617 7632
+type(
+  string
+)
+"gradedtests.ml" 268 7617 7635 "gradedtests.ml" 268 7617 7644
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 268 7617 7645 "gradedtests.ml" 268 7617 7648
+type(
+  int
+)
+"gradedtests.ml" 268 7617 7657 "gradedtests.ml" 268 7617 7662
+type(
+  Ast.binop
+)
+"gradedtests.ml" 268 7617 7663 "gradedtests.ml" 268 7617 7666
+type(
+  Ast.exp
+)
+"gradedtests.ml" 268 7617 7675 "gradedtests.ml" 268 7617 7679
+type(
+  Ast.binop
+)
+"gradedtests.ml" 268 7617 7680 "gradedtests.ml" 268 7617 7683
+type(
+  Ast.exp
+)
+"gradedtests.ml" 268 7617 7684 "gradedtests.ml" 268 7617 7687
+type(
+  Ast.exp
+)
+"gradedtests.ml" 268 7617 7667 "gradedtests.ml" 268 7617 7689
+type(
+  Ast.exp
+)
+"gradedtests.ml" 268 7617 7649 "gradedtests.ml" 268 7617 7691
+type(
+  Ast.exp
+)
+"gradedtests.ml" 268 7617 7692 "gradedtests.ml" 268 7617 7698
+type(
+  int
+)
+"gradedtests.ml" 268 7617 7634 "gradedtests.ml" 268 7617 7699
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 268 7617 7617 "gradedtests.ml" 268 7617 7700
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 271 7721 7722 "gradedtests.ml" 271 7721 7736
+type(
+  string
+)
+"gradedtests.ml" 271 7721 7739 "gradedtests.ml" 271 7721 7748
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 271 7721 7749 "gradedtests.ml" 271 7721 7752
+type(
+  int
+)
+"gradedtests.ml" 271 7721 7761 "gradedtests.ml" 271 7721 7766
+type(
+  Ast.binop
+)
+"gradedtests.ml" 271 7721 7775 "gradedtests.ml" 271 7721 7779
+type(
+  Ast.binop
+)
+"gradedtests.ml" 271 7721 7780 "gradedtests.ml" 271 7721 7783
+type(
+  Ast.exp
+)
+"gradedtests.ml" 271 7721 7784 "gradedtests.ml" 271 7721 7787
+type(
+  Ast.exp
+)
+"gradedtests.ml" 271 7721 7767 "gradedtests.ml" 271 7721 7789
+type(
+  Ast.exp
+)
+"gradedtests.ml" 271 7721 7790 "gradedtests.ml" 271 7721 7793
+type(
+  Ast.exp
+)
+"gradedtests.ml" 271 7721 7753 "gradedtests.ml" 271 7721 7795
+type(
+  Ast.exp
+)
+"gradedtests.ml" 271 7721 7796 "gradedtests.ml" 271 7721 7802
+type(
+  int
+)
+"gradedtests.ml" 271 7721 7738 "gradedtests.ml" 271 7721 7803
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 271 7721 7721 "gradedtests.ml" 271 7721 7804
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 274 7817 7818 "gradedtests.ml" 274 7817 7832
+type(
+  string
+)
+"gradedtests.ml" 274 7817 7835 "gradedtests.ml" 274 7817 7844
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 274 7817 7845 "gradedtests.ml" 274 7817 7848
+type(
+  int
+)
+"gradedtests.ml" 274 7817 7849 "gradedtests.ml" 274 7817 7852
+type(
+  Ast.exp
+)
+"gradedtests.ml" 274 7817 7853 "gradedtests.ml" 274 7817 7856
+type(
+  int
+)
+"gradedtests.ml" 274 7817 7834 "gradedtests.ml" 274 7817 7857
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 274 7817 7817 "gradedtests.ml" 274 7817 7858
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 277 7873 7874 "gradedtests.ml" 277 7873 7888
+type(
+  string
+)
+"gradedtests.ml" 277 7873 7891 "gradedtests.ml" 277 7873 7900
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 277 7873 7901 "gradedtests.ml" 277 7873 7904
+type(
+  int
+)
+"gradedtests.ml" 277 7873 7905 "gradedtests.ml" 277 7873 7908
+type(
+  Ast.exp
+)
+"gradedtests.ml" 277 7873 7909 "gradedtests.ml" 277 7873 7912
+type(
+  int
+)
+"gradedtests.ml" 277 7873 7890 "gradedtests.ml" 277 7873 7913
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 277 7873 7873 "gradedtests.ml" 277 7873 7914
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 280 7934 7935 "gradedtests.ml" 280 7934 7949
+type(
+  string
+)
+"gradedtests.ml" 280 7934 7952 "gradedtests.ml" 280 7934 7961
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 280 7934 7962 "gradedtests.ml" 280 7934 7965
+type(
+  int
+)
+"gradedtests.ml" 280 7934 7974 "gradedtests.ml" 280 7934 7977
+type(
+  Ast.binop
+)
+"gradedtests.ml" 280 7934 7986 "gradedtests.ml" 280 7934 7990
+type(
+  Ast.binop
+)
+"gradedtests.ml" 280 7934 7991 "gradedtests.ml" 280 7934 7994
+type(
+  Ast.exp
+)
+"gradedtests.ml" 280 7934 8001 "gradedtests.ml" 280 7934 8004
+type(
+  int32
+)
+"gradedtests.ml" 280 7934 7995 "gradedtests.ml" 280 7934 8005
+type(
+  Ast.exp
+)
+"gradedtests.ml" 280 7934 7978 "gradedtests.ml" 280 7934 8007
+type(
+  Ast.exp
+)
+"gradedtests.ml" 280 7934 8008 "gradedtests.ml" 280 7934 8011
+type(
+  Ast.exp
+)
+"gradedtests.ml" 280 7934 7966 "gradedtests.ml" 280 7934 8013
+type(
+  Ast.exp
+)
+"gradedtests.ml" 280 7934 8014 "gradedtests.ml" 280 7934 8017
+type(
+  int
+)
+"gradedtests.ml" 280 7934 7951 "gradedtests.ml" 280 7934 8018
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 280 7934 7934 "gradedtests.ml" 280 7934 8019
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 283 8040 8041 "gradedtests.ml" 283 8040 8055
+type(
+  string
+)
+"gradedtests.ml" 283 8040 8058 "gradedtests.ml" 283 8040 8067
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 283 8040 8068 "gradedtests.ml" 283 8040 8071
+type(
+  int
+)
+"gradedtests.ml" 283 8040 8080 "gradedtests.ml" 283 8040 8082
+type(
+  Ast.binop
+)
+"gradedtests.ml" 283 8040 8091 "gradedtests.ml" 283 8040 8094
+type(
+  Ast.binop
+)
+"gradedtests.ml" 283 8040 8095 "gradedtests.ml" 283 8040 8098
+type(
+  Ast.exp
+)
+"gradedtests.ml" 283 8040 8105 "gradedtests.ml" 283 8040 8108
+type(
+  int32
+)
+"gradedtests.ml" 283 8040 8099 "gradedtests.ml" 283 8040 8109
+type(
+  Ast.exp
+)
+"gradedtests.ml" 283 8040 8083 "gradedtests.ml" 283 8040 8111
+type(
+  Ast.exp
+)
+"gradedtests.ml" 283 8040 8118 "gradedtests.ml" 283 8040 8121
+type(
+  int32
+)
+"gradedtests.ml" 283 8040 8112 "gradedtests.ml" 283 8040 8122
+type(
+  Ast.exp
+)
+"gradedtests.ml" 283 8040 8072 "gradedtests.ml" 283 8040 8124
+type(
+  Ast.exp
+)
+"gradedtests.ml" 283 8040 8125 "gradedtests.ml" 283 8040 8127
+type(
+  int
+)
+"gradedtests.ml" 283 8040 8057 "gradedtests.ml" 283 8040 8128
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 283 8040 8040 "gradedtests.ml" 283 8040 8129
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 286 8152 8153 "gradedtests.ml" 286 8152 8168
+type(
+  string
+)
+"gradedtests.ml" 286 8152 8171 "gradedtests.ml" 286 8152 8180
+type(
+  int -> Ast.exp -> int -> Assert.assertion
+)
+ident(
+  int_ref comp_test "gradedtests.ml" 27 837 841 "gradedtests.ml" 27 837 850
+)
+"gradedtests.ml" 286 8152 8181 "gradedtests.ml" 286 8152 8184
+type(
+  int
+)
+"gradedtests.ml" 286 8152 8193 "gradedtests.ml" 286 8152 8195
+type(
+  Ast.binop
+)
+"gradedtests.ml" 286 8152 8204 "gradedtests.ml" 286 8152 8207
+type(
+  Ast.binop
+)
+"gradedtests.ml" 286 8152 8208 "gradedtests.ml" 286 8152 8211
+type(
+  Ast.exp
+)
+"gradedtests.ml" 286 8152 8218 "gradedtests.ml" 286 8152 8221
+type(
+  int32
+)
+"gradedtests.ml" 286 8152 8212 "gradedtests.ml" 286 8152 8222
+type(
+  Ast.exp
+)
+"gradedtests.ml" 286 8152 8196 "gradedtests.ml" 286 8152 8224
+type(
+  Ast.exp
+)
+"gradedtests.ml" 286 8152 8231 "gradedtests.ml" 286 8152 8234
+type(
+  int32
+)
+"gradedtests.ml" 286 8152 8225 "gradedtests.ml" 286 8152 8235
+type(
+  Ast.exp
+)
+"gradedtests.ml" 286 8152 8185 "gradedtests.ml" 286 8152 8237
+type(
+  Ast.exp
+)
+"gradedtests.ml" 286 8152 8238 "gradedtests.ml" 286 8152 8240
+type(
+  int
+)
+"gradedtests.ml" 286 8152 8170 "gradedtests.ml" 286 8152 8241
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 286 8152 8152 "gradedtests.ml" 286 8152 8242
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 254 7156 7189 "gradedtests.ml" 287 8244 8249
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 254 7156 7156 "gradedtests.ml" 287 8244 8250
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 288 8252 8263 "gradedtests.ml" 288 8252 8281
+type(
+  string
+)
+"gradedtests.ml" 288 8252 8283 "gradedtests.ml" 288 8252 8284
+type(
+  int
+)
+"gradedtests.ml" 288 8252 8286 "gradedtests.ml" 290 8289 8290
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 288 8252 8252 "gradedtests.ml" 290 8289 8291
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 253 7120 7154 "gradedtests.ml" 290 8289 8293
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
+"gradedtests.ml" 295 8334 8338 "gradedtests.ml" 295 8334 8349
+type(
+  Assert.suite
+)
+ident(
+  def error_tests "gradedtests.ml" 309 8979 8979 --
+)
+"gradedtests.ml" 296 8362 8375 "gradedtests.ml" 296 8362 8387
+type(
+  string
+)
+"gradedtests.ml" 296 8362 8389 "gradedtests.ml" 296 8362 8390
+type(
+  int
+)
+"gradedtests.ml" 297 8394 8395 "gradedtests.ml" 297 8394 8401
+type(
+  string
+)
+"gradedtests.ml" 297 8394 8404 "gradedtests.ml" 297 8394 8420
+type(
+  string -> exn -> Assert.assertion
+)
+ident(
+  int_ref parse_error_test "gradedtests.ml" 19 513 517 "gradedtests.ml" 19 513 533
+)
+"gradedtests.ml" 297 8394 8421 "gradedtests.ml" 297 8394 8424
+type(
+  string
+)
+"gradedtests.ml" 297 8394 8446 "gradedtests.ml" 297 8394 8460
+type(
+  string -> Range.pos -> Range.pos -> Range.t
+)
+ident(
+  ext_ref Range.mk_range
+)
+"gradedtests.ml" 297 8394 8461 "gradedtests.ml" 297 8394 8468
+type(
+  string
+)
+"gradedtests.ml" 297 8394 8470 "gradedtests.ml" 297 8394 8482
+type(
+  int -> int -> Range.pos
+)
+ident(
+  ext_ref Range.mk_pos
+)
+"gradedtests.ml" 297 8394 8483 "gradedtests.ml" 297 8394 8484
+type(
+  int
+)
+"gradedtests.ml" 297 8394 8485 "gradedtests.ml" 297 8394 8486
+type(
+  int
+)
+"gradedtests.ml" 297 8394 8469 "gradedtests.ml" 297 8394 8487
+type(
+  Range.pos
+)
+"gradedtests.ml" 297 8394 8489 "gradedtests.ml" 297 8394 8501
+type(
+  int -> int -> Range.pos
+)
+ident(
+  ext_ref Range.mk_pos
+)
+"gradedtests.ml" 297 8394 8502 "gradedtests.ml" 297 8394 8503
+type(
+  int
+)
+"gradedtests.ml" 297 8394 8504 "gradedtests.ml" 297 8394 8505
+type(
+  int
+)
+"gradedtests.ml" 297 8394 8488 "gradedtests.ml" 297 8394 8506
+type(
+  Range.pos
+)
+"gradedtests.ml" 297 8394 8445 "gradedtests.ml" 297 8394 8507
+type(
+  Range.t
+)
+"gradedtests.ml" 297 8394 8509 "gradedtests.ml" 297 8394 8536
+type(
+  string
+)
+"gradedtests.ml" 297 8394 8425 "gradedtests.ml" 297 8394 8538
+type(
+  exn
+)
+"gradedtests.ml" 297 8394 8403 "gradedtests.ml" 297 8394 8539
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 297 8394 8394 "gradedtests.ml" 297 8394 8540
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 299 8543 8544 "gradedtests.ml" 299 8543 8550
+type(
+  string
+)
+"gradedtests.ml" 299 8543 8553 "gradedtests.ml" 299 8543 8569
+type(
+  string -> exn -> Assert.assertion
+)
+ident(
+  int_ref parse_error_test "gradedtests.ml" 19 513 517 "gradedtests.ml" 19 513 533
+)
+"gradedtests.ml" 299 8543 8570 "gradedtests.ml" 299 8543 8575
+type(
+  string
+)
+"gradedtests.ml" 299 8543 8585 "gradedtests.ml" 299 8543 8618
+type(
+  string
+)
+"gradedtests.ml" 299 8543 8576 "gradedtests.ml" 299 8543 8619
+type(
+  exn
+)
+"gradedtests.ml" 299 8543 8552 "gradedtests.ml" 299 8543 8620
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 299 8543 8543 "gradedtests.ml" 299 8543 8621
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 301 8624 8625 "gradedtests.ml" 301 8624 8631
+type(
+  string
+)
+"gradedtests.ml" 301 8624 8634 "gradedtests.ml" 301 8624 8650
+type(
+  string -> exn -> Assert.assertion
+)
+ident(
+  int_ref parse_error_test "gradedtests.ml" 19 513 517 "gradedtests.ml" 19 513 533
+)
+"gradedtests.ml" 301 8624 8651 "gradedtests.ml" 301 8624 8658
+type(
+  string
+)
+"gradedtests.ml" 301 8624 8680 "gradedtests.ml" 301 8624 8694
+type(
+  string -> Range.pos -> Range.pos -> Range.t
+)
+ident(
+  ext_ref Range.mk_range
+)
+"gradedtests.ml" 301 8624 8695 "gradedtests.ml" 301 8624 8702
+type(
+  string
+)
+"gradedtests.ml" 301 8624 8704 "gradedtests.ml" 301 8624 8716
+type(
+  int -> int -> Range.pos
+)
+ident(
+  ext_ref Range.mk_pos
+)
+"gradedtests.ml" 301 8624 8717 "gradedtests.ml" 301 8624 8718
+type(
+  int
+)
+"gradedtests.ml" 301 8624 8719 "gradedtests.ml" 301 8624 8720
+type(
+  int
+)
+"gradedtests.ml" 301 8624 8703 "gradedtests.ml" 301 8624 8721
+type(
+  Range.pos
+)
+"gradedtests.ml" 301 8624 8723 "gradedtests.ml" 301 8624 8735
+type(
+  int -> int -> Range.pos
+)
+ident(
+  ext_ref Range.mk_pos
+)
+"gradedtests.ml" 301 8624 8736 "gradedtests.ml" 301 8624 8737
+type(
+  int
+)
+"gradedtests.ml" 301 8624 8738 "gradedtests.ml" 301 8624 8739
+type(
+  int
+)
+"gradedtests.ml" 301 8624 8722 "gradedtests.ml" 301 8624 8740
+type(
+  Range.pos
+)
+"gradedtests.ml" 301 8624 8679 "gradedtests.ml" 301 8624 8741
+type(
+  Range.t
+)
+"gradedtests.ml" 301 8624 8743 "gradedtests.ml" 301 8624 8770
+type(
+  string
+)
+"gradedtests.ml" 301 8624 8659 "gradedtests.ml" 301 8624 8772
+type(
+  exn
+)
+"gradedtests.ml" 301 8624 8633 "gradedtests.ml" 301 8624 8773
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 301 8624 8624 "gradedtests.ml" 301 8624 8774
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 303 8777 8778 "gradedtests.ml" 303 8777 8784
+type(
+  string
+)
+"gradedtests.ml" 303 8777 8787 "gradedtests.ml" 303 8777 8803
+type(
+  string -> exn -> Assert.assertion
+)
+ident(
+  int_ref parse_error_test "gradedtests.ml" 19 513 517 "gradedtests.ml" 19 513 533
+)
+"gradedtests.ml" 303 8777 8804 "gradedtests.ml" 303 8777 8811
+type(
+  string
+)
+"gradedtests.ml" 303 8777 8833 "gradedtests.ml" 303 8777 8847
+type(
+  string -> Range.pos -> Range.pos -> Range.t
+)
+ident(
+  ext_ref Range.mk_range
+)
+"gradedtests.ml" 303 8777 8848 "gradedtests.ml" 303 8777 8855
+type(
+  string
+)
+"gradedtests.ml" 303 8777 8857 "gradedtests.ml" 303 8777 8869
+type(
+  int -> int -> Range.pos
+)
+ident(
+  ext_ref Range.mk_pos
+)
+"gradedtests.ml" 303 8777 8870 "gradedtests.ml" 303 8777 8871
+type(
+  int
+)
+"gradedtests.ml" 303 8777 8872 "gradedtests.ml" 303 8777 8873
+type(
+  int
+)
+"gradedtests.ml" 303 8777 8856 "gradedtests.ml" 303 8777 8874
+type(
+  Range.pos
+)
+"gradedtests.ml" 303 8777 8876 "gradedtests.ml" 303 8777 8888
+type(
+  int -> int -> Range.pos
+)
+ident(
+  ext_ref Range.mk_pos
+)
+"gradedtests.ml" 303 8777 8889 "gradedtests.ml" 303 8777 8890
+type(
+  int
+)
+"gradedtests.ml" 303 8777 8891 "gradedtests.ml" 303 8777 8892
+type(
+  int
+)
+"gradedtests.ml" 303 8777 8875 "gradedtests.ml" 303 8777 8893
+type(
+  Range.pos
+)
+"gradedtests.ml" 303 8777 8832 "gradedtests.ml" 303 8777 8894
+type(
+  Range.t
+)
+"gradedtests.ml" 303 8777 8896 "gradedtests.ml" 303 8777 8923
+type(
+  string
+)
+"gradedtests.ml" 303 8777 8812 "gradedtests.ml" 303 8777 8925
+type(
+  exn
+)
+"gradedtests.ml" 303 8777 8786 "gradedtests.ml" 303 8777 8926
+type(
+  Assert.assertion
+)
+"gradedtests.ml" 303 8777 8777 "gradedtests.ml" 303 8777 8927
+type(
+  string * Assert.assertion
+)
+"gradedtests.ml" 296 8362 8392 "gradedtests.ml" 304 8929 8936
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 296 8362 8364 "gradedtests.ml" 304 8929 8937
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 305 8939 8952 "gradedtests.ml" 305 8939 8965
+type(
+  string
+)
+"gradedtests.ml" 305 8939 8967 "gradedtests.ml" 305 8939 8968
+type(
+  int
+)
+"gradedtests.ml" 305 8939 8970 "gradedtests.ml" 307 8973 8974
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 305 8939 8941 "gradedtests.ml" 307 8973 8975
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 295 8334 8360 "gradedtests.ml" 307 8973 8977
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
+"gradedtests.ml" 309 8979 8983 "gradedtests.ml" 309 8979 8993
+type(
+  Assert.suite
+)
+ident(
+  def hard_tests "gradedtests.ml" 313 9045 9045 --
+)
+"gradedtests.ml" 310 9006 9020 "gradedtests.ml" 310 9006 9031
+type(
+  string
+)
+"gradedtests.ml" 310 9006 9033 "gradedtests.ml" 310 9006 9035
+type(
+  int
+)
+"gradedtests.ml" 310 9006 9037 "gradedtests.ml" 311 9040 9041
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 310 9006 9008 "gradedtests.ml" 311 9040 9042
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 309 8979 9004 "gradedtests.ml" 311 9040 9043
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
+"gradedtests.ml" 313 9045 9049 "gradedtests.ml" 313 9045 9061
+type(
+  Assert.suite
+)
+ident(
+  def manual_tests "gradedtests.ml" 319 9121 9121 --
+)
+"gradedtests.ml" 314 9074 9088 "gradedtests.ml" 314 9074 9101
+type(
+  string
+)
+"gradedtests.ml" 314 9074 9103 "gradedtests.ml" 314 9074 9105
+type(
+  int
+)
+"gradedtests.ml" 314 9074 9107 "gradedtests.ml" 316 9112 9115
+type(
+  (string * Assert.assertion) list
+)
+"gradedtests.ml" 314 9074 9076 "gradedtests.ml" 316 9112 9116
+type(
+  Assert.assertion Assert.test
+)
+"gradedtests.ml" 313 9045 9072 "gradedtests.ml" 317 9118 9119
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
+"gradedtests.ml" 319 9121 9125 "gradedtests.ml" 319 9121 9137
+type(
+  Assert.suite
+)
+ident(
+  def graded_tests "gradedtests.ml" 326 9274 9288 --
+)
+"gradedtests.ml" 320 9149 9151 "gradedtests.ml" 320 9149 9169
+type(
+  Assert.suite
+)
+ident(
+  int_ref easy_parsing_tests "gradedtests.ml" 58 2074 2078 "gradedtests.ml" 58 2074 2096
+)
+"gradedtests.ml" 320 9149 9170 "gradedtests.ml" 320 9149 9171
+type(
+  Assert.suite -> Assert.assertion Assert.test list -> Assert.suite
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gradedtests.ml" 321 9172 9174 "gradedtests.ml" 321 9172 9194
+type(
+  Assert.suite
+)
+ident(
+  int_ref easy_compiling_tests "gradedtests.ml" 136 4032 4036 "gradedtests.ml" 136 4032 4056
+)
+"gradedtests.ml" 321 9172 9195 "gradedtests.ml" 321 9172 9196
+type(
+  Assert.suite ->
+  Assert.assertion Assert.test list -> Assert.assertion Assert.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gradedtests.ml" 322 9197 9199 "gradedtests.ml" 322 9197 9216
+type(
+  Assert.suite
+)
+ident(
+  int_ref med_parsing_tests "gradedtests.ml" 213 5954 5958 "gradedtests.ml" 213 5954 5975
+)
+"gradedtests.ml" 322 9197 9217 "gradedtests.ml" 322 9197 9218
+type(
+  Assert.suite ->
+  Assert.assertion Assert.test list -> Assert.assertion Assert.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gradedtests.ml" 323 9219 9221 "gradedtests.ml" 323 9219 9240
+type(
+  Assert.suite
+)
+ident(
+  int_ref med_compiling_tests "gradedtests.ml" 253 7120 7124 "gradedtests.ml" 253 7120 7143
+)
+"gradedtests.ml" 323 9219 9241 "gradedtests.ml" 323 9219 9242
+type(
+  Assert.suite ->
+  Assert.assertion Assert.test list -> Assert.assertion Assert.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gradedtests.ml" 324 9243 9245 "gradedtests.ml" 324 9243 9255
+type(
+  Assert.suite
+)
+ident(
+  int_ref hard_tests "gradedtests.ml" 309 8979 8983 "gradedtests.ml" 309 8979 8993
+)
+"gradedtests.ml" 324 9243 9256 "gradedtests.ml" 324 9243 9257
+type(
+  Assert.suite ->
+  Assert.assertion Assert.test list -> Assert.assertion Assert.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gradedtests.ml" 325 9258 9260 "gradedtests.ml" 325 9258 9271
+type(
+  Assert.suite
+)
+ident(
+  int_ref error_tests "gradedtests.ml" 295 8334 8338 "gradedtests.ml" 295 8334 8349
+)
+"gradedtests.ml" 325 9258 9272 "gradedtests.ml" 325 9258 9273
+type(
+  Assert.suite -> Assert.suite -> Assert.assertion Assert.test list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"gradedtests.ml" 326 9274 9276 "gradedtests.ml" 326 9274 9288
+type(
+  Assert.suite
+)
+ident(
+  int_ref manual_tests "gradedtests.ml" 313 9045 9049 "gradedtests.ml" 313 9045 9061
+)
+"gradedtests.ml" 325 9258 9260 "gradedtests.ml" 326 9274 9288
+type(
+  Assert.assertion Assert.test list
+)
+"gradedtests.ml" 324 9243 9245 "gradedtests.ml" 326 9274 9288
+type(
+  Assert.assertion Assert.test list
+)
+"gradedtests.ml" 323 9219 9221 "gradedtests.ml" 326 9274 9288
+type(
+  Assert.assertion Assert.test list
+)
+"gradedtests.ml" 322 9197 9199 "gradedtests.ml" 326 9274 9288
+type(
+  Assert.assertion Assert.test list
+)
+"gradedtests.ml" 321 9172 9174 "gradedtests.ml" 326 9274 9288
+type(
+  Assert.assertion Assert.test list
+)
+"gradedtests.ml" 320 9149 9151 "gradedtests.ml" 326 9274 9288
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)
