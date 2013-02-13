@@ -86,8 +86,14 @@
 # Target: compiler.cmx, tags: { compile, extension:cmx, extension:ml, file:compiler.cmx, file:compiler.ml, implem, native, ocaml, quiet }
 /usr/local/bin/ocamlopt.opt -c -o compiler.cmx compiler.ml
 + /usr/local/bin/ocamlopt.opt -c -o compiler.cmx compiler.ml
+File "compiler.ml", line 32, characters 9-17:
+Warning 26: unused variable emit_exp.
 File "compiler.ml", line 30, characters 6-16:
 Warning 26: unused variable block_name.
+File "compiler.ml", line 33, characters 2-67:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+(Unop (_, _)|Binop (_, _, _)|Arg)
 # Target: gradedtests.cmx, tags: { compile, extension:cmx, extension:ml, file:gradedtests.cmx, file:gradedtests.ml, implem, native, ocaml, quiet }
 /usr/local/bin/ocamlopt.opt -c -o gradedtests.cmx gradedtests.ml
 # Target: providedtests.cmx, tags: { compile, extension:cmx, extension:ml, file:providedtests.cmx, file:providedtests.ml, implem, native, ocaml, quiet }
@@ -97,5 +103,5 @@ Warning 26: unused variable block_name.
 # Target: main.native, tags: { dont_link_with, extension:native, file:main.native, link, native, ocaml, program, quiet }
 /usr/local/bin/ocamlopt.opt str.cmxa unix.cmxa assert.cmx ast.cmx x86.cmx cunit.cmx range.cmx parser.cmx lexer.cmx platform.cmx compiler.cmx gradedtests.cmx providedtests.cmx main.cmx -o main.native
 + /usr/local/bin/ocamlopt.opt str.cmxa unix.cmxa assert.cmx ast.cmx x86.cmx cunit.cmx range.cmx parser.cmx lexer.cmx platform.cmx compiler.cmx gradedtests.cmx providedtests.cmx main.cmx -o main.native
-ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _caml_program from /var/folders/9g/hv6wt6z16pl3397v857q6fqc0000gn/T/camlstartup4050c5.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie
+ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _caml_program from /var/folders/9g/hv6wt6z16pl3397v857q6fqc0000gn/T/camlstartupf4dadc.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie
 # Compilation successful.
