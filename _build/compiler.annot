@@ -229,14 +229,14 @@ type(
   Ast.exp -> Cunit.cunit
 )
 ident(
-  def compile_exp "compiler.ml" 80 3109 3136 --
+  def compile_exp "compiler.ml" 80 3097 3124 --
 )
 "compiler.ml" 30 943 960 "compiler.ml" 30 943 963
 type(
   Ast.exp
 )
 ident(
-  def ast "compiler.ml" 30 943 969 "compiler.ml" 80 3109 3136
+  def ast "compiler.ml" 30 943 969 "compiler.ml" 80 3097 3124
 )
 "compiler.ml" 31 985 991 "compiler.ml" 31 985 1001
 type(
@@ -319,14 +319,14 @@ type(
   Ast.exp
 )
 ident(
-  def e "compiler.ml" 36 1129 1155 "compiler.ml" 42 1429 1435
+  def e "compiler.ml" 36 1129 1155 "compiler.ml" 42 1417 1423
 )
 "compiler.ml" 36 1129 1156 "compiler.ml" 36 1129 1159
 type(
   X86.insn list
 )
 ident(
-  def str "compiler.ml" 36 1129 1173 "compiler.ml" 42 1429 1435
+  def str "compiler.ml" 36 1129 1173 "compiler.ml" 42 1417 1423
 )
 "compiler.ml" 37 1188 1202 "compiler.ml" 37 1188 1203
 type(
@@ -417,21 +417,21 @@ type(
   Ast.binop
 )
 ident(
-  def b "compiler.ml" 40 1326 1349 "compiler.ml" 40 1326 1379
+  def b "compiler.ml" 40 1326 1349 "compiler.ml" 40 1326 1373
 )
 "compiler.ml" 40 1326 1339 "compiler.ml" 40 1326 1341
 type(
   Ast.exp
 )
 ident(
-  def e1 "compiler.ml" 40 1326 1349 "compiler.ml" 40 1326 1379
+  def e1 "compiler.ml" 40 1326 1349 "compiler.ml" 40 1326 1373
 )
 "compiler.ml" 40 1326 1342 "compiler.ml" 40 1326 1344
 type(
   Ast.exp
 )
 ident(
-  def e2 "compiler.ml" 40 1326 1349 "compiler.ml" 40 1326 1379
+  def e2 "compiler.ml" 40 1326 1349 "compiler.ml" 40 1326 1373
 )
 "compiler.ml" 40 1326 1330 "compiler.ml" 40 1326 1345
 type(
@@ -442,7 +442,7 @@ type(
   Ast.binop -> Ast.exp -> Ast.exp -> X86.insn list -> X86.insn list
 )
 ident(
-  int_ref proc_binop "compiler.ml" 44 1438 1443 "compiler.ml" 44 1438 1453
+  int_ref proc_binop "compiler.ml" 44 1426 1431 "compiler.ml" 44 1426 1441
 )
 "compiler.ml" 40 1326 1361 "compiler.ml" 40 1326 1362
 type(
@@ -476,1674 +476,1638 @@ ident(
 type(
   X86.insn list
 )
-"compiler.ml" 40 1326 1374 "compiler.ml" 40 1326 1375
-type(
-  X86.insn list -> X86.insn list -> X86.insn list
-)
-ident(
-  ext_ref Pervasives.( @ )
-)
-"compiler.ml" 40 1326 1376 "compiler.ml" 40 1326 1379
-type(
-  X86.insn list
-)
-ident(
-  int_ref str "compiler.ml" 36 1129 1156 "compiler.ml" 36 1129 1159
-)
-"compiler.ml" 40 1326 1349 "compiler.ml" 40 1326 1379
-type(
-  X86.insn list
-)
-"compiler.ml" 41 1380 1391 "compiler.ml" 41 1380 1392
+"compiler.ml" 41 1374 1385 "compiler.ml" 41 1374 1386
 type(
   Ast.unop
 )
 ident(
-  def u "compiler.ml" 41 1380 1403 "compiler.ml" 41 1380 1428
+  def u "compiler.ml" 41 1374 1397 "compiler.ml" 41 1374 1416
 )
-"compiler.ml" 41 1380 1394 "compiler.ml" 41 1380 1396
+"compiler.ml" 41 1374 1388 "compiler.ml" 41 1374 1390
 type(
   Ast.exp
 )
 ident(
-  def e1 "compiler.ml" 41 1380 1403 "compiler.ml" 41 1380 1428
+  def e1 "compiler.ml" 41 1374 1397 "compiler.ml" 41 1374 1416
 )
-"compiler.ml" 41 1380 1384 "compiler.ml" 41 1380 1397
+"compiler.ml" 41 1374 1378 "compiler.ml" 41 1374 1391
 type(
   Ast.exp
 )
-"compiler.ml" 41 1380 1404 "compiler.ml" 41 1380 1412
+"compiler.ml" 41 1374 1398 "compiler.ml" 41 1374 1406
 type(
   Ast.unop -> Ast.exp -> X86.insn list -> X86.insn list
 )
 ident(
-  int_ref proc_uop "compiler.ml" 66 2672 2677 "compiler.ml" 66 2672 2685
+  int_ref proc_uop "compiler.ml" 66 2660 2665 "compiler.ml" 66 2660 2673
 )
-"compiler.ml" 41 1380 1413 "compiler.ml" 41 1380 1414
+"compiler.ml" 41 1374 1407 "compiler.ml" 41 1374 1408
 type(
   Ast.unop
 )
 ident(
-  int_ref u "compiler.ml" 41 1380 1391 "compiler.ml" 41 1380 1392
+  int_ref u "compiler.ml" 41 1374 1385 "compiler.ml" 41 1374 1386
 )
-"compiler.ml" 41 1380 1415 "compiler.ml" 41 1380 1417
+"compiler.ml" 41 1374 1409 "compiler.ml" 41 1374 1411
 type(
   Ast.exp
 )
 ident(
-  int_ref e1 "compiler.ml" 41 1380 1394 "compiler.ml" 41 1380 1396
+  int_ref e1 "compiler.ml" 41 1374 1388 "compiler.ml" 41 1374 1390
 )
-"compiler.ml" 41 1380 1418 "compiler.ml" 41 1380 1421
+"compiler.ml" 41 1374 1412 "compiler.ml" 41 1374 1415
 type(
   X86.insn list
 )
 ident(
   int_ref str "compiler.ml" 36 1129 1156 "compiler.ml" 36 1129 1159
 )
-"compiler.ml" 41 1380 1403 "compiler.ml" 41 1380 1422
+"compiler.ml" 41 1374 1397 "compiler.ml" 41 1374 1416
 type(
   X86.insn list
 )
-"compiler.ml" 41 1380 1423 "compiler.ml" 41 1380 1424
-type(
-  X86.insn list -> X86.insn list -> X86.insn list
-)
-ident(
-  ext_ref Pervasives.( @ )
-)
-"compiler.ml" 41 1380 1425 "compiler.ml" 41 1380 1428
-type(
-  X86.insn list
-)
-ident(
-  int_ref str "compiler.ml" 36 1129 1156 "compiler.ml" 36 1129 1159
-)
-"compiler.ml" 41 1380 1403 "compiler.ml" 41 1380 1428
-type(
-  X86.insn list
-)
-"compiler.ml" 37 1188 1190 "compiler.ml" 42 1429 1435
+"compiler.ml" 37 1188 1190 "compiler.ml" 42 1417 1423
 type(
   X86.insn list
 )
 type(
   X86.insn list
 )
-"compiler.ml" 44 1438 1443 "compiler.ml" 44 1438 1453
+"compiler.ml" 44 1426 1431 "compiler.ml" 44 1426 1441
 type(
   Ast.binop -> Ast.exp -> Ast.exp -> X86.insn list -> X86.insn list
 )
-"compiler.ml" 44 1438 1455 "compiler.ml" 44 1438 1456
+"compiler.ml" 44 1426 1443 "compiler.ml" 44 1426 1444
 type(
   Ast.binop
 )
 ident(
-  def b "compiler.ml" 44 1438 1466 "compiler.ml" 64 2642 2668
+  def b "compiler.ml" 44 1426 1454 "compiler.ml" 64 2630 2656
 )
-"compiler.ml" 44 1438 1467 "compiler.ml" 44 1438 1469
+"compiler.ml" 44 1426 1455 "compiler.ml" 44 1426 1457
 type(
   Ast.exp
 )
 ident(
-  def e1 "compiler.ml" 44 1438 1477 "compiler.ml" 64 2642 2668
+  def e1 "compiler.ml" 44 1426 1465 "compiler.ml" 64 2630 2656
 )
-"compiler.ml" 44 1438 1478 "compiler.ml" 44 1438 1480
+"compiler.ml" 44 1426 1466 "compiler.ml" 44 1426 1468
 type(
   Ast.exp
 )
 ident(
-  def e2 "compiler.ml" 44 1438 1488 "compiler.ml" 64 2642 2668
+  def e2 "compiler.ml" 44 1426 1476 "compiler.ml" 64 2630 2656
 )
-"compiler.ml" 44 1438 1489 "compiler.ml" 44 1438 1492
+"compiler.ml" 44 1426 1477 "compiler.ml" 44 1426 1480
 type(
   X86.insn list
 )
 ident(
-  def str "compiler.ml" 44 1438 1506 "compiler.ml" 64 2642 2668
+  def str "compiler.ml" 44 1426 1494 "compiler.ml" 64 2630 2656
 )
-"compiler.ml" 45 1521 1527 "compiler.ml" 45 1521 1532
+"compiler.ml" 45 1509 1515 "compiler.ml" 45 1509 1520
 type(
   X86.insn list
 )
-"compiler.ml" 45 1521 1536 "compiler.ml" 45 1521 1544
+"compiler.ml" 45 1509 1524 "compiler.ml" 45 1509 1532
 type(
   Ast.exp -> X86.insn list -> X86.insn list
 )
 ident(
   int_ref emit_exp "compiler.ml" 36 1129 1138 "compiler.ml" 36 1129 1146
 )
-"compiler.ml" 45 1521 1545 "compiler.ml" 45 1521 1547
+"compiler.ml" 45 1509 1533 "compiler.ml" 45 1509 1535
 type(
   Ast.exp
 )
 ident(
-  int_ref e1 "compiler.ml" 44 1438 1467 "compiler.ml" 44 1438 1469
+  int_ref e1 "compiler.ml" 44 1426 1455 "compiler.ml" 44 1426 1457
 )
-"compiler.ml" 45 1521 1548 "compiler.ml" 45 1521 1551
+"compiler.ml" 45 1509 1536 "compiler.ml" 45 1509 1539
 type(
   X86.insn list
 )
 ident(
-  int_ref str "compiler.ml" 44 1438 1489 "compiler.ml" 44 1438 1492
+  int_ref str "compiler.ml" 44 1426 1477 "compiler.ml" 44 1426 1480
 )
-"compiler.ml" 45 1521 1535 "compiler.ml" 45 1521 1552
+"compiler.ml" 45 1509 1523 "compiler.ml" 45 1509 1540
 type(
   X86.insn list
 )
-"compiler.ml" 45 1521 1553 "compiler.ml" 45 1521 1556
+"compiler.ml" 45 1509 1541 "compiler.ml" 45 1509 1544
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 45 1521 1563 "compiler.ml" 45 1521 1566
+"compiler.ml" 45 1509 1551 "compiler.ml" 45 1509 1554
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 45 1521 1557 "compiler.ml" 45 1521 1567
+"compiler.ml" 45 1509 1545 "compiler.ml" 45 1509 1555
 type(
   X86.insn
 )
-"compiler.ml" 45 1521 1535 "compiler.ml" 45 1521 1567
+"compiler.ml" 45 1509 1523 "compiler.ml" 45 1509 1555
 type(
   X86.insn list
 )
-"compiler.ml" 47 1574 1577 "compiler.ml" 47 1574 1585
+"compiler.ml" 47 1562 1565 "compiler.ml" 47 1562 1573
 type(
   Ast.exp -> X86.insn list -> X86.insn list
 )
 ident(
   int_ref emit_exp "compiler.ml" 36 1129 1138 "compiler.ml" 36 1129 1146
 )
-"compiler.ml" 47 1574 1586 "compiler.ml" 47 1574 1588
+"compiler.ml" 47 1562 1574 "compiler.ml" 47 1562 1576
 type(
   Ast.exp
 )
 ident(
-  int_ref e2 "compiler.ml" 44 1438 1478 "compiler.ml" 44 1438 1480
+  int_ref e2 "compiler.ml" 44 1426 1466 "compiler.ml" 44 1426 1468
 )
-"compiler.ml" 47 1574 1589 "compiler.ml" 47 1574 1594
+"compiler.ml" 47 1562 1577 "compiler.ml" 47 1562 1582
 type(
   X86.insn list
 )
 ident(
-  int_ref str_l "compiler.ml" 45 1521 1527 "compiler.ml" 45 1521 1532
+  int_ref str_l "compiler.ml" 45 1509 1515 "compiler.ml" 45 1509 1520
 )
-"compiler.ml" 47 1574 1576 "compiler.ml" 47 1574 1595
+"compiler.ml" 47 1562 1564 "compiler.ml" 47 1562 1583
 type(
   X86.insn list
 )
-"compiler.ml" 47 1574 1596 "compiler.ml" 47 1574 1598
+"compiler.ml" 47 1562 1584 "compiler.ml" 47 1562 1586
 type(
   X86.insn list -> X86.insn list -> X86.insn list
 )
 ident(
   int_ref >@ "compiler.ml" 24 707 711 "compiler.ml" 24 707 716
 )
-"compiler.ml" 48 1599 1613 "compiler.ml" 48 1599 1614
+"compiler.ml" 48 1587 1601 "compiler.ml" 48 1587 1602
 type(
   Ast.binop
 )
 ident(
-  int_ref b "compiler.ml" 44 1438 1455 "compiler.ml" 44 1438 1456
+  int_ref b "compiler.ml" 44 1426 1443 "compiler.ml" 44 1426 1444
 )
-"compiler.ml" 49 1620 1624 "compiler.ml" 49 1620 1628
+"compiler.ml" 49 1608 1612 "compiler.ml" 49 1608 1616
 type(
   Ast.binop
 )
-"compiler.ml" 49 1620 1634 "compiler.ml" 49 1620 1636
+"compiler.ml" 49 1608 1622 "compiler.ml" 49 1608 1624
 type(
   X86.insn list
 )
-"compiler.ml" 49 1620 1637 "compiler.ml" 49 1620 1640
+"compiler.ml" 49 1608 1625 "compiler.ml" 49 1608 1628
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 49 1620 1648 "compiler.ml" 49 1620 1651
+"compiler.ml" 49 1608 1636 "compiler.ml" 49 1608 1639
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 49 1620 1653 "compiler.ml" 49 1620 1659
+"compiler.ml" 49 1608 1641 "compiler.ml" 49 1608 1647
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 49 1620 1641 "compiler.ml" 49 1620 1661
+"compiler.ml" 49 1608 1629 "compiler.ml" 49 1608 1649
 type(
   X86.insn
 )
-"compiler.ml" 49 1620 1634 "compiler.ml" 49 1620 1661
+"compiler.ml" 49 1608 1622 "compiler.ml" 49 1608 1649
 type(
   X86.insn list
 )
-"compiler.ml" 50 1663 1667 "compiler.ml" 50 1663 1672
+"compiler.ml" 50 1651 1655 "compiler.ml" 50 1651 1660
 type(
   Ast.binop
 )
-"compiler.ml" 50 1663 1677 "compiler.ml" 50 1663 1679
+"compiler.ml" 50 1651 1665 "compiler.ml" 50 1651 1667
 type(
   X86.insn list
 )
-"compiler.ml" 50 1663 1680 "compiler.ml" 50 1663 1683
+"compiler.ml" 50 1651 1668 "compiler.ml" 50 1651 1671
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 50 1663 1691 "compiler.ml" 50 1663 1694
+"compiler.ml" 50 1651 1679 "compiler.ml" 50 1651 1682
 type(
   X86.reg
 )
-"compiler.ml" 50 1663 1696 "compiler.ml" 50 1663 1702
+"compiler.ml" 50 1651 1684 "compiler.ml" 50 1651 1690
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 50 1663 1684 "compiler.ml" 50 1663 1704
+"compiler.ml" 50 1651 1672 "compiler.ml" 50 1651 1692
 type(
   X86.insn
 )
-"compiler.ml" 50 1663 1677 "compiler.ml" 50 1663 1704
+"compiler.ml" 50 1651 1665 "compiler.ml" 50 1651 1692
 type(
   X86.insn list
 )
-"compiler.ml" 51 1705 1709 "compiler.ml" 51 1705 1714
+"compiler.ml" 51 1693 1697 "compiler.ml" 51 1693 1702
 type(
   Ast.binop
 )
-"compiler.ml" 51 1705 1719 "compiler.ml" 51 1705 1721
+"compiler.ml" 51 1693 1707 "compiler.ml" 51 1693 1709
 type(
   X86.insn list
 )
-"compiler.ml" 51 1705 1722 "compiler.ml" 51 1705 1725
+"compiler.ml" 51 1693 1710 "compiler.ml" 51 1693 1713
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 51 1705 1733 "compiler.ml" 51 1705 1736
+"compiler.ml" 51 1693 1721 "compiler.ml" 51 1693 1724
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 51 1705 1738 "compiler.ml" 51 1705 1744
+"compiler.ml" 51 1693 1726 "compiler.ml" 51 1693 1732
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 51 1705 1726 "compiler.ml" 51 1705 1746
+"compiler.ml" 51 1693 1714 "compiler.ml" 51 1693 1734
 type(
   X86.insn
 )
-"compiler.ml" 51 1705 1719 "compiler.ml" 51 1705 1746
+"compiler.ml" 51 1693 1707 "compiler.ml" 51 1693 1734
 type(
   X86.insn list
 )
-"compiler.ml" 51 1705 1747 "compiler.ml" 51 1705 1750
+"compiler.ml" 51 1693 1735 "compiler.ml" 51 1693 1738
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 51 1705 1756 "compiler.ml" 51 1705 1761
+"compiler.ml" 51 1693 1744 "compiler.ml" 51 1693 1749
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 51 1705 1751 "compiler.ml" 51 1705 1762
+"compiler.ml" 51 1693 1739 "compiler.ml" 51 1693 1750
 type(
   X86.insn
 )
-"compiler.ml" 51 1705 1719 "compiler.ml" 51 1705 1762
+"compiler.ml" 51 1693 1707 "compiler.ml" 51 1693 1750
 type(
   X86.insn list
 )
-"compiler.ml" 52 1763 1767 "compiler.ml" 52 1763 1773
+"compiler.ml" 52 1751 1755 "compiler.ml" 52 1751 1761
 type(
   Ast.binop
 )
-"compiler.ml" 52 1763 1777 "compiler.ml" 52 1763 1779
+"compiler.ml" 52 1751 1765 "compiler.ml" 52 1751 1767
 type(
   X86.insn list
 )
-"compiler.ml" 52 1763 1780 "compiler.ml" 52 1763 1783
+"compiler.ml" 52 1751 1768 "compiler.ml" 52 1751 1771
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 52 1763 1791 "compiler.ml" 52 1763 1794
+"compiler.ml" 52 1751 1779 "compiler.ml" 52 1751 1782
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 52 1763 1796 "compiler.ml" 52 1763 1802
+"compiler.ml" 52 1751 1784 "compiler.ml" 52 1751 1790
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 52 1763 1784 "compiler.ml" 52 1763 1804
+"compiler.ml" 52 1751 1772 "compiler.ml" 52 1751 1792
 type(
   X86.insn
 )
-"compiler.ml" 52 1763 1777 "compiler.ml" 52 1763 1804
+"compiler.ml" 52 1751 1765 "compiler.ml" 52 1751 1792
 type(
   X86.insn list
 )
-"compiler.ml" 52 1763 1805 "compiler.ml" 52 1763 1808
+"compiler.ml" 52 1751 1793 "compiler.ml" 52 1751 1796
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 52 1763 1815 "compiler.ml" 52 1763 1818
+"compiler.ml" 52 1751 1803 "compiler.ml" 52 1751 1806
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 52 1763 1824 "compiler.ml" 52 1763 1826
+"compiler.ml" 52 1751 1812 "compiler.ml" 52 1751 1814
 type(
   int32
 )
-"compiler.ml" 52 1763 1820 "compiler.ml" 52 1763 1826
+"compiler.ml" 52 1751 1808 "compiler.ml" 52 1751 1814
 type(
   X86.opnd
 )
-"compiler.ml" 52 1763 1809 "compiler.ml" 52 1763 1828
+"compiler.ml" 52 1751 1797 "compiler.ml" 52 1751 1816
 type(
   X86.insn
 )
-"compiler.ml" 52 1763 1777 "compiler.ml" 52 1763 1828
+"compiler.ml" 52 1751 1765 "compiler.ml" 52 1751 1816
 type(
   X86.insn list
 )
-"compiler.ml" 52 1763 1829 "compiler.ml" 52 1763 1832
+"compiler.ml" 52 1751 1817 "compiler.ml" 52 1751 1820
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 52 1763 1840 "compiler.ml" 52 1763 1843
+"compiler.ml" 52 1751 1828 "compiler.ml" 52 1751 1831
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 52 1763 1845 "compiler.ml" 52 1763 1847
+"compiler.ml" 52 1751 1833 "compiler.ml" 52 1751 1835
 type(
   X86.cnd
 )
-"compiler.ml" 52 1763 1833 "compiler.ml" 52 1763 1849
+"compiler.ml" 52 1751 1821 "compiler.ml" 52 1751 1837
 type(
   X86.insn
 )
-"compiler.ml" 52 1763 1777 "compiler.ml" 52 1763 1849
+"compiler.ml" 52 1751 1765 "compiler.ml" 52 1751 1837
 type(
   X86.insn list
 )
-"compiler.ml" 53 1850 1854 "compiler.ml" 53 1850 1857
+"compiler.ml" 53 1838 1842 "compiler.ml" 53 1838 1845
 type(
   Ast.binop
 )
-"compiler.ml" 53 1850 1864 "compiler.ml" 53 1850 1866
+"compiler.ml" 53 1838 1852 "compiler.ml" 53 1838 1854
 type(
   X86.insn list
 )
-"compiler.ml" 53 1850 1867 "compiler.ml" 53 1850 1870
+"compiler.ml" 53 1838 1855 "compiler.ml" 53 1838 1858
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 53 1850 1878 "compiler.ml" 53 1850 1881
+"compiler.ml" 53 1838 1866 "compiler.ml" 53 1838 1869
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 53 1850 1883 "compiler.ml" 53 1850 1889
+"compiler.ml" 53 1838 1871 "compiler.ml" 53 1838 1877
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 53 1850 1871 "compiler.ml" 53 1850 1891
+"compiler.ml" 53 1838 1859 "compiler.ml" 53 1838 1879
 type(
   X86.insn
 )
-"compiler.ml" 53 1850 1864 "compiler.ml" 53 1850 1891
+"compiler.ml" 53 1838 1852 "compiler.ml" 53 1838 1879
 type(
   X86.insn list
 )
-"compiler.ml" 53 1850 1892 "compiler.ml" 53 1850 1895
+"compiler.ml" 53 1838 1880 "compiler.ml" 53 1838 1883
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 53 1850 1902 "compiler.ml" 53 1850 1905
+"compiler.ml" 53 1838 1890 "compiler.ml" 53 1838 1893
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 53 1850 1911 "compiler.ml" 53 1850 1913
+"compiler.ml" 53 1838 1899 "compiler.ml" 53 1838 1901
 type(
   int32
 )
-"compiler.ml" 53 1850 1907 "compiler.ml" 53 1850 1913
+"compiler.ml" 53 1838 1895 "compiler.ml" 53 1838 1901
 type(
   X86.opnd
 )
-"compiler.ml" 53 1850 1896 "compiler.ml" 53 1850 1915
+"compiler.ml" 53 1838 1884 "compiler.ml" 53 1838 1903
 type(
   X86.insn
 )
-"compiler.ml" 53 1850 1864 "compiler.ml" 53 1850 1915
+"compiler.ml" 53 1838 1852 "compiler.ml" 53 1838 1903
 type(
   X86.insn list
 )
-"compiler.ml" 53 1850 1916 "compiler.ml" 53 1850 1919
+"compiler.ml" 53 1838 1904 "compiler.ml" 53 1838 1907
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 53 1850 1927 "compiler.ml" 53 1850 1930
+"compiler.ml" 53 1838 1915 "compiler.ml" 53 1838 1918
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 53 1850 1932 "compiler.ml" 53 1850 1937
+"compiler.ml" 53 1838 1920 "compiler.ml" 53 1838 1925
 type(
   X86.cnd
 )
-"compiler.ml" 53 1850 1920 "compiler.ml" 53 1850 1939
+"compiler.ml" 53 1838 1908 "compiler.ml" 53 1838 1927
 type(
   X86.insn
 )
-"compiler.ml" 53 1850 1864 "compiler.ml" 53 1850 1939
+"compiler.ml" 53 1838 1852 "compiler.ml" 53 1838 1927
 type(
   X86.insn list
 )
-"compiler.ml" 54 1940 1944 "compiler.ml" 54 1940 1946
+"compiler.ml" 54 1928 1932 "compiler.ml" 54 1928 1934
 type(
   Ast.binop
 )
-"compiler.ml" 54 1940 1952 "compiler.ml" 54 1940 1954
+"compiler.ml" 54 1928 1940 "compiler.ml" 54 1928 1942
 type(
   X86.insn list
 )
-"compiler.ml" 54 1940 1955 "compiler.ml" 54 1940 1958
+"compiler.ml" 54 1928 1943 "compiler.ml" 54 1928 1946
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 54 1940 1966 "compiler.ml" 54 1940 1972
+"compiler.ml" 54 1928 1954 "compiler.ml" 54 1928 1960
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 54 1940 1974 "compiler.ml" 54 1940 1977
+"compiler.ml" 54 1928 1962 "compiler.ml" 54 1928 1965
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 54 1940 1959 "compiler.ml" 54 1940 1979
+"compiler.ml" 54 1928 1947 "compiler.ml" 54 1928 1967
 type(
   X86.insn
 )
-"compiler.ml" 54 1940 1952 "compiler.ml" 54 1940 1979
+"compiler.ml" 54 1928 1940 "compiler.ml" 54 1928 1967
 type(
   X86.insn list
 )
-"compiler.ml" 54 1940 1980 "compiler.ml" 54 1940 1983
+"compiler.ml" 54 1928 1968 "compiler.ml" 54 1928 1971
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 54 1940 1990 "compiler.ml" 54 1940 1993
+"compiler.ml" 54 1928 1978 "compiler.ml" 54 1928 1981
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 54 1940 1999 "compiler.ml" 54 1940 2001
+"compiler.ml" 54 1928 1987 "compiler.ml" 54 1928 1989
 type(
   int32
 )
-"compiler.ml" 54 1940 1995 "compiler.ml" 54 1940 2001
+"compiler.ml" 54 1928 1983 "compiler.ml" 54 1928 1989
 type(
   X86.opnd
 )
-"compiler.ml" 54 1940 1984 "compiler.ml" 54 1940 2003
+"compiler.ml" 54 1928 1972 "compiler.ml" 54 1928 1991
 type(
   X86.insn
 )
-"compiler.ml" 54 1940 1952 "compiler.ml" 54 1940 2003
+"compiler.ml" 54 1928 1940 "compiler.ml" 54 1928 1991
 type(
   X86.insn list
 )
-"compiler.ml" 54 1940 2004 "compiler.ml" 54 1940 2007
+"compiler.ml" 54 1928 1992 "compiler.ml" 54 1928 1995
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 54 1940 2015 "compiler.ml" 54 1940 2018
+"compiler.ml" 54 1928 2003 "compiler.ml" 54 1928 2006
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 54 1940 2020 "compiler.ml" 54 1940 2023
+"compiler.ml" 54 1928 2008 "compiler.ml" 54 1928 2011
 type(
   X86.cnd
 )
-"compiler.ml" 54 1940 2008 "compiler.ml" 54 1940 2025
+"compiler.ml" 54 1928 1996 "compiler.ml" 54 1928 2013
 type(
   X86.insn
 )
-"compiler.ml" 54 1940 1952 "compiler.ml" 54 1940 2025
+"compiler.ml" 54 1928 1940 "compiler.ml" 54 1928 2013
 type(
   X86.insn list
 )
-"compiler.ml" 55 2026 2030 "compiler.ml" 55 2026 2033
+"compiler.ml" 55 2014 2018 "compiler.ml" 55 2014 2021
 type(
   Ast.binop
 )
-"compiler.ml" 55 2026 2040 "compiler.ml" 55 2026 2042
+"compiler.ml" 55 2014 2028 "compiler.ml" 55 2014 2030
 type(
   X86.insn list
 )
-"compiler.ml" 55 2026 2043 "compiler.ml" 55 2026 2046
+"compiler.ml" 55 2014 2031 "compiler.ml" 55 2014 2034
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 55 2026 2054 "compiler.ml" 55 2026 2060
+"compiler.ml" 55 2014 2042 "compiler.ml" 55 2014 2048
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 55 2026 2062 "compiler.ml" 55 2026 2065
+"compiler.ml" 55 2014 2050 "compiler.ml" 55 2014 2053
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 55 2026 2047 "compiler.ml" 55 2026 2067
+"compiler.ml" 55 2014 2035 "compiler.ml" 55 2014 2055
 type(
   X86.insn
 )
-"compiler.ml" 55 2026 2040 "compiler.ml" 55 2026 2067
+"compiler.ml" 55 2014 2028 "compiler.ml" 55 2014 2055
 type(
   X86.insn list
 )
-"compiler.ml" 55 2026 2068 "compiler.ml" 55 2026 2071
+"compiler.ml" 55 2014 2056 "compiler.ml" 55 2014 2059
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 55 2026 2078 "compiler.ml" 55 2026 2081
+"compiler.ml" 55 2014 2066 "compiler.ml" 55 2014 2069
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 55 2026 2087 "compiler.ml" 55 2026 2089
+"compiler.ml" 55 2014 2075 "compiler.ml" 55 2014 2077
 type(
   int32
 )
-"compiler.ml" 55 2026 2083 "compiler.ml" 55 2026 2089
+"compiler.ml" 55 2014 2071 "compiler.ml" 55 2014 2077
 type(
   X86.opnd
 )
-"compiler.ml" 55 2026 2072 "compiler.ml" 55 2026 2091
+"compiler.ml" 55 2014 2060 "compiler.ml" 55 2014 2079
 type(
   X86.insn
 )
-"compiler.ml" 55 2026 2040 "compiler.ml" 55 2026 2091
+"compiler.ml" 55 2014 2028 "compiler.ml" 55 2014 2079
 type(
   X86.insn list
 )
-"compiler.ml" 55 2026 2092 "compiler.ml" 55 2026 2095
+"compiler.ml" 55 2014 2080 "compiler.ml" 55 2014 2083
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 55 2026 2103 "compiler.ml" 55 2026 2106
+"compiler.ml" 55 2014 2091 "compiler.ml" 55 2014 2094
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 55 2026 2108 "compiler.ml" 55 2026 2111
+"compiler.ml" 55 2014 2096 "compiler.ml" 55 2014 2099
 type(
   X86.cnd
 )
-"compiler.ml" 55 2026 2096 "compiler.ml" 55 2026 2113
+"compiler.ml" 55 2014 2084 "compiler.ml" 55 2014 2101
 type(
   X86.insn
 )
-"compiler.ml" 55 2026 2040 "compiler.ml" 55 2026 2113
+"compiler.ml" 55 2014 2028 "compiler.ml" 55 2014 2101
 type(
   X86.insn list
 )
-"compiler.ml" 56 2114 2118 "compiler.ml" 56 2114 2121
+"compiler.ml" 56 2102 2106 "compiler.ml" 56 2102 2109
 type(
   Ast.binop
 )
-"compiler.ml" 56 2114 2128 "compiler.ml" 56 2114 2130
+"compiler.ml" 56 2102 2116 "compiler.ml" 56 2102 2118
 type(
   X86.insn list
 )
-"compiler.ml" 56 2114 2131 "compiler.ml" 56 2114 2134
+"compiler.ml" 56 2102 2119 "compiler.ml" 56 2102 2122
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 56 2114 2142 "compiler.ml" 56 2114 2148
+"compiler.ml" 56 2102 2130 "compiler.ml" 56 2102 2136
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 56 2114 2150 "compiler.ml" 56 2114 2153
+"compiler.ml" 56 2102 2138 "compiler.ml" 56 2102 2141
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 56 2114 2135 "compiler.ml" 56 2114 2155
+"compiler.ml" 56 2102 2123 "compiler.ml" 56 2102 2143
 type(
   X86.insn
 )
-"compiler.ml" 56 2114 2128 "compiler.ml" 56 2114 2155
+"compiler.ml" 56 2102 2116 "compiler.ml" 56 2102 2143
 type(
   X86.insn list
 )
-"compiler.ml" 56 2114 2156 "compiler.ml" 56 2114 2159
+"compiler.ml" 56 2102 2144 "compiler.ml" 56 2102 2147
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 56 2114 2166 "compiler.ml" 56 2114 2169
+"compiler.ml" 56 2102 2154 "compiler.ml" 56 2102 2157
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 56 2114 2175 "compiler.ml" 56 2114 2177
+"compiler.ml" 56 2102 2163 "compiler.ml" 56 2102 2165
 type(
   int32
 )
-"compiler.ml" 56 2114 2171 "compiler.ml" 56 2114 2177
+"compiler.ml" 56 2102 2159 "compiler.ml" 56 2102 2165
 type(
   X86.opnd
 )
-"compiler.ml" 56 2114 2160 "compiler.ml" 56 2114 2179
+"compiler.ml" 56 2102 2148 "compiler.ml" 56 2102 2167
 type(
   X86.insn
 )
-"compiler.ml" 56 2114 2128 "compiler.ml" 56 2114 2179
+"compiler.ml" 56 2102 2116 "compiler.ml" 56 2102 2167
 type(
   X86.insn list
 )
-"compiler.ml" 56 2114 2180 "compiler.ml" 56 2114 2183
+"compiler.ml" 56 2102 2168 "compiler.ml" 56 2102 2171
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 56 2114 2191 "compiler.ml" 56 2114 2194
+"compiler.ml" 56 2102 2179 "compiler.ml" 56 2102 2182
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 56 2114 2196 "compiler.ml" 56 2114 2199
+"compiler.ml" 56 2102 2184 "compiler.ml" 56 2102 2187
 type(
   X86.cnd
 )
-"compiler.ml" 56 2114 2184 "compiler.ml" 56 2114 2201
+"compiler.ml" 56 2102 2172 "compiler.ml" 56 2102 2189
 type(
   X86.insn
 )
-"compiler.ml" 56 2114 2128 "compiler.ml" 56 2114 2201
+"compiler.ml" 56 2102 2116 "compiler.ml" 56 2102 2189
 type(
   X86.insn list
 )
-"compiler.ml" 57 2202 2206 "compiler.ml" 57 2202 2208
+"compiler.ml" 57 2190 2194 "compiler.ml" 57 2190 2196
 type(
   Ast.binop
 )
-"compiler.ml" 57 2202 2214 "compiler.ml" 57 2202 2216
+"compiler.ml" 57 2190 2202 "compiler.ml" 57 2190 2204
 type(
   X86.insn list
 )
-"compiler.ml" 57 2202 2217 "compiler.ml" 57 2202 2220
+"compiler.ml" 57 2190 2205 "compiler.ml" 57 2190 2208
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 57 2202 2228 "compiler.ml" 57 2202 2234
+"compiler.ml" 57 2190 2216 "compiler.ml" 57 2190 2222
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 57 2202 2236 "compiler.ml" 57 2202 2239
+"compiler.ml" 57 2190 2224 "compiler.ml" 57 2190 2227
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 57 2202 2221 "compiler.ml" 57 2202 2241
+"compiler.ml" 57 2190 2209 "compiler.ml" 57 2190 2229
 type(
   X86.insn
 )
-"compiler.ml" 57 2202 2214 "compiler.ml" 57 2202 2241
+"compiler.ml" 57 2190 2202 "compiler.ml" 57 2190 2229
 type(
   X86.insn list
 )
-"compiler.ml" 57 2202 2242 "compiler.ml" 57 2202 2245
+"compiler.ml" 57 2190 2230 "compiler.ml" 57 2190 2233
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 57 2202 2252 "compiler.ml" 57 2202 2255
+"compiler.ml" 57 2190 2240 "compiler.ml" 57 2190 2243
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 57 2202 2261 "compiler.ml" 57 2202 2263
+"compiler.ml" 57 2190 2249 "compiler.ml" 57 2190 2251
 type(
   int32
 )
-"compiler.ml" 57 2202 2257 "compiler.ml" 57 2202 2263
+"compiler.ml" 57 2190 2245 "compiler.ml" 57 2190 2251
 type(
   X86.opnd
 )
-"compiler.ml" 57 2202 2246 "compiler.ml" 57 2202 2265
+"compiler.ml" 57 2190 2234 "compiler.ml" 57 2190 2253
 type(
   X86.insn
 )
-"compiler.ml" 57 2202 2214 "compiler.ml" 57 2202 2265
+"compiler.ml" 57 2190 2202 "compiler.ml" 57 2190 2253
 type(
   X86.insn list
 )
-"compiler.ml" 57 2202 2266 "compiler.ml" 57 2202 2269
+"compiler.ml" 57 2190 2254 "compiler.ml" 57 2190 2257
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 57 2202 2277 "compiler.ml" 57 2202 2280
+"compiler.ml" 57 2190 2265 "compiler.ml" 57 2190 2268
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 57 2202 2282 "compiler.ml" 57 2202 2285
+"compiler.ml" 57 2190 2270 "compiler.ml" 57 2190 2273
 type(
   X86.cnd
 )
-"compiler.ml" 57 2202 2270 "compiler.ml" 57 2202 2287
+"compiler.ml" 57 2190 2258 "compiler.ml" 57 2190 2275
 type(
   X86.insn
 )
-"compiler.ml" 57 2202 2214 "compiler.ml" 57 2202 2287
+"compiler.ml" 57 2190 2202 "compiler.ml" 57 2190 2275
 type(
   X86.insn list
 )
-"compiler.ml" 58 2288 2292 "compiler.ml" 58 2288 2299
+"compiler.ml" 58 2276 2280 "compiler.ml" 58 2276 2287
 type(
   Ast.binop
 )
-"compiler.ml" 58 2288 2302 "compiler.ml" 58 2288 2304
+"compiler.ml" 58 2276 2290 "compiler.ml" 58 2276 2292
 type(
   X86.insn list
 )
-"compiler.ml" 58 2288 2305 "compiler.ml" 58 2288 2308
+"compiler.ml" 58 2276 2293 "compiler.ml" 58 2276 2296
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 58 2288 2316 "compiler.ml" 58 2288 2319
+"compiler.ml" 58 2276 2304 "compiler.ml" 58 2276 2307
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 58 2288 2321 "compiler.ml" 58 2288 2327
+"compiler.ml" 58 2276 2309 "compiler.ml" 58 2276 2315
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 58 2288 2309 "compiler.ml" 58 2288 2329
+"compiler.ml" 58 2276 2297 "compiler.ml" 58 2276 2317
 type(
   X86.insn
 )
-"compiler.ml" 58 2288 2302 "compiler.ml" 58 2288 2329
+"compiler.ml" 58 2276 2290 "compiler.ml" 58 2276 2317
 type(
   X86.insn list
 )
-"compiler.ml" 59 2330 2334 "compiler.ml" 59 2330 2340
+"compiler.ml" 59 2318 2322 "compiler.ml" 59 2318 2328
 type(
   Ast.binop
 )
-"compiler.ml" 59 2330 2344 "compiler.ml" 59 2330 2346
+"compiler.ml" 59 2318 2332 "compiler.ml" 59 2318 2334
 type(
   X86.insn list
 )
-"compiler.ml" 59 2330 2347 "compiler.ml" 59 2330 2350
+"compiler.ml" 59 2318 2335 "compiler.ml" 59 2318 2338
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 59 2330 2358 "compiler.ml" 59 2330 2361
+"compiler.ml" 59 2318 2346 "compiler.ml" 59 2318 2349
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 59 2330 2363 "compiler.ml" 59 2330 2369
+"compiler.ml" 59 2318 2351 "compiler.ml" 59 2318 2357
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 59 2330 2351 "compiler.ml" 59 2330 2371
+"compiler.ml" 59 2318 2339 "compiler.ml" 59 2318 2359
 type(
   X86.insn
 )
-"compiler.ml" 59 2330 2344 "compiler.ml" 59 2330 2371
+"compiler.ml" 59 2318 2332 "compiler.ml" 59 2318 2359
 type(
   X86.insn list
 )
-"compiler.ml" 60 2372 2376 "compiler.ml" 60 2372 2383
+"compiler.ml" 60 2360 2364 "compiler.ml" 60 2360 2371
 type(
   Ast.binop
 )
-"compiler.ml" 60 2372 2386 "compiler.ml" 60 2372 2388
+"compiler.ml" 60 2360 2374 "compiler.ml" 60 2360 2376
 type(
   X86.insn list
 )
-"compiler.ml" 60 2372 2389 "compiler.ml" 60 2372 2392
+"compiler.ml" 60 2360 2377 "compiler.ml" 60 2360 2380
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 60 2372 2400 "compiler.ml" 60 2372 2403
+"compiler.ml" 60 2360 2388 "compiler.ml" 60 2360 2391
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.ecx
 )
-"compiler.ml" 60 2372 2405 "compiler.ml" 60 2372 2408
+"compiler.ml" 60 2360 2393 "compiler.ml" 60 2360 2396
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 60 2372 2393 "compiler.ml" 60 2372 2410
+"compiler.ml" 60 2360 2381 "compiler.ml" 60 2360 2398
 type(
   X86.insn
 )
-"compiler.ml" 60 2372 2386 "compiler.ml" 60 2372 2410
+"compiler.ml" 60 2360 2374 "compiler.ml" 60 2360 2398
 type(
   X86.insn list
 )
-"compiler.ml" 60 2372 2411 "compiler.ml" 60 2372 2414
+"compiler.ml" 60 2360 2399 "compiler.ml" 60 2360 2402
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 60 2372 2422 "compiler.ml" 60 2372 2428
+"compiler.ml" 60 2360 2410 "compiler.ml" 60 2360 2416
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 60 2372 2430 "compiler.ml" 60 2372 2433
+"compiler.ml" 60 2360 2418 "compiler.ml" 60 2360 2421
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.ecx
 )
-"compiler.ml" 60 2372 2415 "compiler.ml" 60 2372 2435
+"compiler.ml" 60 2360 2403 "compiler.ml" 60 2360 2423
 type(
   X86.insn
 )
-"compiler.ml" 60 2372 2386 "compiler.ml" 60 2372 2435
+"compiler.ml" 60 2360 2374 "compiler.ml" 60 2360 2423
 type(
   X86.insn list
 )
-"compiler.ml" 60 2372 2436 "compiler.ml" 60 2372 2439
+"compiler.ml" 60 2360 2424 "compiler.ml" 60 2360 2427
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 60 2372 2446 "compiler.ml" 60 2372 2449
+"compiler.ml" 60 2360 2434 "compiler.ml" 60 2360 2437
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 60 2372 2451 "compiler.ml" 60 2372 2457
+"compiler.ml" 60 2360 2439 "compiler.ml" 60 2360 2445
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 60 2372 2440 "compiler.ml" 60 2372 2459
+"compiler.ml" 60 2360 2428 "compiler.ml" 60 2360 2447
 type(
   X86.insn
 )
-"compiler.ml" 60 2372 2386 "compiler.ml" 60 2372 2459
+"compiler.ml" 60 2360 2374 "compiler.ml" 60 2360 2447
 type(
   X86.insn list
 )
-"compiler.ml" 61 2460 2464 "compiler.ml" 61 2460 2471
+"compiler.ml" 61 2448 2452 "compiler.ml" 61 2448 2459
 type(
   Ast.binop
 )
-"compiler.ml" 61 2460 2474 "compiler.ml" 61 2460 2476
+"compiler.ml" 61 2448 2462 "compiler.ml" 61 2448 2464
 type(
   X86.insn list
 )
-"compiler.ml" 61 2460 2477 "compiler.ml" 61 2460 2480
+"compiler.ml" 61 2448 2465 "compiler.ml" 61 2448 2468
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 61 2460 2488 "compiler.ml" 61 2460 2491
+"compiler.ml" 61 2448 2476 "compiler.ml" 61 2448 2479
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.ecx
 )
-"compiler.ml" 61 2460 2493 "compiler.ml" 61 2460 2496
+"compiler.ml" 61 2448 2481 "compiler.ml" 61 2448 2484
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 61 2460 2481 "compiler.ml" 61 2460 2498
+"compiler.ml" 61 2448 2469 "compiler.ml" 61 2448 2486
 type(
   X86.insn
 )
-"compiler.ml" 61 2460 2474 "compiler.ml" 61 2460 2498
+"compiler.ml" 61 2448 2462 "compiler.ml" 61 2448 2486
 type(
   X86.insn list
 )
-"compiler.ml" 61 2460 2499 "compiler.ml" 61 2460 2502
+"compiler.ml" 61 2448 2487 "compiler.ml" 61 2448 2490
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 61 2460 2510 "compiler.ml" 61 2460 2516
+"compiler.ml" 61 2448 2498 "compiler.ml" 61 2448 2504
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 61 2460 2518 "compiler.ml" 61 2460 2521
+"compiler.ml" 61 2448 2506 "compiler.ml" 61 2448 2509
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.ecx
 )
-"compiler.ml" 61 2460 2503 "compiler.ml" 61 2460 2523
+"compiler.ml" 61 2448 2491 "compiler.ml" 61 2448 2511
 type(
   X86.insn
 )
-"compiler.ml" 61 2460 2474 "compiler.ml" 61 2460 2523
+"compiler.ml" 61 2448 2462 "compiler.ml" 61 2448 2511
 type(
   X86.insn list
 )
-"compiler.ml" 61 2460 2524 "compiler.ml" 61 2460 2527
+"compiler.ml" 61 2448 2512 "compiler.ml" 61 2448 2515
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 61 2460 2534 "compiler.ml" 61 2460 2537
+"compiler.ml" 61 2448 2522 "compiler.ml" 61 2448 2525
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 61 2460 2539 "compiler.ml" 61 2460 2545
+"compiler.ml" 61 2448 2527 "compiler.ml" 61 2448 2533
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 61 2460 2528 "compiler.ml" 61 2460 2547
+"compiler.ml" 61 2448 2516 "compiler.ml" 61 2448 2535
 type(
   X86.insn
 )
-"compiler.ml" 61 2460 2474 "compiler.ml" 61 2460 2547
+"compiler.ml" 61 2448 2462 "compiler.ml" 61 2448 2535
 type(
   X86.insn list
 )
-"compiler.ml" 62 2548 2552 "compiler.ml" 62 2548 2559
+"compiler.ml" 62 2536 2540 "compiler.ml" 62 2536 2547
 type(
   Ast.binop
 )
-"compiler.ml" 62 2548 2562 "compiler.ml" 62 2548 2564
+"compiler.ml" 62 2536 2550 "compiler.ml" 62 2536 2552
 type(
   X86.insn list
 )
-"compiler.ml" 62 2548 2565 "compiler.ml" 62 2548 2568
+"compiler.ml" 62 2536 2553 "compiler.ml" 62 2536 2556
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 62 2548 2576 "compiler.ml" 62 2548 2579
+"compiler.ml" 62 2536 2564 "compiler.ml" 62 2536 2567
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.ecx
 )
-"compiler.ml" 62 2548 2581 "compiler.ml" 62 2548 2584
+"compiler.ml" 62 2536 2569 "compiler.ml" 62 2536 2572
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 62 2548 2569 "compiler.ml" 62 2548 2586
+"compiler.ml" 62 2536 2557 "compiler.ml" 62 2536 2574
 type(
   X86.insn
 )
-"compiler.ml" 62 2548 2562 "compiler.ml" 62 2548 2586
+"compiler.ml" 62 2536 2550 "compiler.ml" 62 2536 2574
 type(
   X86.insn list
 )
-"compiler.ml" 62 2548 2587 "compiler.ml" 62 2548 2590
+"compiler.ml" 62 2536 2575 "compiler.ml" 62 2536 2578
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 62 2548 2598 "compiler.ml" 62 2548 2604
+"compiler.ml" 62 2536 2586 "compiler.ml" 62 2536 2592
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 62 2548 2606 "compiler.ml" 62 2548 2609
+"compiler.ml" 62 2536 2594 "compiler.ml" 62 2536 2597
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.ecx
 )
-"compiler.ml" 62 2548 2591 "compiler.ml" 62 2548 2611
+"compiler.ml" 62 2536 2579 "compiler.ml" 62 2536 2599
 type(
   X86.insn
 )
-"compiler.ml" 62 2548 2562 "compiler.ml" 62 2548 2611
+"compiler.ml" 62 2536 2550 "compiler.ml" 62 2536 2599
 type(
   X86.insn list
 )
-"compiler.ml" 62 2548 2612 "compiler.ml" 62 2548 2615
+"compiler.ml" 62 2536 2600 "compiler.ml" 62 2536 2603
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 62 2548 2622 "compiler.ml" 62 2548 2625
+"compiler.ml" 62 2536 2610 "compiler.ml" 62 2536 2613
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 62 2548 2627 "compiler.ml" 62 2548 2633
+"compiler.ml" 62 2536 2615 "compiler.ml" 62 2536 2621
 type(
   X86.opnd
 )
 ident(
   int_ref tmploc "compiler.ml" 33 1092 1097 "compiler.ml" 33 1092 1103
 )
-"compiler.ml" 62 2548 2616 "compiler.ml" 62 2548 2635
+"compiler.ml" 62 2536 2604 "compiler.ml" 62 2536 2623
 type(
   X86.insn
 )
-"compiler.ml" 62 2548 2562 "compiler.ml" 62 2548 2635
+"compiler.ml" 62 2536 2550 "compiler.ml" 62 2536 2623
 type(
   X86.insn list
 )
-"compiler.ml" 48 1599 1601 "compiler.ml" 63 2636 2641
+"compiler.ml" 48 1587 1589 "compiler.ml" 63 2624 2629
 type(
   X86.insn list
 )
-"compiler.ml" 47 1574 1576 "compiler.ml" 63 2636 2641
+"compiler.ml" 47 1562 1564 "compiler.ml" 63 2624 2629
 type(
   X86.insn list
 )
-"compiler.ml" 64 2642 2644 "compiler.ml" 64 2642 2646
+"compiler.ml" 64 2630 2632 "compiler.ml" 64 2630 2634
 type(
   X86.insn list -> X86.insn list -> X86.insn list
 )
 ident(
   int_ref >@ "compiler.ml" 24 707 711 "compiler.ml" 24 707 716
 )
-"compiler.ml" 64 2642 2654 "compiler.ml" 64 2642 2657
+"compiler.ml" 64 2630 2642 "compiler.ml" 64 2630 2645
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.esp
 )
-"compiler.ml" 64 2642 2663 "compiler.ml" 64 2642 2665
+"compiler.ml" 64 2630 2651 "compiler.ml" 64 2630 2653
 type(
   int32
 )
-"compiler.ml" 64 2642 2659 "compiler.ml" 64 2642 2665
+"compiler.ml" 64 2630 2647 "compiler.ml" 64 2630 2653
 type(
   X86.opnd
 )
-"compiler.ml" 64 2642 2648 "compiler.ml" 64 2642 2667
+"compiler.ml" 64 2630 2636 "compiler.ml" 64 2630 2655
 type(
   X86.insn
 )
-"compiler.ml" 64 2642 2647 "compiler.ml" 64 2642 2668
+"compiler.ml" 64 2630 2635 "compiler.ml" 64 2630 2656
 type(
   X86.insn list
 )
-"compiler.ml" 47 1574 1576 "compiler.ml" 64 2642 2668
+"compiler.ml" 47 1562 1564 "compiler.ml" 64 2630 2656
 type(
   X86.insn list
 )
-"compiler.ml" 45 1521 1523 "compiler.ml" 64 2642 2668
+"compiler.ml" 45 1509 1511 "compiler.ml" 64 2630 2656
 type(
   X86.insn list
 )
 type(
   X86.insn list
 )
-"compiler.ml" 66 2672 2677 "compiler.ml" 66 2672 2685
+"compiler.ml" 66 2660 2665 "compiler.ml" 66 2660 2673
 type(
   Ast.unop -> Ast.exp -> X86.insn list -> X86.insn list
 )
-"compiler.ml" 66 2672 2687 "compiler.ml" 66 2672 2688
+"compiler.ml" 66 2660 2675 "compiler.ml" 66 2660 2676
 type(
   Ast.unop
 )
 ident(
-  def u "compiler.ml" 66 2672 2697 "compiler.ml" 72 2944 2949
+  def u "compiler.ml" 66 2660 2685 "compiler.ml" 72 2932 2937
 )
-"compiler.ml" 66 2672 2698 "compiler.ml" 66 2672 2700
+"compiler.ml" 66 2660 2686 "compiler.ml" 66 2660 2688
 type(
   Ast.exp
 )
 ident(
-  def e1 "compiler.ml" 66 2672 2708 "compiler.ml" 72 2944 2949
+  def e1 "compiler.ml" 66 2660 2696 "compiler.ml" 72 2932 2937
 )
-"compiler.ml" 66 2672 2709 "compiler.ml" 66 2672 2712
+"compiler.ml" 66 2660 2697 "compiler.ml" 66 2660 2700
 type(
   X86.insn list
 )
 ident(
-  def str "compiler.ml" 66 2672 2726 "compiler.ml" 72 2944 2949
+  def str "compiler.ml" 66 2660 2714 "compiler.ml" 72 2932 2937
 )
-"compiler.ml" 67 2740 2743 "compiler.ml" 67 2740 2751
+"compiler.ml" 67 2728 2731 "compiler.ml" 67 2728 2739
 type(
   Ast.exp -> X86.insn list -> X86.insn list
 )
 ident(
   int_ref emit_exp "compiler.ml" 36 1129 1138 "compiler.ml" 36 1129 1146
 )
-"compiler.ml" 67 2740 2752 "compiler.ml" 67 2740 2754
+"compiler.ml" 67 2728 2740 "compiler.ml" 67 2728 2742
 type(
   Ast.exp
 )
 ident(
-  int_ref e1 "compiler.ml" 66 2672 2698 "compiler.ml" 66 2672 2700
+  int_ref e1 "compiler.ml" 66 2660 2686 "compiler.ml" 66 2660 2688
 )
-"compiler.ml" 67 2740 2755 "compiler.ml" 67 2740 2758
+"compiler.ml" 67 2728 2743 "compiler.ml" 67 2728 2746
 type(
   X86.insn list
 )
 ident(
-  int_ref str "compiler.ml" 66 2672 2709 "compiler.ml" 66 2672 2712
+  int_ref str "compiler.ml" 66 2660 2697 "compiler.ml" 66 2660 2700
 )
-"compiler.ml" 67 2740 2742 "compiler.ml" 67 2740 2759
+"compiler.ml" 67 2728 2730 "compiler.ml" 67 2728 2747
 type(
   X86.insn list
 )
-"compiler.ml" 67 2740 2760 "compiler.ml" 67 2740 2762
+"compiler.ml" 67 2728 2748 "compiler.ml" 67 2728 2750
 type(
   X86.insn list -> X86.insn list -> X86.insn list
 )
 ident(
   int_ref >@ "compiler.ml" 24 707 711 "compiler.ml" 24 707 716
 )
-"compiler.ml" 68 2763 2777 "compiler.ml" 68 2763 2778
+"compiler.ml" 68 2751 2765 "compiler.ml" 68 2751 2766
 type(
   Ast.unop
 )
 ident(
-  int_ref u "compiler.ml" 66 2672 2687 "compiler.ml" 66 2672 2688
+  int_ref u "compiler.ml" 66 2660 2675 "compiler.ml" 66 2660 2676
 )
-"compiler.ml" 69 2784 2788 "compiler.ml" 69 2784 2795
+"compiler.ml" 69 2772 2776 "compiler.ml" 69 2772 2783
 type(
   Ast.unop
 )
-"compiler.ml" 69 2784 2802 "compiler.ml" 69 2784 2804
+"compiler.ml" 69 2772 2790 "compiler.ml" 69 2772 2792
 type(
   X86.insn list
 )
-"compiler.ml" 69 2784 2805 "compiler.ml" 69 2784 2808
+"compiler.ml" 69 2772 2793 "compiler.ml" 69 2772 2796
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 69 2784 2814 "compiler.ml" 69 2784 2817
+"compiler.ml" 69 2772 2802 "compiler.ml" 69 2772 2805
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 69 2784 2809 "compiler.ml" 69 2784 2818
+"compiler.ml" 69 2772 2797 "compiler.ml" 69 2772 2806
 type(
   X86.insn
 )
-"compiler.ml" 69 2784 2802 "compiler.ml" 69 2784 2818
+"compiler.ml" 69 2772 2790 "compiler.ml" 69 2772 2806
 type(
   X86.insn list
 )
-"compiler.ml" 70 2819 2823 "compiler.ml" 70 2819 2833
+"compiler.ml" 70 2807 2811 "compiler.ml" 70 2807 2821
 type(
   Ast.unop
 )
-"compiler.ml" 70 2819 2837 "compiler.ml" 70 2819 2839
+"compiler.ml" 70 2807 2825 "compiler.ml" 70 2807 2827
 type(
   X86.insn list
 )
-"compiler.ml" 70 2819 2840 "compiler.ml" 70 2819 2843
+"compiler.ml" 70 2807 2828 "compiler.ml" 70 2807 2831
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 70 2819 2850 "compiler.ml" 70 2819 2853
+"compiler.ml" 70 2807 2838 "compiler.ml" 70 2807 2841
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 70 2819 2859 "compiler.ml" 70 2819 2861
+"compiler.ml" 70 2807 2847 "compiler.ml" 70 2807 2849
 type(
   int32
 )
-"compiler.ml" 70 2819 2855 "compiler.ml" 70 2819 2861
+"compiler.ml" 70 2807 2843 "compiler.ml" 70 2807 2849
 type(
   X86.opnd
 )
-"compiler.ml" 70 2819 2844 "compiler.ml" 70 2819 2863
+"compiler.ml" 70 2807 2832 "compiler.ml" 70 2807 2851
 type(
   X86.insn
 )
-"compiler.ml" 70 2819 2837 "compiler.ml" 70 2819 2863
+"compiler.ml" 70 2807 2825 "compiler.ml" 70 2807 2851
 type(
   X86.insn list
 )
-"compiler.ml" 70 2819 2864 "compiler.ml" 70 2819 2867
+"compiler.ml" 70 2807 2852 "compiler.ml" 70 2807 2855
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 70 2819 2874 "compiler.ml" 70 2819 2877
+"compiler.ml" 70 2807 2862 "compiler.ml" 70 2807 2865
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 70 2819 2883 "compiler.ml" 70 2819 2885
+"compiler.ml" 70 2807 2871 "compiler.ml" 70 2807 2873
 type(
   int32
 )
-"compiler.ml" 70 2819 2879 "compiler.ml" 70 2819 2885
+"compiler.ml" 70 2807 2867 "compiler.ml" 70 2807 2873
 type(
   X86.opnd
 )
-"compiler.ml" 70 2819 2868 "compiler.ml" 70 2819 2887
+"compiler.ml" 70 2807 2856 "compiler.ml" 70 2807 2875
 type(
   X86.insn
 )
-"compiler.ml" 70 2819 2837 "compiler.ml" 70 2819 2887
+"compiler.ml" 70 2807 2825 "compiler.ml" 70 2807 2875
 type(
   X86.insn list
 )
-"compiler.ml" 70 2819 2888 "compiler.ml" 70 2819 2891
+"compiler.ml" 70 2807 2876 "compiler.ml" 70 2807 2879
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 70 2819 2899 "compiler.ml" 70 2819 2902
+"compiler.ml" 70 2807 2887 "compiler.ml" 70 2807 2890
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 70 2819 2904 "compiler.ml" 70 2819 2906
+"compiler.ml" 70 2807 2892 "compiler.ml" 70 2807 2894
 type(
   X86.cnd
 )
-"compiler.ml" 70 2819 2892 "compiler.ml" 70 2819 2908
+"compiler.ml" 70 2807 2880 "compiler.ml" 70 2807 2896
 type(
   X86.insn
 )
-"compiler.ml" 70 2819 2837 "compiler.ml" 70 2819 2908
+"compiler.ml" 70 2807 2825 "compiler.ml" 70 2807 2896
 type(
   X86.insn list
 )
-"compiler.ml" 71 2909 2913 "compiler.ml" 71 2909 2920
+"compiler.ml" 71 2897 2901 "compiler.ml" 71 2897 2908
 type(
   Ast.unop
 )
-"compiler.ml" 71 2909 2927 "compiler.ml" 71 2909 2929
+"compiler.ml" 71 2897 2915 "compiler.ml" 71 2897 2917
 type(
   X86.insn list
 )
-"compiler.ml" 71 2909 2930 "compiler.ml" 71 2909 2933
+"compiler.ml" 71 2897 2918 "compiler.ml" 71 2897 2921
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 71 2909 2939 "compiler.ml" 71 2909 2942
+"compiler.ml" 71 2897 2927 "compiler.ml" 71 2897 2930
 type(
   X86.opnd
 )
 ident(
   ext_ref X86.eax
 )
-"compiler.ml" 71 2909 2934 "compiler.ml" 71 2909 2943
+"compiler.ml" 71 2897 2922 "compiler.ml" 71 2897 2931
 type(
   X86.insn
 )
-"compiler.ml" 71 2909 2927 "compiler.ml" 71 2909 2943
+"compiler.ml" 71 2897 2915 "compiler.ml" 71 2897 2931
 type(
   X86.insn list
 )
-"compiler.ml" 68 2763 2765 "compiler.ml" 72 2944 2949
+"compiler.ml" 68 2751 2753 "compiler.ml" 72 2932 2937
 type(
   X86.insn list
 )
-"compiler.ml" 67 2740 2742 "compiler.ml" 72 2944 2949
+"compiler.ml" 67 2728 2730 "compiler.ml" 72 2932 2937
 type(
   X86.insn list
 )
 type(
   X86.insn list
 )
-"compiler.ml" 75 2956 2961 "compiler.ml" 75 2956 2966
+"compiler.ml" 75 2944 2949 "compiler.ml" 75 2944 2954
 type(
   X86.insn list
 )
-"compiler.ml" 75 2956 2969 "compiler.ml" 75 2956 2977
+"compiler.ml" 75 2944 2957 "compiler.ml" 75 2944 2965
 type(
   X86.insn list -> X86.insn list
 )
 ident(
   ext_ref List.rev
 )
-"compiler.ml" 75 2956 2980 "compiler.ml" 75 2956 2988
+"compiler.ml" 75 2944 2968 "compiler.ml" 75 2944 2976
 type(
   Ast.exp -> X86.insn list -> X86.insn list
 )
 ident(
   int_ref emit_exp "compiler.ml" 36 1129 1138 "compiler.ml" 36 1129 1146
 )
-"compiler.ml" 75 2956 2989 "compiler.ml" 75 2956 2992
+"compiler.ml" 75 2944 2977 "compiler.ml" 75 2944 2980
 type(
   Ast.exp
 )
 ident(
   int_ref ast "compiler.ml" 30 943 960 "compiler.ml" 30 943 963
 )
-"compiler.ml" 75 2956 2993 "compiler.ml" 75 2956 3001
+"compiler.ml" 75 2944 2981 "compiler.ml" 75 2944 2989
 type(
   X86.insn list
 )
 ident(
   int_ref init_str "compiler.ml" 32 1043 1049 "compiler.ml" 32 1043 1057
 )
-"compiler.ml" 75 2956 2979 "compiler.ml" 75 2956 3002
+"compiler.ml" 75 2944 2967 "compiler.ml" 75 2944 2990
 type(
   X86.insn list
 )
-"compiler.ml" 75 2956 3003 "compiler.ml" 75 2956 3006
+"compiler.ml" 75 2944 2991 "compiler.ml" 75 2944 2994
 type(
   X86.insn list -> X86.insn -> X86.insn list
 )
 ident(
   int_ref >:: "compiler.ml" 23 684 688 "compiler.ml" 23 684 693
 )
-"compiler.ml" 75 2956 3007 "compiler.ml" 75 2956 3010
+"compiler.ml" 75 2944 2995 "compiler.ml" 75 2944 2998
 type(
   X86.insn
 )
-"compiler.ml" 75 2956 2978 "compiler.ml" 75 2956 3011
+"compiler.ml" 75 2944 2966 "compiler.ml" 75 2944 2999
 type(
   X86.insn list
 )
-"compiler.ml" 75 2956 2969 "compiler.ml" 75 2956 3011
+"compiler.ml" 75 2944 2957 "compiler.ml" 75 2944 2999
 type(
   X86.insn list
 )
-"compiler.ml" 76 3015 3021 "compiler.ml" 76 3015 3028
+"compiler.ml" 76 3003 3009 "compiler.ml" 76 3003 3016
 type(
   X86.insn_block
 )
-"compiler.ml" 77 3033 3046 "compiler.ml" 77 3033 3050
+"compiler.ml" 77 3021 3034 "compiler.ml" 77 3021 3038
 type(
   bool
 )
-"compiler.ml" 78 3052 3065 "compiler.ml" 78 3052 3077
+"compiler.ml" 78 3040 3053 "compiler.ml" 78 3040 3065
 type(
   string -> X86.lbl
 )
 ident(
   ext_ref X86.mk_lbl_named
 )
-"compiler.ml" 78 3052 3078 "compiler.ml" 78 3052 3088
+"compiler.ml" 78 3040 3066 "compiler.ml" 78 3040 3076
 type(
   string
 )
 ident(
   int_ref block_name "compiler.ml" 31 985 991 "compiler.ml" 31 985 1001
 )
-"compiler.ml" 78 3052 3065 "compiler.ml" 78 3052 3088
+"compiler.ml" 78 3040 3053 "compiler.ml" 78 3040 3076
 type(
   X86.lbl
 )
-"compiler.ml" 79 3090 3102 "compiler.ml" 79 3090 3107
+"compiler.ml" 79 3078 3090 "compiler.ml" 79 3078 3095
 type(
   X86.insn list
 )
 ident(
-  int_ref insns "compiler.ml" 75 2956 2961 "compiler.ml" 75 2956 2966
+  int_ref insns "compiler.ml" 75 2944 2949 "compiler.ml" 75 2944 2954
 )
-"compiler.ml" 76 3015 3031 "compiler.ml" 80 3109 3112
+"compiler.ml" 76 3003 3019 "compiler.ml" 80 3097 3100
 type(
   X86.insn_block
 )
-"compiler.ml" 80 3109 3128 "compiler.ml" 80 3109 3135
+"compiler.ml" 80 3097 3116 "compiler.ml" 80 3097 3123
 type(
   X86.insn_block
 )
 ident(
-  int_ref main_bk "compiler.ml" 76 3015 3021 "compiler.ml" 76 3015 3028
+  int_ref main_bk "compiler.ml" 76 3003 3009 "compiler.ml" 76 3003 3016
 )
-"compiler.ml" 80 3109 3117 "compiler.ml" 80 3109 3135
+"compiler.ml" 80 3097 3105 "compiler.ml" 80 3097 3123
 type(
   Cunit.component
 )
-"compiler.ml" 80 3109 3116 "compiler.ml" 80 3109 3136
+"compiler.ml" 80 3097 3104 "compiler.ml" 80 3097 3124
 type(
   Cunit.cunit
 )
-"compiler.ml" 76 3015 3017 "compiler.ml" 80 3109 3136
+"compiler.ml" 76 3003 3005 "compiler.ml" 80 3097 3124
 type(
   Cunit.cunit
 )
-"compiler.ml" 75 2956 2957 "compiler.ml" 80 3109 3136
+"compiler.ml" 75 2944 2945 "compiler.ml" 80 3097 3124
 type(
   Cunit.cunit
 )
-"compiler.ml" 36 1129 1130 "compiler.ml" 80 3109 3136
+"compiler.ml" 36 1129 1130 "compiler.ml" 80 3097 3124
 type(
   Cunit.cunit
 )
-"compiler.ml" 33 1092 1093 "compiler.ml" 80 3109 3136
+"compiler.ml" 33 1092 1093 "compiler.ml" 80 3097 3124
 type(
   Cunit.cunit
 )
-"compiler.ml" 32 1043 1045 "compiler.ml" 80 3109 3136
+"compiler.ml" 32 1043 1045 "compiler.ml" 80 3097 3124
 type(
   Cunit.cunit
 )
-"compiler.ml" 31 985 987 "compiler.ml" 80 3109 3136
+"compiler.ml" 31 985 987 "compiler.ml" 80 3097 3124
 type(
   Cunit.cunit
 )

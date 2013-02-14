@@ -37,8 +37,8 @@ let compile_exp (ast:exp) : Cunit.cunit =
 		begin match e with
 		| Cint  i -> (Mov (eax, Imm i)) :: str
 		| Arg 		-> (Mov (eax, edx)) :: str (* edx is the specified X container *)
-		| Binop (b,e1,e2)	-> (proc_binop b e1 e2 str) @ str
-		| Unop  (u, e1)	  -> (proc_uop u e1 str) @ str
+		| Binop (b,e1,e2)	-> (proc_binop b e1 e2 str)
+		| Unop  (u, e1)	  -> (proc_uop u e1 str)
 	  end
 	
 	and proc_binop (b : binop) (e1 : exp) (e2 : exp) (str : insn list) : insn list = 

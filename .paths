@@ -1,4 +1,2 @@
 .
 /usr/local/lib/ocaml
-_build/c_bin
-_build/c_obj
