@@ -204,6 +204,9 @@ GradedTest("EasyCompiling", 15, [
 (* !X *)
 ("easy_compile23", (comp_test 3 (Unop (Lognot,Arg)) 0));
 
+(* !X *)
+("easy_compile24", (comp_test 0 (Unop (Lognot,Arg)) 1));
+
 (* 341 >>> X *)
 ("easy_compile25", (comp_test 3 (Binop (Shr,(Cint 341l),Arg)) 42));
 
