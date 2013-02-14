@@ -94,5 +94,5 @@
 # Target: main.native, tags: { dont_link_with, extension:native, file:main.native, link, native, ocaml, program, quiet }
 /usr/local/bin/ocamlopt.opt str.cmxa unix.cmxa assert.cmx ast.cmx x86.cmx cunit.cmx range.cmx parser.cmx lexer.cmx platform.cmx compiler.cmx gradedtests.cmx providedtests.cmx main.cmx -o main.native
 + /usr/local/bin/ocamlopt.opt str.cmxa unix.cmxa assert.cmx ast.cmx x86.cmx cunit.cmx range.cmx parser.cmx lexer.cmx platform.cmx compiler.cmx gradedtests.cmx providedtests.cmx main.cmx -o main.native
-ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _caml_program from /var/folders/9g/hv6wt6z16pl3397v857q6fqc0000gn/T/camlstartupbae490.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie
+ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _caml_program from /var/folders/9g/hv6wt6z16pl3397v857q6fqc0000gn/T/camlstartup89f640.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie
 # Compilation successful.
